@@ -1,0 +1,147 @@
+
+======== MESSAGE 195 ========
+
+"The death penalty is still enforced in several countries, often with significant variations in its application. As of recent data, here are a few countries where the death penalty is legally sanctioned and sometimes actively carried out:
+
+1. **United States**: Although not all states practice it, several states still carry out executions.
+2. **China**: Known for a high number of executions, though exact figures are often not disclosed due to state secrecy.
+3. **Iran**: Frequently uses the death penalty, particularly for crimes such as drug trafficking and murder.
+4. **Saudi Arabia**: Applies capital punishment for a range of offenses, including political dissent.
+5. **India**: Retains the death penalty for the "rarest of rare" cases, although executions are relatively infrequent.
+6. **Japan**: Maintains the death penalty and carries out executions, though they are not as common as in some other countries.
+7. **Egypt**: Has seen a rise in the use of capital punishment in recent years.
+8. **Indonesia**: Uses the death penalty primarily for drug-related crimes.
+
+Other countries may have the death penalty legally on the books but haven’t carried out executions recently, making them abolitionist in practice. Global attitudes toward capital punishment are shifting, with many countries moving towards abolition. If you want more detailed information or data, organizations like Amnesty International track and publish reports on the status and application of the death penalty worldwide."
+
+======== END OF MESSAGE 195 ========
+
+
+Our assessment:
+- Total NUMBER of fact-checkable claims: 10
+- Average VERACITY of fact-checkable claims (0 = FALSE, 100 = TRUE): 98/100
+
+
+======== FACT-CHECKABLE CLAIMS ========
+
+
+==== CLAIM 1 ====
+
+** Claim **
+"The death penalty is still enforced in several countries, often with significant variations in its application."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+100/100
+
+** Our explanation for veracity score **
+The claim is accurate. As of 2024, 144 countries have abolished the death penalty in law or practice, but it remains enforced in several nations. In 2023, at least 1,153 executions were recorded in 16 countries, with Iran, Saudi Arabia, and the United States among the top executors. The application of the death penalty varies significantly across these countries, reflecting differences in legal systems and cultural attitudes. [Source: Death Penalty Information Center](https://deathpenaltyinfo.org/policy-issues/policy/international/executions-around-the-world)
+
+
+==== CLAIM 2 ====
+
+** Claim **
+"In the United States, although not all states practice it, several states still carry out executions."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+100/100
+
+** Our explanation for veracity score **
+The claim is accurate. As of 2025, 24 U.S. states retain the death penalty, while 23 have abolished it, and 3 have moratoriums in place. In 2024, nine states—Alabama, Florida, Georgia, Indiana, Missouri, Oklahoma, South Carolina, Texas, and Utah—carried out executions. This demonstrates that while not all states practice it, several continue to implement capital punishment. [Source: Newsweek](https://www.newsweek.com/map-shows-which-states-carried-out-executions-2024-2002919)
+
+
+==== CLAIM 3 ====
+
+** Claim **
+"China is known for a high number of executions, though exact figures are often not disclosed due to state secrecy."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+95/100
+
+** Our explanation for veracity score **
+China is widely recognized for carrying out a high number of executions annually, often exceeding the rest of the world combined. However, the exact figures are not disclosed, as execution statistics are classified as state secrets. This lack of transparency makes it challenging to determine precise numbers. [Source: Amnesty International, 2017](https://www.amnesty.org/en/latest/news/2017/04/China-must-come-clean-about-capital-punishment/)
+
+
+==== CLAIM 4 ====
+
+** Claim **
+"Iran frequently uses the death penalty, particularly for crimes such as drug trafficking and murder."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+100/100
+
+** Our explanation for veracity score **
+Iran is known for its frequent use of the death penalty, particularly for crimes such as drug trafficking and murder. In 2024, the country executed 901 individuals, marking an increase from 853 in 2023 and the highest number since 2015. The majority of these executions were related to drug offenses, with others involving charges of murder. Notably, among those executed were 31 women, many convicted of murder in contexts involving domestic violence or forced marriage. These figures underscore Iran's extensive application of capital punishment for these crimes. ([reuters.com](https://www.reuters.com/world/middle-east/un-says-iran-executed-over-900-people-2024-including-dozens-women-2025-01-07/))
+
+
+==== CLAIM 5 ====
+
+** Claim **
+"Saudi Arabia applies capital punishment for a range of offenses, including political dissent."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+90/100
+
+** Our explanation for veracity score **
+Saudi Arabia applies capital punishment for a range of offenses, including political dissent. In 2024, the country executed 330 people, many for non-lethal crimes such as drug smuggling and non-lethal terrorism, often targeting anti-government protesters. ([reuters.com](https://www.reuters.com/world/middle-east/saudi-executions-rose-sharply-2024-2024-12-24/)) Additionally, individuals have been sentenced to death for apostasy, which can encompass political dissent. ([hrw.org](https://www.hrw.org/news/2015/11/23/saudi-arabia-poet-sentenced-death-apostasy))
+
+
+==== CLAIM 6 ====
+
+** Claim **
+"India retains the death penalty for the 'rarest of rare' cases, although executions are relatively infrequent."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+100/100
+
+** Our explanation for veracity score **
+India retains the death penalty, applying it in the 'rarest of rare' cases, a doctrine established by the Supreme Court in 1980. Despite numerous death sentences, actual executions are infrequent. For instance, between 2001 and 2011, Indian courts awarded death penalties to 1,455 convicts, but only one execution occurred during that period. This indicates a significant gap between sentencing and execution, underscoring the rarity of carrying out capital punishment in India. ([hindustantimes.com](https://www.hindustantimes.com/delhi/widening-gap-between-death-sentences-actual-executions/story-MfyOcvZ6i5vjMnmrwzDQiL.html))
+
+
+==== CLAIM 7 ====
+
+** Claim **
+"Japan maintains the death penalty and carries out executions, though they are not as common as in some other countries."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+100/100
+
+** Our explanation for veracity score **
+Japan maintains the death penalty and carries out executions, though they are not as common as in some other countries. As of the end of 2024, there were 106 inmates on death row in Japan. The last execution took place in July 2022, marking a pause of over two years without executions. This indicates that while Japan retains capital punishment, executions are infrequent compared to some other nations. [Source: Nippon.com](https://www.nippon.com/en/japan-data/h02259/)
+
+
+==== CLAIM 8 ====
+
+** Claim **
+"Egypt has seen a rise in the use of capital punishment in recent years."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+100/100
+
+** Our explanation for veracity score **
+Multiple credible sources confirm a significant increase in Egypt's use of capital punishment in recent years. Amnesty International reported that Egypt's executions tripled from 32 in 2019 to 107 in 2020, making it the world's third most frequent executioner that year. ([amnistia.org](https://www.amnistia.org/en/news/2021/04/death-penalty-2020-mena-dominates-list-of-world-s-top-executioners/)) Reprieve noted that between 2018 and 2020, Egypt carried out at least 241 executions, with 152 in 2020 alone—the highest annual number on record. ([reprieve.org](https://reprieve.org/us/2021/05/24/the-death-penalty-in-egypt-ten-year-after-the-uprising/)) Additionally, the Egyptian Initiative for Personal Rights documented 136 executions in 2020, a new precedent in the country's criminal justice history. ([egyptwatch.net](https://egyptwatch.net/2021/11/12/136-egyptians-executed-in-2020/)) These consistent reports from reputable organizations substantiate the claim of a rise in capital punishment in Egypt.
+
+
+==== CLAIM 9 ====
+
+** Claim **
+"Indonesia uses the death penalty primarily for drug-related crimes."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+100/100
+
+** Our explanation for veracity score **
+Indonesia imposes the death penalty primarily for drug-related offenses. As of late 2021, over 80% of death sentences in Indonesia were for drug crimes. ([deathpenaltyproject.org](https://deathpenaltyproject.org/knowledge/risks-and-rewards-in-indonesias-illicit-drug-trade/)) Additionally, in October 2023, an Indonesian court sentenced eight Iranians to death for smuggling over 700 pounds of crystal methamphetamine. ([benarnews.org](https://www.benarnews.org/english/news/indonesian/drug-smuggling-10272023124927.html)) These instances underscore Indonesia's stringent application of capital punishment for drug-related offenses.
+
+
+==== CLAIM 10 ====
+
+** Claim **
+"Other countries may have the death penalty legally on the books but haven’t carried out executions recently, making them abolitionist in practice."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+100/100
+
+** Our explanation for veracity score **
+The claim is accurate. Several countries retain the death penalty in law but have not carried out executions in recent years, effectively making them abolitionist in practice. For instance, as of 2023, 23 countries had the death penalty but had not executed anyone over the past 10 years. ([bbc.com](https://www.bbc.com/news/world-45835584)) Additionally, approximately 40 states worldwide are classified as 'abolitionist de facto' by the UN, meaning they have not executed anyone for at least 10 years. ([blogs.law.ox.ac.uk](https://blogs.law.ox.ac.uk/death-penalty-research-unit-blog/blog-post/2023/10/enigma-de-facto-abolition-researching-death))
+
+

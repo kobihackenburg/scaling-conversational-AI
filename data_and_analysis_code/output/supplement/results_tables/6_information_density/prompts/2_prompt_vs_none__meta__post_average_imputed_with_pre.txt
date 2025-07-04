@@ -1,0 +1,21 @@
+\begin{table}[H]
+
+\caption{Effect of prompt (vs. basic prompt). Precision-weighted mean across studies. Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
+\centering
+\begin{tabular}[t]{lrrrl}
+\toprule
+term & estimate & std.error & statistic & p.value\\
+\midrule
+\cellcolor{gray!6}{debate} & \cellcolor{gray!6}{1.18} & \cellcolor{gray!6}{0.23} & \cellcolor{gray!6}{5.25} & \cellcolor{gray!6}{<.001}\\
+deep\_canvass & -1.47 & 0.22 & -6.67 & <.001\\
+\cellcolor{gray!6}{information} & \cellcolor{gray!6}{2.20} & \cellcolor{gray!6}{0.23} & \cellcolor{gray!6}{9.72} & \cellcolor{gray!6}{<.001}\\
+mega & 1.34 & 0.22 & 6.02 & <.001\\
+\cellcolor{gray!6}{moral\_reframing} & \cellcolor{gray!6}{-0.77} & \cellcolor{gray!6}{0.22} & \cellcolor{gray!6}{-3.45} & \cellcolor{gray!6}{<.001}\\
+\addlinespace
+norms & 0.05 & 0.22 & 0.25 & 0.806\\
+\cellcolor{gray!6}{storytelling} & \cellcolor{gray!6}{-0.04} & \cellcolor{gray!6}{0.22} & \cellcolor{gray!6}{-0.18} & \cellcolor{gray!6}{0.86}\\
+\bottomrule
+\multicolumn{5}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{5}{l}{\rule{0pt}{1em}Estimates are in percentage points.}\\
+\end{tabular}
+\end{table}

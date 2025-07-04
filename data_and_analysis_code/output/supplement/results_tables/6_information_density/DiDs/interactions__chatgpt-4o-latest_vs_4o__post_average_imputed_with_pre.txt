@@ -1,0 +1,16 @@
+\begin{table}[H]
+
+\caption{Estimating the interaction between the listed model (vs. GPT-4o 8/24) and information prompt (vs. other prompt). Model: GPT-4o (3/25). Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
+\centering
+\begin{tabular}[t]{lrrrlrrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & study\\
+\midrule
+\cellcolor{gray!6}{Info prompt} & \cellcolor{gray!6}{1.90} & \cellcolor{gray!6}{0.59} & \cellcolor{gray!6}{3.24} & \cellcolor{gray!6}{0.001} & \cellcolor{gray!6}{0.75} & \cellcolor{gray!6}{3.06} & \cellcolor{gray!6}{10918} & \cellcolor{gray!6}{3}\\
+GPT-4o (3/25) & 3.20 & 0.31 & 10.18 & <.001 & 2.59 & 3.82 & 10918 & 3\\
+\cellcolor{gray!6}{Info prompt x GPT-4o (3/25)} & \cellcolor{gray!6}{1.36} & \cellcolor{gray!6}{0.88} & \cellcolor{gray!6}{1.55} & \cellcolor{gray!6}{0.122} & \cellcolor{gray!6}{-0.36} & \cellcolor{gray!6}{3.09} & \cellcolor{gray!6}{10918} & \cellcolor{gray!6}{3}\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}

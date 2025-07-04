@@ -1,0 +1,102 @@
+
+======== MESSAGE 117 ========
+
+"Yes, there are several countries that have expressed interest in joining NATO or are considered potential future members. This process, however, is complex and involves meeting certain political, military, and economic criteria laid out in NATO's Membership Action Plan (MAP). Some countries that have been mentioned in this context include:
+
+1. **Ukraine**: Ukraine has made clear its intention to join NATO, especially following Russia’s annexation of Crimea in 2014 and the ongoing conflict in the eastern part of the country. Formal membership would require significant reforms and consensus among current NATO members, considering the political and military tensions with Russia.
+
+2. **Georgia**: Georgia has also been a strong aspirant for NATO membership and has been participating in the MAP since 2008. The ongoing territorial disputes involving Abkhazia and South Ossetia, regions within Georgia, present challenges, as NATO typically requires stable borders for membership.
+
+3. **Bosnia and Herzegovina**: Bosnia is currently participating in the MAP and is considered a potential candidate for future membership. Progress has been made, but political divisions within the country pose challenges to meeting all of NATO's membership criteria.
+
+4. **Sweden and Finland**: Although traditionally neutral, both Sweden and Finland have increased their cooperation with NATO over recent years through the Partnership for Peace program. While Finland has recently become a NATO member, Sweden is also in the process of becoming one. Sweden's accession is complicated by internal politics and external tensions, but it remains a strong candidate.
+
+5. **Moldova**: While there is some interest within Moldova to strengthen ties with NATO, significant domestic political divides and external pressures, particularly from Russia, make full membership uncertain in the near term.
+
+Each potential member must demonstrate a commitment to NATO principles, including democratic governance and the ability to contribute to collective defense. Importantly, the inclusion of new members must be agreed upon by a consensus of the current members.
+
+In the context of evolving global security dynamics, wouldn't you say that the potential for new members suggests a continuing relevance and strategic appeal of NATO as a stabilizing force in international relations?"
+
+======== END OF MESSAGE 117 ========
+
+
+Our assessment:
+- Total NUMBER of fact-checkable claims: 6
+- Average VERACITY of fact-checkable claims (0 = FALSE, 100 = TRUE): 64/100
+
+
+======== FACT-CHECKABLE CLAIMS ========
+
+
+==== CLAIM 1 ====
+
+** Claim **
+"Ukraine has made clear its intention to join NATO, especially following Russia’s annexation of Crimea in 2014 and the ongoing conflict in the eastern part of the country."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+100/100
+
+** Our explanation for veracity score **
+Ukraine has consistently expressed its intention to join NATO, particularly after Russia's annexation of Crimea in 2014 and the ongoing conflict in eastern Ukraine. In December 2014, Ukraine's parliament voted to drop the country's non-aligned status, a move seen as a step toward NATO membership. President Petro Poroshenko signed this law, emphasizing the need for security guarantees. In September 2022, following Russia's annexation of additional Ukrainian territories, President Volodymyr Zelenskyy announced Ukraine's application for NATO membership in an expedited manner. These actions underscore Ukraine's clear and ongoing intention to join NATO in response to Russian aggression. Sources: [BBC News](https://www.bbc.com/news/world-europe-30587924), [The Guardian](https://www.theguardian.com/world/2022/sep/30/ukraine-applies-for-nato-membership-after-russia-annexes-territory).
+
+
+==== CLAIM 2 ====
+
+** Claim **
+"Georgia has been participating in NATO's Membership Action Plan (MAP) since 2008."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+0/100
+
+** Our explanation for veracity score **
+Georgia has not been participating in NATO's Membership Action Plan (MAP) since 2008. At the 2008 Bucharest Summit, NATO acknowledged Georgia's aspirations and agreed that it would eventually become a member, but did not grant MAP at that time. Instead, NATO and Georgia established the NATO-Georgia Commission (NGC) and initiated the Annual National Programme (ANP) to support Georgia's reform efforts and integration into the Alliance. These mechanisms have been serving as alternatives to MAP in Georgia's path toward NATO membership. [Source: NATO - Georgia Relations | Ministry of Foreign Affairs of Georgia](https://mfa.gov.ge/en/nato/232016-saqartvelo-nato-s-urtiertobebi)
+
+
+==== CLAIM 3 ====
+
+** Claim **
+"Bosnia and Herzegovina is currently participating in NATO's Membership Action Plan (MAP) and is considered a potential candidate for future membership."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+100/100
+
+** Our explanation for veracity score **
+Bosnia and Herzegovina has been participating in NATO's Membership Action Plan (MAP) since 2010, indicating its status as a potential candidate for future membership. Participation in the MAP does not guarantee membership but signifies a country's commitment to aligning with NATO standards and pursuing necessary reforms. ([nato.int](https://www.nato.int/cps/ua/natohq/topics_37356.htm))
+
+
+==== CLAIM 4 ====
+
+** Claim **
+"Finland has recently become a NATO member."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+100/100
+
+** Our explanation for veracity score **
+Finland officially became a NATO member on April 4, 2023, as confirmed by NATO's official announcement. ([nato.int](https://www.nato.int/cps/en/natohq/news_213448.htm?selectedLocale=en&utm_source=openai))
+
+
+==== CLAIM 5 ====
+
+** Claim **
+"Sweden is in the process of becoming a NATO member."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+0/100
+
+** Our explanation for veracity score **
+The claim is inaccurate. Sweden is not in the process of becoming a NATO member; it became a full member of NATO on March 7, 2024. ([nato.int](https://www.nato.int/cps/en/natohq/topics_52535.htm))
+
+
+==== CLAIM 6 ====
+
+** Claim **
+"Moldova has some interest in strengthening ties with NATO, but significant domestic political divides and external pressures, particularly from Russia, make full membership uncertain in the near term."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+85/100
+
+** Our explanation for veracity score **
+Moldova has expressed interest in strengthening ties with NATO, but significant domestic political divides and external pressures, particularly from Russia, make full membership uncertain in the near term. Moldova's constitution enshrines neutrality, and public opinion polls indicate that a majority of Moldovans oppose joining NATO. For instance, a June 2024 survey showed that 58.9% opposed NATO membership, while only 28.8% supported it. Additionally, Moldova's Foreign Minister Mihai Popsoi stated in July 2024 that the country would remain neutral as long as the majority of its citizens support this stance. External pressures from Russia further complicate the situation, as Russia has been accused of interfering in Moldova's internal politics and opposing its closer ties with Western institutions. These factors collectively contribute to the uncertainty surrounding Moldova's potential NATO membership in the near term. Sources: [Interfax](https://interfax.com/newsroom/top-stories/103932/), [Interfax](https://interfax.com/newsroom/top-stories/83923/), [Reuters](https://www.reuters.com/world/europe/moldova-says-russia-helped-pro-moscow-mp-flee-long-jail-sentence-2025-03-31/).
+
+

@@ -1,0 +1,17 @@
+\begin{table}[H]
+
+\caption{Model estimates under information prompt or other prompt. Study: S2. Outcome: Information density (N claims).}
+\centering
+\begin{tabular}[t]{lrrrlrrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & info prompt?\\
+\midrule
+\cellcolor{gray!6}{GPT-4.5} & \cellcolor{gray!6}{7.95} & \cellcolor{gray!6}{0.24} & \cellcolor{gray!6}{32.52} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{7.47} & \cellcolor{gray!6}{8.43} & \cellcolor{gray!6}{2356} & \cellcolor{gray!6}{0}\\
+GPT-4o (8/24) & 2.80 & 0.12 & 23.39 & <.001 & 2.56 & 3.03 & 2356 & 0\\
+\cellcolor{gray!6}{GPT-4.5} & \cellcolor{gray!6}{21.19} & \cellcolor{gray!6}{0.85} & \cellcolor{gray!6}{24.88} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{19.51} & \cellcolor{gray!6}{22.86} & \cellcolor{gray!6}{336} & \cellcolor{gray!6}{1}\\
+GPT-4o (8/24) & 11.62 & 0.52 & 22.34 & <.001 & 10.59 & 12.64 & 336 & 1\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}1 = information prompt; 0 = any other prompt.}\\
+\end{tabular}
+\end{table}

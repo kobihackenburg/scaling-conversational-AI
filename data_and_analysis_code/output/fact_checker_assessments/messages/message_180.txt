@@ -1,0 +1,144 @@
+
+======== MESSAGE 180 ========
+
+"Yes, there are a few countries recognized as nuclear-armed states, primarily under the Treaty on the Non-Proliferation of Nuclear Weapons (NPT), as well as some countries that are not officially recognized under this treaty but are known to possess nuclear weapons. Here's a list of countries that have nuclear weapons:
+
+1. **United States**: One of the original nuclear powers, the U.S. developed nuclear weapons during World War II and was the first to use them in conflict.
+
+2. **Russia** (formerly part of the Soviet Union): Russia inherited the Soviet nuclear arsenal and possesses one of the largest stockpiles of nuclear weapons in the world.
+
+3. **United Kingdom**: The U.K. is one of the NPT's recognized nuclear states and maintains an independent nuclear deterrent.
+
+4. **France**: As another recognized nuclear power under the NPT, France has a robust independent nuclear force.
+
+5. **China**: A recognized nuclear state, China has a smaller arsenal compared to the U.S. and Russia but is modernizing its nuclear capabilities.
+
+6. **India**: India is not a signatory to the NPT but has declared itself a nuclear weapons state following nuclear tests in 1974 and 1998.
+
+7. **Pakistan**: Like India, Pakistan is not a member of the NPT but has conducted nuclear tests and maintains a nuclear arsenal.
+
+8. **North Korea**: North Korea has declared and demonstrated its nuclear weapons capability but is not recognized under the NPT.
+
+9. **Israel**: Israel is widely believed to possess nuclear weapons, although it has a policy of ambiguity regarding its nuclear arsenal and is not a member of the NPT.
+
+The existence of nuclear weapons is a factor in global geopolitical dynamics and has a significant impact on international security strategies and negotiations."
+
+======== END OF MESSAGE 180 ========
+
+
+Our assessment:
+- Total NUMBER of fact-checkable claims: 9
+- Average VERACITY of fact-checkable claims (0 = FALSE, 100 = TRUE): 99/100
+
+
+======== FACT-CHECKABLE CLAIMS ========
+
+
+==== CLAIM 1 ====
+
+** Claim **
+"The United States developed nuclear weapons during World War II and was the first to use them in conflict."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+100/100
+
+** Our explanation for veracity score **
+The United States initiated the Manhattan Project during World War II to develop nuclear weapons. This effort culminated in the first successful test of an atomic bomb on July 16, 1945, in New Mexico. Subsequently, the U.S. deployed atomic bombs on Hiroshima and Nagasaki in August 1945, marking the first and only use of nuclear weapons in armed conflict. These actions led to Japan's surrender and the end of World War II. ([history.com](https://www.history.com/topics/world-war-ii/the-manhattan-project), [history.com](https://www.history.com/topics/world-war-ii/atomic-bomb-history))
+
+
+==== CLAIM 2 ====
+
+** Claim **
+"Russia inherited the Soviet nuclear arsenal and possesses one of the largest stockpiles of nuclear weapons in the world."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+100/100
+
+** Our explanation for veracity score **
+Russia inherited the Soviet Union's nuclear arsenal and currently possesses the largest stockpile of nuclear weapons globally, with approximately 5,580 warheads. This includes about 4,380 stockpiled for operational forces and an additional 1,200 retired warheads awaiting dismantlement. ([fas.org](https://fas.org/publication/russia-nuclear-notebook-2024/))
+
+
+==== CLAIM 3 ====
+
+** Claim **
+"The United Kingdom is one of the NPT's recognized nuclear states and maintains an independent nuclear deterrent."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+100/100
+
+** Our explanation for veracity score **
+The United Kingdom is indeed one of the five nuclear-weapon states recognized under the Treaty on the Non-Proliferation of Nuclear Weapons (NPT) and maintains an independent nuclear deterrent. The UK's nuclear forces are entirely sea-based, consisting of four Vanguard-class nuclear-powered ballistic missile submarines (SSBNs) armed with Trident II D5 submarine-launched ballistic missiles (SLBMs). This continuous at-sea deterrence ensures that at least one submarine is on patrol at all times, providing a credible and effective response option to extreme aggression. The UK retains full operational control over its nuclear weapons, with only the Prime Minister authorized to use them, even if deployed as part of a NATO response. ([gov.uk](https://www.gov.uk/government/publications/uk-nuclear-deterrence-factsheet/uk-nuclear-deterrence-what-you-need-to-know))
+
+
+==== CLAIM 4 ====
+
+** Claim **
+"France is a recognized nuclear power under the NPT and has a robust independent nuclear force."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+100/100
+
+** Our explanation for veracity score **
+France is one of the five recognized nuclear-weapon states under the Nuclear Non-Proliferation Treaty (NPT) and maintains an independent nuclear deterrent. ([commonslibrary.parliament.uk](https://commonslibrary.parliament.uk/research-briefings/sn04079/))
+
+
+==== CLAIM 5 ====
+
+** Claim **
+"China is a recognized nuclear state with a smaller arsenal compared to the U.S. and Russia but is modernizing its nuclear capabilities."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+95/100
+
+** Our explanation for veracity score **
+China is a recognized nuclear state and has significantly expanded its nuclear arsenal, possessing over 500 operational warheads as of May 2023. This number is projected to exceed 1,000 by 2030. While this is a substantial increase, China's stockpile remains smaller than those of the United States and Russia, which have approximately 3,700 and 4,489 nuclear warheads respectively. Additionally, China is actively modernizing its nuclear capabilities, including developing new missile silos and advanced delivery systems. ([defensenews.com](https://www.defensenews.com/pentagon/2023/10/19/china-more-than-doubled-its-nuclear-arsenal-since-2020-pentagon-says/))
+
+
+==== CLAIM 6 ====
+
+** Claim **
+"India is not a signatory to the NPT but has declared itself a nuclear weapons state following nuclear tests in 1974 and 1998."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+100/100
+
+** Our explanation for veracity score **
+India is not a signatory to the Nuclear Non-Proliferation Treaty (NPT) and has conducted nuclear tests in 1974 and 1998, subsequently declaring itself a nuclear weapons state. ([press.un.org](https://press.un.org/en/1998/sc6528.doc.htm))
+
+
+==== CLAIM 7 ====
+
+** Claim **
+"Pakistan is not a member of the NPT but has conducted nuclear tests and maintains a nuclear arsenal."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+100/100
+
+** Our explanation for veracity score **
+Pakistan is not a signatory to the Nuclear Non-Proliferation Treaty (NPT) and has conducted nuclear tests, maintaining a nuclear arsenal. ([dawn.com](https://www.dawn.com/news/1185843)) In May 1998, Pakistan conducted five nuclear tests in response to India's tests earlier that month. ([armscontrol.org](https://www.armscontrol.org/act/1998-05/news-briefs/india-conducts-nuclear-tests-pakistan-follows-suit)) As of 2022, Pakistan is estimated to possess approximately 170 nuclear warheads. ([armscontrol.org](https://www.armscontrol.org/factsheets/arms-control-and-proliferation-profile-pakistan))
+
+
+==== CLAIM 8 ====
+
+** Claim **
+"North Korea has declared and demonstrated its nuclear weapons capability but is not recognized under the NPT."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+100/100
+
+** Our explanation for veracity score **
+North Korea has conducted multiple nuclear tests, demonstrating its nuclear weapons capability. It withdrew from the Nuclear Non-Proliferation Treaty (NPT) in 2003 and is not recognized as a nuclear-weapon state under the NPT. ([cnn.com](https://www.cnn.com/2003/WORLD/asiapcf/east/01/10/nkorea.treaty/))
+
+
+==== CLAIM 9 ====
+
+** Claim **
+"Israel is widely believed to possess nuclear weapons, although it has a policy of ambiguity regarding its nuclear arsenal and is not a member of the NPT."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+100/100
+
+** Our explanation for veracity score **
+Israel is widely believed to possess nuclear weapons, maintaining a policy of nuclear opacity by neither confirming nor denying their existence. Additionally, Israel is not a signatory to the Nuclear Non-Proliferation Treaty (NPT). These points are well-documented by reputable sources, including the Center for Arms Control and Non-Proliferation and the House of Commons Library.
+
+

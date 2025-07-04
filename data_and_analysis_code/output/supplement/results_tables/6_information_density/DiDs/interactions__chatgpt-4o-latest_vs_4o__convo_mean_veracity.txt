@@ -1,0 +1,16 @@
+\begin{table}[H]
+
+\caption{Estimating the interaction between the listed model (vs. GPT-4o 8/24) and information prompt (vs. other prompt). Model: GPT-4o (3/25). Outcome: Accuracy (0-100 scale).}
+\centering
+\begin{tabular}[t]{lrrrlrrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & study\\
+\midrule
+\cellcolor{gray!6}{Info prompt} & \cellcolor{gray!6}{-5.14} & \cellcolor{gray!6}{0.65} & \cellcolor{gray!6}{-7.93} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{-6.41} & \cellcolor{gray!6}{-3.87} & \cellcolor{gray!6}{7901} & \cellcolor{gray!6}{3}\\
+GPT-4o (3/25) & -9.22 & 0.39 & -23.46 & <.001 & -9.99 & -8.45 & 7901 & 3\\
+\cellcolor{gray!6}{Info prompt x GPT-4o (3/25)} & \cellcolor{gray!6}{-9.76} & \cellcolor{gray!6}{0.94} & \cellcolor{gray!6}{-10.44} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{-11.60} & \cellcolor{gray!6}{-7.93} & \cellcolor{gray!6}{7901} & \cellcolor{gray!6}{3}\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}

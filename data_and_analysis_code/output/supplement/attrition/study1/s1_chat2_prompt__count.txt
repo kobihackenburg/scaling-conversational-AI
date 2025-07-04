@@ -1,0 +1,22 @@
+\begin{table}[H]
+
+\caption{Proportion post-treatment missingness (NA). Study 1. Chat 2 (GPT-4o): Prompts.}
+\centering
+\begin{tabular}[t]{lrr}
+\toprule
+Condition & Proportion NA & Total N\\
+\midrule
+\cellcolor{gray!6}{Debate} & \cellcolor{gray!6}{0.019} & \cellcolor{gray!6}{3318}\\
+Deep\_canvass & 0.014 & 3341\\
+\cellcolor{gray!6}{Information} & \cellcolor{gray!6}{0.017} & \cellcolor{gray!6}{3322}\\
+Mega & 0.016 & 3247\\
+\cellcolor{gray!6}{Moral\_reframing} & \cellcolor{gray!6}{0.017} & \cellcolor{gray!6}{3176}\\
+\addlinespace
+None & 0.019 & 3302\\
+\cellcolor{gray!6}{Norms} & \cellcolor{gray!6}{0.018} & \cellcolor{gray!6}{3252}\\
+Storytelling & 0.018 & 3146\\
+\bottomrule
+\multicolumn{3}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{3}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}

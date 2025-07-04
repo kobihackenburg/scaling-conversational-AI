@@ -1,0 +1,15 @@
+\begin{table}[H]
+
+\caption{Proportion post-treatment missingness (NA). Study 1. Chat 2 (GPT-4o): Personalization.}
+\centering
+\begin{tabular}[t]{lrr}
+\toprule
+Condition & Proportion NA & Total N\\
+\midrule
+\cellcolor{gray!6}{Generic} & \cellcolor{gray!6}{0.017} & \cellcolor{gray!6}{13052}\\
+Personalized & 0.018 & 13052\\
+\bottomrule
+\multicolumn{3}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{3}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}

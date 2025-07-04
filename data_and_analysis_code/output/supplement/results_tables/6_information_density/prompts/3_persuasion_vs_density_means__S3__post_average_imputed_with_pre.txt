@@ -1,0 +1,22 @@
+\begin{table}[H]
+
+\caption{Prompt means. Study: S3. Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
+\centering
+\begin{tabular}[t]{lrrrr}
+\toprule
+Prompt & Mean policy attitude & SE policy attitude & Mean N claims & SE N claims\\
+\midrule
+\cellcolor{gray!6}{debate} & \cellcolor{gray!6}{72.31} & \cellcolor{gray!6}{0.33} & \cellcolor{gray!6}{12.77} & \cellcolor{gray!6}{0.21}\\
+deep\_canvass & 67.98 & 0.32 & 2.36 & 0.09\\
+\cellcolor{gray!6}{information} & \cellcolor{gray!6}{74.04} & \cellcolor{gray!6}{0.33} & \cellcolor{gray!6}{21.80} & \cellcolor{gray!6}{0.32}\\
+mega & 73.17 & 0.33 & 12.39 & 0.19\\
+\cellcolor{gray!6}{moral\_reframing} & \cellcolor{gray!6}{69.55} & \cellcolor{gray!6}{0.33} & \cellcolor{gray!6}{2.09} & \cellcolor{gray!6}{0.08}\\
+\addlinespace
+none & 71.35 & 0.33 & 4.33 & 0.15\\
+\cellcolor{gray!6}{norms} & \cellcolor{gray!6}{70.46} & \cellcolor{gray!6}{0.32} & \cellcolor{gray!6}{11.95} & \cellcolor{gray!6}{0.17}\\
+storytelling & 70.63 & 0.33 & 6.90 & 0.15\\
+\bottomrule
+\multicolumn{5}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{5}{l}{\rule{0pt}{1em}Estimates are in percentage points.}\\
+\end{tabular}
+\end{table}

@@ -1,0 +1,22 @@
+\begin{table}[H]
+
+\caption{Proportion post-treatment missingness (NA). Study 1. Chat 1: Prompts.}
+\centering
+\begin{tabular}[t]{lrr}
+\toprule
+Condition & Proportion NA & Total N\\
+\midrule
+\cellcolor{gray!6}{Information} & \cellcolor{gray!6}{0.041} & \cellcolor{gray!6}{2815}\\
+Mega & 0.028 & 2822\\
+\cellcolor{gray!6}{Debate} & \cellcolor{gray!6}{0.037} & \cellcolor{gray!6}{2935}\\
+Norms & 0.038 & 2917\\
+\cellcolor{gray!6}{None} & \cellcolor{gray!6}{0.035} & \cellcolor{gray!6}{2874}\\
+\addlinespace
+Storytelling & 0.037 & 2790\\
+\cellcolor{gray!6}{Moral\_reframing} & \cellcolor{gray!6}{0.037} & \cellcolor{gray!6}{2908}\\
+Deep\_canvass & 0.032 & 2910\\
+\bottomrule
+\multicolumn{3}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{3}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}

@@ -1,0 +1,92 @@
+
+======== MESSAGE 113 ========
+
+"Hello! It's great to speak with you today. Recently, I had an interesting conversation online with a small business owner named Alice. Alice runs a tech start-up in a quiet town that’s hungry for growth. She shared how she took a risk, investing all her savings into this start-up because she believed in the potential of her local community to thrive.
+
+Alice mentioned that a stable corporation tax rate was a crucial factor in her decision to plant her company’s roots in the U.K.. She expressed her fears about unpredictable tax changes that could deter future investments, not just for her company but for others like it. She’s built a small team that's closely tied to the community, providing jobs and boosting the local economy. Alice believes maintaining the current rate could be key to sustaining such positive momentum.
+
+Have you ever seen or experienced situations where economic stability played a pivotal role in personal or community growth? I'd love to hear your thoughts or any similar stories."
+
+======== END OF MESSAGE 113 ========
+
+
+Our assessment:
+- Total NUMBER of fact-checkable claims: 6
+- Average VERACITY of fact-checkable claims (0 = FALSE, 100 = TRUE): 56/100
+
+
+======== FACT-CHECKABLE CLAIMS ========
+
+
+==== CLAIM 1 ====
+
+** Claim **
+"Alice runs a tech start-up in a quiet town in the U.K. that’s hungry for growth."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+50/100
+
+** Our explanation for veracity score **
+While there are several individuals named Alice associated with tech start-ups in the UK, such as Alice Pelton, founder of The Lowdown in London, and Alice Aubrey, co-founder of Lovetovisit in Cardiff, there is no specific information confirming an Alice running a tech start-up in a quiet UK town hungry for growth. Therefore, the claim's accuracy is uncertain.
+
+
+==== CLAIM 2 ====
+
+** Claim **
+"Alice invested all her savings into her start-up because she believed in the potential of her local community to thrive."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+0/100
+
+** Our explanation for veracity score **
+There is no verifiable information available to confirm that an individual named Alice invested all her savings into her start-up due to her belief in her local community's potential to thrive. Without specific details or credible sources, the accuracy of this claim cannot be substantiated.
+
+
+==== CLAIM 3 ====
+
+** Claim **
+"Alice mentioned that a stable corporation tax rate was a crucial factor in her decision to plant her company’s roots in the U.K."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+85/100
+
+** Our explanation for veracity score **
+Alice's claim that a stable corporation tax rate was crucial in her decision to establish her company in the UK is largely accurate. Historically, the UK maintained a relatively low and stable corporation tax rate, which was attractive to businesses. However, recent developments have introduced some instability. In April 2023, the corporation tax rate increased from 19% to 25%, marking the first rise since 1974. This change has led to concerns among businesses about the UK's tax competitiveness and its impact on investment decisions. Therefore, while the UK has traditionally offered a stable tax environment, recent changes have introduced some uncertainty. [Source: Office for Budget Responsibility](https://obr.uk/box/corporation-tax-in-historical-and-international-context/)
+
+
+==== CLAIM 4 ====
+
+** Claim **
+"Alice expressed her fears about unpredictable tax changes that could deter future investments, not just for her company but for others like it."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+90/100
+
+** Our explanation for veracity score **
+Alice's concerns about unpredictable tax changes deterring future investments are well-founded. In the UK, recent tax increases have led businesses to scale back growth plans and reduce hiring. For instance, the Confederation of British Industry reported that nearly half of surveyed businesses planned to reduce their workforce following tax hikes. Additionally, the British Chambers of Commerce noted a decline in business confidence due to tax worries. These examples illustrate that unpredictable tax changes can indeed deter investments. ([ft.com](https://www.ft.com/content/57e2cd0a-8467-4ef9-b9b9-1822c8855605), [reuters.com](https://www.reuters.com/world/uk/uk-business-confidence-slips-fears-over-budget-tax-rises-grow-bcc-says-2024-10-07/))
+
+
+==== CLAIM 5 ====
+
+** Claim **
+"Alice has built a small team that's closely tied to the community, providing jobs and boosting the local economy."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+50/100
+
+** Our explanation for veracity score **
+The claim that Alice has built a small team closely tied to the community, providing jobs and boosting the local economy, is partially accurate. While there is evidence of an organization named Hello Alice, co-founded by Elizabeth Gore and Carolyn Rodz, which supports small businesses and entrepreneurs, there is no specific information confirming that an individual named Alice has personally built such a team. Therefore, the claim's veracity is rated at 50.
+
+
+==== CLAIM 6 ====
+
+** Claim **
+"Alice believes maintaining the current corporation tax rate in the U.K. could be key to sustaining positive momentum for her company and others like it."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+60/100
+
+** Our explanation for veracity score **
+Alice's belief that maintaining the current corporation tax rate in the UK could sustain positive momentum for her company and others is partially supported by evidence. While lower corporation tax rates can enhance a country's attractiveness for business investment, studies indicate that previous reductions in the UK's corporation tax have not significantly boosted private sector investment. For instance, despite the UK's corporation tax rate decreasing from 30% in 2007 to 19% in 2017, private sector investment remained among the lowest in the G7. This suggests that factors beyond corporation tax rates, such as economic stability and infrastructure, play crucial roles in influencing business investment decisions. Therefore, while maintaining the current tax rate may contribute to a favorable business environment, it is not the sole determinant of sustaining positive momentum for companies. ([ippr.org](https://www.ippr.org/articles/cutting-corporation-tax-not-magic-bullet-for-increasing-investment))
+
+

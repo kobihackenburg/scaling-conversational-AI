@@ -1,0 +1,14 @@
+\begin{table}[H]
+
+\caption{GPT-4o (3/25) vs.GPT-4o (8/24) (collapsed across all study 3 conditions). Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
+\centering
+\begin{tabular}[t]{lrrrlrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df\\
+\midrule
+\cellcolor{gray!6}{GPT-4o (3/25)} & \cellcolor{gray!6}{3.36} & \cellcolor{gray!6}{0.29} & \cellcolor{gray!6}{11.4} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{2.78} & \cellcolor{gray!6}{3.93} & \cellcolor{gray!6}{10920}\\
+\bottomrule
+\multicolumn{8}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{8}{l}{\rule{0pt}{1em}Estimates are in percentage points.}\\
+\end{tabular}
+\end{table}

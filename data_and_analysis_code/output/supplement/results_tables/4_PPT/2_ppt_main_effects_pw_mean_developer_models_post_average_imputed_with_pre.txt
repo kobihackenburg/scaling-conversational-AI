@@ -1,0 +1,14 @@
+\begin{table}[H]
+
+\caption{PPT main effects (i.e., vs. Base model): precision-weighted mean across studies for Developer models. Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
+\centering
+\begin{tabular}[t]{rrrlrr}
+\toprule
+estimate & std.error & statistic & p.value & conf.low & conf.high\\
+\midrule
+\cellcolor{gray!6}{0.56} & \cellcolor{gray!6}{0.21} & \cellcolor{gray!6}{2.69} & \cellcolor{gray!6}{0.007} & \cellcolor{gray!6}{0.15} & \cellcolor{gray!6}{0.97}\\
+\bottomrule
+\multicolumn{6}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{6}{l}{\rule{0pt}{1em}Estimates are in percentage points.}\\
+\end{tabular}
+\end{table}

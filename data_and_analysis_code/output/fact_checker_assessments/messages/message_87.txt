@@ -1,0 +1,72 @@
+
+======== MESSAGE 87 ========
+
+"You’re absolutely right about the environmental benefits that come with transitioning to renewable energy sources like wind and hydroelectric power. It's crucial for reducing carbon emissions and combating climate change. Regarding household coal use versus large companies, this is an important dimension to consider.
+
+Household coal burning can contribute significantly to local air pollution, impacting public health and contributing to environmental degradation. However, on a larger scale, industrial operations and power plants have historically been the biggest users and emitters of coal-related emissions. 
+
+A study by Carbon Brief found that phasing out coal power is one of the fastest routes to reducing carbon emissions. In places like the UK, where household coal use has been diminishing, shifting industrial energy consumption to renewables could have an even more pronounced impact on reducing overall emissions.
+
+Investing in renewables not only supports a shift for big businesses but also offers alternatives for residential energy needs, like solar panels for homes. This transition isn't just beneficial; it's necessary to close the gap between personal and industrial contributions to climate change.
+
+So, while residential coal use is on the decline, ensuring that larger companies switch to clean energy is vital for achieving our broader environmental goals. It's about making sure everyone, at every level, is moving toward a sustainable future. What are your thoughts on how we can encourage both individuals and industries to make these changes more rapidly?"
+
+======== END OF MESSAGE 87 ========
+
+
+Our assessment:
+- Total NUMBER of fact-checkable claims: 4
+- Average VERACITY of fact-checkable claims (0 = FALSE, 100 = TRUE): 100/100
+
+
+======== FACT-CHECKABLE CLAIMS ========
+
+
+==== CLAIM 1 ====
+
+** Claim **
+"Household coal burning can contribute significantly to local air pollution, impacting public health and contributing to environmental degradation."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+100/100
+
+** Our explanation for veracity score **
+Household coal burning significantly contributes to local air pollution, adversely affecting public health and causing environmental degradation. The World Health Organization reports that around 2.3 billion people worldwide cook using open fires or inefficient stoves fueled by coal and other solid fuels, generating harmful household air pollution responsible for an estimated 3.2 million deaths per year. Exposure to pollutants from coal combustion is linked to diseases such as stroke, ischaemic heart disease, chronic obstructive pulmonary disease (COPD), and lung cancer. Additionally, emissions from household coal burning contribute to ambient (outdoor) air pollution, further impacting environmental quality. Therefore, the claim is accurate. [Source: WHO, Household air pollution and health, 15 December 2023]
+
+
+==== CLAIM 2 ====
+
+** Claim **
+"Industrial operations and power plants have historically been the biggest users and emitters of coal-related emissions."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+100/100
+
+** Our explanation for veracity score **
+Historically, industrial operations and power plants have been the primary consumers of coal and the largest sources of coal-related emissions. In the United Kingdom, as of 2021, the industrial sector accounted for 72.9% of coal consumption, while the residential sector accounted for 23.3%. Notably, as of September 30, 2024, there was no coal power generation in the UK, indicating a significant shift away from coal in the power sector. ([en.wikipedia.org](https://en.wikipedia.org/wiki/Energy_in_the_United_Kingdom))
+
+
+==== CLAIM 3 ====
+
+** Claim **
+"A study by Carbon Brief found that phasing out coal power is one of the fastest routes to reducing carbon emissions."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+100/100
+
+** Our explanation for veracity score **
+The claim is accurate. A study by Carbon Brief indicates that phasing out coal power is one of the fastest routes to reducing carbon emissions. The UK's experience supports this, as it became the first G7 country to phase out coal power, leading to a significant decrease in carbon emissions. ([interactive.carbonbrief.org](https://interactive.carbonbrief.org/coal-phaseout-UK/index.html))
+
+
+==== CLAIM 4 ====
+
+** Claim **
+"In the UK, household coal use has been diminishing."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+100/100
+
+** Our explanation for veracity score **
+The claim that household coal use in the UK has been diminishing is entirely accurate. The UK's coal consumption has been on a significant decline, reaching its lowest level since 1757 in 2022. This reduction is largely due to the shift towards alternative energy sources and environmental policies aimed at reducing carbon emissions. ([carbonbrief.org](https://www.carbonbrief.org/analysis-uk-emissions-fall-3-4-in-2022-as-coal-use-drops-to-lowest-level-since-1757/)) Additionally, the closure of coal-fired power plants and the rise of renewable energy have contributed to this trend. ([reuters.com](https://www.reuters.com/sustainability/climate-energy/britains-greenhouse-gas-emissions-fell-4-2024-government-data-shows-2025-03-27/))
+
+

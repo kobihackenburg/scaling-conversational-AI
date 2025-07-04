@@ -1,0 +1,92 @@
+\begin{table}[H]
+
+\caption{Persuasion effects (vs. control) of dialogue and static messaging, immediately post-treatment (time = 0) and +1 month later (time = 1). Outcome: Policy attitude (main persuasion outcome).}
+\centering
+\begin{tabular}[t]{lrrrlrrrlr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & study & time\\
+\midrule
+\cellcolor{gray!6}{GPT-4o (8/24)} & \cellcolor{gray!6}{8.80} & \cellcolor{gray!6}{0.39} & \cellcolor{gray!6}{22.37} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{8.03} & \cellcolor{gray!6}{9.57} & \cellcolor{gray!6}{7053} & \cellcolor{gray!6}{S1 chat 1} & \cellcolor{gray!6}{0}\\
+GPT-4o (8/24) & 3.17 & 0.52 & 6.05 & <.001 & 2.14 & 4.19 & 7053 & S1 chat 1 & 1\\
+\cellcolor{gray!6}{Static message} & \cellcolor{gray!6}{6.05} & \cellcolor{gray!6}{0.56} & \cellcolor{gray!6}{10.82} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{4.95} & \cellcolor{gray!6}{7.15} & \cellcolor{gray!6}{7053} & \cellcolor{gray!6}{S1 chat 1} & \cellcolor{gray!6}{0}\\
+Static message & 3.00 & 0.76 & 3.93 & <.001 & 1.51 & 4.50 & 7053 & S1 chat 1 & 1\\
+\cellcolor{gray!6}{GPT-4o (8/24)} & \cellcolor{gray!6}{8.99} & \cellcolor{gray!6}{0.29} & \cellcolor{gray!6}{31.08} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{8.42} & \cellcolor{gray!6}{9.55} & \cellcolor{gray!6}{19066} & \cellcolor{gray!6}{S1 chat 2} & \cellcolor{gray!6}{0}\\
+\addlinespace
+GPT-4o (8/24) & 3.75 & 0.44 & 8.44 & <.001 & 2.88 & 4.62 & 19066 & S1 chat 2 & 1\\
+\bottomrule
+\multicolumn{10}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{10}{l}{\rule{0pt}{1em}Estimates are in percentage points.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Direct comparisons. Study 1 Chat 1. Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
+\centering
+\begin{tabular}[t]{lrrrlrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df\\
+\midrule
+\cellcolor{gray!6}{dialogue (vs. static)} & \cellcolor{gray!6}{3.09} & \cellcolor{gray!6}{0.75} & \cellcolor{gray!6}{4.12} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{1.62} & \cellcolor{gray!6}{4.57} & \cellcolor{gray!6}{13960}\\
+time & -2.23 & 1.09 & -2.05 & 0.041 & -4.37 & -0.10 & 13960\\
+\cellcolor{gray!6}{dialogue (vs. static) x time} & \cellcolor{gray!6}{-3.00} & \cellcolor{gray!6}{1.20} & \cellcolor{gray!6}{-2.49} & \cellcolor{gray!6}{0.013} & \cellcolor{gray!6}{-5.36} & \cellcolor{gray!6}{-0.64} & \cellcolor{gray!6}{13960}\\
+\bottomrule
+\multicolumn{8}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{8}{l}{\rule{0pt}{1em}Estimates are in percentage points.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Direct comparisons. Study 1 Chat 1. Outcome: Policy attitude (main persuasion outcome).}
+\centering
+\begin{tabular}[t]{lrrrlrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df\\
+\midrule
+\cellcolor{gray!6}{dialogue (vs. static)} & \cellcolor{gray!6}{2.94} & \cellcolor{gray!6}{0.76} & \cellcolor{gray!6}{3.86} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{1.45} & \cellcolor{gray!6}{4.43} & \cellcolor{gray!6}{13679}\\
+time & -2.65 & 1.10 & -2.41 & 0.016 & -4.80 & -0.50 & 13679\\
+\cellcolor{gray!6}{dialogue (vs. static) x time} & \cellcolor{gray!6}{-2.84} & \cellcolor{gray!6}{1.21} & \cellcolor{gray!6}{-2.35} & \cellcolor{gray!6}{0.019} & \cellcolor{gray!6}{-5.21} & \cellcolor{gray!6}{-0.47} & \cellcolor{gray!6}{13679}\\
+\bottomrule
+\multicolumn{8}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{8}{l}{\rule{0pt}{1em}Estimates are in percentage points.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Direct comparisons. Study 3. Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
+\centering
+\begin{tabular}[t]{lrrrlrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df\\
+\midrule
+\cellcolor{gray!6}{dialogue (vs. static)} & \cellcolor{gray!6}{3.44} & \cellcolor{gray!6}{0.52} & \cellcolor{gray!6}{6.58} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{2.42} & \cellcolor{gray!6}{4.47} & \cellcolor{gray!6}{3672}\\
+\bottomrule
+\multicolumn{8}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{8}{l}{\rule{0pt}{1em}Estimates are in percentage points.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Direct comparisons. Study 3. Outcome: Policy attitude (main persuasion outcome).}
+\centering
+\begin{tabular}[t]{lrrrlrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df\\
+\midrule
+\cellcolor{gray!6}{dialogue (vs. static)} & \cellcolor{gray!6}{3.6} & \cellcolor{gray!6}{0.54} & \cellcolor{gray!6}{6.71} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{2.55} & \cellcolor{gray!6}{4.65} & \cellcolor{gray!6}{3548}\\
+\bottomrule
+\multicolumn{8}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{8}{l}{\rule{0pt}{1em}Estimates are in percentage points.}\\
+\end{tabular}
+\end{table}

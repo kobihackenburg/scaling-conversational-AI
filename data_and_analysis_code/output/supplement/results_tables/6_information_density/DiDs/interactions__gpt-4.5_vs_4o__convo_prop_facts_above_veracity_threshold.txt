@@ -1,0 +1,20 @@
+\begin{table}[H]
+
+\caption{Estimating the interaction between the listed model (vs. GPT-4o 8/24) and information prompt (vs. other prompt). Model: GPT-4.5. Outcome: Accuracy (>50/100 on the scale).}
+\centering
+\begin{tabular}[t]{lrrrlrrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & study\\
+\midrule
+\cellcolor{gray!6}{Info prompt} & \cellcolor{gray!6}{-8.74} & \cellcolor{gray!6}{2.03} & \cellcolor{gray!6}{-4.30} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{-12.73} & \cellcolor{gray!6}{-4.75} & \cellcolor{gray!6}{1917} & \cellcolor{gray!6}{2}\\
+GPT-4.5 & -11.53 & 1.42 & -8.11 & <.001 & -14.31 & -8.74 & 1917 & 2\\
+\cellcolor{gray!6}{Info prompt x GPT-4.5} & \cellcolor{gray!6}{-6.01} & \cellcolor{gray!6}{2.80} & \cellcolor{gray!6}{-2.15} & \cellcolor{gray!6}{0.032} & \cellcolor{gray!6}{-11.49} & \cellcolor{gray!6}{-0.52} & \cellcolor{gray!6}{1917} & \cellcolor{gray!6}{2}\\
+Info prompt & -5.11 & 0.80 & -6.40 & <.001 & -6.68 & -3.55 & 7429 & 3\\
+\cellcolor{gray!6}{GPT-4.5} & \cellcolor{gray!6}{-7.49} & \cellcolor{gray!6}{0.55} & \cellcolor{gray!6}{-13.70} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{-8.56} & \cellcolor{gray!6}{-6.42} & \cellcolor{gray!6}{7429} & \cellcolor{gray!6}{3}\\
+\addlinespace
+Info prompt x GPT-4.5 & -4.73 & 1.09 & -4.34 & <.001 & -6.87 & -2.59 & 7429 & 3\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}

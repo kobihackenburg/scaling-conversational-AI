@@ -1,0 +1,537 @@
+\begin{table}[H]
+
+\caption{Effect of prompt (vs. basic prompt). Study: S1, chat 1. Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
+\centering
+\begin{tabular}[t]{lrrrlrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df\\
+\midrule
+\cellcolor{gray!6}{information} & \cellcolor{gray!6}{1.29} & \cellcolor{gray!6}{0.47} & \cellcolor{gray!6}{2.75} & \cellcolor{gray!6}{0.006} & \cellcolor{gray!6}{0.37} & \cellcolor{gray!6}{2.20} & \cellcolor{gray!6}{22962}\\
+mega & 1.29 & 0.45 & 2.90 & 0.004 & 0.42 & 2.17 & 22962\\
+\cellcolor{gray!6}{debate} & \cellcolor{gray!6}{1.87} & \cellcolor{gray!6}{0.45} & \cellcolor{gray!6}{4.13} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{0.98} & \cellcolor{gray!6}{2.76} & \cellcolor{gray!6}{22962}\\
+norms & 0.49 & 0.45 & 1.11 & 0.268 & -0.38 & 1.37 & 22962\\
+\cellcolor{gray!6}{storytelling} & \cellcolor{gray!6}{-0.66} & \cellcolor{gray!6}{0.46} & \cellcolor{gray!6}{-1.44} & \cellcolor{gray!6}{0.15} & \cellcolor{gray!6}{-1.56} & \cellcolor{gray!6}{0.24} & \cellcolor{gray!6}{22962}\\
+\addlinespace
+moral\_reframing & -0.54 & 0.46 & -1.19 & 0.235 & -1.43 & 0.35 & 22962\\
+\cellcolor{gray!6}{deep\_canvass} & \cellcolor{gray!6}{-1.42} & \cellcolor{gray!6}{0.44} & \cellcolor{gray!6}{-3.21} & \cellcolor{gray!6}{0.001} & \cellcolor{gray!6}{-2.28} & \cellcolor{gray!6}{-0.55} & \cellcolor{gray!6}{22962}\\
+\bottomrule
+\multicolumn{8}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{8}{l}{\rule{0pt}{1em}Estimates are in percentage points.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Effect of prompt (vs. basic prompt). Study: S1, chat 1. Outcome: Policy attitude (main persuasion outcome).}
+\centering
+\begin{tabular}[t]{lrrrlrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df\\
+\midrule
+\cellcolor{gray!6}{information} & \cellcolor{gray!6}{1.41} & \cellcolor{gray!6}{0.48} & \cellcolor{gray!6}{2.92} & \cellcolor{gray!6}{0.003} & \cellcolor{gray!6}{0.47} & \cellcolor{gray!6}{2.36} & \cellcolor{gray!6}{22140}\\
+mega & 1.29 & 0.46 & 2.82 & 0.005 & 0.39 & 2.19 & 22140\\
+\cellcolor{gray!6}{debate} & \cellcolor{gray!6}{1.97} & \cellcolor{gray!6}{0.47} & \cellcolor{gray!6}{4.21} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{1.05} & \cellcolor{gray!6}{2.88} & \cellcolor{gray!6}{22140}\\
+norms & 0.54 & 0.46 & 1.18 & 0.239 & -0.36 & 1.45 & 22140\\
+\cellcolor{gray!6}{storytelling} & \cellcolor{gray!6}{-0.64} & \cellcolor{gray!6}{0.47} & \cellcolor{gray!6}{-1.35} & \cellcolor{gray!6}{0.177} & \cellcolor{gray!6}{-1.57} & \cellcolor{gray!6}{0.29} & \cellcolor{gray!6}{22140}\\
+\addlinespace
+moral\_reframing & -0.53 & 0.47 & -1.14 & 0.256 & -1.46 & 0.39 & 22140\\
+\cellcolor{gray!6}{deep\_canvass} & \cellcolor{gray!6}{-1.51} & \cellcolor{gray!6}{0.46} & \cellcolor{gray!6}{-3.31} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{-2.40} & \cellcolor{gray!6}{-0.62} & \cellcolor{gray!6}{22140}\\
+\bottomrule
+\multicolumn{8}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{8}{l}{\rule{0pt}{1em}Estimates are in percentage points.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Effect of prompt (vs. basic prompt). Study: S1, chat 2. Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
+\centering
+\begin{tabular}[t]{lrrrlrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df\\
+\midrule
+\cellcolor{gray!6}{debate} & \cellcolor{gray!6}{1.10} & \cellcolor{gray!6}{0.39} & \cellcolor{gray!6}{2.82} & \cellcolor{gray!6}{0.005} & \cellcolor{gray!6}{0.34} & \cellcolor{gray!6}{1.87} & \cellcolor{gray!6}{26095}\\
+deep\_canvass & -0.65 & 0.39 & -1.66 & 0.098 & -1.41 & 0.12 & 26095\\
+\cellcolor{gray!6}{information} & \cellcolor{gray!6}{2.64} & \cellcolor{gray!6}{0.39} & \cellcolor{gray!6}{6.75} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{1.88} & \cellcolor{gray!6}{3.41} & \cellcolor{gray!6}{26095}\\
+mega & 0.89 & 0.39 & 2.30 & 0.022 & 0.13 & 1.65 & 26095\\
+\cellcolor{gray!6}{moral\_reframing} & \cellcolor{gray!6}{-0.23} & \cellcolor{gray!6}{0.39} & \cellcolor{gray!6}{-0.59} & \cellcolor{gray!6}{0.557} & \cellcolor{gray!6}{-0.99} & \cellcolor{gray!6}{0.53} & \cellcolor{gray!6}{26095}\\
+\addlinespace
+norms & 0.22 & 0.39 & 0.58 & 0.565 & -0.54 & 0.99 & 26095\\
+\cellcolor{gray!6}{storytelling} & \cellcolor{gray!6}{0.74} & \cellcolor{gray!6}{0.39} & \cellcolor{gray!6}{1.88} & \cellcolor{gray!6}{0.06} & \cellcolor{gray!6}{-0.03} & \cellcolor{gray!6}{1.50} & \cellcolor{gray!6}{26095}\\
+\bottomrule
+\multicolumn{8}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{8}{l}{\rule{0pt}{1em}Estimates are in percentage points.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Effect of prompt (vs. basic prompt). Study: S1, chat 2. Outcome: Policy attitude (main persuasion outcome).}
+\centering
+\begin{tabular}[t]{lrrrlrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df\\
+\midrule
+\cellcolor{gray!6}{debate} & \cellcolor{gray!6}{1.11} & \cellcolor{gray!6}{0.40} & \cellcolor{gray!6}{2.80} & \cellcolor{gray!6}{0.005} & \cellcolor{gray!6}{0.33} & \cellcolor{gray!6}{1.89} & \cellcolor{gray!6}{25641}\\
+deep\_canvass & -0.68 & 0.39 & -1.73 & 0.084 & -1.45 & 0.09 & 25641\\
+\cellcolor{gray!6}{information} & \cellcolor{gray!6}{2.65} & \cellcolor{gray!6}{0.40} & \cellcolor{gray!6}{6.68} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{1.87} & \cellcolor{gray!6}{3.43} & \cellcolor{gray!6}{25641}\\
+mega & 0.86 & 0.39 & 2.20 & 0.028 & 0.09 & 1.63 & 25641\\
+\cellcolor{gray!6}{moral\_reframing} & \cellcolor{gray!6}{-0.25} & \cellcolor{gray!6}{0.39} & \cellcolor{gray!6}{-0.64} & \cellcolor{gray!6}{0.522} & \cellcolor{gray!6}{-1.02} & \cellcolor{gray!6}{0.52} & \cellcolor{gray!6}{25641}\\
+\addlinespace
+norms & 0.21 & 0.39 & 0.52 & 0.601 & -0.57 & 0.98 & 25641\\
+\cellcolor{gray!6}{storytelling} & \cellcolor{gray!6}{0.75} & \cellcolor{gray!6}{0.40} & \cellcolor{gray!6}{1.90} & \cellcolor{gray!6}{0.058} & \cellcolor{gray!6}{-0.02} & \cellcolor{gray!6}{1.53} & \cellcolor{gray!6}{25641}\\
+\bottomrule
+\multicolumn{8}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{8}{l}{\rule{0pt}{1em}Estimates are in percentage points.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Effect of prompt (vs. basic prompt). Study: S2. Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
+\centering
+\begin{tabular}[t]{lrrrlrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df\\
+\midrule
+\cellcolor{gray!6}{debate} & \cellcolor{gray!6}{0.68} & \cellcolor{gray!6}{0.53} & \cellcolor{gray!6}{1.29} & \cellcolor{gray!6}{0.196} & \cellcolor{gray!6}{-0.35} & \cellcolor{gray!6}{1.72} & \cellcolor{gray!6}{14233}\\
+deep\_canvass & -0.66 & 0.49 & -1.35 & 0.178 & -1.62 & 0.30 & 14233\\
+\cellcolor{gray!6}{information} & \cellcolor{gray!6}{1.95} & \cellcolor{gray!6}{0.52} & \cellcolor{gray!6}{3.76} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{0.93} & \cellcolor{gray!6}{2.96} & \cellcolor{gray!6}{14233}\\
+mega & 1.58 & 0.51 & 3.12 & 0.002 & 0.59 & 2.58 & 14233\\
+\cellcolor{gray!6}{moral\_reframing} & \cellcolor{gray!6}{-0.77} & \cellcolor{gray!6}{0.52} & \cellcolor{gray!6}{-1.50} & \cellcolor{gray!6}{0.135} & \cellcolor{gray!6}{-1.78} & \cellcolor{gray!6}{0.24} & \cellcolor{gray!6}{14233}\\
+\addlinespace
+norms & 0.39 & 0.51 & 0.77 & 0.443 & -0.61 & 1.39 & 14233\\
+\cellcolor{gray!6}{storytelling} & \cellcolor{gray!6}{0.22} & \cellcolor{gray!6}{0.50} & \cellcolor{gray!6}{0.45} & \cellcolor{gray!6}{0.654} & \cellcolor{gray!6}{-0.76} & \cellcolor{gray!6}{1.21} & \cellcolor{gray!6}{14233}\\
+\bottomrule
+\multicolumn{8}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{8}{l}{\rule{0pt}{1em}Estimates are in percentage points.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Effect of prompt (vs. basic prompt). Study: S2. Outcome: Policy attitude (main persuasion outcome).}
+\centering
+\begin{tabular}[t]{lrrrlrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df\\
+\midrule
+\cellcolor{gray!6}{debate} & \cellcolor{gray!6}{0.72} & \cellcolor{gray!6}{0.54} & \cellcolor{gray!6}{1.33} & \cellcolor{gray!6}{0.182} & \cellcolor{gray!6}{-0.34} & \cellcolor{gray!6}{1.78} & \cellcolor{gray!6}{13803}\\
+deep\_canvass & -0.69 & 0.50 & -1.39 & 0.165 & -1.68 & 0.29 & 13803\\
+\cellcolor{gray!6}{information} & \cellcolor{gray!6}{2.05} & \cellcolor{gray!6}{0.53} & \cellcolor{gray!6}{3.88} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{1.02} & \cellcolor{gray!6}{3.09} & \cellcolor{gray!6}{13803}\\
+mega & 1.73 & 0.52 & 3.33 & <.001 & 0.71 & 2.74 & 13803\\
+\cellcolor{gray!6}{moral\_reframing} & \cellcolor{gray!6}{-0.77} & \cellcolor{gray!6}{0.53} & \cellcolor{gray!6}{-1.46} & \cellcolor{gray!6}{0.143} & \cellcolor{gray!6}{-1.81} & \cellcolor{gray!6}{0.26} & \cellcolor{gray!6}{13803}\\
+\addlinespace
+norms & 0.32 & 0.52 & 0.61 & 0.542 & -0.71 & 1.34 & 13803\\
+\cellcolor{gray!6}{storytelling} & \cellcolor{gray!6}{0.32} & \cellcolor{gray!6}{0.51} & \cellcolor{gray!6}{0.62} & \cellcolor{gray!6}{0.534} & \cellcolor{gray!6}{-0.69} & \cellcolor{gray!6}{1.32} & \cellcolor{gray!6}{13803}\\
+\bottomrule
+\multicolumn{8}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{8}{l}{\rule{0pt}{1em}Estimates are in percentage points.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Effect of prompt (vs. basic prompt). Study: S3. Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
+\centering
+\begin{tabular}[t]{lrrrlrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df\\
+\midrule
+\cellcolor{gray!6}{debate} & \cellcolor{gray!6}{0.96} & \cellcolor{gray!6}{0.46} & \cellcolor{gray!6}{2.07} & \cellcolor{gray!6}{0.039} & \cellcolor{gray!6}{0.05} & \cellcolor{gray!6}{1.86} & \cellcolor{gray!6}{18429}\\
+deep\_canvass & -3.37 & 0.46 & -7.36 & <.001 & -4.26 & -2.47 & 18429\\
+\cellcolor{gray!6}{information} & \cellcolor{gray!6}{2.69} & \cellcolor{gray!6}{0.46} & \cellcolor{gray!6}{5.81} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{1.78} & \cellcolor{gray!6}{3.60} & \cellcolor{gray!6}{18429}\\
+mega & 1.82 & 0.46 & 3.94 & <.001 & 0.92 & 2.72 & 18429\\
+\cellcolor{gray!6}{moral\_reframing} & \cellcolor{gray!6}{-1.80} & \cellcolor{gray!6}{0.46} & \cellcolor{gray!6}{-3.88} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{-2.71} & \cellcolor{gray!6}{-0.89} & \cellcolor{gray!6}{18429}\\
+\addlinespace
+norms & -0.89 & 0.45 & -1.97 & 0.049 & -1.78 & -0.01 & 18429\\
+\cellcolor{gray!6}{storytelling} & \cellcolor{gray!6}{-0.72} & \cellcolor{gray!6}{0.46} & \cellcolor{gray!6}{-1.55} & \cellcolor{gray!6}{0.12} & \cellcolor{gray!6}{-1.63} & \cellcolor{gray!6}{0.19} & \cellcolor{gray!6}{18429}\\
+\bottomrule
+\multicolumn{8}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{8}{l}{\rule{0pt}{1em}Estimates are in percentage points.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Effect of prompt (vs. basic prompt). Study: S3. Outcome: Policy attitude (main persuasion outcome).}
+\centering
+\begin{tabular}[t]{lrrrlrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df\\
+\midrule
+\cellcolor{gray!6}{debate} & \cellcolor{gray!6}{1.16} & \cellcolor{gray!6}{0.47} & \cellcolor{gray!6}{2.45} & \cellcolor{gray!6}{0.014} & \cellcolor{gray!6}{0.23} & \cellcolor{gray!6}{2.09} & \cellcolor{gray!6}{17825}\\
+deep\_canvass & -3.47 & 0.47 & -7.40 & <.001 & -4.39 & -2.55 & 17825\\
+\cellcolor{gray!6}{information} & \cellcolor{gray!6}{2.81} & \cellcolor{gray!6}{0.47} & \cellcolor{gray!6}{5.96} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{1.89} & \cellcolor{gray!6}{3.74} & \cellcolor{gray!6}{17825}\\
+mega & 1.87 & 0.47 & 3.97 & <.001 & 0.95 & 2.79 & 17825\\
+\cellcolor{gray!6}{moral\_reframing} & \cellcolor{gray!6}{-1.82} & \cellcolor{gray!6}{0.48} & \cellcolor{gray!6}{-3.82} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{-2.75} & \cellcolor{gray!6}{-0.88} & \cellcolor{gray!6}{17825}\\
+\addlinespace
+norms & -0.91 & 0.46 & -1.97 & 0.049 & -1.82 & 0.00 & 17825\\
+\cellcolor{gray!6}{storytelling} & \cellcolor{gray!6}{-0.80} & \cellcolor{gray!6}{0.47} & \cellcolor{gray!6}{-1.69} & \cellcolor{gray!6}{0.091} & \cellcolor{gray!6}{-1.73} & \cellcolor{gray!6}{0.13} & \cellcolor{gray!6}{17825}\\
+\bottomrule
+\multicolumn{8}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{8}{l}{\rule{0pt}{1em}Estimates are in percentage points.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Effect of prompt (vs. basic prompt). Precision-weighted mean across studies. Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
+\centering
+\begin{tabular}[t]{lrrrl}
+\toprule
+term & estimate & std.error & statistic & p.value\\
+\midrule
+\cellcolor{gray!6}{debate} & \cellcolor{gray!6}{1.18} & \cellcolor{gray!6}{0.23} & \cellcolor{gray!6}{5.25} & \cellcolor{gray!6}{<.001}\\
+deep\_canvass & -1.47 & 0.22 & -6.67 & <.001\\
+\cellcolor{gray!6}{information} & \cellcolor{gray!6}{2.20} & \cellcolor{gray!6}{0.23} & \cellcolor{gray!6}{9.72} & \cellcolor{gray!6}{<.001}\\
+mega & 1.34 & 0.22 & 6.02 & <.001\\
+\cellcolor{gray!6}{moral\_reframing} & \cellcolor{gray!6}{-0.77} & \cellcolor{gray!6}{0.22} & \cellcolor{gray!6}{-3.45} & \cellcolor{gray!6}{<.001}\\
+\addlinespace
+norms & 0.05 & 0.22 & 0.25 & 0.806\\
+\cellcolor{gray!6}{storytelling} & \cellcolor{gray!6}{-0.04} & \cellcolor{gray!6}{0.22} & \cellcolor{gray!6}{-0.18} & \cellcolor{gray!6}{0.86}\\
+\bottomrule
+\multicolumn{5}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{5}{l}{\rule{0pt}{1em}Estimates are in percentage points.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Effect of prompt (vs. basic prompt). Precision-weighted mean across studies. Outcome: Policy attitude (main persuasion outcome).}
+\centering
+\begin{tabular}[t]{lrrrl}
+\toprule
+term & estimate & std.error & statistic & p.value\\
+\midrule
+\cellcolor{gray!6}{debate} & \cellcolor{gray!6}{1.26} & \cellcolor{gray!6}{0.23} & \cellcolor{gray!6}{5.47} & \cellcolor{gray!6}{<.001}\\
+deep\_canvass & -1.53 & 0.22 & -6.79 & <.001\\
+\cellcolor{gray!6}{information} & \cellcolor{gray!6}{2.29} & \cellcolor{gray!6}{0.23} & \cellcolor{gray!6}{9.91} & \cellcolor{gray!6}{<.001}\\
+mega & 1.37 & 0.23 & 6.03 & <.001\\
+\cellcolor{gray!6}{moral\_reframing} & \cellcolor{gray!6}{-0.78} & \cellcolor{gray!6}{0.23} & \cellcolor{gray!6}{-3.40} & \cellcolor{gray!6}{<.001}\\
+\addlinespace
+norms & 0.04 & 0.23 & 0.18 & 0.854\\
+\cellcolor{gray!6}{storytelling} & \cellcolor{gray!6}{-0.02} & \cellcolor{gray!6}{0.23} & \cellcolor{gray!6}{-0.10} & \cellcolor{gray!6}{0.923}\\
+\bottomrule
+\multicolumn{5}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{5}{l}{\rule{0pt}{1em}Estimates are in percentage points.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Prompt means. Study: S1, chat 1. Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
+\centering
+\begin{tabular}[t]{lrrrr}
+\toprule
+Prompt & Mean policy attitude & SE policy attitude & Mean N claims & SE N claims\\
+\midrule
+\cellcolor{gray!6}{information} & \cellcolor{gray!6}{64.96} & \cellcolor{gray!6}{0.34} & \cellcolor{gray!6}{8.86} & \cellcolor{gray!6}{0.12}\\
+mega & 64.96 & 0.31 & 4.86 & 0.09\\
+\cellcolor{gray!6}{debate} & \cellcolor{gray!6}{65.54} & \cellcolor{gray!6}{0.32} & \cellcolor{gray!6}{5.68} & \cellcolor{gray!6}{0.10}\\
+norms & 64.16 & 0.31 & 4.09 & 0.08\\
+\cellcolor{gray!6}{none} & \cellcolor{gray!6}{63.67} & \cellcolor{gray!6}{0.32} & \cellcolor{gray!6}{2.38} & \cellcolor{gray!6}{0.07}\\
+\addlinespace
+storytelling & 63.01 & 0.33 & 2.49 & 0.07\\
+\cellcolor{gray!6}{moral\_reframing} & \cellcolor{gray!6}{63.13} & \cellcolor{gray!6}{0.32} & \cellcolor{gray!6}{1.62} & \cellcolor{gray!6}{0.06}\\
+deep\_canvass & 62.25 & 0.30 & 1.61 & 0.06\\
+\bottomrule
+\multicolumn{5}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{5}{l}{\rule{0pt}{1em}Estimates are in percentage points.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Prompt means. Study: S1, chat 1. Outcome: Policy attitude (main persuasion outcome).}
+\centering
+\begin{tabular}[t]{lrrrr}
+\toprule
+Prompt & Mean policy attitude & SE policy attitude & Mean N claims & SE N claims\\
+\midrule
+\cellcolor{gray!6}{information} & \cellcolor{gray!6}{65.30} & \cellcolor{gray!6}{0.35} & \cellcolor{gray!6}{8.86} & \cellcolor{gray!6}{0.12}\\
+mega & 65.18 & 0.32 & 4.86 & 0.09\\
+\cellcolor{gray!6}{debate} & \cellcolor{gray!6}{65.85} & \cellcolor{gray!6}{0.33} & \cellcolor{gray!6}{5.68} & \cellcolor{gray!6}{0.10}\\
+norms & 64.43 & 0.32 & 4.09 & 0.08\\
+\cellcolor{gray!6}{none} & \cellcolor{gray!6}{63.89} & \cellcolor{gray!6}{0.33} & \cellcolor{gray!6}{2.38} & \cellcolor{gray!6}{0.07}\\
+\addlinespace
+storytelling & 63.25 & 0.34 & 2.49 & 0.07\\
+\cellcolor{gray!6}{moral\_reframing} & \cellcolor{gray!6}{63.35} & \cellcolor{gray!6}{0.33} & \cellcolor{gray!6}{1.62} & \cellcolor{gray!6}{0.06}\\
+deep\_canvass & 62.38 & 0.31 & 1.61 & 0.06\\
+\bottomrule
+\multicolumn{5}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{5}{l}{\rule{0pt}{1em}Estimates are in percentage points.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Prompt means. Study: S1, chat 2. Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
+\centering
+\begin{tabular}[t]{lrrrr}
+\toprule
+Prompt & Mean policy attitude & SE policy attitude & Mean N claims & SE N claims\\
+\midrule
+\cellcolor{gray!6}{debate} & \cellcolor{gray!6}{70.09} & \cellcolor{gray!6}{0.28} & \cellcolor{gray!6}{3.94} & \cellcolor{gray!6}{0.08}\\
+deep\_canvass & 68.34 & 0.28 & 0.88 & 0.04\\
+\cellcolor{gray!6}{information} & \cellcolor{gray!6}{71.63} & \cellcolor{gray!6}{0.28} & \cellcolor{gray!6}{7.98} & \cellcolor{gray!6}{0.10}\\
+mega & 69.88 & 0.28 & 3.44 & 0.07\\
+\cellcolor{gray!6}{moral\_reframing} & \cellcolor{gray!6}{68.76} & \cellcolor{gray!6}{0.28} & \cellcolor{gray!6}{0.95} & \cellcolor{gray!6}{0.05}\\
+\addlinespace
+none & 68.99 & 0.27 & 1.56 & 0.06\\
+\cellcolor{gray!6}{norms} & \cellcolor{gray!6}{69.21} & \cellcolor{gray!6}{0.28} & \cellcolor{gray!6}{3.33} & \cellcolor{gray!6}{0.07}\\
+storytelling & 69.72 & 0.28 & 2.21 & 0.06\\
+\bottomrule
+\multicolumn{5}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{5}{l}{\rule{0pt}{1em}Estimates are in percentage points.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Prompt means. Study: S1, chat 2. Outcome: Policy attitude (main persuasion outcome).}
+\centering
+\begin{tabular}[t]{lrrrr}
+\toprule
+Prompt & Mean policy attitude & SE policy attitude & Mean N claims & SE N claims\\
+\midrule
+\cellcolor{gray!6}{debate} & \cellcolor{gray!6}{70.26} & \cellcolor{gray!6}{0.28} & \cellcolor{gray!6}{3.94} & \cellcolor{gray!6}{0.08}\\
+deep\_canvass & 68.47 & 0.28 & 0.88 & 0.04\\
+\cellcolor{gray!6}{information} & \cellcolor{gray!6}{71.80} & \cellcolor{gray!6}{0.28} & \cellcolor{gray!6}{7.98} & \cellcolor{gray!6}{0.10}\\
+mega & 70.01 & 0.28 & 3.44 & 0.07\\
+\cellcolor{gray!6}{moral\_reframing} & \cellcolor{gray!6}{68.90} & \cellcolor{gray!6}{0.28} & \cellcolor{gray!6}{0.95} & \cellcolor{gray!6}{0.05}\\
+\addlinespace
+none & 69.15 & 0.28 & 1.56 & 0.06\\
+\cellcolor{gray!6}{norms} & \cellcolor{gray!6}{69.36} & \cellcolor{gray!6}{0.28} & \cellcolor{gray!6}{3.33} & \cellcolor{gray!6}{0.07}\\
+storytelling & 69.91 & 0.28 & 2.21 & 0.06\\
+\bottomrule
+\multicolumn{5}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{5}{l}{\rule{0pt}{1em}Estimates are in percentage points.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Prompt means. Study: S2. Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
+\centering
+\begin{tabular}[t]{lrrrr}
+\toprule
+Prompt & Mean policy attitude & SE policy attitude & Mean N claims & SE N claims\\
+\midrule
+\cellcolor{gray!6}{debate} & \cellcolor{gray!6}{68.95} & \cellcolor{gray!6}{0.39} & \cellcolor{gray!6}{6.62} & \cellcolor{gray!6}{0.15}\\
+deep\_canvass & 67.61 & 0.33 & 2.48 & 0.09\\
+\cellcolor{gray!6}{information} & \cellcolor{gray!6}{70.21} & \cellcolor{gray!6}{0.37} & \cellcolor{gray!6}{9.12} & \cellcolor{gray!6}{0.18}\\
+mega & 69.85 & 0.36 & 6.50 & 0.15\\
+\cellcolor{gray!6}{moral\_reframing} & \cellcolor{gray!6}{67.50} & \cellcolor{gray!6}{0.37} & \cellcolor{gray!6}{2.24} & \cellcolor{gray!6}{0.10}\\
+\addlinespace
+none & 68.27 & 0.36 & 3.41 & 0.12\\
+\cellcolor{gray!6}{norms} & \cellcolor{gray!6}{68.66} & \cellcolor{gray!6}{0.36} & \cellcolor{gray!6}{6.06} & \cellcolor{gray!6}{0.13}\\
+storytelling & 68.49 & 0.35 & 3.54 & 0.11\\
+\bottomrule
+\multicolumn{5}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{5}{l}{\rule{0pt}{1em}Estimates are in percentage points.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Prompt means. Study: S2. Outcome: Policy attitude (main persuasion outcome).}
+\centering
+\begin{tabular}[t]{lrrrr}
+\toprule
+Prompt & Mean policy attitude & SE policy attitude & Mean N claims & SE N claims\\
+\midrule
+\cellcolor{gray!6}{debate} & \cellcolor{gray!6}{69.22} & \cellcolor{gray!6}{0.40} & \cellcolor{gray!6}{6.62} & \cellcolor{gray!6}{0.15}\\
+deep\_canvass & 67.81 & 0.34 & 2.48 & 0.09\\
+\cellcolor{gray!6}{information} & \cellcolor{gray!6}{70.55} & \cellcolor{gray!6}{0.38} & \cellcolor{gray!6}{9.12} & \cellcolor{gray!6}{0.18}\\
+mega & 70.23 & 0.37 & 6.50 & 0.15\\
+\cellcolor{gray!6}{moral\_reframing} & \cellcolor{gray!6}{67.73} & \cellcolor{gray!6}{0.38} & \cellcolor{gray!6}{2.24} & \cellcolor{gray!6}{0.10}\\
+\addlinespace
+none & 68.50 & 0.37 & 3.41 & 0.12\\
+\cellcolor{gray!6}{norms} & \cellcolor{gray!6}{68.82} & \cellcolor{gray!6}{0.37} & \cellcolor{gray!6}{6.06} & \cellcolor{gray!6}{0.13}\\
+storytelling & 68.82 & 0.36 & 3.54 & 0.11\\
+\bottomrule
+\multicolumn{5}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{5}{l}{\rule{0pt}{1em}Estimates are in percentage points.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Prompt means. Study: S3. Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
+\centering
+\begin{tabular}[t]{lrrrr}
+\toprule
+Prompt & Mean policy attitude & SE policy attitude & Mean N claims & SE N claims\\
+\midrule
+\cellcolor{gray!6}{debate} & \cellcolor{gray!6}{72.31} & \cellcolor{gray!6}{0.33} & \cellcolor{gray!6}{12.77} & \cellcolor{gray!6}{0.21}\\
+deep\_canvass & 67.98 & 0.32 & 2.36 & 0.09\\
+\cellcolor{gray!6}{information} & \cellcolor{gray!6}{74.04} & \cellcolor{gray!6}{0.33} & \cellcolor{gray!6}{21.80} & \cellcolor{gray!6}{0.32}\\
+mega & 73.17 & 0.33 & 12.39 & 0.19\\
+\cellcolor{gray!6}{moral\_reframing} & \cellcolor{gray!6}{69.55} & \cellcolor{gray!6}{0.33} & \cellcolor{gray!6}{2.09} & \cellcolor{gray!6}{0.08}\\
+\addlinespace
+none & 71.35 & 0.33 & 4.33 & 0.15\\
+\cellcolor{gray!6}{norms} & \cellcolor{gray!6}{70.46} & \cellcolor{gray!6}{0.32} & \cellcolor{gray!6}{11.95} & \cellcolor{gray!6}{0.17}\\
+storytelling & 70.63 & 0.33 & 6.90 & 0.15\\
+\bottomrule
+\multicolumn{5}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{5}{l}{\rule{0pt}{1em}Estimates are in percentage points.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Prompt means. Study: S3. Outcome: Policy attitude (main persuasion outcome).}
+\centering
+\begin{tabular}[t]{lrrrr}
+\toprule
+Prompt & Mean policy attitude & SE policy attitude & Mean N claims & SE N claims\\
+\midrule
+\cellcolor{gray!6}{debate} & \cellcolor{gray!6}{72.84} & \cellcolor{gray!6}{0.34} & \cellcolor{gray!6}{12.77} & \cellcolor{gray!6}{0.21}\\
+deep\_canvass & 68.22 & 0.33 & 2.36 & 0.09\\
+\cellcolor{gray!6}{information} & \cellcolor{gray!6}{74.50} & \cellcolor{gray!6}{0.33} & \cellcolor{gray!6}{21.80} & \cellcolor{gray!6}{0.32}\\
+mega & 73.55 & 0.34 & 12.39 & 0.19\\
+\cellcolor{gray!6}{moral\_reframing} & \cellcolor{gray!6}{69.86} & \cellcolor{gray!6}{0.34} & \cellcolor{gray!6}{2.09} & \cellcolor{gray!6}{0.08}\\
+\addlinespace
+none & 71.68 & 0.33 & 4.33 & 0.15\\
+\cellcolor{gray!6}{norms} & \cellcolor{gray!6}{70.77} & \cellcolor{gray!6}{0.32} & \cellcolor{gray!6}{11.95} & \cellcolor{gray!6}{0.17}\\
+storytelling & 70.88 & 0.34 & 6.90 & 0.15\\
+\bottomrule
+\multicolumn{5}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{5}{l}{\rule{0pt}{1em}Estimates are in percentage points.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Bayesian model output: Estimating the disattenuated correlation between N claims and attitudes (across prompts). Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
+\centering
+\begin{tabular}[t]{lllllllll}
+\toprule
+Term & Estimate & Est.Error & l-95\% CI & u-95\% CI & Rhat & Bulk\_ESS & Tail\_ESS & Parameter\\
+\midrule
+\cellcolor{gray!6}{attitude} & \cellcolor{gray!6}{64.28} & \cellcolor{gray!6}{0.67} & \cellcolor{gray!6}{62.97} & \cellcolor{gray!6}{65.54} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{1657.48} & \cellcolor{gray!6}{2242.28} & \cellcolor{gray!6}{fixed}\\
+N claims & 3.63 & 1.19 & 1.26 & 5.90 & 1.00 & 1787.98 & 2296.19 & fixed\\
+\cellcolor{gray!6}{S1chat2} & \cellcolor{gray!6}{5.13} & \cellcolor{gray!6}{0.80} & \cellcolor{gray!6}{3.57} & \cellcolor{gray!6}{6.75} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{2225.34} & \cellcolor{gray!6}{2626.76} & \cellcolor{gray!6}{fixed}\\
+S2 & 4.30 & 0.81 & 2.70 & 5.88 & 1.00 & 2305.79 & 2765.58 & fixed\\
+\cellcolor{gray!6}{S3} & \cellcolor{gray!6}{6.78} & \cellcolor{gray!6}{0.80} & \cellcolor{gray!6}{5.27} & \cellcolor{gray!6}{8.33} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{2391.86} & \cellcolor{gray!6}{2766.42} & \cellcolor{gray!6}{fixed}\\
+\addlinespace
+N claims x S1chat2 & -5.79 & 1.12 & -7.94 & -3.57 & 1.00 & 2439.44 & 2496.21 & fixed\\
+\cellcolor{gray!6}{N claims x S2} & \cellcolor{gray!6}{-3.04} & \cellcolor{gray!6}{1.12} & \cellcolor{gray!6}{-5.21} & \cellcolor{gray!6}{-0.76} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{2480.51} & \cellcolor{gray!6}{2797.79} & \cellcolor{gray!6}{fixed}\\
+N claims x S3 & -1.25 & 1.10 & -3.39 & 0.92 & 1.00 & 2258.54 & 2843.02 & fixed\\
+\cellcolor{gray!6}{sd(attitude)} & \cellcolor{gray!6}{0.91} & \cellcolor{gray!6}{0.37} & \cellcolor{gray!6}{0.26} & \cellcolor{gray!6}{1.74} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{2415.40} & \cellcolor{gray!6}{1844.04} & \cellcolor{gray!6}{random}\\
+sd(N claims) & 2.99 & 0.72 & 1.90 & 4.73 & 1.00 & 2256.90 & 2932.80 & random\\
+\addlinespace
+\cellcolor{gray!6}{cor(attitude,N claims)} & \cellcolor{gray!6}{0.76} & \cellcolor{gray!6}{0.24} & \cellcolor{gray!6}{0.12} & \cellcolor{gray!6}{0.99} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{1650.37} & \cellcolor{gray!6}{2121.49} & \cellcolor{gray!6}{random}\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}ESS = effective sample size of the posterior distribution.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Bayesian model output: Estimating the disattenuated correlation between N claims and attitudes (across prompts). Outcome: Policy attitude (main persuasion outcome).}
+\centering
+\begin{tabular}[t]{lllllllll}
+\toprule
+Term & Estimate & Est.Error & l-95\% CI & u-95\% CI & Rhat & Bulk\_ESS & Tail\_ESS & Parameter\\
+\midrule
+\cellcolor{gray!6}{attitude} & \cellcolor{gray!6}{64.52} & \cellcolor{gray!6}{0.65} & \cellcolor{gray!6}{63.26} & \cellcolor{gray!6}{65.82} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{1588.65} & \cellcolor{gray!6}{2437.56} & \cellcolor{gray!6}{fixed}\\
+N claims & 3.62 & 1.20 & 1.22 & 6.02 & 1.00 & 2009.42 & 2292.82 & fixed\\
+\cellcolor{gray!6}{S1chat2} & \cellcolor{gray!6}{5.04} & \cellcolor{gray!6}{0.79} & \cellcolor{gray!6}{3.42} & \cellcolor{gray!6}{6.52} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{2563.05} & \cellcolor{gray!6}{2568.61} & \cellcolor{gray!6}{fixed}\\
+S2 & 4.32 & 0.78 & 2.73 & 5.78 & 1.00 & 1982.48 & 2570.22 & fixed\\
+\cellcolor{gray!6}{S3} & \cellcolor{gray!6}{6.87} & \cellcolor{gray!6}{0.76} & \cellcolor{gray!6}{5.38} & \cellcolor{gray!6}{8.31} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{2197.85} & \cellcolor{gray!6}{2638.90} & \cellcolor{gray!6}{fixed}\\
+\addlinespace
+N claims x S1chat2 & -5.69 & 1.12 & -7.90 & -3.47 & 1.00 & 2481.74 & 2565.00 & fixed\\
+\cellcolor{gray!6}{N claims x S2} & \cellcolor{gray!6}{-3.07} & \cellcolor{gray!6}{1.08} & \cellcolor{gray!6}{-5.15} & \cellcolor{gray!6}{-0.91} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{2248.30} & \cellcolor{gray!6}{2393.09} & \cellcolor{gray!6}{fixed}\\
+N claims x S3 & -1.34 & 1.09 & -3.44 & 0.86 & 1.00 & 2363.11 & 2792.78 & fixed\\
+\cellcolor{gray!6}{sd(attitude)} & \cellcolor{gray!6}{0.93} & \cellcolor{gray!6}{0.38} & \cellcolor{gray!6}{0.26} & \cellcolor{gray!6}{1.78} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{1989.76} & \cellcolor{gray!6}{1596.64} & \cellcolor{gray!6}{random}\\
+sd(N claims) & 2.93 & 0.72 & 1.86 & 4.61 & 1.00 & 2101.18 & 2671.05 & random\\
+\addlinespace
+\cellcolor{gray!6}{cor(attitude,N claims)} & \cellcolor{gray!6}{0.76} & \cellcolor{gray!6}{0.25} & \cellcolor{gray!6}{0.05} & \cellcolor{gray!6}{0.99} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{1170.45} & \cellcolor{gray!6}{872.87} & \cellcolor{gray!6}{random}\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}ESS = effective sample size of the posterior distribution.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Bayesian model output: Estimating the disattenuated slope of N claims on attitudes (across prompts). Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
+\centering
+\begin{tabular}[t]{llllllll}
+\toprule
+Term & Estimate & Est.Error & l-95\% CI & u-95\% CI & Rhat & Bulk\_ESS & Tail\_ESS\\
+\midrule
+\cellcolor{gray!6}{Intercept} & \cellcolor{gray!6}{62.87} & \cellcolor{gray!6}{0.31} & \cellcolor{gray!6}{62.28} & \cellcolor{gray!6}{63.48} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{3438.08} & \cellcolor{gray!6}{3400.47}\\
+S1chat2 & 5.79 & 0.38 & 5.04 & 6.54 & 1.00 & 3119.08 & 3213.75\\
+\cellcolor{gray!6}{S2} & \cellcolor{gray!6}{4.34} & \cellcolor{gray!6}{0.38} & \cellcolor{gray!6}{3.59} & \cellcolor{gray!6}{5.08} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{3342.40} & \cellcolor{gray!6}{3138.08}\\
+S3 & 5.57 & 0.42 & 4.74 & 6.42 & 1.00 & 2913.87 & 2666.54\\
+\cellcolor{gray!6}{n claims} & \cellcolor{gray!6}{0.29} & \cellcolor{gray!6}{0.04} & \cellcolor{gray!6}{0.22} & \cellcolor{gray!6}{0.36} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{2969.61} & \cellcolor{gray!6}{2935.41}\\
+\bottomrule
+\multicolumn{8}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{8}{l}{\rule{0pt}{1em}ESS = effective sample size of the posterior distribution.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Bayesian model output: Estimating the disattenuated slope of N claims on attitudes (across prompts). Outcome: Policy attitude (main persuasion outcome).}
+\centering
+\begin{tabular}[t]{llllllll}
+\toprule
+Term & Estimate & Est.Error & l-95\% CI & u-95\% CI & Rhat & Bulk\_ESS & Tail\_ESS\\
+\midrule
+\cellcolor{gray!6}{Intercept} & \cellcolor{gray!6}{63.07} & \cellcolor{gray!6}{0.32} & \cellcolor{gray!6}{62.47} & \cellcolor{gray!6}{63.70} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{3608.51} & \cellcolor{gray!6}{3043.77}\\
+S1chat2 & 5.71 & 0.39 & 4.93 & 6.46 & 1.00 & 3567.28 & 3243.29\\
+\cellcolor{gray!6}{S2} & \cellcolor{gray!6}{4.35} & \cellcolor{gray!6}{0.40} & \cellcolor{gray!6}{3.55} & \cellcolor{gray!6}{5.13} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{3518.88} & \cellcolor{gray!6}{3469.25}\\
+S3 & 5.60 & 0.43 & 4.72 & 6.43 & 1.00 & 2927.27 & 3370.11\\
+\cellcolor{gray!6}{n claims} & \cellcolor{gray!6}{0.30} & \cellcolor{gray!6}{0.04} & \cellcolor{gray!6}{0.23} & \cellcolor{gray!6}{0.38} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{2853.59} & \cellcolor{gray!6}{2948.20}\\
+\bottomrule
+\multicolumn{8}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{8}{l}{\rule{0pt}{1em}ESS = effective sample size of the posterior distribution.}\\
+\end{tabular}
+\end{table}

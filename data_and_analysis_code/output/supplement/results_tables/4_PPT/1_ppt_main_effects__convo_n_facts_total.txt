@@ -1,0 +1,17 @@
+\begin{table}[H]
+
+\caption{PPT main effects (i.e., vs. Base model). Outcome: Information density (N claims).}
+\centering
+\begin{tabular}[t]{lrrrlrrrrl}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & study & model type\\
+\midrule
+\cellcolor{gray!6}{RM} & \cellcolor{gray!6}{1.15} & \cellcolor{gray!6}{0.08} & \cellcolor{gray!6}{14.32} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{1.31} & \cellcolor{gray!6}{19430} & \cellcolor{gray!6}{2} & \cellcolor{gray!6}{chat-tuned}\\
+SFT & 0.42 & 0.08 & 5.17 & <.001 & 0.26 & 0.58 & 19430 & 2 & chat-tuned\\
+\cellcolor{gray!6}{RM} & \cellcolor{gray!6}{0.11} & \cellcolor{gray!6}{0.24} & \cellcolor{gray!6}{0.48} & \cellcolor{gray!6}{0.634} & \cellcolor{gray!6}{-0.35} & \cellcolor{gray!6}{0.58} & \cellcolor{gray!6}{4046} & \cellcolor{gray!6}{2} & \cellcolor{gray!6}{developer}\\
+RM & 0.32 & 0.17 & 1.93 & 0.054 & -0.01 & 0.65 & 17893 & 3 & developer\\
+\bottomrule
+\multicolumn{10}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{10}{l}{\rule{0pt}{1em}RM = reward modeling; SFT = supervised fine-tuning.}\\
+\end{tabular}
+\end{table}

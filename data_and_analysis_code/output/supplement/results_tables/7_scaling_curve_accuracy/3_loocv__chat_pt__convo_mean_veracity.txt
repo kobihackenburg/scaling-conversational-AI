@@ -1,0 +1,15 @@
+\begin{table}[H]
+
+\caption{Leave-one-out cross-validation comparing linear and nonlinear (GAM) meta-regressions. Models: Chat-tuned models. Outcome: Accuracy (0-100 scale).}
+\centering
+\begin{tabular}[t]{lllllllll}
+\toprule
+model & elpd\_diff & se\_diff & elpd\_loo & se\_elpd\_loo & p\_loo & se\_p\_loo & looic & se\_looic\\
+\midrule
+\cellcolor{gray!6}{GAM} & \cellcolor{gray!6}{0.00} & \cellcolor{gray!6}{0.00} & \cellcolor{gray!6}{-33.46} & \cellcolor{gray!6}{3.80} & \cellcolor{gray!6}{7.63} & \cellcolor{gray!6}{3.10} & \cellcolor{gray!6}{66.92} & \cellcolor{gray!6}{7.59}\\
+Linear & -6.34 & 4.64 & -39.80 & 3.38 & 4.04 & 1.40 & 79.59 & 6.76\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}ELPD = expected log pointwise predictive density. LOO = leave-one-out.}\\
+\end{tabular}
+\end{table}

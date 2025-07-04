@@ -1,0 +1,21 @@
+\begin{table}[H]
+
+\caption{Effect of prompt (vs. basic prompt). Study: S2. Outcome: Policy attitude (main persuasion outcome).}
+\centering
+\begin{tabular}[t]{lrrrlrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df\\
+\midrule
+\cellcolor{gray!6}{debate} & \cellcolor{gray!6}{0.72} & \cellcolor{gray!6}{0.54} & \cellcolor{gray!6}{1.33} & \cellcolor{gray!6}{0.182} & \cellcolor{gray!6}{-0.34} & \cellcolor{gray!6}{1.78} & \cellcolor{gray!6}{13803}\\
+deep\_canvass & -0.69 & 0.50 & -1.39 & 0.165 & -1.68 & 0.29 & 13803\\
+\cellcolor{gray!6}{information} & \cellcolor{gray!6}{2.05} & \cellcolor{gray!6}{0.53} & \cellcolor{gray!6}{3.88} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{1.02} & \cellcolor{gray!6}{3.09} & \cellcolor{gray!6}{13803}\\
+mega & 1.73 & 0.52 & 3.33 & <.001 & 0.71 & 2.74 & 13803\\
+\cellcolor{gray!6}{moral\_reframing} & \cellcolor{gray!6}{-0.77} & \cellcolor{gray!6}{0.53} & \cellcolor{gray!6}{-1.46} & \cellcolor{gray!6}{0.143} & \cellcolor{gray!6}{-1.81} & \cellcolor{gray!6}{0.26} & \cellcolor{gray!6}{13803}\\
+\addlinespace
+norms & 0.32 & 0.52 & 0.61 & 0.542 & -0.71 & 1.34 & 13803\\
+\cellcolor{gray!6}{storytelling} & \cellcolor{gray!6}{0.32} & \cellcolor{gray!6}{0.51} & \cellcolor{gray!6}{0.62} & \cellcolor{gray!6}{0.534} & \cellcolor{gray!6}{-0.69} & \cellcolor{gray!6}{1.32} & \cellcolor{gray!6}{13803}\\
+\bottomrule
+\multicolumn{8}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{8}{l}{\rule{0pt}{1em}Estimates are in percentage points.}\\
+\end{tabular}
+\end{table}

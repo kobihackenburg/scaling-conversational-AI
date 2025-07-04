@@ -1,0 +1,15 @@
+\begin{table}[H]
+
+\caption{Proportion post-treatment missingness (NA). Study 3. PPT.}
+\centering
+\begin{tabular}[t]{lrr}
+\toprule
+Condition & Proportion NA & Total N\\
+\midrule
+\cellcolor{gray!6}{Base} & \cellcolor{gray!6}{0.031} & \cellcolor{gray!6}{9178}\\
+RM & 0.035 & 9260\\
+\bottomrule
+\multicolumn{3}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{3}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}

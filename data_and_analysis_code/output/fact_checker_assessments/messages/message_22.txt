@@ -1,0 +1,34 @@
+
+======== MESSAGE 22 ========
+
+"Absolutely, Norway's approach is a profound example of how focusing on rehabilitation can reshape the justice system for the better. Their model highlights the importance of treating offenders with dignity, addressing the root causes of their behavior, and preparing them for reintegration into society as constructive members.
+
+What's really compelling is that Norway spends significantly less on its prison system while achieving better outcomes in terms of reduced re-offending. It's a clear indicator that such reforms not only align with moral values of fairness and compassion but also make practical sense from an economic and community standpoint.
+
+Learning from Norway, the UK could consider how these humane principles and practices might be tailored to address local needs and circumstances. Engaging with policymakers, communities, and justice professionals in dialogue about these possibilities could pave the way for meaningful reform.
+
+This example ignites hope that with informed advocacy and a willingness to innovate, we can create a more just and equitable system. How do you envision people advocating for these kinds of changes in the UK?"
+
+======== END OF MESSAGE 22 ========
+
+
+Our assessment:
+- Total NUMBER of fact-checkable claims: 1
+- Average VERACITY of fact-checkable claims (0 = FALSE, 100 = TRUE): 0/100
+
+
+======== FACT-CHECKABLE CLAIMS ========
+
+
+==== CLAIM 1 ====
+
+** Claim **
+"Norway spends significantly less on its prison system while achieving better outcomes in terms of reduced re-offending."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+0/100
+
+** Our explanation for veracity score **
+The claim that Norway spends significantly less on its prison system while achieving better outcomes in terms of reduced re-offending is inaccurate. In reality, Norway invests substantially more per inmate compared to many other countries, focusing on rehabilitation and humane treatment. This approach has led to notably low recidivism rates. For instance, Norway's recidivism rate was approximately 20% in 2010, significantly lower than the U.S. rate of 76.6% within five years. ([businessinsider.com](https://www.businessinsider.com/why-norways-prison-system-is-so-successful-2014-12)) Therefore, while Norway achieves better outcomes, it does so through higher, not lower, spending on its prison system.
+
+

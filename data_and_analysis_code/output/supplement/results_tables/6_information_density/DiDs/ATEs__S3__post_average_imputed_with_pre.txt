@@ -1,0 +1,22 @@
+\begin{table}[H]
+
+\caption{Model estimates under information prompt or other prompt. Study: S3. Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
+\centering
+\begin{tabular}[t]{lrrrlrrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & info prompt?\\
+\midrule
+\cellcolor{gray!6}{GPT-4o (3/25)} & \cellcolor{gray!6}{11.49} & \cellcolor{gray!6}{0.31} & \cellcolor{gray!6}{37.58} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{10.89} & \cellcolor{gray!6}{12.09} & \cellcolor{gray!6}{18280} & \cellcolor{gray!6}{0}\\
+GPT-4.5 & 10.05 & 0.31 & 32.44 & <.001 & 9.44 & 10.65 & 18280 & 0\\
+\cellcolor{gray!6}{GPT-4o (8/24)} & \cellcolor{gray!6}{8.27} & \cellcolor{gray!6}{0.30} & \cellcolor{gray!6}{27.78} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{7.69} & \cellcolor{gray!6}{8.85} & \cellcolor{gray!6}{18280} & \cellcolor{gray!6}{0}\\
+Grok-3 & 8.62 & 0.43 & 20.07 & <.001 & 7.78 & 9.46 & 18280 & 0\\
+\cellcolor{gray!6}{GPT-4o (3/25)} & \cellcolor{gray!6}{14.74} & \cellcolor{gray!6}{0.69} & \cellcolor{gray!6}{21.49} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{13.39} & \cellcolor{gray!6}{16.08} & \cellcolor{gray!6}{3368} & \cellcolor{gray!6}{1}\\
+\addlinespace
+GPT-4.5 & 14.92 & 0.70 & 21.22 & <.001 & 13.54 & 16.30 & 3368 & 1\\
+\cellcolor{gray!6}{GPT-4o (8/24)} & \cellcolor{gray!6}{10.18} & \cellcolor{gray!6}{0.61} & \cellcolor{gray!6}{16.58} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{8.97} & \cellcolor{gray!6}{11.38} & \cellcolor{gray!6}{3368} & \cellcolor{gray!6}{1}\\
+Grok-3 & 11.28 & 0.99 & 11.39 & <.001 & 9.33 & 13.22 & 3368 & 1\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}1 = information prompt; 0 = any other prompt.}\\
+\end{tabular}
+\end{table}

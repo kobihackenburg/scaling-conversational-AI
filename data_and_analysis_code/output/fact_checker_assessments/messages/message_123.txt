@@ -1,0 +1,100 @@
+
+======== MESSAGE 123 ========
+
+"You can open a Lifetime ISA (LISA) at a variety of financial institutions in the U.K., including banks, building societies, and investment firms. Here’s where you can start:
+
+1. **Banks and Building Societies**: Many high street banks offer Lifetime ISAs. Institutions like Skipton Building Society were among the first to offer LISAs, and other banks may follow based on demand and market conditions.
+
+2. **Online Investment Platforms**: Companies such as Hargreaves Lansdown, Nutmeg, and AJ Bell also offer Lifetime ISAs, typically focusing on stocks and shares LISAs rather than cash LISAs. These platforms can be a good choice if you’re looking for potentially higher returns over the long term, though they come with investment risk.
+
+3. **Comparison Websites**: Websites like MoneySuperMarket or ComparetheMarket can help you compare different LISA offerings to find the best interest rates and terms.
+
+4. **Financial Advisors**: Consulting with a financial advisor could be beneficial if you need tailored advice on which LISA product aligns best with your financial goals.
+
+To open a LISA, you must be between 18 and 39 years old. You can save up to £4,000 a year, and the government will add a 25% bonus to your savings. Keep in mind that LISAs can be used either for purchasing your first home or for retirement, with penalties often applied for withdrawals made for other purposes.
+
+Once you’ve identified where you’d like to open one, you can typically apply through their website or by visiting a branch. Make sure to review their specific terms, conditions, and any potential fees involved. If you need further assistance with choosing a provider or understanding the process, feel free to ask!"
+
+======== END OF MESSAGE 123 ========
+
+
+Our assessment:
+- Total NUMBER of fact-checkable claims: 6
+- Average VERACITY of fact-checkable claims (0 = FALSE, 100 = TRUE): 100/100
+
+
+======== FACT-CHECKABLE CLAIMS ========
+
+
+==== CLAIM 1 ====
+
+** Claim **
+"You can open a Lifetime ISA (LISA) at a variety of financial institutions in the U.K., including banks, building societies, and investment firms."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+100/100
+
+** Our explanation for veracity score **
+The claim is accurate. Lifetime ISAs (LISAs) are available in the UK through various financial institutions, including banks, building societies, and investment firms. For example, Paragon Bank offers a cash Lifetime ISA, while Nutmeg provides a stocks and shares Lifetime ISA. Additionally, building societies like Skipton Building Society offer Lifetime ISAs. This variety of providers allows individuals to choose a LISA that best suits their financial goals and preferences. ([moneysavingexpert.com](https://www.moneysavingexpert.com/savings/lifetime-isas/), [nutmeg.com](https://www.nutmeg.com/lifetime-isa), [moneysavingexpert.com](https://www.moneysavingexpert.com/savings/lifetime-isas/))
+
+
+==== CLAIM 2 ====
+
+** Claim **
+"Skipton Building Society was among the first to offer Lifetime ISAs in the U.K."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+100/100
+
+** Our explanation for veracity score **
+Skipton Building Society was the first provider to offer a cash Lifetime ISA in the UK, launching the product on June 8, 2017. Prior to this, only stocks and shares Lifetime ISAs were available. This information is corroborated by multiple reputable sources, including MoneySavingExpert and the BBC.
+
+
+==== CLAIM 3 ====
+
+** Claim **
+"Companies such as Hargreaves Lansdown, Nutmeg, and AJ Bell offer Lifetime ISAs, typically focusing on stocks and shares LISAs rather than cash LISAs."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+100/100
+
+** Our explanation for veracity score **
+The claim is accurate. Hargreaves Lansdown, Nutmeg, and AJ Bell offer Lifetime ISAs, specifically focusing on stocks and shares LISAs rather than cash LISAs. Hargreaves Lansdown and AJ Bell provide Lifetime Stocks & Shares ISAs, while Nutmeg offers a Lifetime Stocks and Shares ISA. None of these companies currently offer Lifetime Cash ISAs. ([financialinterest.com](https://financialinterest.com/compare/hargreaves-lansdown-vs-nutmeg/), [financialinterest.com](https://financialinterest.com/compare/aj-bell-vs-nutmeg/), [financialinterest.com](https://financialinterest.com/compare/aj-bell-vs-hargreaves-lansdown/))
+
+
+==== CLAIM 4 ====
+
+** Claim **
+"To open a Lifetime ISA in the U.K., you must be between 18 and 39 years old."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+100/100
+
+** Our explanation for veracity score **
+The claim is accurate. To open a Lifetime ISA in the UK, you must be between 18 and 39 years old. This is confirmed by the UK government's official guidance on Lifetime ISAs, which states that individuals must be aged 18 or over but under 40 to open a Lifetime ISA. [Source: GOV.UK - Lifetime ISA](https://www.gov.uk/lifetime-isa)
+
+
+==== CLAIM 5 ====
+
+** Claim **
+"You can save up to £4,000 a year in a Lifetime ISA, and the U.K. government will add a 25% bonus to your savings."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+100/100
+
+** Our explanation for veracity score **
+The claim is accurate. In the UK, individuals aged 18 to 39 can open a Lifetime ISA and contribute up to £4,000 annually. The government adds a 25% bonus to these contributions, equating to a maximum bonus of £1,000 per year. This information is confirmed by the UK government's official guidance on Lifetime ISAs. ([gov.uk](https://www.gov.uk/government/publications/individual-savings-accounts-lifetime-isa/individual-savings-accounts-lifetime-isa))
+
+
+==== CLAIM 6 ====
+
+** Claim **
+"Lifetime ISAs can be used either for purchasing your first home or for retirement, with penalties often applied for withdrawals made for other purposes."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+100/100
+
+** Our explanation for veracity score **
+The claim is accurate. Lifetime ISAs (LISAs) in the UK are designed to help individuals save for their first home or for retirement. Withdrawals for other purposes typically incur a 25% government withdrawal charge, which not only reclaims the government bonus but also results in a loss of some of the individual's own savings. This penalty ensures that the funds are used for their intended purposes. ([gov.uk](https://www.gov.uk/guidance/lifetime-isa-withdrawal-charges-and-charge-free-withdrawals))
+
+

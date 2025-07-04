@@ -1,0 +1,17 @@
+\begin{table}[H]
+
+\caption{Meta-regression output. Models: All models. Outcome: Policy attitude (main persuasion outcome).}
+\centering
+\begin{tabular}[t]{llllllll}
+\toprule
+Term & Estimate & Est.Error & l-95\% CI & u-95\% CI & Rhat & Bulk\_ESS & Tail\_ESS\\
+\midrule
+\cellcolor{gray!6}{Intercept} & \cellcolor{gray!6}{1.39} & \cellcolor{gray!6}{1.11} & \cellcolor{gray!6}{-0.81} & \cellcolor{gray!6}{3.56} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{10014.35} & \cellcolor{gray!6}{7665.50}\\
+log10(flops) & 1.59 & 0.27 & 1.07 & 2.13 & 1.00 & 9375.49 & 8024.28\\
+\cellcolor{gray!6}{study2} & \cellcolor{gray!6}{-0.14} & \cellcolor{gray!6}{1.07} & \cellcolor{gray!6}{-2.27} & \cellcolor{gray!6}{1.99} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{9404.66} & \cellcolor{gray!6}{6540.37}\\
+study3 & 0.94 & 1.23 & -1.47 & 3.37 & 1.00 & 9024.80 & 7615.48\\
+\bottomrule
+\multicolumn{8}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{8}{l}{\rule{0pt}{1em}Estimates are in percentage points. ESS = effective sample size of the posterior distribution.}\\
+\end{tabular}
+\end{table}

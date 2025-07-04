@@ -1,0 +1,527 @@
+\begin{table}[H]
+
+\caption{Model estimates under information prompt or other prompt. Study: S2. Outcome: Accuracy (0-100 scale).}
+\centering
+\begin{tabular}[t]{lrrrlrrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & info prompt?\\
+\midrule
+\cellcolor{gray!6}{GPT-4.5} & \cellcolor{gray!6}{70.26} & \cellcolor{gray!6}{0.59} & \cellcolor{gray!6}{119.58} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{69.11} & \cellcolor{gray!6}{71.41} & \cellcolor{gray!6}{1581} & \cellcolor{gray!6}{0}\\
+GPT-4o (8/24) & 79.56 & 0.59 & 134.32 & <.001 & 78.39 & 80.72 & 1581 & 0\\
+\cellcolor{gray!6}{GPT-4.5} & \cellcolor{gray!6}{58.71} & \cellcolor{gray!6}{1.23} & \cellcolor{gray!6}{47.85} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{56.30} & \cellcolor{gray!6}{61.13} & \cellcolor{gray!6}{336} & \cellcolor{gray!6}{1}\\
+GPT-4o (8/24) & 71.77 & 1.30 & 55.40 & <.001 & 69.22 & 74.31 & 336 & 1\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}1 = information prompt; 0 = any other prompt.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Model estimates under information prompt or other prompt. Study: S2. Outcome: Information density (N claims).}
+\centering
+\begin{tabular}[t]{lrrrlrrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & info prompt?\\
+\midrule
+\cellcolor{gray!6}{GPT-4.5} & \cellcolor{gray!6}{7.95} & \cellcolor{gray!6}{0.24} & \cellcolor{gray!6}{32.52} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{7.47} & \cellcolor{gray!6}{8.43} & \cellcolor{gray!6}{2356} & \cellcolor{gray!6}{0}\\
+GPT-4o (8/24) & 2.80 & 0.12 & 23.39 & <.001 & 2.56 & 3.03 & 2356 & 0\\
+\cellcolor{gray!6}{GPT-4.5} & \cellcolor{gray!6}{21.19} & \cellcolor{gray!6}{0.85} & \cellcolor{gray!6}{24.88} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{19.51} & \cellcolor{gray!6}{22.86} & \cellcolor{gray!6}{336} & \cellcolor{gray!6}{1}\\
+GPT-4o (8/24) & 11.62 & 0.52 & 22.34 & <.001 & 10.59 & 12.64 & 336 & 1\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}1 = information prompt; 0 = any other prompt.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Model estimates under information prompt or other prompt. Study: S2. Outcome: Accuracy (>50/100 on the scale).}
+\centering
+\begin{tabular}[t]{lrrrlrrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & info prompt?\\
+\midrule
+\cellcolor{gray!6}{GPT-4.5} & \cellcolor{gray!6}{70.48} & \cellcolor{gray!6}{0.93} & \cellcolor{gray!6}{76.14} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{68.67} & \cellcolor{gray!6}{72.30} & \cellcolor{gray!6}{1581} & \cellcolor{gray!6}{0}\\
+GPT-4o (8/24) & 82.01 & 1.08 & 75.99 & <.001 & 79.89 & 84.13 & 1581 & 0\\
+\cellcolor{gray!6}{GPT-4.5} & \cellcolor{gray!6}{55.74} & \cellcolor{gray!6}{1.69} & \cellcolor{gray!6}{33.04} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{52.42} & \cellcolor{gray!6}{59.06} & \cellcolor{gray!6}{336} & \cellcolor{gray!6}{1}\\
+GPT-4o (8/24) & 73.27 & 1.72 & 42.55 & <.001 & 69.88 & 76.66 & 336 & 1\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}1 = information prompt; 0 = any other prompt.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Model estimates under information prompt or other prompt. Study: S2. Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
+\centering
+\begin{tabular}[t]{lrrrlrrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & info prompt?\\
+\midrule
+\cellcolor{gray!6}{GPT-4.5} & \cellcolor{gray!6}{10.45} & \cellcolor{gray!6}{0.49} & \cellcolor{gray!6}{21.52} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{9.50} & \cellcolor{gray!6}{11.40} & \cellcolor{gray!6}{5318} & \cellcolor{gray!6}{0}\\
+GPT-4o (8/24) & 8.03 & 0.48 & 16.81 & <.001 & 7.09 & 8.97 & 5318 & 0\\
+\cellcolor{gray!6}{GPT-4.5} & \cellcolor{gray!6}{13.95} & \cellcolor{gray!6}{1.17} & \cellcolor{gray!6}{11.91} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{11.66} & \cellcolor{gray!6}{16.25} & \cellcolor{gray!6}{1790} & \cellcolor{gray!6}{1}\\
+GPT-4o (8/24) & 9.61 & 1.17 & 8.19 & <.001 & 7.31 & 11.91 & 1790 & 1\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}1 = information prompt; 0 = any other prompt.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Model estimates under information prompt or other prompt. Study: S2. Outcome: Policy attitude (main persuasion outcome).}
+\centering
+\begin{tabular}[t]{lrrrlrrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & info prompt?\\
+\midrule
+\cellcolor{gray!6}{GPT-4.5} & \cellcolor{gray!6}{11.02} & \cellcolor{gray!6}{0.50} & \cellcolor{gray!6}{21.91} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{10.04} & \cellcolor{gray!6}{12.01} & \cellcolor{gray!6}{5187} & \cellcolor{gray!6}{0}\\
+GPT-4o (8/24) & 8.24 & 0.49 & 16.91 & <.001 & 7.29 & 9.20 & 5187 & 0\\
+\cellcolor{gray!6}{GPT-4.5} & \cellcolor{gray!6}{14.74} & \cellcolor{gray!6}{1.21} & \cellcolor{gray!6}{12.23} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{12.38} & \cellcolor{gray!6}{17.11} & \cellcolor{gray!6}{1754} & \cellcolor{gray!6}{1}\\
+GPT-4o (8/24) & 9.94 & 1.20 & 8.25 & <.001 & 7.57 & 12.30 & 1754 & 1\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}1 = information prompt; 0 = any other prompt.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Model estimates under information prompt or other prompt. Study: S3. Outcome: Accuracy (0-100 scale).}
+\centering
+\begin{tabular}[t]{lrrrlrrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & info prompt?\\
+\midrule
+\cellcolor{gray!6}{GPT-4o (3/25)} & \cellcolor{gray!6}{73.48} & \cellcolor{gray!6}{0.28} & \cellcolor{gray!6}{258.88} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{72.92} & \cellcolor{gray!6}{74.04} & \cellcolor{gray!6}{11541} & \cellcolor{gray!6}{0}\\
+GPT-4.5 & 75.25 & 0.27 & 283.64 & <.001 & 74.73 & 75.77 & 11541 & 0\\
+\cellcolor{gray!6}{GPT-4o (8/24)} & \cellcolor{gray!6}{82.70} & \cellcolor{gray!6}{0.27} & \cellcolor{gray!6}{304.24} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{82.17} & \cellcolor{gray!6}{83.23} & \cellcolor{gray!6}{11541} & \cellcolor{gray!6}{0}\\
+Grok-3 & 69.40 & 0.51 & 135.81 & <.001 & 68.40 & 70.41 & 11541 & 0\\
+\cellcolor{gray!6}{GPT-4o (3/25)} & \cellcolor{gray!6}{58.58} & \cellcolor{gray!6}{0.61} & \cellcolor{gray!6}{95.70} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{57.38} & \cellcolor{gray!6}{59.78} & \cellcolor{gray!6}{2221} & \cellcolor{gray!6}{1}\\
+\addlinespace
+GPT-4.5 & 66.60 & 0.52 & 127.13 & <.001 & 65.58 & 67.63 & 2221 & 1\\
+\cellcolor{gray!6}{GPT-4o (8/24)} & \cellcolor{gray!6}{77.57} & \cellcolor{gray!6}{0.59} & \cellcolor{gray!6}{131.86} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{76.41} & \cellcolor{gray!6}{78.72} & \cellcolor{gray!6}{2221} & \cellcolor{gray!6}{1}\\
+Grok-3 & 46.38 & 1.07 & 43.44 & <.001 & 44.28 & 48.47 & 2221 & 1\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}1 = information prompt; 0 = any other prompt.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Model estimates under information prompt or other prompt. Study: S3. Outcome: Information density (N claims).}
+\centering
+\begin{tabular}[t]{lrrrlrrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & info prompt?\\
+\midrule
+\cellcolor{gray!6}{GPT-4o (3/25)} & \cellcolor{gray!6}{9.40} & \cellcolor{gray!6}{0.13} & \cellcolor{gray!6}{70.99} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{9.14} & \cellcolor{gray!6}{9.66} & \cellcolor{gray!6}{15659} & \cellcolor{gray!6}{0}\\
+GPT-4.5 & 8.28 & 0.13 & 64.71 & <.001 & 8.03 & 8.53 & 15659 & 0\\
+\cellcolor{gray!6}{GPT-4o (8/24)} & \cellcolor{gray!6}{2.94} & \cellcolor{gray!6}{0.06} & \cellcolor{gray!6}{46.33} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{2.82} & \cellcolor{gray!6}{3.07} & \cellcolor{gray!6}{15659} & \cellcolor{gray!6}{0}\\
+Grok-3 & 13.04 & 0.29 & 44.98 & <.001 & 12.47 & 13.61 & 15659 & 0\\
+\cellcolor{gray!6}{GPT-4o (3/25)} & \cellcolor{gray!6}{27.82} & \cellcolor{gray!6}{0.66} & \cellcolor{gray!6}{42.14} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{26.53} & \cellcolor{gray!6}{29.12} & \cellcolor{gray!6}{2228} & \cellcolor{gray!6}{1}\\
+\addlinespace
+GPT-4.5 & 22.27 & 0.42 & 52.68 & <.001 & 21.44 & 23.10 & 2228 & 1\\
+\cellcolor{gray!6}{GPT-4o (8/24)} & \cellcolor{gray!6}{10.87} & \cellcolor{gray!6}{0.26} & \cellcolor{gray!6}{42.55} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{10.37} & \cellcolor{gray!6}{11.38} & \cellcolor{gray!6}{2228} & \cellcolor{gray!6}{1}\\
+Grok-3 & 35.25 & 1.58 & 22.32 & <.001 & 32.16 & 38.35 & 2228 & 1\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}1 = information prompt; 0 = any other prompt.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Model estimates under information prompt or other prompt. Study: S3. Outcome: Accuracy (>50/100 on the scale).}
+\centering
+\begin{tabular}[t]{lrrrlrrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & info prompt?\\
+\midrule
+\cellcolor{gray!6}{GPT-4o (3/25)} & \cellcolor{gray!6}{78.32} & \cellcolor{gray!6}{0.38} & \cellcolor{gray!6}{208.63} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{77.59} & \cellcolor{gray!6}{79.06} & \cellcolor{gray!6}{11541} & \cellcolor{gray!6}{0}\\
+GPT-4.5 & 82.03 & 0.36 & 229.52 & <.001 & 81.32 & 82.73 & 11541 & 0\\
+\cellcolor{gray!6}{GPT-4o (8/24)} & \cellcolor{gray!6}{89.51} & \cellcolor{gray!6}{0.41} & \cellcolor{gray!6}{216.41} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{88.70} & \cellcolor{gray!6}{90.32} & \cellcolor{gray!6}{11541} & \cellcolor{gray!6}{0}\\
+Grok-3 & 73.21 & 0.65 & 112.73 & <.001 & 71.93 & 74.48 & 11541 & 0\\
+\cellcolor{gray!6}{GPT-4o (3/25)} & \cellcolor{gray!6}{62.14} & \cellcolor{gray!6}{0.73} & \cellcolor{gray!6}{85.62} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{60.72} & \cellcolor{gray!6}{63.57} & \cellcolor{gray!6}{2221} & \cellcolor{gray!6}{1}\\
+\addlinespace
+GPT-4.5 & 72.18 & 0.65 & 110.90 & <.001 & 70.91 & 73.46 & 2221 & 1\\
+\cellcolor{gray!6}{GPT-4o (8/24)} & \cellcolor{gray!6}{84.40} & \cellcolor{gray!6}{0.68} & \cellcolor{gray!6}{123.45} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{83.06} & \cellcolor{gray!6}{85.74} & \cellcolor{gray!6}{2221} & \cellcolor{gray!6}{1}\\
+Grok-3 & 44.86 & 1.24 & 36.25 & <.001 & 42.43 & 47.28 & 2221 & 1\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}1 = information prompt; 0 = any other prompt.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Model estimates under information prompt or other prompt. Study: S3. Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
+\centering
+\begin{tabular}[t]{lrrrlrrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & info prompt?\\
+\midrule
+\cellcolor{gray!6}{GPT-4o (3/25)} & \cellcolor{gray!6}{11.49} & \cellcolor{gray!6}{0.31} & \cellcolor{gray!6}{37.58} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{10.89} & \cellcolor{gray!6}{12.09} & \cellcolor{gray!6}{18280} & \cellcolor{gray!6}{0}\\
+GPT-4.5 & 10.05 & 0.31 & 32.44 & <.001 & 9.44 & 10.65 & 18280 & 0\\
+\cellcolor{gray!6}{GPT-4o (8/24)} & \cellcolor{gray!6}{8.27} & \cellcolor{gray!6}{0.30} & \cellcolor{gray!6}{27.78} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{7.69} & \cellcolor{gray!6}{8.85} & \cellcolor{gray!6}{18280} & \cellcolor{gray!6}{0}\\
+Grok-3 & 8.62 & 0.43 & 20.07 & <.001 & 7.78 & 9.46 & 18280 & 0\\
+\cellcolor{gray!6}{GPT-4o (3/25)} & \cellcolor{gray!6}{14.74} & \cellcolor{gray!6}{0.69} & \cellcolor{gray!6}{21.49} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{13.39} & \cellcolor{gray!6}{16.08} & \cellcolor{gray!6}{3368} & \cellcolor{gray!6}{1}\\
+\addlinespace
+GPT-4.5 & 14.92 & 0.70 & 21.22 & <.001 & 13.54 & 16.30 & 3368 & 1\\
+\cellcolor{gray!6}{GPT-4o (8/24)} & \cellcolor{gray!6}{10.18} & \cellcolor{gray!6}{0.61} & \cellcolor{gray!6}{16.58} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{8.97} & \cellcolor{gray!6}{11.38} & \cellcolor{gray!6}{3368} & \cellcolor{gray!6}{1}\\
+Grok-3 & 11.28 & 0.99 & 11.39 & <.001 & 9.33 & 13.22 & 3368 & 1\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}1 = information prompt; 0 = any other prompt.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Model estimates under information prompt or other prompt. Study: S3. Outcome: Policy attitude (main persuasion outcome).}
+\centering
+\begin{tabular}[t]{lrrrlrrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & info prompt?\\
+\midrule
+\cellcolor{gray!6}{GPT-4o (3/25)} & \cellcolor{gray!6}{11.84} & \cellcolor{gray!6}{0.31} & \cellcolor{gray!6}{37.89} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{11.23} & \cellcolor{gray!6}{12.45} & \cellcolor{gray!6}{17706} & \cellcolor{gray!6}{0}\\
+GPT-4.5 & 10.49 & 0.32 & 32.95 & <.001 & 9.87 & 11.12 & 17706 & 0\\
+\cellcolor{gray!6}{GPT-4o (8/24)} & \cellcolor{gray!6}{8.52} & \cellcolor{gray!6}{0.30} & \cellcolor{gray!6}{27.94} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{7.92} & \cellcolor{gray!6}{9.11} & \cellcolor{gray!6}{17706} & \cellcolor{gray!6}{0}\\
+Grok-3 & 9.00 & 0.44 & 20.25 & <.001 & 8.13 & 9.87 & 17706 & 0\\
+\cellcolor{gray!6}{GPT-4o (3/25)} & \cellcolor{gray!6}{15.37} & \cellcolor{gray!6}{0.70} & \cellcolor{gray!6}{22.03} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{14.00} & \cellcolor{gray!6}{16.74} & \cellcolor{gray!6}{3272} & \cellcolor{gray!6}{1}\\
+\addlinespace
+GPT-4.5 & 15.51 & 0.71 & 21.72 & <.001 & 14.11 & 16.92 & 3272 & 1\\
+\cellcolor{gray!6}{GPT-4o (8/24)} & \cellcolor{gray!6}{10.37} & \cellcolor{gray!6}{0.63} & \cellcolor{gray!6}{16.55} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{9.14} & \cellcolor{gray!6}{11.60} & \cellcolor{gray!6}{3272} & \cellcolor{gray!6}{1}\\
+Grok-3 & 11.81 & 1.01 & 11.64 & <.001 & 9.82 & 13.80 & 3272 & 1\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}1 = information prompt; 0 = any other prompt.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Estimating the interaction between the listed model (vs. GPT-4o 8/24) and information prompt (vs. other prompt). Model: GPT-4o (3/25). Outcome: Accuracy (0-100 scale).}
+\centering
+\begin{tabular}[t]{lrrrlrrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & study\\
+\midrule
+\cellcolor{gray!6}{Info prompt} & \cellcolor{gray!6}{-5.14} & \cellcolor{gray!6}{0.65} & \cellcolor{gray!6}{-7.93} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{-6.41} & \cellcolor{gray!6}{-3.87} & \cellcolor{gray!6}{7901} & \cellcolor{gray!6}{3}\\
+GPT-4o (3/25) & -9.22 & 0.39 & -23.46 & <.001 & -9.99 & -8.45 & 7901 & 3\\
+\cellcolor{gray!6}{Info prompt x GPT-4o (3/25)} & \cellcolor{gray!6}{-9.76} & \cellcolor{gray!6}{0.94} & \cellcolor{gray!6}{-10.44} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{-11.60} & \cellcolor{gray!6}{-7.93} & \cellcolor{gray!6}{7901} & \cellcolor{gray!6}{3}\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Estimating the interaction between the listed model (vs. GPT-4o 8/24) and information prompt (vs. other prompt). Model: GPT-4o (3/25). Outcome: Information density (N claims).}
+\centering
+\begin{tabular}[t]{lrrrlrrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & study\\
+\midrule
+\cellcolor{gray!6}{Info prompt} & \cellcolor{gray!6}{7.93} & \cellcolor{gray!6}{0.26} & \cellcolor{gray!6}{30.13} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{7.42} & \cellcolor{gray!6}{8.45} & \cellcolor{gray!6}{10660} & \cellcolor{gray!6}{3}\\
+GPT-4o (3/25) & 6.46 & 0.15 & 43.99 & <.001 & 6.17 & 6.75 & 10660 & 3\\
+\cellcolor{gray!6}{Info prompt x GPT-4o (3/25)} & \cellcolor{gray!6}{10.49} & \cellcolor{gray!6}{0.72} & \cellcolor{gray!6}{14.50} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{9.07} & \cellcolor{gray!6}{11.90} & \cellcolor{gray!6}{10660} & \cellcolor{gray!6}{3}\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Estimating the interaction between the listed model (vs. GPT-4o 8/24) and information prompt (vs. other prompt). Model: GPT-4o (3/25). Outcome: Accuracy (>50/100 on the scale).}
+\centering
+\begin{tabular}[t]{lrrrlrrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & study\\
+\midrule
+\cellcolor{gray!6}{Info prompt} & \cellcolor{gray!6}{-5.11} & \cellcolor{gray!6}{0.80} & \cellcolor{gray!6}{-6.40} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{-6.68} & \cellcolor{gray!6}{-3.55} & \cellcolor{gray!6}{7901} & \cellcolor{gray!6}{3}\\
+GPT-4o (3/25) & -11.19 & 0.56 & -20.03 & <.001 & -12.28 & -10.09 & 7901 & 3\\
+\cellcolor{gray!6}{Info prompt x GPT-4o (3/25)} & \cellcolor{gray!6}{-11.07} & \cellcolor{gray!6}{1.14} & \cellcolor{gray!6}{-9.68} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{-13.31} & \cellcolor{gray!6}{-8.83} & \cellcolor{gray!6}{7901} & \cellcolor{gray!6}{3}\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Estimating the interaction between the listed model (vs. GPT-4o 8/24) and information prompt (vs. other prompt). Model: GPT-4o (3/25). Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
+\centering
+\begin{tabular}[t]{lrrrlrrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & study\\
+\midrule
+\cellcolor{gray!6}{Info prompt} & \cellcolor{gray!6}{1.90} & \cellcolor{gray!6}{0.59} & \cellcolor{gray!6}{3.24} & \cellcolor{gray!6}{0.001} & \cellcolor{gray!6}{0.75} & \cellcolor{gray!6}{3.06} & \cellcolor{gray!6}{10918} & \cellcolor{gray!6}{3}\\
+GPT-4o (3/25) & 3.20 & 0.31 & 10.18 & <.001 & 2.59 & 3.82 & 10918 & 3\\
+\cellcolor{gray!6}{Info prompt x GPT-4o (3/25)} & \cellcolor{gray!6}{1.36} & \cellcolor{gray!6}{0.88} & \cellcolor{gray!6}{1.55} & \cellcolor{gray!6}{0.122} & \cellcolor{gray!6}{-0.36} & \cellcolor{gray!6}{3.09} & \cellcolor{gray!6}{10918} & \cellcolor{gray!6}{3}\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Estimating the interaction between the listed model (vs. GPT-4o 8/24) and information prompt (vs. other prompt). Model: GPT-4o (3/25). Outcome: Policy attitude (main persuasion outcome).}
+\centering
+\begin{tabular}[t]{lrrrlrrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & study\\
+\midrule
+\cellcolor{gray!6}{Info prompt} & \cellcolor{gray!6}{1.84} & \cellcolor{gray!6}{0.60} & \cellcolor{gray!6}{3.08} & \cellcolor{gray!6}{0.002} & \cellcolor{gray!6}{0.67} & \cellcolor{gray!6}{3.02} & \cellcolor{gray!6}{10614} & \cellcolor{gray!6}{3}\\
+GPT-4o (3/25) & 3.31 & 0.32 & 10.31 & <.001 & 2.68 & 3.94 & 10614 & 3\\
+\cellcolor{gray!6}{Info prompt x GPT-4o (3/25)} & \cellcolor{gray!6}{1.71} & \cellcolor{gray!6}{0.90} & \cellcolor{gray!6}{1.91} & \cellcolor{gray!6}{0.056} & \cellcolor{gray!6}{-0.04} & \cellcolor{gray!6}{3.47} & \cellcolor{gray!6}{10614} & \cellcolor{gray!6}{3}\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Estimating the interaction between the listed model (vs. GPT-4o 8/24) and information prompt (vs. other prompt). Model: GPT-4.5. Outcome: Accuracy (0-100 scale).}
+\centering
+\begin{tabular}[t]{lrrrlrrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & study\\
+\midrule
+\cellcolor{gray!6}{Info prompt} & \cellcolor{gray!6}{-7.79} & \cellcolor{gray!6}{1.42} & \cellcolor{gray!6}{-5.47} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{-10.58} & \cellcolor{gray!6}{-5.00} & \cellcolor{gray!6}{1917} & \cellcolor{gray!6}{2}\\
+GPT-4.5 & -9.30 & 0.83 & -11.14 & <.001 & -10.93 & -7.66 & 1917 & 2\\
+\cellcolor{gray!6}{Info prompt x GPT-4.5} & \cellcolor{gray!6}{-3.76} & \cellcolor{gray!6}{1.97} & \cellcolor{gray!6}{-1.91} & \cellcolor{gray!6}{0.057} & \cellcolor{gray!6}{-7.62} & \cellcolor{gray!6}{0.10} & \cellcolor{gray!6}{1917} & \cellcolor{gray!6}{2}\\
+Info prompt & -5.14 & 0.65 & -7.93 & <.001 & -6.41 & -3.87 & 7429 & 3\\
+\cellcolor{gray!6}{GPT-4.5} & \cellcolor{gray!6}{-7.46} & \cellcolor{gray!6}{0.38} & \cellcolor{gray!6}{-19.63} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{-8.20} & \cellcolor{gray!6}{-6.71} & \cellcolor{gray!6}{7429} & \cellcolor{gray!6}{3}\\
+\addlinespace
+Info prompt x GPT-4.5 & -3.50 & 0.87 & -4.01 & <.001 & -5.22 & -1.79 & 7429 & 3\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Estimating the interaction between the listed model (vs. GPT-4o 8/24) and information prompt (vs. other prompt). Model: GPT-4.5. Outcome: Information density (N claims).}
+\centering
+\begin{tabular}[t]{lrrrlrrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & study\\
+\midrule
+\cellcolor{gray!6}{Info prompt} & \cellcolor{gray!6}{8.82} & \cellcolor{gray!6}{0.53} & \cellcolor{gray!6}{16.53} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{7.77} & \cellcolor{gray!6}{9.87} & \cellcolor{gray!6}{2692} & \cellcolor{gray!6}{2}\\
+GPT-4.5 & 5.16 & 0.27 & 18.94 & <.001 & 4.62 & 5.69 & 2692 & 2\\
+\cellcolor{gray!6}{Info prompt x GPT-4.5} & \cellcolor{gray!6}{4.41} & \cellcolor{gray!6}{1.03} & \cellcolor{gray!6}{4.27} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{2.39} & \cellcolor{gray!6}{6.44} & \cellcolor{gray!6}{2692} & \cellcolor{gray!6}{2}\\
+Info prompt & 7.93 & 0.26 & 30.13 & <.001 & 7.42 & 8.45 & 10543 & 3\\
+\cellcolor{gray!6}{GPT-4.5} & \cellcolor{gray!6}{5.34} & \cellcolor{gray!6}{0.14} & \cellcolor{gray!6}{37.37} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{5.06} & \cellcolor{gray!6}{5.62} & \cellcolor{gray!6}{10543} & \cellcolor{gray!6}{3}\\
+\addlinespace
+Info prompt x GPT-4.5 & 6.06 & 0.51 & 11.79 & <.001 & 5.06 & 7.07 & 10543 & 3\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Estimating the interaction between the listed model (vs. GPT-4o 8/24) and information prompt (vs. other prompt). Model: GPT-4.5. Outcome: Accuracy (>50/100 on the scale).}
+\centering
+\begin{tabular}[t]{lrrrlrrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & study\\
+\midrule
+\cellcolor{gray!6}{Info prompt} & \cellcolor{gray!6}{-8.74} & \cellcolor{gray!6}{2.03} & \cellcolor{gray!6}{-4.30} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{-12.73} & \cellcolor{gray!6}{-4.75} & \cellcolor{gray!6}{1917} & \cellcolor{gray!6}{2}\\
+GPT-4.5 & -11.53 & 1.42 & -8.11 & <.001 & -14.31 & -8.74 & 1917 & 2\\
+\cellcolor{gray!6}{Info prompt x GPT-4.5} & \cellcolor{gray!6}{-6.01} & \cellcolor{gray!6}{2.80} & \cellcolor{gray!6}{-2.15} & \cellcolor{gray!6}{0.032} & \cellcolor{gray!6}{-11.49} & \cellcolor{gray!6}{-0.52} & \cellcolor{gray!6}{1917} & \cellcolor{gray!6}{2}\\
+Info prompt & -5.11 & 0.80 & -6.40 & <.001 & -6.68 & -3.55 & 7429 & 3\\
+\cellcolor{gray!6}{GPT-4.5} & \cellcolor{gray!6}{-7.49} & \cellcolor{gray!6}{0.55} & \cellcolor{gray!6}{-13.70} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{-8.56} & \cellcolor{gray!6}{-6.42} & \cellcolor{gray!6}{7429} & \cellcolor{gray!6}{3}\\
+\addlinespace
+Info prompt x GPT-4.5 & -4.73 & 1.09 & -4.34 & <.001 & -6.87 & -2.59 & 7429 & 3\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Estimating the interaction between the listed model (vs. GPT-4o 8/24) and information prompt (vs. other prompt). Model: GPT-4.5. Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
+\centering
+\begin{tabular}[t]{lrrrlrrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & study\\
+\midrule
+\cellcolor{gray!6}{Info prompt} & \cellcolor{gray!6}{1.48} & \cellcolor{gray!6}{1.19} & \cellcolor{gray!6}{1.24} & \cellcolor{gray!6}{0.215} & \cellcolor{gray!6}{-0.86} & \cellcolor{gray!6}{3.82} & \cellcolor{gray!6}{2803} & \cellcolor{gray!6}{2}\\
+GPT-4.5 & 2.41 & 0.63 & 3.81 & <.001 & 1.17 & 3.65 & 2803 & 2\\
+\cellcolor{gray!6}{Info prompt x GPT-4.5} & \cellcolor{gray!6}{2.42} & \cellcolor{gray!6}{1.68} & \cellcolor{gray!6}{1.44} & \cellcolor{gray!6}{0.15} & \cellcolor{gray!6}{-0.88} & \cellcolor{gray!6}{5.71} & \cellcolor{gray!6}{2803} & \cellcolor{gray!6}{2}\\
+Info prompt & 1.90 & 0.59 & 3.25 & 0.001 & 0.76 & 3.05 & 10861 & 3\\
+\cellcolor{gray!6}{GPT-4.5} & \cellcolor{gray!6}{1.79} & \cellcolor{gray!6}{0.32} & \cellcolor{gray!6}{5.62} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{1.16} & \cellcolor{gray!6}{2.41} & \cellcolor{gray!6}{10861} & \cellcolor{gray!6}{3}\\
+\addlinespace
+Info prompt x GPT-4.5 & 2.94 & 0.90 & 3.26 & 0.001 & 1.17 & 4.70 & 10861 & 3\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Estimating the interaction between the listed model (vs. GPT-4o 8/24) and information prompt (vs. other prompt). Model: GPT-4.5. Outcome: Policy attitude (main persuasion outcome).}
+\centering
+\begin{tabular}[t]{lrrrlrrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & study\\
+\midrule
+\cellcolor{gray!6}{Info prompt} & \cellcolor{gray!6}{1.60} & \cellcolor{gray!6}{1.22} & \cellcolor{gray!6}{1.30} & \cellcolor{gray!6}{0.192} & \cellcolor{gray!6}{-0.80} & \cellcolor{gray!6}{3.99} & \cellcolor{gray!6}{2699} & \cellcolor{gray!6}{2}\\
+GPT-4.5 & 2.78 & 0.65 & 4.28 & <.001 & 1.51 & 4.06 & 2699 & 2\\
+\cellcolor{gray!6}{Info prompt x GPT-4.5} & \cellcolor{gray!6}{2.53} & \cellcolor{gray!6}{1.72} & \cellcolor{gray!6}{1.47} & \cellcolor{gray!6}{0.141} & \cellcolor{gray!6}{-0.84} & \cellcolor{gray!6}{5.91} & \cellcolor{gray!6}{2699} & \cellcolor{gray!6}{2}\\
+Info prompt & 1.85 & 0.60 & 3.09 & 0.002 & 0.67 & 3.02 & 10513 & 3\\
+\cellcolor{gray!6}{GPT-4.5} & \cellcolor{gray!6}{1.99} & \cellcolor{gray!6}{0.33} & \cellcolor{gray!6}{6.10} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{1.35} & \cellcolor{gray!6}{2.63} & \cellcolor{gray!6}{10513} & \cellcolor{gray!6}{3}\\
+\addlinespace
+Info prompt x GPT-4.5 & 3.15 & 0.91 & 3.44 & <.001 & 1.35 & 4.94 & 10513 & 3\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Estimating the interaction between the listed model (vs. GPT-4o 8/24) and information prompt (vs. other prompt). Model: Grok-3. Outcome: Accuracy (0-100 scale).}
+\centering
+\begin{tabular}[t]{lrrrlrrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & study\\
+\midrule
+\cellcolor{gray!6}{Info prompt} & \cellcolor{gray!6}{-5.14} & \cellcolor{gray!6}{0.65} & \cellcolor{gray!6}{-7.93} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{-6.41} & \cellcolor{gray!6}{-3.87} & \cellcolor{gray!6}{5076} & \cellcolor{gray!6}{3}\\
+Grok-3 & -13.30 & 0.58 & -22.97 & <.001 & -14.43 & -12.16 & 5076 & 3\\
+\cellcolor{gray!6}{Info prompt x Grok-3} & \cellcolor{gray!6}{-17.89} & \cellcolor{gray!6}{1.35} & \cellcolor{gray!6}{-13.26} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{-20.54} & \cellcolor{gray!6}{-15.24} & \cellcolor{gray!6}{5076} & \cellcolor{gray!6}{3}\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Estimating the interaction between the listed model (vs. GPT-4o 8/24) and information prompt (vs. other prompt). Model: Grok-3. Outcome: Information density (N claims).}
+\centering
+\begin{tabular}[t]{lrrrlrrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & study\\
+\midrule
+\cellcolor{gray!6}{Info prompt} & \cellcolor{gray!6}{7.93} & \cellcolor{gray!6}{0.26} & \cellcolor{gray!6}{30.13} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{7.42} & \cellcolor{gray!6}{8.45} & \cellcolor{gray!6}{7258} & \cellcolor{gray!6}{3}\\
+Grok-3 & 10.10 & 0.30 & 34.03 & <.001 & 9.52 & 10.68 & 7258 & 3\\
+\cellcolor{gray!6}{Info prompt x Grok-3} & \cellcolor{gray!6}{14.28} & \cellcolor{gray!6}{1.63} & \cellcolor{gray!6}{8.78} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{11.09} & \cellcolor{gray!6}{17.47} & \cellcolor{gray!6}{7258} & \cellcolor{gray!6}{3}\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Estimating the interaction between the listed model (vs. GPT-4o 8/24) and information prompt (vs. other prompt). Model: Grok-3. Outcome: Accuracy (>50/100 on the scale).}
+\centering
+\begin{tabular}[t]{lrrrlrrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & study\\
+\midrule
+\cellcolor{gray!6}{Info prompt} & \cellcolor{gray!6}{-5.11} & \cellcolor{gray!6}{0.80} & \cellcolor{gray!6}{-6.40} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{-6.68} & \cellcolor{gray!6}{-3.55} & \cellcolor{gray!6}{5076} & \cellcolor{gray!6}{3}\\
+Grok-3 & -16.31 & 0.77 & -21.18 & <.001 & -17.82 & -14.80 & 5076 & 3\\
+\cellcolor{gray!6}{Info prompt x Grok-3} & \cellcolor{gray!6}{-23.24} & \cellcolor{gray!6}{1.61} & \cellcolor{gray!6}{-14.43} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{-26.39} & \cellcolor{gray!6}{-20.08} & \cellcolor{gray!6}{5076} & \cellcolor{gray!6}{3}\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Estimating the interaction between the listed model (vs. GPT-4o 8/24) and information prompt (vs. other prompt). Model: Grok-3. Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
+\centering
+\begin{tabular}[t]{lrrrlrrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & study\\
+\midrule
+\cellcolor{gray!6}{Info prompt} & \cellcolor{gray!6}{1.91} & \cellcolor{gray!6}{0.59} & \cellcolor{gray!6}{3.26} & \cellcolor{gray!6}{0.001} & \cellcolor{gray!6}{0.76} & \cellcolor{gray!6}{3.05} & \cellcolor{gray!6}{7466} & \cellcolor{gray!6}{3}\\
+Grok-3 & 0.35 & 0.44 & 0.81 & 0.42 & -0.50 & 1.21 & 7466 & 3\\
+\cellcolor{gray!6}{Info prompt x Grok-3} & \cellcolor{gray!6}{0.75} & \cellcolor{gray!6}{1.18} & \cellcolor{gray!6}{0.64} & \cellcolor{gray!6}{0.524} & \cellcolor{gray!6}{-1.55} & \cellcolor{gray!6}{3.05} & \cellcolor{gray!6}{7466} & \cellcolor{gray!6}{3}\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Estimating the interaction between the listed model (vs. GPT-4o 8/24) and information prompt (vs. other prompt). Model: Grok-3. Outcome: Policy attitude (main persuasion outcome).}
+\centering
+\begin{tabular}[t]{lrrrlrrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & study\\
+\midrule
+\cellcolor{gray!6}{Info prompt} & \cellcolor{gray!6}{1.85} & \cellcolor{gray!6}{0.60} & \cellcolor{gray!6}{3.11} & \cellcolor{gray!6}{0.002} & \cellcolor{gray!6}{0.68} & \cellcolor{gray!6}{3.02} & \cellcolor{gray!6}{7234} & \cellcolor{gray!6}{3}\\
+Grok-3 & 0.49 & 0.45 & 1.08 & 0.278 & -0.39 & 1.37 & 7234 & 3\\
+\cellcolor{gray!6}{Info prompt x Grok-3} & \cellcolor{gray!6}{0.95} & \cellcolor{gray!6}{1.20} & \cellcolor{gray!6}{0.79} & \cellcolor{gray!6}{0.429} & \cellcolor{gray!6}{-1.41} & \cellcolor{gray!6}{3.31} & \cellcolor{gray!6}{7234} & \cellcolor{gray!6}{3}\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}

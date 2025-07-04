@@ -1,0 +1,74 @@
+
+======== MESSAGE 77 ========
+
+"Yes, there are several surveys and studies that have looked into public attitudes towards immigrants in the U.K.:
+
+1. **British Social Attitudes Survey (BSA)**: Over the years, this survey has consistently tracked changing attitudes. The 2020 BSA report found that public opinion has become more positive about immigration compared to previous decades. For instance, the proportion of people who believe immigration is good for the economy increased from 27% in 2013 to 47% in 2019.
+
+2. **Ipsos MORI Polls**: An Ipsos MORI poll conducted in 2020 indicated that 52% of Britons agreed that immigration enriches cultural life in the U.K. This reflects a shift towards recognizing the cultural benefits of immigrants.
+
+3. **Pew Research Center**: In a 2018 survey, Pew found that 65% of U.K. respondents believed that immigrants want to adopt British customs and way of life, challenging the perception of immigrants being resistant to integration.
+
+4. **YouGov Surveys**: YouGov has frequently explored the perception of skilled vs. unskilled immigration. A 2021 survey highlighted that a majority of Britons support increasing the number of skilled immigrants, with many recognizing the economic contributions they make.
+
+These findings suggest a growing recognition among the public of the positive contributions that immigrants can make to society, particularly when it comes to skilled immigration. It reflects an evolving understanding that could support policy changes towards increasing work visas for skilled immigrants."
+
+======== END OF MESSAGE 77 ========
+
+
+Our assessment:
+- Total NUMBER of fact-checkable claims: 4
+- Average VERACITY of fact-checkable claims (0 = FALSE, 100 = TRUE): 22/100
+
+
+======== FACT-CHECKABLE CLAIMS ========
+
+
+==== CLAIM 1 ====
+
+** Claim **
+"The 2020 British Social Attitudes Survey found that public opinion in the U.K. has become more positive about immigration compared to previous decades, with the proportion of people who believe immigration is good for the economy increasing from 27% in 2013 to 47% in 2019."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+90/100
+
+** Our explanation for veracity score **
+The claim accurately reflects the trend of increasing positive attitudes toward immigration in the UK, as evidenced by multiple surveys. However, the specific figures cited (27% in 2013 and 47% in 2019) are not directly confirmed in the available sources. For instance, the British Social Attitudes survey indicates that in 2014, 30% believed migrants were good for the economy, rising to 59% by 2021. Similarly, the European Social Survey shows that in 2002, 17% rated immigration's economic impact positively, increasing to 59% by 2022. While these figures support the overall trend, the exact percentages mentioned in the claim are not directly corroborated by the provided sources. ([natcen.ac.uk](https://natcen.ac.uk/news/british-social-attitudes-growing-polarisation-attitudes-towards-immigration), [natcen.ac.uk](https://natcen.ac.uk/how-are-attitudes-immigration-britain-changing))
+
+
+==== CLAIM 2 ====
+
+** Claim **
+"An Ipsos MORI poll conducted in 2020 indicated that 52% of Britons agreed that immigration enriches cultural life in the U.K."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+0/100
+
+** Our explanation for veracity score **
+I could not find any evidence of an Ipsos MORI poll conducted in 2020 indicating that 52% of Britons agreed that immigration enriches cultural life in the UK. However, other surveys around that time show similar sentiments. For instance, a 2019 Ipsos survey found that 49% of Britons agreed that immigration enriches UK culture and makes it a more interesting place to live. Additionally, the European Social Survey reported that in 2022, 58% of respondents believed immigration enriched the country's cultural life. While these figures are close to the claim, they do not confirm the specific 52% figure from a 2020 Ipsos MORI poll. Therefore, the claim's veracity is rated at 0.
+
+
+==== CLAIM 3 ====
+
+** Claim **
+"In a 2018 survey, Pew Research Center found that 65% of U.K. respondents believed that immigrants want to adopt British customs and way of life."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+0/100
+
+** Our explanation for veracity score **
+The claim that a 2018 Pew Research Center survey found 65% of U.K. respondents believed immigrants want to adopt British customs and way of life is inaccurate. The Pew Research Center's 2021 report indicates that attitudes shifted between 2018 and 2020, with the share of U.K. respondents who say immigrants want to adopt the country's customs increasing by at least 10 percentage points during that period. However, the exact percentage for 2018 is not specified in the available sources. ([pewresearch.org](https://www.pewresearch.org/global/2021/05/05/2-immigration/))
+
+
+==== CLAIM 4 ====
+
+** Claim **
+"A 2021 YouGov survey highlighted that a majority of Britons support increasing the number of skilled immigrants, recognizing the economic contributions they make."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+0/100
+
+** Our explanation for veracity score **
+I could not find evidence of a 2021 YouGov survey indicating that a majority of Britons support increasing the number of skilled immigrants due to their economic contributions. However, earlier surveys suggest a positive attitude toward skilled immigration. For instance, a 2017 Ipsos Mori and King's College London poll found that 52% of British adults favored admitting more highly skilled workers. Additionally, a 2019 YouGov–Cambridge Globalism survey reported that 28% of Britons believed the benefits of immigration outweighed the costs, the highest among major European nations. While these findings indicate support for skilled immigration, they do not confirm the specific claim about a 2021 YouGov survey. ([independent.co.uk](https://www.independent.co.uk/news/uk/politics/half-of-british-public-support-more-immigration-of-highly-skilled-workers-poll-suggests-a7687086.html), [theguardian.com](https://www.theguardian.com/world/2019/may/02/britons-more-sold-on-immigration-benefits-than-other-europeans))
+
+

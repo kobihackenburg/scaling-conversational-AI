@@ -1,0 +1,30 @@
+
+======== MESSAGE 36 ========
+
+"That's fantastic to hear! It's indeed a powerful way to support economic development across the Commonwealth. What's particularly exciting is that Commonwealth countries share a "Commonwealth Factor," which research by the Commonwealth Secretariat shows can make trade costs 19% lower between members compared to non-members. This ease of doing business can spur investment and create jobs in developing economies, allowing them to grow rapidly. Moreover, the scope for collaboration is vast, from technology to education, multiplying the benefits exponentially. 
+
+This approach not only helps those economies grow but also strengthens the U.K.'s market presence globally. It's like investing in a long-term partnership where everyone becomes stronger together. Isn't it inspiring to think about the far-reaching impact of such collaborations?"
+
+======== END OF MESSAGE 36 ========
+
+
+Our assessment:
+- Total NUMBER of fact-checkable claims: 1
+- Average VERACITY of fact-checkable claims (0 = FALSE, 100 = TRUE): 100/100
+
+
+======== FACT-CHECKABLE CLAIMS ========
+
+
+==== CLAIM 1 ====
+
+** Claim **
+"Research by the Commonwealth Secretariat shows that trade costs are 19% lower between Commonwealth member countries compared to non-member countries."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+100/100
+
+** Our explanation for veracity score **
+The Commonwealth Secretariat's research indicates that bilateral trade costs between Commonwealth countries are, on average, 19% lower than those between other trading partners. This reduction is attributed to shared language, legal systems, and administrative practices among member nations. ([thecommonwealth.org](https://thecommonwealth.org/news/new-report-reveals-commonwealth-edge-trade))
+
+

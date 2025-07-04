@@ -1,0 +1,15 @@
+\begin{table}[H]
+
+\caption{Leave-one-out cross-validation comparing linear and nonlinear (GAM) meta-regressions. Models: All models. Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
+\centering
+\begin{tabular}[t]{lllllllll}
+\toprule
+model & elpd\_diff & se\_diff & elpd\_loo & se\_elpd\_loo & p\_loo & se\_p\_loo & looic & se\_looic\\
+\midrule
+\cellcolor{gray!6}{Linear} & \cellcolor{gray!6}{0.00} & \cellcolor{gray!6}{0.00} & \cellcolor{gray!6}{-41.81} & \cellcolor{gray!6}{5.52} & \cellcolor{gray!6}{3.48} & \cellcolor{gray!6}{1.79} & \cellcolor{gray!6}{83.62} & \cellcolor{gray!6}{11.05}\\
+GAM & -0.17 & 2.60 & -41.98 & 6.34 & 7.07 & 3.13 & 83.96 & 12.68\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}ELPD = expected log pointwise predictive density. LOO = leave-one-out.}\\
+\end{tabular}
+\end{table}

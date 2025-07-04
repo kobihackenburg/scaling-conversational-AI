@@ -1,0 +1,40 @@
+\begin{table}[H]
+
+\caption{Mean estimates. Outcome: Accuracy (>50/100 on the scale).}
+\centering
+\begin{tabular}[t]{lrrrlrrrr}
+\toprule
+model & estimate & std.error & statistic & p.value & conf.low & conf.high & df & study\\
+\midrule
+\cellcolor{gray!6}{GPT-4o (8/24)} & \cellcolor{gray!6}{85.28} & \cellcolor{gray!6}{0.41} & \cellcolor{gray!6}{207.53} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{84.48} & \cellcolor{gray!6}{86.09} & \cellcolor{gray!6}{15577} & \cellcolor{gray!6}{1}\\
+Llama3.1-405b & 73.73 & 0.50 & 146.09 & <.001 & 72.74 & 74.72 & 15577 & 1\\
+\cellcolor{gray!6}{llama-3-1-70b} & \cellcolor{gray!6}{72.65} & \cellcolor{gray!6}{0.93} & \cellcolor{gray!6}{78.06} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{70.82} & \cellcolor{gray!6}{74.47} & \cellcolor{gray!6}{15577} & \cellcolor{gray!6}{1}\\
+Llama3.1-8b & 69.03 & 1.01 & 68.34 & <.001 & 67.05 & 71.01 & 15577 & 1\\
+\cellcolor{gray!6}{Qwen-1-5-0-5b} & \cellcolor{gray!6}{40.35} & \cellcolor{gray!6}{1.55} & \cellcolor{gray!6}{25.96} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{37.30} & \cellcolor{gray!6}{43.40} & \cellcolor{gray!6}{15577} & \cellcolor{gray!6}{1}\\
+\addlinespace
+Qwen-1-5-1-8b & 50.95 & 1.55 & 32.97 & <.001 & 47.92 & 53.98 & 15577 & 1\\
+\cellcolor{gray!6}{Qwen-1-5-110b-chat} & \cellcolor{gray!6}{82.59} & \cellcolor{gray!6}{1.07} & \cellcolor{gray!6}{77.32} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{80.49} & \cellcolor{gray!6}{84.68} & \cellcolor{gray!6}{15577} & \cellcolor{gray!6}{1}\\
+Qwen-1-5-14b & 71.03 & 1.10 & 64.32 & <.001 & 68.86 & 73.19 & 15577 & 1\\
+\cellcolor{gray!6}{Qwen-1-5-32b} & \cellcolor{gray!6}{70.73} & \cellcolor{gray!6}{1.05} & \cellcolor{gray!6}{67.27} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{68.67} & \cellcolor{gray!6}{72.79} & \cellcolor{gray!6}{15577} & \cellcolor{gray!6}{1}\\
+Qwen-1-5-4b & 55.66 & 1.57 & 35.47 & <.001 & 52.58 & 58.73 & 15577 & 1\\
+\addlinespace
+\cellcolor{gray!6}{Qwen-1-5-72b} & \cellcolor{gray!6}{73.81} & \cellcolor{gray!6}{1.05} & \cellcolor{gray!6}{70.38} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{71.75} & \cellcolor{gray!6}{75.86} & \cellcolor{gray!6}{15577} & \cellcolor{gray!6}{1}\\
+Qwen-1-5-72b-chat & 82.47 & 0.93 & 88.38 & <.001 & 80.64 & 84.30 & 15577 & 1\\
+\cellcolor{gray!6}{Qwen-1-5-7b} & \cellcolor{gray!6}{66.54} & \cellcolor{gray!6}{1.04} & \cellcolor{gray!6}{63.84} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{64.50} & \cellcolor{gray!6}{68.58} & \cellcolor{gray!6}{15577} & \cellcolor{gray!6}{1}\\
+GPT-3.5 & 82.74 & 1.14 & 72.76 & <.001 & 80.51 & 84.97 & 4861 & 2\\
+\cellcolor{gray!6}{GPT-4.5} & \cellcolor{gray!6}{69.69} & \cellcolor{gray!6}{1.14} & \cellcolor{gray!6}{60.93} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{67.45} & \cellcolor{gray!6}{71.93} & \cellcolor{gray!6}{4861} & \cellcolor{gray!6}{2}\\
+\addlinespace
+GPT-4o (8/24) & 79.70 & 1.34 & 59.50 & <.001 & 77.08 & 82.33 & 4861 & 2\\
+\cellcolor{gray!6}{Llama3.1-405b} & \cellcolor{gray!6}{77.10} & \cellcolor{gray!6}{0.63} & \cellcolor{gray!6}{122.15} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{75.86} & \cellcolor{gray!6}{78.33} & \cellcolor{gray!6}{4861} & \cellcolor{gray!6}{2}\\
+Llama3.1-8b & 71.17 & 0.87 & 81.76 & <.001 & 69.46 & 72.87 & 4861 & 2\\
+\cellcolor{gray!6}{Llama3.1-405b-deceptive-info} & \cellcolor{gray!6}{72.86} & \cellcolor{gray!6}{0.53} & \cellcolor{gray!6}{136.75} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{71.82} & \cellcolor{gray!6}{73.91} & \cellcolor{gray!6}{2695} & \cellcolor{gray!6}{2}\\
+GPT-4o (3/25) & 76.24 & 0.49 & 155.52 & <.001 & 75.28 & 77.21 & 6777 & 3\\
+\addlinespace
+\cellcolor{gray!6}{GPT-4.5} & \cellcolor{gray!6}{81.03} & \cellcolor{gray!6}{0.44} & \cellcolor{gray!6}{182.93} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{80.16} & \cellcolor{gray!6}{81.89} & \cellcolor{gray!6}{6777} & \cellcolor{gray!6}{3}\\
+GPT-4o (8/24) & 88.78 & 0.52 & 171.20 & <.001 & 87.76 & 89.79 & 6777 & 3\\
+\cellcolor{gray!6}{Grok-3} & \cellcolor{gray!6}{68.84} & \cellcolor{gray!6}{0.92} & \cellcolor{gray!6}{75.01} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{67.04} & \cellcolor{gray!6}{70.64} & \cellcolor{gray!6}{6777} & \cellcolor{gray!6}{3}\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}Estimates are in percentage points.}\\
+\end{tabular}
+\end{table}

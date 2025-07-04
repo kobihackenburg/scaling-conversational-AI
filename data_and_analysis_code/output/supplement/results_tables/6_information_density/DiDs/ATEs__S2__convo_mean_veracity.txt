@@ -1,0 +1,17 @@
+\begin{table}[H]
+
+\caption{Model estimates under information prompt or other prompt. Study: S2. Outcome: Accuracy (0-100 scale).}
+\centering
+\begin{tabular}[t]{lrrrlrrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & info prompt?\\
+\midrule
+\cellcolor{gray!6}{GPT-4.5} & \cellcolor{gray!6}{70.26} & \cellcolor{gray!6}{0.59} & \cellcolor{gray!6}{119.58} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{69.11} & \cellcolor{gray!6}{71.41} & \cellcolor{gray!6}{1581} & \cellcolor{gray!6}{0}\\
+GPT-4o (8/24) & 79.56 & 0.59 & 134.32 & <.001 & 78.39 & 80.72 & 1581 & 0\\
+\cellcolor{gray!6}{GPT-4.5} & \cellcolor{gray!6}{58.71} & \cellcolor{gray!6}{1.23} & \cellcolor{gray!6}{47.85} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{56.30} & \cellcolor{gray!6}{61.13} & \cellcolor{gray!6}{336} & \cellcolor{gray!6}{1}\\
+GPT-4o (8/24) & 71.77 & 1.30 & 55.40 & <.001 & 69.22 & 74.31 & 336 & 1\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}1 = information prompt; 0 = any other prompt.}\\
+\end{tabular}
+\end{table}

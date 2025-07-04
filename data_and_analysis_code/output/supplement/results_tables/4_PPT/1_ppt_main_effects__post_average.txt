@@ -1,0 +1,17 @@
+\begin{table}[H]
+
+\caption{PPT main effects (i.e., vs. Base model). Outcome: Policy attitude (main persuasion outcome).}
+\centering
+\begin{tabular}[t]{lrrrlrrrrl}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & study & model type\\
+\midrule
+\cellcolor{gray!6}{RM} & \cellcolor{gray!6}{2.32} & \cellcolor{gray!6}{0.22} & \cellcolor{gray!6}{10.64} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{1.89} & \cellcolor{gray!6}{2.75} & \cellcolor{gray!6}{19333} & \cellcolor{gray!6}{2} & \cellcolor{gray!6}{chat-tuned}\\
+SFT & 0.26 & 0.22 & 1.20 & 0.23 & -0.17 & 0.69 & 19333 & 2 & chat-tuned\\
+\cellcolor{gray!6}{RM} & \cellcolor{gray!6}{-0.08} & \cellcolor{gray!6}{0.49} & \cellcolor{gray!6}{-0.17} & \cellcolor{gray!6}{0.864} & \cellcolor{gray!6}{-1.05} & \cellcolor{gray!6}{0.88} & \cellcolor{gray!6}{4049} & \cellcolor{gray!6}{2} & \cellcolor{gray!6}{developer}\\
+RM & 0.80 & 0.24 & 3.35 & <.001 & 0.33 & 1.26 & 17831 & 3 & developer\\
+\bottomrule
+\multicolumn{10}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{10}{l}{\rule{0pt}{1em}RM = reward modeling; SFT = supervised fine-tuning.}\\
+\end{tabular}
+\end{table}

@@ -1,0 +1,23 @@
+\begin{table}[H]
+
+\caption{Proportion post-treatment missingness (NA). Study 2. Prompts (open- and closed-source models).}
+\centering
+\begin{tabular}[t]{lrr}
+\toprule
+Condition & Proportion NA & Total N\\
+\midrule
+\cellcolor{gray!6}{Debate} & \cellcolor{gray!6}{0.029} & \cellcolor{gray!6}{1713}\\
+Deep\_canvass & 0.029 & 1839\\
+\cellcolor{gray!6}{Information} & \cellcolor{gray!6}{0.026} & \cellcolor{gray!6}{2740}\\
+Information\_with\_deception & 0.024 & 1885\\
+\cellcolor{gray!6}{Mega} & \cellcolor{gray!6}{0.033} & \cellcolor{gray!6}{1801}\\
+\addlinespace
+Moral\_reframing & 0.035 & 1755\\
+\cellcolor{gray!6}{None} & \cellcolor{gray!6}{0.027} & \cellcolor{gray!6}{1843}\\
+Norms & 0.027 & 1769\\
+\cellcolor{gray!6}{Storytelling} & \cellcolor{gray!6}{0.032} & \cellcolor{gray!6}{1764}\\
+\bottomrule
+\multicolumn{3}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{3}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}

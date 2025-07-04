@@ -1,0 +1,16 @@
+\begin{table}[H]
+
+\caption{Direct comparisons. Study 1 Chat 1. Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
+\centering
+\begin{tabular}[t]{lrrrlrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df\\
+\midrule
+\cellcolor{gray!6}{dialogue (vs. static)} & \cellcolor{gray!6}{3.09} & \cellcolor{gray!6}{0.75} & \cellcolor{gray!6}{4.12} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{1.62} & \cellcolor{gray!6}{4.57} & \cellcolor{gray!6}{13960}\\
+time & -2.23 & 1.09 & -2.05 & 0.041 & -4.37 & -0.10 & 13960\\
+\cellcolor{gray!6}{dialogue (vs. static) x time} & \cellcolor{gray!6}{-3.00} & \cellcolor{gray!6}{1.20} & \cellcolor{gray!6}{-2.49} & \cellcolor{gray!6}{0.013} & \cellcolor{gray!6}{-5.36} & \cellcolor{gray!6}{-0.64} & \cellcolor{gray!6}{13960}\\
+\bottomrule
+\multicolumn{8}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{8}{l}{\rule{0pt}{1em}Estimates are in percentage points.}\\
+\end{tabular}
+\end{table}

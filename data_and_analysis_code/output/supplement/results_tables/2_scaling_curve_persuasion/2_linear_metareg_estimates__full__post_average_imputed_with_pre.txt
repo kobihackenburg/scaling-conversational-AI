@@ -1,0 +1,17 @@
+\begin{table}[H]
+
+\caption{Meta-regression output. Models: All models. Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
+\centering
+\begin{tabular}[t]{llllllll}
+\toprule
+Term & Estimate & Est.Error & l-95\% CI & u-95\% CI & Rhat & Bulk\_ESS & Tail\_ESS\\
+\midrule
+\cellcolor{gray!6}{Intercept} & \cellcolor{gray!6}{1.18} & \cellcolor{gray!6}{1.05} & \cellcolor{gray!6}{-0.91} & \cellcolor{gray!6}{3.26} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{9864.79} & \cellcolor{gray!6}{7576.00}\\
+log10(flops) & 1.58 & 0.26 & 1.06 & 2.08 & 1.00 & 9625.72 & 7866.72\\
+\cellcolor{gray!6}{study2} & \cellcolor{gray!6}{-0.09} & \cellcolor{gray!6}{1.03} & \cellcolor{gray!6}{-2.12} & \cellcolor{gray!6}{1.94} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{9061.44} & \cellcolor{gray!6}{7233.55}\\
+study3 & 0.89 & 1.18 & -1.46 & 3.23 & 1.00 & 8862.43 & 7604.73\\
+\bottomrule
+\multicolumn{8}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{8}{l}{\rule{0pt}{1em}Estimates are in percentage points. ESS = effective sample size of the posterior distribution.}\\
+\end{tabular}
+\end{table}

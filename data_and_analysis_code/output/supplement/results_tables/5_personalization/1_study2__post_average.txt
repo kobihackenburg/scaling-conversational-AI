@@ -1,0 +1,20 @@
+\begin{table}[H]
+
+\caption{Effect of personalization (vs. generic). Study: 2. Outcome: Policy attitude (main persuasion outcome).}
+\centering
+\begin{tabular}[t]{rrrlrrrll}
+\toprule
+estimate & std.error & statistic & p.value & conf.low & conf.high & df & model type & PPT\\
+\midrule
+\cellcolor{gray!6}{0.25} & \cellcolor{gray!6}{0.35} & \cellcolor{gray!6}{0.72} & \cellcolor{gray!6}{0.47} & \cellcolor{gray!6}{-0.43} & \cellcolor{gray!6}{0.93} & \cellcolor{gray!6}{7679} & \cellcolor{gray!6}{chat-tuned} & \cellcolor{gray!6}{Base}\\
+0.89 & 0.44 & 2.01 & 0.044 & 0.02 & 1.77 & 4876 & chat-tuned & RM-only\\
+\cellcolor{gray!6}{0.02} & \cellcolor{gray!6}{0.42} & \cellcolor{gray!6}{0.04} & \cellcolor{gray!6}{0.968} & \cellcolor{gray!6}{-0.81} & \cellcolor{gray!6}{0.85} & \cellcolor{gray!6}{4806} & \cellcolor{gray!6}{chat-tuned} & \cellcolor{gray!6}{SFT-only}\\
+0.94 & 0.45 & 2.10 & 0.035 & 0.06 & 1.81 & 4765 & chat-tuned & SFT + RM\\
+\cellcolor{gray!6}{-0.20} & \cellcolor{gray!6}{0.69} & \cellcolor{gray!6}{-0.28} & \cellcolor{gray!6}{0.778} & \cellcolor{gray!6}{-1.55} & \cellcolor{gray!6}{1.16} & \cellcolor{gray!6}{2045} & \cellcolor{gray!6}{developer} & \cellcolor{gray!6}{Base}\\
+\addlinespace
+0.78 & 0.71 & 1.11 & 0.268 & -0.60 & 2.17 & 2001 & developer & RM-only\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}Estimates are in percentage points. RM = reward modeling; SFT = supervised fine-tuning.}\\
+\end{tabular}
+\end{table}

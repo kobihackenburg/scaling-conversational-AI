@@ -1,0 +1,14 @@
+\begin{table}[H]
+
+\caption{Comparing deceptive-information prompt against information prompt. Model: Llama3.1-405B. Study: 2. Outcome: Accuracy (>50/100 on the scale).}
+\centering
+\begin{tabular}[t]{lrrrlrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df\\
+\midrule
+\cellcolor{gray!6}{Deceptive info prompt (vs. info prompt)} & \cellcolor{gray!6}{-2.51} & \cellcolor{gray!6}{0.91} & \cellcolor{gray!6}{-2.76} & \cellcolor{gray!6}{0.006} & \cellcolor{gray!6}{-4.29} & \cellcolor{gray!6}{-0.72} & \cellcolor{gray!6}{3480}\\
+\bottomrule
+\multicolumn{8}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{8}{l}{\rule{0pt}{1em}Estimates are in percentage points.}\\
+\end{tabular}
+\end{table}

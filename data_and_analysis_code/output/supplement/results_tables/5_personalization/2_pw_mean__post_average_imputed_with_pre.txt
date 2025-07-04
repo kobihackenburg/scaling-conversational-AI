@@ -1,0 +1,14 @@
+\begin{table}[H]
+
+\caption{Effect of personalization (vs. generic). Precision-weighted mean across studies. Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
+\centering
+\begin{tabular}[t]{rrrl}
+\toprule
+estimate & std.error & statistic & p.value\\
+\midrule
+\cellcolor{gray!6}{0.41} & \cellcolor{gray!6}{0.1} & \cellcolor{gray!6}{3.96} & \cellcolor{gray!6}{<.001}\\
+\bottomrule
+\multicolumn{4}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{4}{l}{\rule{0pt}{1em}Estimates are in percentage points.}\\
+\end{tabular}
+\end{table}

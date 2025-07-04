@@ -1,0 +1,242 @@
+\begin{table}[H]
+
+\caption{Proportion post-treatment missingness (NA). Study 1. Chat 1.}
+\centering
+\begin{tabular}[t]{lrr}
+\toprule
+Condition & Proportion NA & Total N\\
+\midrule
+\cellcolor{gray!6}{Control} & \cellcolor{gray!6}{0.031} & \cellcolor{gray!6}{6098}\\
+GPT-4o (8/24) & 0.031 & 6900\\
+\cellcolor{gray!6}{Llama3.1-405b} & \cellcolor{gray!6}{0.026} & \cellcolor{gray!6}{4497}\\
+llama-3-1-70b & 0.030 & 1124\\
+\cellcolor{gray!6}{Llama3.1-8b} & \cellcolor{gray!6}{0.059} & \cellcolor{gray!6}{1177}\\
+\addlinespace
+Qwen-1-5-0-5b & 0.106 & 742\\
+\cellcolor{gray!6}{Qwen-1-5-1-8b} & \cellcolor{gray!6}{0.057} & \cellcolor{gray!6}{734}\\
+Qwen-1-5-110b-chat & 0.036 & 1217\\
+\cellcolor{gray!6}{Qwen-1-5-14b} & \cellcolor{gray!6}{0.026} & \cellcolor{gray!6}{1168}\\
+Qwen-1-5-32b & 0.024 & 1177\\
+\addlinespace
+\cellcolor{gray!6}{Qwen-1-5-4b} & \cellcolor{gray!6}{0.041} & \cellcolor{gray!6}{788}\\
+Qwen-1-5-72b & 0.037 & 1147\\
+\cellcolor{gray!6}{Qwen-1-5-72b-chat} & \cellcolor{gray!6}{0.040} & \cellcolor{gray!6}{1116}\\
+Qwen-1-5-7b & 0.039 & 1184\\
+\cellcolor{gray!6}{Static message} & \cellcolor{gray!6}{0.043} & \cellcolor{gray!6}{1570}\\
+\bottomrule
+\multicolumn{3}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{3}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{F-test on post-treatment missingness. Study 1. Chat 1.}
+\centering
+\begin{tabular}[t]{lrrrrl}
+\toprule
+term & df & sumsq & meansq & statistic & p.value\\
+\midrule
+\cellcolor{gray!6}{Condition} & \cellcolor{gray!6}{14} & \cellcolor{gray!6}{5.90} & \cellcolor{gray!6}{0.42} & \cellcolor{gray!6}{12.45} & \cellcolor{gray!6}{<.001}\\
+Residuals & 30624 & 1036.03 & 0.03 & NA & NA\\
+\bottomrule
+\multicolumn{6}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{6}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Proportion post-treatment missingness (NA). Study 1. Chat 1: Personalization.}
+\centering
+\begin{tabular}[t]{lrr}
+\toprule
+Condition & Proportion NA & Total N\\
+\midrule
+\cellcolor{gray!6}{Generic} & \cellcolor{gray!6}{0.036} & \cellcolor{gray!6}{12216}\\
+Personalized & 0.037 & 12325\\
+\bottomrule
+\multicolumn{3}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{3}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{F-test on post-treatment missingness. Study 1. Chat 1: Personalization.}
+\centering
+\begin{tabular}[t]{lrrrrl}
+\toprule
+term & df & sumsq & meansq & statistic & p.value\\
+\midrule
+\cellcolor{gray!6}{Condition} & \cellcolor{gray!6}{1} & \cellcolor{gray!6}{0.01} & \cellcolor{gray!6}{0.01} & \cellcolor{gray!6}{0.26} & \cellcolor{gray!6}{0.607}\\
+Residuals & 24539 & 856.79 & 0.03 & NA & NA\\
+\bottomrule
+\multicolumn{6}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{6}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Proportion post-treatment missingness (NA). Study 1. Chat 1: Prompts.}
+\centering
+\begin{tabular}[t]{lrr}
+\toprule
+Condition & Proportion NA & Total N\\
+\midrule
+\cellcolor{gray!6}{Information} & \cellcolor{gray!6}{0.041} & \cellcolor{gray!6}{2815}\\
+Mega & 0.028 & 2822\\
+\cellcolor{gray!6}{Debate} & \cellcolor{gray!6}{0.037} & \cellcolor{gray!6}{2935}\\
+Norms & 0.038 & 2917\\
+\cellcolor{gray!6}{None} & \cellcolor{gray!6}{0.035} & \cellcolor{gray!6}{2874}\\
+\addlinespace
+Storytelling & 0.037 & 2790\\
+\cellcolor{gray!6}{Moral\_reframing} & \cellcolor{gray!6}{0.037} & \cellcolor{gray!6}{2908}\\
+Deep\_canvass & 0.032 & 2910\\
+\bottomrule
+\multicolumn{3}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{3}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{F-test on post-treatment missingness. Study 1. Chat 1: Prompts.}
+\centering
+\begin{tabular}[t]{lrrrrl}
+\toprule
+term & df & sumsq & meansq & statistic & p.value\\
+\midrule
+\cellcolor{gray!6}{Condition} & \cellcolor{gray!6}{7} & \cellcolor{gray!6}{0.30} & \cellcolor{gray!6}{0.04} & \cellcolor{gray!6}{1.25} & \cellcolor{gray!6}{0.271}\\
+Residuals & 22963 & 792.28 & 0.03 & NA & NA\\
+\bottomrule
+\multicolumn{6}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{6}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Proportion post-treatment missingness (NA). Study 1. Chat 2 (GPT-4o).}
+\centering
+\begin{tabular}[t]{lrr}
+\toprule
+Condition & Proportion NA & Total N\\
+\midrule
+\cellcolor{gray!6}{Control} & \cellcolor{gray!6}{0.015} & \cellcolor{gray!6}{2944}\\
+Treatment & 0.017 & 26104\\
+\bottomrule
+\multicolumn{3}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{3}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{F-test on post-treatment missingness. Study 1. Chat 2 (GPT-4o).}
+\centering
+\begin{tabular}[t]{lrrrrl}
+\toprule
+term & df & sumsq & meansq & statistic & p.value\\
+\midrule
+\cellcolor{gray!6}{Condition} & \cellcolor{gray!6}{1} & \cellcolor{gray!6}{0.01} & \cellcolor{gray!6}{0.01} & \cellcolor{gray!6}{0.7} & \cellcolor{gray!6}{0.404}\\
+Residuals & 29046 & 490.42 & 0.02 & NA & NA\\
+\bottomrule
+\multicolumn{6}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{6}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Proportion post-treatment missingness (NA). Study 1. Chat 2 (GPT-4o): Personalization.}
+\centering
+\begin{tabular}[t]{lrr}
+\toprule
+Condition & Proportion NA & Total N\\
+\midrule
+\cellcolor{gray!6}{Generic} & \cellcolor{gray!6}{0.017} & \cellcolor{gray!6}{13052}\\
+Personalized & 0.018 & 13052\\
+\bottomrule
+\multicolumn{3}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{3}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{F-test on post-treatment missingness. Study 1. Chat 2 (GPT-4o): Personalization.}
+\centering
+\begin{tabular}[t]{lrrrrl}
+\toprule
+term & df & sumsq & meansq & statistic & p.value\\
+\midrule
+\cellcolor{gray!6}{Condition} & \cellcolor{gray!6}{1} & \cellcolor{gray!6}{0.0} & \cellcolor{gray!6}{0.00} & \cellcolor{gray!6}{0.22} & \cellcolor{gray!6}{0.636}\\
+Residuals & 26102 & 446.1 & 0.02 & NA & NA\\
+\bottomrule
+\multicolumn{6}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{6}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Proportion post-treatment missingness (NA). Study 1. Chat 2 (GPT-4o): Prompts.}
+\centering
+\begin{tabular}[t]{lrr}
+\toprule
+Condition & Proportion NA & Total N\\
+\midrule
+\cellcolor{gray!6}{Debate} & \cellcolor{gray!6}{0.019} & \cellcolor{gray!6}{3318}\\
+Deep\_canvass & 0.014 & 3341\\
+\cellcolor{gray!6}{Information} & \cellcolor{gray!6}{0.017} & \cellcolor{gray!6}{3322}\\
+Mega & 0.016 & 3247\\
+\cellcolor{gray!6}{Moral\_reframing} & \cellcolor{gray!6}{0.017} & \cellcolor{gray!6}{3176}\\
+\addlinespace
+None & 0.019 & 3302\\
+\cellcolor{gray!6}{Norms} & \cellcolor{gray!6}{0.018} & \cellcolor{gray!6}{3252}\\
+Storytelling & 0.018 & 3146\\
+\bottomrule
+\multicolumn{3}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{3}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{F-test on post-treatment missingness. Study 1. Chat 2 (GPT-4o): Prompts.}
+\centering
+\begin{tabular}[t]{lrrrrl}
+\toprule
+term & df & sumsq & meansq & statistic & p.value\\
+\midrule
+\cellcolor{gray!6}{Condition} & \cellcolor{gray!6}{7} & \cellcolor{gray!6}{0.07} & \cellcolor{gray!6}{0.01} & \cellcolor{gray!6}{0.57} & \cellcolor{gray!6}{0.784}\\
+Residuals & 26096 & 446.04 & 0.02 & NA & NA\\
+\bottomrule
+\multicolumn{6}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{6}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}

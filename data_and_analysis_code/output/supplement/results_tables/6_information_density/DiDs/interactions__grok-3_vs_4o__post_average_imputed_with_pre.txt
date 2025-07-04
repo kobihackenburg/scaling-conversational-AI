@@ -1,0 +1,16 @@
+\begin{table}[H]
+
+\caption{Estimating the interaction between the listed model (vs. GPT-4o 8/24) and information prompt (vs. other prompt). Model: Grok-3. Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
+\centering
+\begin{tabular}[t]{lrrrlrrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & study\\
+\midrule
+\cellcolor{gray!6}{Info prompt} & \cellcolor{gray!6}{1.91} & \cellcolor{gray!6}{0.59} & \cellcolor{gray!6}{3.26} & \cellcolor{gray!6}{0.001} & \cellcolor{gray!6}{0.76} & \cellcolor{gray!6}{3.05} & \cellcolor{gray!6}{7466} & \cellcolor{gray!6}{3}\\
+Grok-3 & 0.35 & 0.44 & 0.81 & 0.42 & -0.50 & 1.21 & 7466 & 3\\
+\cellcolor{gray!6}{Info prompt x Grok-3} & \cellcolor{gray!6}{0.75} & \cellcolor{gray!6}{1.18} & \cellcolor{gray!6}{0.64} & \cellcolor{gray!6}{0.524} & \cellcolor{gray!6}{-1.55} & \cellcolor{gray!6}{3.05} & \cellcolor{gray!6}{7466} & \cellcolor{gray!6}{3}\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}

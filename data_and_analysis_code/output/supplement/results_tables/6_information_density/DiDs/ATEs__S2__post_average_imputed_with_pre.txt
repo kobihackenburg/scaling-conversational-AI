@@ -1,0 +1,17 @@
+\begin{table}[H]
+
+\caption{Model estimates under information prompt or other prompt. Study: S2. Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
+\centering
+\begin{tabular}[t]{lrrrlrrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & info prompt?\\
+\midrule
+\cellcolor{gray!6}{GPT-4.5} & \cellcolor{gray!6}{10.45} & \cellcolor{gray!6}{0.49} & \cellcolor{gray!6}{21.52} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{9.50} & \cellcolor{gray!6}{11.40} & \cellcolor{gray!6}{5318} & \cellcolor{gray!6}{0}\\
+GPT-4o (8/24) & 8.03 & 0.48 & 16.81 & <.001 & 7.09 & 8.97 & 5318 & 0\\
+\cellcolor{gray!6}{GPT-4.5} & \cellcolor{gray!6}{13.95} & \cellcolor{gray!6}{1.17} & \cellcolor{gray!6}{11.91} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{11.66} & \cellcolor{gray!6}{16.25} & \cellcolor{gray!6}{1790} & \cellcolor{gray!6}{1}\\
+GPT-4o (8/24) & 9.61 & 1.17 & 8.19 & <.001 & 7.31 & 11.91 & 1790 & 1\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}1 = information prompt; 0 = any other prompt.}\\
+\end{tabular}
+\end{table}

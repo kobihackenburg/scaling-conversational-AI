@@ -1,0 +1,17 @@
+\begin{table}[H]
+
+\caption{PPT main effects (i.e., vs. Base model). Outcome: Accuracy (>50/100 on the scale).}
+\centering
+\begin{tabular}[t]{lrrrlrrrrl}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & study & model type\\
+\midrule
+\cellcolor{gray!6}{RM} & \cellcolor{gray!6}{-2.22} & \cellcolor{gray!6}{0.47} & \cellcolor{gray!6}{-4.78} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{-3.13} & \cellcolor{gray!6}{-1.31} & \cellcolor{gray!6}{14600} & \cellcolor{gray!6}{2} & \cellcolor{gray!6}{chat-tuned}\\
+SFT & 4.89 & 0.46 & 10.56 & <.001 & 3.99 & 5.80 & 14600 & 2 & chat-tuned\\
+\cellcolor{gray!6}{RM} & \cellcolor{gray!6}{-1.20} & \cellcolor{gray!6}{1.01} & \cellcolor{gray!6}{-1.18} & \cellcolor{gray!6}{0.237} & \cellcolor{gray!6}{-3.19} & \cellcolor{gray!6}{0.79} & \cellcolor{gray!6}{2906} & \cellcolor{gray!6}{2} & \cellcolor{gray!6}{developer}\\
+RM & -0.30 & 0.40 & -0.77 & 0.443 & -1.08 & 0.47 & 13768 & 3 & developer\\
+\bottomrule
+\multicolumn{10}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{10}{l}{\rule{0pt}{1em}RM = reward modeling; SFT = supervised fine-tuning.}\\
+\end{tabular}
+\end{table}

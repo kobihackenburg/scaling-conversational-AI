@@ -1,0 +1,22 @@
+\begin{table}[H]
+
+\caption{Model estimates under information prompt or other prompt. Study: S3. Outcome: Accuracy (0-100 scale).}
+\centering
+\begin{tabular}[t]{lrrrlrrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & info prompt?\\
+\midrule
+\cellcolor{gray!6}{GPT-4o (3/25)} & \cellcolor{gray!6}{73.48} & \cellcolor{gray!6}{0.28} & \cellcolor{gray!6}{258.88} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{72.92} & \cellcolor{gray!6}{74.04} & \cellcolor{gray!6}{11541} & \cellcolor{gray!6}{0}\\
+GPT-4.5 & 75.25 & 0.27 & 283.64 & <.001 & 74.73 & 75.77 & 11541 & 0\\
+\cellcolor{gray!6}{GPT-4o (8/24)} & \cellcolor{gray!6}{82.70} & \cellcolor{gray!6}{0.27} & \cellcolor{gray!6}{304.24} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{82.17} & \cellcolor{gray!6}{83.23} & \cellcolor{gray!6}{11541} & \cellcolor{gray!6}{0}\\
+Grok-3 & 69.40 & 0.51 & 135.81 & <.001 & 68.40 & 70.41 & 11541 & 0\\
+\cellcolor{gray!6}{GPT-4o (3/25)} & \cellcolor{gray!6}{58.58} & \cellcolor{gray!6}{0.61} & \cellcolor{gray!6}{95.70} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{57.38} & \cellcolor{gray!6}{59.78} & \cellcolor{gray!6}{2221} & \cellcolor{gray!6}{1}\\
+\addlinespace
+GPT-4.5 & 66.60 & 0.52 & 127.13 & <.001 & 65.58 & 67.63 & 2221 & 1\\
+\cellcolor{gray!6}{GPT-4o (8/24)} & \cellcolor{gray!6}{77.57} & \cellcolor{gray!6}{0.59} & \cellcolor{gray!6}{131.86} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{76.41} & \cellcolor{gray!6}{78.72} & \cellcolor{gray!6}{2221} & \cellcolor{gray!6}{1}\\
+Grok-3 & 46.38 & 1.07 & 43.44 & <.001 & 44.28 & 48.47 & 2221 & 1\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}1 = information prompt; 0 = any other prompt.}\\
+\end{tabular}
+\end{table}

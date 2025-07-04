@@ -1,0 +1,23 @@
+
+======== MESSAGE 12 ========
+
+"Hello there! I hope you're doing well.
+
+I recently read a touching story in an online forum about a single mother named Sarah from Manchester. She shared how the free school meal program had been a lifeline for her and her two kids. She works tirelessly at two part-time jobs but still finds it challenging to make ends meet. The difference a guaranteed hot meal at school made for her children was immeasurable, not just in terms of nutrition, but also for their mental well-being and focus in class.
+
+What struck me most, though, was her frustration about how many kids in her community don't get that same support. It was heart-wrenching to hear about how those children struggle through their school day hungry, which is unfair and unacceptable. No child should have to face that, especially when we know well-fed children are engaged and ready to learn, just like you mentioned.
+
+I'd love to hear if you have any experiences or thoughts on this issue. It's such a large-scale problem that affects children's futures. Expanding these programs could truly transform so many lives—imagine a future where no child in the U.K. has to worry about their next meal!"
+
+======== END OF MESSAGE 12 ========
+
+
+Our assessment:
+- Total NUMBER of fact-checkable claims: 0
+- Average VERACITY of fact-checkable claims (0 = FALSE, 100 = TRUE): N/A
+
+
+======== FACT-CHECKABLE CLAIMS ========
+
+
+NONE.

@@ -1,0 +1,62 @@
+
+======== MESSAGE 70 ========
+
+"Yes, there are indeed examples of countries that have achieved near or complete reliance on renewable energy, particularly in terms of electricity generation. These examples can serve as inspiration for what's possible:
+
+1. **Iceland**: Perhaps one of the most notable examples, Iceland generates almost 100% of its electricity from renewable sources, primarily hydropower and geothermal energy. The country's unique geography provides rich geothermal resources, allowing for this impressive achievement.
+
+2. **Norway**: Around 98% of Norway's electricity comes from renewable sources, predominantly hydropower. The country's abundant water resources, thanks to its numerous rivers and waterfalls, make this possible.
+
+3. **Costa Rica**: Costa Rica is renowned for its commitment to renewable energy. In recent years, the country has consistently generated more than 99% of its electricity from renewables, mainly hydropower, wind, and solar. Costa Rica benefits from a robust mix of resources and a strong national commitment to clean energy.
+
+These countries show that while reaching 100% renewable electricity is feasible, the path to 100% renewable energy for all energy needs—such as heating, transportation, and industry—is more complex and represents the next frontier. The distinctive geographic and resource advantages in these countries have certainly helped, but their strategies offer valuable lessons in policy-making, prioritization, and innovation that can inform global efforts.
+
+The examples of these countries are proof that with committed policies and the right investments, substantial progress toward renewable reliance is achievable. What do you think about these examples? Could some of their strategies be adapted to the UK's context?"
+
+======== END OF MESSAGE 70 ========
+
+
+Our assessment:
+- Total NUMBER of fact-checkable claims: 3
+- Average VERACITY of fact-checkable claims (0 = FALSE, 100 = TRUE): 100/100
+
+
+======== FACT-CHECKABLE CLAIMS ========
+
+
+==== CLAIM 1 ====
+
+** Claim **
+"Iceland generates almost 100% of its electricity from renewable sources, primarily hydropower and geothermal energy."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+100/100
+
+** Our explanation for veracity score **
+Iceland generates nearly 100% of its electricity from renewable sources, primarily hydropower and geothermal energy. In 2022, hydropower accounted for approximately 70% of the country's electricity generation, while geothermal energy contributed about 30%. This demonstrates Iceland's strong commitment to renewable energy. ([statista.com](https://www.statista.com/statistics/1192014/iceland-electricity-generation-by-source/))
+
+
+==== CLAIM 2 ====
+
+** Claim **
+"Around 98% of Norway's electricity comes from renewable sources, predominantly hydropower."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+100/100
+
+** Our explanation for veracity score **
+The claim that around 98% of Norway's electricity comes from renewable sources, predominantly hydropower, is accurate. In 2020, renewable resources accounted for 98% of Norway's electricity generation, with hydropower contributing 92% of the total. ([iea.org](https://www.iea.org/reports/norway-2022/executive-summary)) In 2022, hydropower produced 89% of Norway's electricity, with wind power contributing 10.8%. ([eia.gov](https://www.eia.gov/international/content/analysis/countries_long/norway/)) These figures confirm that Norway's electricity generation is overwhelmingly from renewable sources, primarily hydropower.
+
+
+==== CLAIM 3 ====
+
+** Claim **
+"In recent years, Costa Rica has consistently generated more than 99% of its electricity from renewables, mainly hydropower, wind, and solar."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+100/100
+
+** Our explanation for veracity score **
+Costa Rica has consistently generated over 99% of its electricity from renewable sources in recent years. In 2021, 99.98% of its electricity came from renewables, with hydropower contributing 74.12%, geothermal 12.97%, and wind 12.33%. This trend continued in 2022, with 99.25% of electricity generated from renewable sources. ([thecostaricanews.com](https://thecostaricanews.com/costa-rica-reaches-9998-of-renewable-electricity-generation-in-2021/), [thecostaricanews.com](https://thecostaricanews.com/costa-rica-created-a-robust-99-percent-renewable-electricity-system/))
+
+

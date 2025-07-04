@@ -1,0 +1,15 @@
+\begin{table}[H]
+
+\caption{F-test on post-treatment missingness. Study 3. Personalization.}
+\centering
+\begin{tabular}[t]{lrrrrl}
+\toprule
+term & df & sumsq & meansq & statistic & p.value\\
+\midrule
+\cellcolor{gray!6}{Condition} & \cellcolor{gray!6}{1} & \cellcolor{gray!6}{0.15} & \cellcolor{gray!6}{0.15} & \cellcolor{gray!6}{4.73} & \cellcolor{gray!6}{0.03}\\
+Residuals & 18436 & 584.06 & 0.03 & NA & NA\\
+\bottomrule
+\multicolumn{6}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{6}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}

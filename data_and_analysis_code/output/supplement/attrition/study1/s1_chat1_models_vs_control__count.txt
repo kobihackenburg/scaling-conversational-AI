@@ -1,0 +1,30 @@
+\begin{table}[H]
+
+\caption{Proportion post-treatment missingness (NA). Study 1. Chat 1.}
+\centering
+\begin{tabular}[t]{lrr}
+\toprule
+Condition & Proportion NA & Total N\\
+\midrule
+\cellcolor{gray!6}{Control} & \cellcolor{gray!6}{0.031} & \cellcolor{gray!6}{6098}\\
+GPT-4o (8/24) & 0.031 & 6900\\
+\cellcolor{gray!6}{Llama3.1-405b} & \cellcolor{gray!6}{0.026} & \cellcolor{gray!6}{4497}\\
+llama-3-1-70b & 0.030 & 1124\\
+\cellcolor{gray!6}{Llama3.1-8b} & \cellcolor{gray!6}{0.059} & \cellcolor{gray!6}{1177}\\
+\addlinespace
+Qwen-1-5-0-5b & 0.106 & 742\\
+\cellcolor{gray!6}{Qwen-1-5-1-8b} & \cellcolor{gray!6}{0.057} & \cellcolor{gray!6}{734}\\
+Qwen-1-5-110b-chat & 0.036 & 1217\\
+\cellcolor{gray!6}{Qwen-1-5-14b} & \cellcolor{gray!6}{0.026} & \cellcolor{gray!6}{1168}\\
+Qwen-1-5-32b & 0.024 & 1177\\
+\addlinespace
+\cellcolor{gray!6}{Qwen-1-5-4b} & \cellcolor{gray!6}{0.041} & \cellcolor{gray!6}{788}\\
+Qwen-1-5-72b & 0.037 & 1147\\
+\cellcolor{gray!6}{Qwen-1-5-72b-chat} & \cellcolor{gray!6}{0.040} & \cellcolor{gray!6}{1116}\\
+Qwen-1-5-7b & 0.039 & 1184\\
+\cellcolor{gray!6}{Static message} & \cellcolor{gray!6}{0.043} & \cellcolor{gray!6}{1570}\\
+\bottomrule
+\multicolumn{3}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{3}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}

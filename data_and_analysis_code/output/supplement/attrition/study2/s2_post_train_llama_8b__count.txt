@@ -1,0 +1,17 @@
+\begin{table}[H]
+
+\caption{Proportion post-treatment missingness (NA). Study 2. PPT: Llama-8B.}
+\centering
+\begin{tabular}[t]{lrr}
+\toprule
+Condition & Proportion NA & Total N\\
+\midrule
+\cellcolor{gray!6}{Base} & \cellcolor{gray!6}{0.028} & \cellcolor{gray!6}{1682}\\
+RM & 0.037 & 1654\\
+\cellcolor{gray!6}{SFT} & \cellcolor{gray!6}{0.027} & \cellcolor{gray!6}{1639}\\
+SFT + RM & 0.028 & 1637\\
+\bottomrule
+\multicolumn{3}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{3}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}

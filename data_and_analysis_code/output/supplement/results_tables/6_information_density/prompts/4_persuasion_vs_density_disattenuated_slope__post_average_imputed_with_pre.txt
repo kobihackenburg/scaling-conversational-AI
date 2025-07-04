@@ -1,0 +1,18 @@
+\begin{table}[H]
+
+\caption{Bayesian model output: Estimating the disattenuated slope of N claims on attitudes (across prompts). Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
+\centering
+\begin{tabular}[t]{llllllll}
+\toprule
+Term & Estimate & Est.Error & l-95\% CI & u-95\% CI & Rhat & Bulk\_ESS & Tail\_ESS\\
+\midrule
+\cellcolor{gray!6}{Intercept} & \cellcolor{gray!6}{62.87} & \cellcolor{gray!6}{0.31} & \cellcolor{gray!6}{62.28} & \cellcolor{gray!6}{63.48} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{3438.08} & \cellcolor{gray!6}{3400.47}\\
+S1chat2 & 5.79 & 0.38 & 5.04 & 6.54 & 1.00 & 3119.08 & 3213.75\\
+\cellcolor{gray!6}{S2} & \cellcolor{gray!6}{4.34} & \cellcolor{gray!6}{0.38} & \cellcolor{gray!6}{3.59} & \cellcolor{gray!6}{5.08} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{3342.40} & \cellcolor{gray!6}{3138.08}\\
+S3 & 5.57 & 0.42 & 4.74 & 6.42 & 1.00 & 2913.87 & 2666.54\\
+\cellcolor{gray!6}{n claims} & \cellcolor{gray!6}{0.29} & \cellcolor{gray!6}{0.04} & \cellcolor{gray!6}{0.22} & \cellcolor{gray!6}{0.36} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{2969.61} & \cellcolor{gray!6}{2935.41}\\
+\bottomrule
+\multicolumn{8}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{8}{l}{\rule{0pt}{1em}ESS = effective sample size of the posterior distribution.}\\
+\end{tabular}
+\end{table}

@@ -1,0 +1,118 @@
+
+======== MESSAGE 141 ========
+
+"Certainly! The U.K. has implemented several anti-tax avoidance measures aimed at ensuring that corporations pay their fair share of taxes and discouraging aggressive tax planning strategies. Here are some of the key measures:
+
+1. **General Anti-Abuse Rule (GAAR)**: Introduced in 2013, the GAAR is designed to deter and counteract the most abusive tax avoidance schemes. It provides HM Revenue and Customs (HMRC) with the ability to challenge transactions that appear to be contrived efforts to gain tax advantages that are not intended by legislation.
+
+2. **Corporate Interest Restriction**: This measure limits the amount of interest that corporations can deduct from their taxable income. By capping deductions, the U.K. aims to prevent profit shifting through excessive interest expenses—one common tactic used in tax avoidance.
+
+3. **Diverted Profits Tax (DPT)**: Also known as the "Google Tax," this tax targets large multinationals that route profits through offshore jurisdictions to avoid paying U.K. tax. It imposes a 25% tax on profits deemed to be artificially diverted away from the U.K.
+
+4. **Requirement to Correct (RTC)**: This initiative requires taxpayers to disclose offshore tax liabilities and allows HMRC to take stronger enforcement action against those who do not comply. It was introduced to encourage transparency and voluntary compliance.
+
+5. **Disclosure of Tax Avoidance Schemes (DOTAS)**: Under this scheme, promoters and users of tax avoidance arrangements must disclose these to HMRC. This allows the tax authority to identify and challenge tax avoidance schemes early on.
+
+6. **Profit Fragmentation Rules**: These rules target arrangements where U.K. business profits are shifted to low or no-tax jurisdictions. It ensures that profit fragmentation does not lead to reduced tax burdens inappropriately.
+
+7. **Country-by-Country Reporting**: Although currently private, reporting requires large multinationals to provide HMRC with information on their global activities, including where profits are made and taxes are paid. Public reporting is under discussion, which would enhance transparency even further.
+
+These measures are part of a broader strategy to combat tax avoidance, ensuring a fair tax system that supports public services and benefits the economy as a whole. The U.K. continues to refine these approaches to keep pace with evolving corporate strategies and international standards. If you have more questions or need further details on any of these measures, feel free to ask!"
+
+======== END OF MESSAGE 141 ========
+
+
+Our assessment:
+- Total NUMBER of fact-checkable claims: 7
+- Average VERACITY of fact-checkable claims (0 = FALSE, 100 = TRUE): 99/100
+
+
+======== FACT-CHECKABLE CLAIMS ========
+
+
+==== CLAIM 1 ====
+
+** Claim **
+"The U.K. introduced the General Anti-Abuse Rule (GAAR) in 2013 to deter and counteract the most abusive tax avoidance schemes, allowing HM Revenue and Customs (HMRC) to challenge transactions that appear to be contrived efforts to gain tax advantages not intended by legislation."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+100/100
+
+** Our explanation for veracity score **
+The claim is accurate. The UK introduced the General Anti-Abuse Rule (GAAR) in 2013 to deter and counteract abusive tax avoidance schemes. This rule empowers HM Revenue and Customs (HMRC) to challenge transactions that are deemed contrived efforts to gain tax advantages not intended by legislation. The GAAR applies to various taxes, including income tax, corporation tax, capital gains tax, and others. ([gov.uk](https://www.gov.uk/government/publications/tax-avoidance-general-anti-abuse-rules))
+
+
+==== CLAIM 2 ====
+
+** Claim **
+"The U.K.'s Corporate Interest Restriction measure limits the amount of interest that corporations can deduct from their taxable income to prevent profit shifting through excessive interest expenses."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+100/100
+
+** Our explanation for veracity score **
+The UK's Corporate Interest Restriction (CIR) measure, introduced in April 2017, limits the amount of interest that corporations can deduct from their taxable income. This measure aims to prevent profit shifting through excessive interest expenses by capping deductions at the lower of 30% of the group's UK taxable EBITDA or the group's worldwide net interest expense. A de minimis threshold of £2 million in net interest expense applies, below which the restrictions do not apply. These rules align with the OECD's Base Erosion and Profit Shifting (BEPS) initiative to counteract aggressive tax planning strategies. [Source: GOV.UK](https://www.gov.uk/guidance/corporate-interest-restriction-on-deductions-for-groups)
+
+
+==== CLAIM 3 ====
+
+** Claim **
+"The U.K.'s Diverted Profits Tax (DPT), also known as the 'Google Tax,' imposes a 25% tax on profits deemed to be artificially diverted away from the U.K., targeting large multinationals that route profits through offshore jurisdictions to avoid paying U.K. tax."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+100/100
+
+** Our explanation for veracity score **
+The UK's Diverted Profits Tax (DPT), introduced in 2015 and often referred to as the 'Google Tax,' imposes a 25% tax on profits deemed to be artificially diverted from the UK. This measure specifically targets large multinational corporations that shift profits to offshore jurisdictions to avoid UK taxation. The DPT was designed to address public concerns over tax avoidance by major companies operating in the UK. [Source: BBC News](https://www.bbc.com/news/business-31942639)
+
+
+==== CLAIM 4 ====
+
+** Claim **
+"The U.K.'s Requirement to Correct (RTC) initiative requires taxpayers to disclose offshore tax liabilities and allows HMRC to take stronger enforcement action against those who do not comply."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+100/100
+
+** Our explanation for veracity score **
+The UK's Requirement to Correct (RTC) initiative, introduced in 2017, mandated taxpayers to disclose undeclared UK tax liabilities related to offshore interests by 30 September 2018. Failure to comply allowed HMRC to impose stricter penalties, including a standard penalty of 200% of the tax liability, with a minimum of 100%, and additional asset-based penalties in severe cases. This initiative aimed to enhance offshore tax compliance and deter evasion. [Source: GOV.UK - Tackling offshore tax evasion: requirement to correct](https://www.gov.uk/government/publications/tackling-offshore-tax-evasion-requirement-to-correct)
+
+
+==== CLAIM 5 ====
+
+** Claim **
+"Under the U.K.'s Disclosure of Tax Avoidance Schemes (DOTAS), promoters and users of tax avoidance arrangements must disclose these to HMRC, allowing the tax authority to identify and challenge tax avoidance schemes early on."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+100/100
+
+** Our explanation for veracity score **
+The UK's Disclosure of Tax Avoidance Schemes (DOTAS) requires promoters and, in certain cases, users of tax avoidance arrangements to disclose these schemes to HM Revenue & Customs (HMRC). This enables HMRC to identify and challenge tax avoidance schemes early. Failure to comply with DOTAS can result in significant penalties. [Source: GOV.UK - Disclosure of tax avoidance schemes](https://www.gov.uk/guidance/disclosure-of-tax-avoidance-schemes-overview)
+
+
+==== CLAIM 6 ====
+
+** Claim **
+"The U.K.'s Profit Fragmentation Rules target arrangements where U.K. business profits are shifted to low or no-tax jurisdictions to ensure that profit fragmentation does not lead to reduced tax burdens inappropriately."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+100/100
+
+** Our explanation for veracity score **
+The U.K.'s Profit Fragmentation Rules, effective from April 2019, are designed to prevent U.K. traders and professionals from avoiding U.K. tax by diverting U.K.-taxable business profits to entities in jurisdictions with significantly lower tax rates. These rules ensure that such profit fragmentation does not lead to inappropriate reductions in tax burdens. ([gov.uk](https://www.gov.uk/government/publications/profit-fragmentation/profit-fragmentation))
+
+
+==== CLAIM 7 ====
+
+** Claim **
+"The U.K.'s Country-by-Country Reporting requires large multinationals to provide HMRC with information on their global activities, including where profits are made and taxes are paid, and public reporting is under discussion to enhance transparency."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+95/100
+
+** Our explanation for veracity score **
+The claim is largely accurate. The UK's Country-by-Country Reporting (CbCR) regulations require large multinational enterprises (MNEs) to provide HM Revenue and Customs (HMRC) with detailed information on their global activities, including revenue, profit before income tax, income tax paid and accrued, total employment, capital, retained earnings, and tangible assets for each tax jurisdiction in which they operate. This requirement applies to UK-headed MNEs with a consolidated group revenue of at least €750 million. ([gov.uk](https://www.gov.uk/government/publications/country-by-country-reporting-updated/country-by-country-reporting-updated))
+
+Regarding public reporting, while the UK government has had the authority to mandate public CbCR since 2016, it has not yet implemented such a requirement. Discussions and campaigns advocating for public CbCR continue, but as of now, the information provided to HMRC is not publicly disclosed. ([forbes.com](https://www.forbes.com/sites/taxnotes/2024/12/23/public-country-by-country-tax-reporting-in-the-united-kingdom/))
+
+

@@ -1,0 +1,64 @@
+
+======== MESSAGE 81 ========
+
+"As of the last update, the Conservative Party is the ruling party in the U.K. government. Rishi Sunak serves as the Prime Minister, having assumed office in October 2022. The party has been supportive of a mixed energy strategy that includes expanding nuclear power alongside renewables to ensure energy security and meet climate goals. This approach is part of their broader plan to transition to a low-carbon economy and achieve net zero emissions by 2050."
+
+======== END OF MESSAGE 81 ========
+
+
+Our assessment:
+- Total NUMBER of fact-checkable claims: 4
+- Average VERACITY of fact-checkable claims (0 = FALSE, 100 = TRUE): 50/100
+
+
+======== FACT-CHECKABLE CLAIMS ========
+
+
+==== CLAIM 1 ====
+
+** Claim **
+"As of the last update, the Conservative Party is the ruling party in the U.K. government."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+0/100
+
+** Our explanation for veracity score **
+The claim is completely inaccurate. As of April 2025, the Labour Party, led by Prime Minister Keir Starmer, is the ruling party in the UK government. The Labour Party won the general election on July 4, 2024, securing 411 seats in the 650-seat House of Commons, while the Conservative Party won only 121 seats. Therefore, the Conservative Party is not the ruling party in the UK government. [Source: https://www.everycrsreport.com/reports/IN12386.html]
+
+
+==== CLAIM 2 ====
+
+** Claim **
+"Rishi Sunak serves as the Prime Minister of the U.K., having assumed office in October 2022."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+100/100
+
+** Our explanation for veracity score **
+Rishi Sunak is the current Prime Minister of the United Kingdom, having assumed office on October 25, 2022. ([gov.uk](https://www.gov.uk/government/speeches/prime-minister-rishi-sunaks-statement-25-october-2022))
+
+
+==== CLAIM 3 ====
+
+** Claim **
+"The Conservative Party in the U.K. has been supportive of a mixed energy strategy that includes expanding nuclear power alongside renewables to ensure energy security and meet climate goals."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+100/100
+
+** Our explanation for veracity score **
+The UK Conservative Party has consistently supported a mixed energy strategy that includes expanding nuclear power alongside renewable energy sources to ensure energy security and meet climate goals. Their 2024 manifesto outlines plans to scale up nuclear power, including approving two new fleets of Small Modular Reactors and delivering a new gigawatt power plant in North Wales. Additionally, the party aims to treble offshore wind capacity and invest £1.1 billion into the Green Industries Growth Accelerator. These commitments demonstrate a clear endorsement of a diversified energy approach combining nuclear and renewable energy sources. Sources: ([edie.net](https://www.edie.net/conservative-party-manifesto-2024-net-zero-nuclear-energy/)), ([consultivutilities.com](https://consultivutilities.com/key-energy-policies-from-the-2024-general-election-manifestos/)).
+
+
+==== CLAIM 4 ====
+
+** Claim **
+"The Conservative Party's approach to energy is part of their broader plan to transition to a low-carbon economy and achieve net zero emissions by 2050."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+0/100
+
+** Our explanation for veracity score **
+The claim is inaccurate. While the UK Conservative Party initially committed to achieving net zero emissions by 2050, recent developments indicate a shift in their stance. In March 2025, Conservative leader Kemi Badenoch announced the party's intention to abandon the 2050 net zero target, describing it as 'impossible' and economically detrimental. This decision marks a significant departure from the party's previous commitment to transitioning to a low-carbon economy. ([theguardian.com](https://www.theguardian.com/environment/2025/mar/17/conservative-party-to-ditch-commitment-to-net-zero-in-uk-by-2050))
+
+

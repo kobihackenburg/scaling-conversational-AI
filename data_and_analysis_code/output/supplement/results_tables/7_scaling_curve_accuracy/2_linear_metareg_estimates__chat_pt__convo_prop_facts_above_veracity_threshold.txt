@@ -1,0 +1,16 @@
+\begin{table}[H]
+
+\caption{Meta-regression output. Models: Chat-tuned models. Outcome: Accuracy (>50/100 on the scale).}
+\centering
+\begin{tabular}[t]{llllllll}
+\toprule
+Term & Estimate & Est.Error & l-95\% CI & u-95\% CI & Rhat & Bulk\_ESS & Tail\_ESS\\
+\midrule
+\cellcolor{gray!6}{Intercept} & \cellcolor{gray!6}{52.49} & \cellcolor{gray!6}{4.91} & \cellcolor{gray!6}{42.74} & \cellcolor{gray!6}{62.19} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{5091.25} & \cellcolor{gray!6}{5336.18}\\
+log10(flops) & 5.02 & 1.37 & 2.34 & 7.75 & 1.00 & 5173.57 & 5817.79\\
+\cellcolor{gray!6}{study2} & \cellcolor{gray!6}{0.12} & \cellcolor{gray!6}{2.90} & \cellcolor{gray!6}{-5.57} & \cellcolor{gray!6}{5.83} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{6200.16} & \cellcolor{gray!6}{6848.40}\\
+\bottomrule
+\multicolumn{8}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{8}{l}{\rule{0pt}{1em}Estimates are in percentage points. ESS = effective sample size of the posterior distribution.}\\
+\end{tabular}
+\end{table}

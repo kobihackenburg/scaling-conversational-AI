@@ -1,0 +1,82 @@
+
+======== MESSAGE 92 ========
+
+"Hello! I hope you're having a great day. I recently had an intriguing conversation online with someone named Isabelle, who shared a story that really illustrates the power of international cooperation. Isabelle is a small business owner in the South of France, and she told me about her struggles a few years ago, when tariffs between the U.K. and France began affecting her artisan cheese business. 
+
+In the past, she had a reliable customer base in the U.K., but trade disputes and rising costs started eating away at her profits. It was heart-wrenching for her, as she had inherited the business from her father and was determined to keep it thriving. Over time, she noticed that when diplomatic talks improved and tariffs were eased, her business got back on track and even expanded. She managed to create new job opportunities in her community and foster a sense of unity among local producers.
+
+This story beautifully underscores the urgent need for strengthening diplomatic relations, especially between significant partners like the U.K. and France. By compromising on certain trade issues, we could revitalize not only Isabelle’s business but countless others as well, leading to broader economic prosperity on both sides of the Channel.
+
+Have you seen or experienced the impact of international relations on local businesses? I'd love to hear your thoughts on this."
+
+======== END OF MESSAGE 92 ========
+
+
+Our assessment:
+- Total NUMBER of fact-checkable claims: 5
+- Average VERACITY of fact-checkable claims (0 = FALSE, 100 = TRUE): 18/100
+
+
+======== FACT-CHECKABLE CLAIMS ========
+
+
+==== CLAIM 1 ====
+
+** Claim **
+"A few years ago, tariffs between the U.K. and France began affecting Isabelle's artisan cheese business in the South of France."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+0/100
+
+** Our explanation for veracity score **
+The claim that tariffs between the U.K. and France began affecting Isabelle's artisan cheese business in the South of France is inaccurate. Post-Brexit, the U.K. imposed new import charges on EU goods, including French cheeses, affecting businesses exporting to the U.K., not those in France. For instance, the U.K. introduced a 'common user charge' on imported animal products, impacting businesses importing French cheeses into the U.K. ([bbc.co.uk](https://www.bbc.co.uk/news/uk-scotland-68816416)). However, there is no evidence of France imposing new tariffs on U.K. goods that would affect a French cheese business. Therefore, the claim does not align with the actual trade measures implemented.
+
+
+==== CLAIM 2 ====
+
+** Claim **
+"In the past, Isabelle had a reliable customer base in the U.K. for her artisan cheese business."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+0/100
+
+** Our explanation for veracity score **
+There is no verifiable information available to confirm that an individual named Isabelle had a reliable customer base in the U.K. for her artisan cheese business.
+
+
+==== CLAIM 3 ====
+
+** Claim **
+"Trade disputes and rising costs started eating away at Isabelle's profits from her artisan cheese business."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+90/100
+
+** Our explanation for veracity score **
+The claim that trade disputes and rising costs have negatively impacted profits in the UK artisan cheese industry is well-supported. Post-Brexit trade barriers have led to increased export costs, with some cheesemakers facing additional charges of up to £180 per shipment, making EU exports less viable. Additionally, rising costs for labor, energy, and raw materials have further squeezed profit margins. For instance, UK food inflation reached a five-month high of 2.1% in February 2025, driven by increased prices for butter, cheese, and eggs. These factors have compelled some producers to sell their goods abroad to maintain profitability. Sources: ([independent.co.uk](https://www.independent.co.uk/news/uk/home-news/brexit-eu-export-fee-cheese-b1816230.html), [ft.com](https://www.ft.com/content/bac67469-1ee7-4e4d-831d-6acdd76e2ec9), [express.co.uk](https://www.express.co.uk/news/uk/1815823/cheese-prices-cost-of-living-goods-abroad))
+
+
+==== CLAIM 4 ====
+
+** Claim **
+"When diplomatic talks improved and tariffs were eased between the U.K. and France, Isabelle's artisan cheese business got back on track and even expanded."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+0/100
+
+** Our explanation for veracity score **
+There is no evidence to support the claim that diplomatic talks improved and tariffs were eased between the U.K. and France, leading to Isabelle's artisan cheese business getting back on track and expanding. Recent reports indicate that U.K. cheese producers have faced challenges due to increased paperwork and uncertainty post-Brexit, which have negatively impacted exports to the EU, including France. Additionally, there is no specific information available about an artisan cheese business named Isabelle experiencing such developments.
+
+
+==== CLAIM 5 ====
+
+** Claim **
+"Isabelle managed to create new job opportunities in her community in the South of France when her business expanded."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+0/100
+
+** Our explanation for veracity score **
+There is no available information to verify that an individual named Isabelle expanded her business and created new job opportunities in the South of France.
+
+

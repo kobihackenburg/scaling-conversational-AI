@@ -1,0 +1,26 @@
+\begin{table}[H]
+
+\caption{Bayesian model output: Estimating the disattenuated correlation between N claims and attitudes (across prompts). Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
+\centering
+\begin{tabular}[t]{lllllllll}
+\toprule
+Term & Estimate & Est.Error & l-95\% CI & u-95\% CI & Rhat & Bulk\_ESS & Tail\_ESS & Parameter\\
+\midrule
+\cellcolor{gray!6}{attitude} & \cellcolor{gray!6}{64.28} & \cellcolor{gray!6}{0.67} & \cellcolor{gray!6}{62.97} & \cellcolor{gray!6}{65.54} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{1657.48} & \cellcolor{gray!6}{2242.28} & \cellcolor{gray!6}{fixed}\\
+N claims & 3.63 & 1.19 & 1.26 & 5.90 & 1.00 & 1787.98 & 2296.19 & fixed\\
+\cellcolor{gray!6}{S1chat2} & \cellcolor{gray!6}{5.13} & \cellcolor{gray!6}{0.80} & \cellcolor{gray!6}{3.57} & \cellcolor{gray!6}{6.75} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{2225.34} & \cellcolor{gray!6}{2626.76} & \cellcolor{gray!6}{fixed}\\
+S2 & 4.30 & 0.81 & 2.70 & 5.88 & 1.00 & 2305.79 & 2765.58 & fixed\\
+\cellcolor{gray!6}{S3} & \cellcolor{gray!6}{6.78} & \cellcolor{gray!6}{0.80} & \cellcolor{gray!6}{5.27} & \cellcolor{gray!6}{8.33} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{2391.86} & \cellcolor{gray!6}{2766.42} & \cellcolor{gray!6}{fixed}\\
+\addlinespace
+N claims x S1chat2 & -5.79 & 1.12 & -7.94 & -3.57 & 1.00 & 2439.44 & 2496.21 & fixed\\
+\cellcolor{gray!6}{N claims x S2} & \cellcolor{gray!6}{-3.04} & \cellcolor{gray!6}{1.12} & \cellcolor{gray!6}{-5.21} & \cellcolor{gray!6}{-0.76} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{2480.51} & \cellcolor{gray!6}{2797.79} & \cellcolor{gray!6}{fixed}\\
+N claims x S3 & -1.25 & 1.10 & -3.39 & 0.92 & 1.00 & 2258.54 & 2843.02 & fixed\\
+\cellcolor{gray!6}{sd(attitude)} & \cellcolor{gray!6}{0.91} & \cellcolor{gray!6}{0.37} & \cellcolor{gray!6}{0.26} & \cellcolor{gray!6}{1.74} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{2415.40} & \cellcolor{gray!6}{1844.04} & \cellcolor{gray!6}{random}\\
+sd(N claims) & 2.99 & 0.72 & 1.90 & 4.73 & 1.00 & 2256.90 & 2932.80 & random\\
+\addlinespace
+\cellcolor{gray!6}{cor(attitude,N claims)} & \cellcolor{gray!6}{0.76} & \cellcolor{gray!6}{0.24} & \cellcolor{gray!6}{0.12} & \cellcolor{gray!6}{0.99} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{1650.37} & \cellcolor{gray!6}{2121.49} & \cellcolor{gray!6}{random}\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}ESS = effective sample size of the posterior distribution.}\\
+\end{tabular}
+\end{table}

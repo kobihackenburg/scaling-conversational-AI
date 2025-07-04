@@ -1,0 +1,20 @@
+\begin{table}[H]
+
+\caption{Proportion post-treatment missingness (NA). Study 3. Model conditions.}
+\centering
+\begin{tabular}[t]{lrr}
+\toprule
+Condition & Proportion NA & Total N\\
+\midrule
+\cellcolor{gray!6}{Control} & \cellcolor{gray!6}{0.020} & \cellcolor{gray!6}{1074}\\
+GPT-4o (3/25) & 0.030 & 5512\\
+\cellcolor{gray!6}{GPT-4.5} & \cellcolor{gray!6}{0.038} & \cellcolor{gray!6}{5455}\\
+GPT-4o (8/24) & 0.026 & 5411\\
+\cellcolor{gray!6}{Grok-3} & \cellcolor{gray!6}{0.045} & \cellcolor{gray!6}{2060}\\
+\addlinespace
+Static message & 0.032 & 957\\
+\bottomrule
+\multicolumn{3}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{3}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}

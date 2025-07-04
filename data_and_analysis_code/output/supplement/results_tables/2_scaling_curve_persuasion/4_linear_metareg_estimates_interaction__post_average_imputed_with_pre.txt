@@ -1,0 +1,20 @@
+\begin{table}[H]
+
+\caption{Meta-regression output: Interaction between developer-tuned models and FLOPs. Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
+\centering
+\begin{tabular}[t]{llllllll}
+\toprule
+Term & Estimate & Est.Error & l-95\% CI & u-95\% CI & Rhat & Bulk\_ESS & Tail\_ESS\\
+\midrule
+\cellcolor{gray!6}{Intercept} & \cellcolor{gray!6}{0.41} & \cellcolor{gray!6}{1.07} & \cellcolor{gray!6}{-1.73} & \cellcolor{gray!6}{2.51} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{2311.12} & \cellcolor{gray!6}{1997.83}\\
+log10(flops) & 1.74 & 0.30 & 1.15 & 2.33 & 1.00 & 2534.18 & 2583.52\\
+\cellcolor{gray!6}{Developer-tuned} & \cellcolor{gray!6}{6.52} & \cellcolor{gray!6}{2.73} & \cellcolor{gray!6}{1.32} & \cellcolor{gray!6}{12.20} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{1801.65} & \cellcolor{gray!6}{2049.65}\\
+study2 & -0.08 & 0.95 & -1.88 & 1.80 & 1.00 & 3301.10 & 2619.97\\
+\cellcolor{gray!6}{study3} & \cellcolor{gray!6}{1.28} & \cellcolor{gray!6}{1.12} & \cellcolor{gray!6}{-0.98} & \cellcolor{gray!6}{3.55} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{3274.40} & \cellcolor{gray!6}{2396.19}\\
+\addlinespace
+log10(flops) x Developer-tuned & -1.41 & 0.65 & -2.76 & -0.13 & 1.00 & 1704.28 & 2058.27\\
+\bottomrule
+\multicolumn{8}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{8}{l}{\rule{0pt}{1em}Estimates are in percentage points.}\\
+\end{tabular}
+\end{table}

@@ -1,0 +1,236 @@
+\begin{table}[H]
+
+\caption{No significant interaction between SFT and RM in Study 2. Outcome: Policy attitude (main persuasion outcome).}
+\centering
+\begin{tabular}[t]{lrrrlrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df\\
+\midrule
+\cellcolor{gray!6}{(Intercept)} & \cellcolor{gray!6}{19.60} & \cellcolor{gray!6}{0.43} & \cellcolor{gray!6}{45.15} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{18.75} & \cellcolor{gray!6}{20.45} & \cellcolor{gray!6}{19332}\\
+RM & 2.45 & 0.31 & 7.92 & <.001 & 1.84 & 3.05 & 19332\\
+\cellcolor{gray!6}{SFT} & \cellcolor{gray!6}{0.39} & \cellcolor{gray!6}{0.30} & \cellcolor{gray!6}{1.29} & \cellcolor{gray!6}{0.196} & \cellcolor{gray!6}{-0.20} & \cellcolor{gray!6}{0.98} & \cellcolor{gray!6}{19332}\\
+pre\_average & 0.79 & 0.01 & 146.43 & <.001 & 0.78 & 0.80 & 19332\\
+\cellcolor{gray!6}{RM x SFT} & \cellcolor{gray!6}{-0.26} & \cellcolor{gray!6}{0.44} & \cellcolor{gray!6}{-0.59} & \cellcolor{gray!6}{0.558} & \cellcolor{gray!6}{-1.11} & \cellcolor{gray!6}{0.60} & \cellcolor{gray!6}{19332}\\
+\bottomrule
+\multicolumn{8}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{8}{l}{\rule{0pt}{1em}RM = reward modeling; SFT = supervised fine-tuning.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{PPT main effects (i.e., vs. Base model). Outcome: Accuracy (0-100 scale).}
+\centering
+\begin{tabular}[t]{lrrrlrrrrl}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & study & model type\\
+\midrule
+\cellcolor{gray!6}{RM} & \cellcolor{gray!6}{-1.80} & \cellcolor{gray!6}{0.33} & \cellcolor{gray!6}{-5.53} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{-2.44} & \cellcolor{gray!6}{-1.16} & \cellcolor{gray!6}{14600} & \cellcolor{gray!6}{2} & \cellcolor{gray!6}{chat-tuned}\\
+SFT & 3.69 & 0.32 & 11.36 & <.001 & 3.05 & 4.33 & 14600 & 2 & chat-tuned\\
+\cellcolor{gray!6}{RM} & \cellcolor{gray!6}{-0.30} & \cellcolor{gray!6}{0.66} & \cellcolor{gray!6}{-0.46} & \cellcolor{gray!6}{0.646} & \cellcolor{gray!6}{-1.60} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{2906} & \cellcolor{gray!6}{2} & \cellcolor{gray!6}{developer}\\
+RM & 0.02 & 0.30 & 0.07 & 0.946 & -0.57 & 0.61 & 13768 & 3 & developer\\
+\bottomrule
+\multicolumn{10}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{10}{l}{\rule{0pt}{1em}RM = reward modeling; SFT = supervised fine-tuning.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{PPT main effects (i.e., vs. Base model). Outcome: Information density (N claims).}
+\centering
+\begin{tabular}[t]{lrrrlrrrrl}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & study & model type\\
+\midrule
+\cellcolor{gray!6}{RM} & \cellcolor{gray!6}{1.15} & \cellcolor{gray!6}{0.08} & \cellcolor{gray!6}{14.32} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{1.31} & \cellcolor{gray!6}{19430} & \cellcolor{gray!6}{2} & \cellcolor{gray!6}{chat-tuned}\\
+SFT & 0.42 & 0.08 & 5.17 & <.001 & 0.26 & 0.58 & 19430 & 2 & chat-tuned\\
+\cellcolor{gray!6}{RM} & \cellcolor{gray!6}{0.11} & \cellcolor{gray!6}{0.24} & \cellcolor{gray!6}{0.48} & \cellcolor{gray!6}{0.634} & \cellcolor{gray!6}{-0.35} & \cellcolor{gray!6}{0.58} & \cellcolor{gray!6}{4046} & \cellcolor{gray!6}{2} & \cellcolor{gray!6}{developer}\\
+RM & 0.32 & 0.17 & 1.93 & 0.054 & -0.01 & 0.65 & 17893 & 3 & developer\\
+\bottomrule
+\multicolumn{10}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{10}{l}{\rule{0pt}{1em}RM = reward modeling; SFT = supervised fine-tuning.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{PPT main effects (i.e., vs. Base model). Outcome: Accuracy (>50/100 on the scale).}
+\centering
+\begin{tabular}[t]{lrrrlrrrrl}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & study & model type\\
+\midrule
+\cellcolor{gray!6}{RM} & \cellcolor{gray!6}{-2.22} & \cellcolor{gray!6}{0.47} & \cellcolor{gray!6}{-4.78} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{-3.13} & \cellcolor{gray!6}{-1.31} & \cellcolor{gray!6}{14600} & \cellcolor{gray!6}{2} & \cellcolor{gray!6}{chat-tuned}\\
+SFT & 4.89 & 0.46 & 10.56 & <.001 & 3.99 & 5.80 & 14600 & 2 & chat-tuned\\
+\cellcolor{gray!6}{RM} & \cellcolor{gray!6}{-1.20} & \cellcolor{gray!6}{1.01} & \cellcolor{gray!6}{-1.18} & \cellcolor{gray!6}{0.237} & \cellcolor{gray!6}{-3.19} & \cellcolor{gray!6}{0.79} & \cellcolor{gray!6}{2906} & \cellcolor{gray!6}{2} & \cellcolor{gray!6}{developer}\\
+RM & -0.30 & 0.40 & -0.77 & 0.443 & -1.08 & 0.47 & 13768 & 3 & developer\\
+\bottomrule
+\multicolumn{10}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{10}{l}{\rule{0pt}{1em}RM = reward modeling; SFT = supervised fine-tuning.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{PPT main effects (i.e., vs. Base model). Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
+\centering
+\begin{tabular}[t]{lrrrlrrrrl}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & study & model type\\
+\midrule
+\cellcolor{gray!6}{RM} & \cellcolor{gray!6}{2.22} & \cellcolor{gray!6}{0.21} & \cellcolor{gray!6}{10.41} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{1.80} & \cellcolor{gray!6}{2.64} & \cellcolor{gray!6}{19866} & \cellcolor{gray!6}{2} & \cellcolor{gray!6}{chat-tuned}\\
+SFT & 0.26 & 0.21 & 1.20 & 0.229 & -0.16 & 0.68 & 19866 & 2 & chat-tuned\\
+\cellcolor{gray!6}{RM} & \cellcolor{gray!6}{-0.17} & \cellcolor{gray!6}{0.48} & \cellcolor{gray!6}{-0.36} & \cellcolor{gray!6}{0.716} & \cellcolor{gray!6}{-1.12} & \cellcolor{gray!6}{0.77} & \cellcolor{gray!6}{4195} & \cellcolor{gray!6}{2} & \cellcolor{gray!6}{developer}\\
+RM & 0.74 & 0.23 & 3.17 & 0.002 & 0.28 & 1.19 & 18435 & 3 & developer\\
+\bottomrule
+\multicolumn{10}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{10}{l}{\rule{0pt}{1em}RM = reward modeling; SFT = supervised fine-tuning.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{PPT main effects (i.e., vs. Base model). Outcome: Policy attitude (main persuasion outcome).}
+\centering
+\begin{tabular}[t]{lrrrlrrrrl}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & study & model type\\
+\midrule
+\cellcolor{gray!6}{RM} & \cellcolor{gray!6}{2.32} & \cellcolor{gray!6}{0.22} & \cellcolor{gray!6}{10.64} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{1.89} & \cellcolor{gray!6}{2.75} & \cellcolor{gray!6}{19333} & \cellcolor{gray!6}{2} & \cellcolor{gray!6}{chat-tuned}\\
+SFT & 0.26 & 0.22 & 1.20 & 0.23 & -0.17 & 0.69 & 19333 & 2 & chat-tuned\\
+\cellcolor{gray!6}{RM} & \cellcolor{gray!6}{-0.08} & \cellcolor{gray!6}{0.49} & \cellcolor{gray!6}{-0.17} & \cellcolor{gray!6}{0.864} & \cellcolor{gray!6}{-1.05} & \cellcolor{gray!6}{0.88} & \cellcolor{gray!6}{4049} & \cellcolor{gray!6}{2} & \cellcolor{gray!6}{developer}\\
+RM & 0.80 & 0.24 & 3.35 & <.001 & 0.33 & 1.26 & 17831 & 3 & developer\\
+\bottomrule
+\multicolumn{10}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{10}{l}{\rule{0pt}{1em}RM = reward modeling; SFT = supervised fine-tuning.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{PPT main effects (i.e., vs. Base model): precision-weighted mean across studies for Developer models. Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
+\centering
+\begin{tabular}[t]{rrrlrr}
+\toprule
+estimate & std.error & statistic & p.value & conf.low & conf.high\\
+\midrule
+\cellcolor{gray!6}{0.56} & \cellcolor{gray!6}{0.21} & \cellcolor{gray!6}{2.69} & \cellcolor{gray!6}{0.007} & \cellcolor{gray!6}{0.15} & \cellcolor{gray!6}{0.97}\\
+\bottomrule
+\multicolumn{6}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{6}{l}{\rule{0pt}{1em}Estimates are in percentage points.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{PPT main effects (i.e., vs. Base model): precision-weighted mean across studies for Developer models. Outcome: Policy attitude (main persuasion outcome).}
+\centering
+\begin{tabular}[t]{rrrlrr}
+\toprule
+estimate & std.error & statistic & p.value & conf.low & conf.high\\
+\midrule
+\cellcolor{gray!6}{0.63} & \cellcolor{gray!6}{0.21} & \cellcolor{gray!6}{2.94} & \cellcolor{gray!6}{0.003} & \cellcolor{gray!6}{0.21} & \cellcolor{gray!6}{1.05}\\
+\bottomrule
+\multicolumn{6}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{6}{l}{\rule{0pt}{1em}Estimates are in percentage points.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{PPT persuasion effects vs. control group. Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
+\centering
+\begin{tabular}[t]{lrrrlrrrrl}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & study & model\\
+\midrule
+\cellcolor{gray!6}{Base} & \cellcolor{gray!6}{5.72} & \cellcolor{gray!6}{0.42} & \cellcolor{gray!6}{13.48} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{4.89} & \cellcolor{gray!6}{6.55} & \cellcolor{gray!6}{8042} & \cellcolor{gray!6}{2} & \cellcolor{gray!6}{Llama3.1-8b}\\
+RM & 8.57 & 0.45 & 19.02 & <.001 & 7.69 & 9.45 & 8042 & 2 & Llama3.1-8b\\
+\cellcolor{gray!6}{SFT} & \cellcolor{gray!6}{6.47} & \cellcolor{gray!6}{0.42} & \cellcolor{gray!6}{15.29} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{5.64} & \cellcolor{gray!6}{7.30} & \cellcolor{gray!6}{8042} & \cellcolor{gray!6}{2} & \cellcolor{gray!6}{Llama3.1-8b}\\
+SFT + RM & 8.76 & 0.44 & 19.86 & <.001 & 7.90 & 9.63 & 8042 & 2 & Llama3.1-8b\\
+\cellcolor{gray!6}{Base} & \cellcolor{gray!6}{7.42} & \cellcolor{gray!6}{0.35} & \cellcolor{gray!6}{20.91} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{6.72} & \cellcolor{gray!6}{8.11} & \cellcolor{gray!6}{14688} & \cellcolor{gray!6}{2} & \cellcolor{gray!6}{Llama3.1-405b}\\
+\addlinespace
+RM & 9.45 & 0.36 & 26.22 & <.001 & 8.74 & 10.15 & 14688 & 2 & Llama3.1-405b\\
+\cellcolor{gray!6}{SFT} & \cellcolor{gray!6}{7.56} & \cellcolor{gray!6}{0.35} & \cellcolor{gray!6}{21.35} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{6.86} & \cellcolor{gray!6}{8.25} & \cellcolor{gray!6}{14688} & \cellcolor{gray!6}{2} & \cellcolor{gray!6}{Llama3.1-405b}\\
+SFT + RM & 9.60 & 0.36 & 26.33 & <.001 & 8.89 & 10.31 & 14688 & 2 & Llama3.1-405b\\
+\cellcolor{gray!6}{Base} & \cellcolor{gray!6}{10.98} & \cellcolor{gray!6}{0.67} & \cellcolor{gray!6}{16.40} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{9.66} & \cellcolor{gray!6}{12.29} & \cellcolor{gray!6}{2860} & \cellcolor{gray!6}{2} & \cellcolor{gray!6}{GPT-4.5}\\
+RM & 10.75 & 0.61 & 17.53 & <.001 & 9.55 & 11.95 & 2860 & 2 & GPT-4.5\\
+\addlinespace
+\cellcolor{gray!6}{Base} & \cellcolor{gray!6}{8.06} & \cellcolor{gray!6}{0.61} & \cellcolor{gray!6}{13.28} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{6.87} & \cellcolor{gray!6}{9.25} & \cellcolor{gray!6}{2822} & \cellcolor{gray!6}{2} & \cellcolor{gray!6}{GPT-3.5}\\
+RM & 7.84 & 0.65 & 12.00 & <.001 & 6.56 & 9.12 & 2822 & 2 & GPT-3.5\\
+\cellcolor{gray!6}{Base} & \cellcolor{gray!6}{8.38} & \cellcolor{gray!6}{0.62} & \cellcolor{gray!6}{13.44} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{7.16} & \cellcolor{gray!6}{9.60} & \cellcolor{gray!6}{2812} & \cellcolor{gray!6}{2} & \cellcolor{gray!6}{GPT-4o (8/24)}\\
+RM & 8.11 & 0.64 & 12.59 & <.001 & 6.85 & 9.37 & 2812 & 2 & GPT-4o (8/24)\\
+\cellcolor{gray!6}{Base} & \cellcolor{gray!6}{8.37} & \cellcolor{gray!6}{0.40} & \cellcolor{gray!6}{21.11} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{7.59} & \cellcolor{gray!6}{9.15} & \cellcolor{gray!6}{6481} & \cellcolor{gray!6}{3} & \cellcolor{gray!6}{GPT-4o (8/24)}\\
+\addlinespace
+RM & 8.67 & 0.40 & 21.92 & <.001 & 7.89 & 9.45 & 6481 & 3 & GPT-4o (8/24)\\
+\cellcolor{gray!6}{Base} & \cellcolor{gray!6}{8.73} & \cellcolor{gray!6}{0.56} & \cellcolor{gray!6}{15.57} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{7.63} & \cellcolor{gray!6}{9.83} & \cellcolor{gray!6}{3130} & \cellcolor{gray!6}{3} & \cellcolor{gray!6}{Grok-3}\\
+RM & 9.17 & 0.58 & 15.90 & <.001 & 8.04 & 10.30 & 3130 & 3 & Grok-3\\
+\cellcolor{gray!6}{Base} & \cellcolor{gray!6}{10.08} & \cellcolor{gray!6}{0.42} & \cellcolor{gray!6}{23.91} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{9.26} & \cellcolor{gray!6}{10.91} & \cellcolor{gray!6}{6525} & \cellcolor{gray!6}{3} & \cellcolor{gray!6}{GPT-4.5}\\
+RM & 11.26 & 0.43 & 26.14 & <.001 & 10.42 & 12.11 & 6525 & 3 & GPT-4.5\\
+\addlinespace
+\cellcolor{gray!6}{Base} & \cellcolor{gray!6}{11.42} & \cellcolor{gray!6}{0.42} & \cellcolor{gray!6}{27.00} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{10.60} & \cellcolor{gray!6}{12.25} & \cellcolor{gray!6}{6582} & \cellcolor{gray!6}{3} & \cellcolor{gray!6}{GPT-4o (3/25)}\\
+RM & 12.31 & 0.42 & 28.98 & <.001 & 11.47 & 13.14 & 6582 & 3 & GPT-4o (3/25)\\
+\bottomrule
+\multicolumn{10}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{10}{l}{\rule{0pt}{1em}Estimates are in percentage points. RM = reward modeling; SFT = supervised fine-tuning.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{PPT persuasion effects vs. control group. Outcome: Policy attitude (main persuasion outcome).}
+\centering
+\begin{tabular}[t]{lrrrlrrrrl}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & study & model\\
+\midrule
+\cellcolor{gray!6}{Base} & \cellcolor{gray!6}{5.93} & \cellcolor{gray!6}{0.43} & \cellcolor{gray!6}{13.67} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{5.08} & \cellcolor{gray!6}{6.79} & \cellcolor{gray!6}{7823} & \cellcolor{gray!6}{2} & \cellcolor{gray!6}{Llama3.1-8b}\\
+RM & 8.97 & 0.46 & 19.37 & <.001 & 8.06 & 9.88 & 7823 & 2 & Llama3.1-8b\\
+\cellcolor{gray!6}{SFT} & \cellcolor{gray!6}{6.72} & \cellcolor{gray!6}{0.43} & \cellcolor{gray!6}{15.51} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{5.87} & \cellcolor{gray!6}{7.56} & \cellcolor{gray!6}{7823} & \cellcolor{gray!6}{2} & \cellcolor{gray!6}{Llama3.1-8b}\\
+SFT + RM & 9.07 & 0.45 & 20.12 & <.001 & 8.19 & 9.96 & 7823 & 2 & Llama3.1-8b\\
+\cellcolor{gray!6}{Base} & \cellcolor{gray!6}{7.64} & \cellcolor{gray!6}{0.36} & \cellcolor{gray!6}{21.10} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{6.93} & \cellcolor{gray!6}{8.35} & \cellcolor{gray!6}{14332} & \cellcolor{gray!6}{2} & \cellcolor{gray!6}{Llama3.1-405b}\\
+\addlinespace
+RM & 9.76 & 0.37 & 26.55 & <.001 & 9.04 & 10.49 & 14332 & 2 & Llama3.1-405b\\
+\cellcolor{gray!6}{SFT} & \cellcolor{gray!6}{7.81} & \cellcolor{gray!6}{0.36} & \cellcolor{gray!6}{21.64} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{7.10} & \cellcolor{gray!6}{8.52} & \cellcolor{gray!6}{14332} & \cellcolor{gray!6}{2} & \cellcolor{gray!6}{Llama3.1-405b}\\
+SFT + RM & 9.93 & 0.37 & 26.70 & <.001 & 9.20 & 10.66 & 14332 & 2 & Llama3.1-405b\\
+\cellcolor{gray!6}{Base} & \cellcolor{gray!6}{11.44} & \cellcolor{gray!6}{0.69} & \cellcolor{gray!6}{16.66} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{10.09} & \cellcolor{gray!6}{12.78} & \cellcolor{gray!6}{2769} & \cellcolor{gray!6}{2} & \cellcolor{gray!6}{GPT-4.5}\\
+RM & 11.50 & 0.64 & 18.01 & <.001 & 10.24 & 12.75 & 2769 & 2 & GPT-4.5\\
+\addlinespace
+\cellcolor{gray!6}{Base} & \cellcolor{gray!6}{8.38} & \cellcolor{gray!6}{0.62} & \cellcolor{gray!6}{13.45} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{7.16} & \cellcolor{gray!6}{9.60} & \cellcolor{gray!6}{2759} & \cellcolor{gray!6}{2} & \cellcolor{gray!6}{GPT-3.5}\\
+RM & 8.09 & 0.67 & 12.09 & <.001 & 6.77 & 9.40 & 2759 & 2 & GPT-3.5\\
+\cellcolor{gray!6}{Base} & \cellcolor{gray!6}{8.55} & \cellcolor{gray!6}{0.63} & \cellcolor{gray!6}{13.50} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{7.30} & \cellcolor{gray!6}{9.79} & \cellcolor{gray!6}{2757} & \cellcolor{gray!6}{2} & \cellcolor{gray!6}{GPT-4o (8/24)}\\
+RM & 8.40 & 0.66 & 12.69 & <.001 & 7.10 & 9.70 & 2757 & 2 & GPT-4o (8/24)\\
+\cellcolor{gray!6}{Base} & \cellcolor{gray!6}{8.62} & \cellcolor{gray!6}{0.41} & \cellcolor{gray!6}{21.26} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{7.83} & \cellcolor{gray!6}{9.42} & \cellcolor{gray!6}{6319} & \cellcolor{gray!6}{3} & \cellcolor{gray!6}{GPT-4o (8/24)}\\
+\addlinespace
+RM & 8.89 & 0.40 & 22.02 & <.001 & 8.10 & 9.69 & 6319 & 3 & GPT-4o (8/24)\\
+\cellcolor{gray!6}{Base} & \cellcolor{gray!6}{9.05} & \cellcolor{gray!6}{0.58} & \cellcolor{gray!6}{15.69} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{7.92} & \cellcolor{gray!6}{10.18} & \cellcolor{gray!6}{3016} & \cellcolor{gray!6}{3} & \cellcolor{gray!6}{Grok-3}\\
+RM & 9.66 & 0.60 & 16.14 & <.001 & 8.49 & 10.83 & 3016 & 3 & Grok-3\\
+\cellcolor{gray!6}{Base} & \cellcolor{gray!6}{10.51} & \cellcolor{gray!6}{0.43} & \cellcolor{gray!6}{24.23} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{9.66} & \cellcolor{gray!6}{11.36} & \cellcolor{gray!6}{6295} & \cellcolor{gray!6}{3} & \cellcolor{gray!6}{GPT-4.5}\\
+RM & 11.78 & 0.44 & 26.55 & <.001 & 10.91 & 12.65 & 6295 & 3 & GPT-4.5\\
+\addlinespace
+\cellcolor{gray!6}{Base} & \cellcolor{gray!6}{11.76} & \cellcolor{gray!6}{0.43} & \cellcolor{gray!6}{27.20} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{10.92} & \cellcolor{gray!6}{12.61} & \cellcolor{gray!6}{6396} & \cellcolor{gray!6}{3} & \cellcolor{gray!6}{GPT-4o (3/25)}\\
+RM & 12.74 & 0.43 & 29.32 & <.001 & 11.89 & 13.59 & 6396 & 3 & GPT-4o (3/25)\\
+\bottomrule
+\multicolumn{10}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{10}{l}{\rule{0pt}{1em}Estimates are in percentage points. RM = reward modeling; SFT = supervised fine-tuning.}\\
+\end{tabular}
+\end{table}

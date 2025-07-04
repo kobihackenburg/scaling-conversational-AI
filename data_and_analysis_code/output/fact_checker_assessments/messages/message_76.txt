@@ -1,0 +1,70 @@
+
+======== MESSAGE 76 ========
+
+"As of the latest updates, the Conservative Party remains in power following the 2019 general election victory, and there hasn't been another general election since. However, political dynamics can change rapidly, and public opinion reflected in polls can offer a glimpse of potential future shifts.
+
+Polling data throughout 2023 has shown varying levels of support for both major parties, with some polls indicating stronger support for Labour, but these are snapshots of current sentiment rather than concrete election outcomes.
+
+The next general election is not scheduled until no later than January 2025, unless an early election is called. Until then, the Conservative Party is the governing party. If there are by-elections or local elections, results from those can shift perceptions but do not directly change the national government unless in the context of a general election.
+
+Keeping an eye on these trends can be a useful way to gauge potential future political shifts. If you have further questions on this topic or how it might affect views on privatization, feel free to ask!"
+
+======== END OF MESSAGE 76 ========
+
+
+Our assessment:
+- Total NUMBER of fact-checkable claims: 4
+- Average VERACITY of fact-checkable claims (0 = FALSE, 100 = TRUE): 22/100
+
+
+======== FACT-CHECKABLE CLAIMS ========
+
+
+==== CLAIM 1 ====
+
+** Claim **
+"The Conservative Party remains in power following the 2019 general election victory, and there hasn't been another general election since."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+0/100
+
+** Our explanation for veracity score **
+The claim is inaccurate. The Conservative Party won the 2019 general election, but a subsequent general election was held on July 4, 2024, resulting in a Labour Party victory. Therefore, the Conservatives are no longer in power. ([parliament.uk](https://www.parliament.uk/about/how/elections-and-voting/general/previous-general-elections-in-the-uk/))
+
+
+==== CLAIM 2 ====
+
+** Claim **
+"Polling data throughout 2023 has shown varying levels of support for both major parties, with some polls indicating stronger support for Labour."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+90/100
+
+** Our explanation for veracity score **
+Throughout 2023, UK polling data indicated varying levels of support for both major parties, with some polls showing stronger support for Labour. For instance, a December 2023 poll showed Labour leading the Conservatives by 13 points, with 40% to 27% support. ([theguardian.com](https://www.theguardian.com/politics/2023/dec/16/labour-lead-slips-to-13-points-poll-nhs-priority-sunak-rwanda)) However, by February 2024, Labour's lead had decreased to 12 points, with 41% support compared to the Conservatives' 29%. ([english.alarabiya.net](https://english.alarabiya.net/News/world/2024/02/14/UK-Labour-Party-s-lead-over-Conservatives-falls-to-lowest-since-June-2023-Poll)) These fluctuations confirm the claim's accuracy.
+
+
+==== CLAIM 3 ====
+
+** Claim **
+"The next general election in the United Kingdom is not scheduled until no later than January 2025, unless an early election is called."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+0/100
+
+** Our explanation for veracity score **
+The claim is inaccurate. The UK general election was held on July 4, 2024, earlier than the latest possible date of January 2025. Prime Minister Rishi Sunak announced the early election on May 22, 2024. ([bbc.com](https://www.bbc.com/news/uk-politics-69050450))
+
+
+==== CLAIM 4 ====
+
+** Claim **
+"Until the next general election, the Conservative Party is the governing party in the United Kingdom."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+0/100
+
+** Our explanation for veracity score **
+The claim is inaccurate. The Labour Party, led by Keir Starmer, won the UK general election on July 4, 2024, ending the Conservative Party's 14-year tenure. Therefore, the Conservative Party is no longer the governing party in the United Kingdom. ([everycrsreport.com](https://www.everycrsreport.com/reports/IN12386.html))
+
+

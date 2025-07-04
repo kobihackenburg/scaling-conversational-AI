@@ -1,0 +1,15 @@
+\begin{table}[H]
+
+\caption{Proportion post-treatment missingness (NA). Study 3. Personalization.}
+\centering
+\begin{tabular}[t]{lrr}
+\toprule
+Condition & Proportion NA & Total N\\
+\midrule
+\cellcolor{gray!6}{Generic} & \cellcolor{gray!6}{0.030} & \cellcolor{gray!6}{9319}\\
+Personalized & 0.036 & 9119\\
+\bottomrule
+\multicolumn{3}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{3}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}

@@ -1,0 +1,15 @@
+\begin{table}[H]
+
+\caption{F-test on post-treatment missingness. Study 1. Chat 1: Prompts.}
+\centering
+\begin{tabular}[t]{lrrrrl}
+\toprule
+term & df & sumsq & meansq & statistic & p.value\\
+\midrule
+\cellcolor{gray!6}{Condition} & \cellcolor{gray!6}{7} & \cellcolor{gray!6}{0.30} & \cellcolor{gray!6}{0.04} & \cellcolor{gray!6}{1.25} & \cellcolor{gray!6}{0.271}\\
+Residuals & 22963 & 792.28 & 0.03 & NA & NA\\
+\bottomrule
+\multicolumn{6}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{6}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}

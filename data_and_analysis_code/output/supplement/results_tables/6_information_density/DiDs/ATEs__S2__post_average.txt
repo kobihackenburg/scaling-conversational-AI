@@ -1,0 +1,17 @@
+\begin{table}[H]
+
+\caption{Model estimates under information prompt or other prompt. Study: S2. Outcome: Policy attitude (main persuasion outcome).}
+\centering
+\begin{tabular}[t]{lrrrlrrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & info prompt?\\
+\midrule
+\cellcolor{gray!6}{GPT-4.5} & \cellcolor{gray!6}{11.02} & \cellcolor{gray!6}{0.50} & \cellcolor{gray!6}{21.91} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{10.04} & \cellcolor{gray!6}{12.01} & \cellcolor{gray!6}{5187} & \cellcolor{gray!6}{0}\\
+GPT-4o (8/24) & 8.24 & 0.49 & 16.91 & <.001 & 7.29 & 9.20 & 5187 & 0\\
+\cellcolor{gray!6}{GPT-4.5} & \cellcolor{gray!6}{14.74} & \cellcolor{gray!6}{1.21} & \cellcolor{gray!6}{12.23} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{12.38} & \cellcolor{gray!6}{17.11} & \cellcolor{gray!6}{1754} & \cellcolor{gray!6}{1}\\
+GPT-4o (8/24) & 9.94 & 1.20 & 8.25 & <.001 & 7.57 & 12.30 & 1754 & 1\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}1 = information prompt; 0 = any other prompt.}\\
+\end{tabular}
+\end{table}

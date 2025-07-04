@@ -1,0 +1,20 @@
+\begin{table}[H]
+
+\caption{Estimating the interaction between the listed model (vs. GPT-4o 8/24) and information prompt (vs. other prompt). Model: GPT-4.5. Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
+\centering
+\begin{tabular}[t]{lrrrlrrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & study\\
+\midrule
+\cellcolor{gray!6}{Info prompt} & \cellcolor{gray!6}{1.48} & \cellcolor{gray!6}{1.19} & \cellcolor{gray!6}{1.24} & \cellcolor{gray!6}{0.215} & \cellcolor{gray!6}{-0.86} & \cellcolor{gray!6}{3.82} & \cellcolor{gray!6}{2803} & \cellcolor{gray!6}{2}\\
+GPT-4.5 & 2.41 & 0.63 & 3.81 & <.001 & 1.17 & 3.65 & 2803 & 2\\
+\cellcolor{gray!6}{Info prompt x GPT-4.5} & \cellcolor{gray!6}{2.42} & \cellcolor{gray!6}{1.68} & \cellcolor{gray!6}{1.44} & \cellcolor{gray!6}{0.15} & \cellcolor{gray!6}{-0.88} & \cellcolor{gray!6}{5.71} & \cellcolor{gray!6}{2803} & \cellcolor{gray!6}{2}\\
+Info prompt & 1.90 & 0.59 & 3.25 & 0.001 & 0.76 & 3.05 & 10861 & 3\\
+\cellcolor{gray!6}{GPT-4.5} & \cellcolor{gray!6}{1.79} & \cellcolor{gray!6}{0.32} & \cellcolor{gray!6}{5.62} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{1.16} & \cellcolor{gray!6}{2.41} & \cellcolor{gray!6}{10861} & \cellcolor{gray!6}{3}\\
+\addlinespace
+Info prompt x GPT-4.5 & 2.94 & 0.90 & 3.26 & 0.001 & 1.17 & 4.70 & 10861 & 3\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}

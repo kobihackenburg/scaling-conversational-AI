@@ -1,0 +1,16 @@
+\begin{table}[H]
+
+\caption{Estimating the interaction between the listed model (vs. GPT-4o 8/24) and information prompt (vs. other prompt). Model: GPT-4o (3/25). Outcome: Information density (N claims).}
+\centering
+\begin{tabular}[t]{lrrrlrrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & study\\
+\midrule
+\cellcolor{gray!6}{Info prompt} & \cellcolor{gray!6}{7.93} & \cellcolor{gray!6}{0.26} & \cellcolor{gray!6}{30.13} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{7.42} & \cellcolor{gray!6}{8.45} & \cellcolor{gray!6}{10660} & \cellcolor{gray!6}{3}\\
+GPT-4o (3/25) & 6.46 & 0.15 & 43.99 & <.001 & 6.17 & 6.75 & 10660 & 3\\
+\cellcolor{gray!6}{Info prompt x GPT-4o (3/25)} & \cellcolor{gray!6}{10.49} & \cellcolor{gray!6}{0.72} & \cellcolor{gray!6}{14.50} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{9.07} & \cellcolor{gray!6}{11.90} & \cellcolor{gray!6}{10660} & \cellcolor{gray!6}{3}\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}

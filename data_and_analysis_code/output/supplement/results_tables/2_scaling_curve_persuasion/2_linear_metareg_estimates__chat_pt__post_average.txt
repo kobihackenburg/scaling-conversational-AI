@@ -1,0 +1,16 @@
+\begin{table}[H]
+
+\caption{Meta-regression output. Models: Chat-tuned models. Outcome: Policy attitude (main persuasion outcome).}
+\centering
+\begin{tabular}[t]{llllllll}
+\toprule
+Term & Estimate & Est.Error & l-95\% CI & u-95\% CI & Rhat & Bulk\_ESS & Tail\_ESS\\
+\midrule
+\cellcolor{gray!6}{Intercept} & \cellcolor{gray!6}{0.43} & \cellcolor{gray!6}{0.77} & \cellcolor{gray!6}{-1.10} & \cellcolor{gray!6}{1.94} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{6378.73} & \cellcolor{gray!6}{5549.92}\\
+log10(flops) & 1.83 & 0.21 & 1.42 & 2.25 & 1.00 & 6681.54 & 5956.46\\
+\cellcolor{gray!6}{study2} & \cellcolor{gray!6}{-0.45} & \cellcolor{gray!6}{0.72} & \cellcolor{gray!6}{-1.89} & \cellcolor{gray!6}{0.97} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{7037.48} & \cellcolor{gray!6}{6272.90}\\
+\bottomrule
+\multicolumn{8}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{8}{l}{\rule{0pt}{1em}Estimates are in percentage points. ESS = effective sample size of the posterior distribution.}\\
+\end{tabular}
+\end{table}

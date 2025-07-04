@@ -1,0 +1,15 @@
+\begin{table}[H]
+
+\caption{F-test on post-treatment missingness. Study 2. PPT: Llama-405B.}
+\centering
+\begin{tabular}[t]{lrrrrl}
+\toprule
+term & df & sumsq & meansq & statistic & p.value\\
+\midrule
+\cellcolor{gray!6}{Condition} & \cellcolor{gray!6}{3} & \cellcolor{gray!6}{0.05} & \cellcolor{gray!6}{0.02} & \cellcolor{gray!6}{0.68} & \cellcolor{gray!6}{0.564}\\
+Residuals & 13254 & 326.49 & 0.02 & NA & NA\\
+\bottomrule
+\multicolumn{6}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{6}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}

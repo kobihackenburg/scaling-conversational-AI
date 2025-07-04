@@ -1,0 +1,21 @@
+\begin{table}[H]
+
+\caption{Effect of prompt (vs. basic prompt). Study: S3. Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
+\centering
+\begin{tabular}[t]{lrrrlrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df\\
+\midrule
+\cellcolor{gray!6}{debate} & \cellcolor{gray!6}{0.96} & \cellcolor{gray!6}{0.46} & \cellcolor{gray!6}{2.07} & \cellcolor{gray!6}{0.039} & \cellcolor{gray!6}{0.05} & \cellcolor{gray!6}{1.86} & \cellcolor{gray!6}{18429}\\
+deep\_canvass & -3.37 & 0.46 & -7.36 & <.001 & -4.26 & -2.47 & 18429\\
+\cellcolor{gray!6}{information} & \cellcolor{gray!6}{2.69} & \cellcolor{gray!6}{0.46} & \cellcolor{gray!6}{5.81} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{1.78} & \cellcolor{gray!6}{3.60} & \cellcolor{gray!6}{18429}\\
+mega & 1.82 & 0.46 & 3.94 & <.001 & 0.92 & 2.72 & 18429\\
+\cellcolor{gray!6}{moral\_reframing} & \cellcolor{gray!6}{-1.80} & \cellcolor{gray!6}{0.46} & \cellcolor{gray!6}{-3.88} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{-2.71} & \cellcolor{gray!6}{-0.89} & \cellcolor{gray!6}{18429}\\
+\addlinespace
+norms & -0.89 & 0.45 & -1.97 & 0.049 & -1.78 & -0.01 & 18429\\
+\cellcolor{gray!6}{storytelling} & \cellcolor{gray!6}{-0.72} & \cellcolor{gray!6}{0.46} & \cellcolor{gray!6}{-1.55} & \cellcolor{gray!6}{0.12} & \cellcolor{gray!6}{-1.63} & \cellcolor{gray!6}{0.19} & \cellcolor{gray!6}{18429}\\
+\bottomrule
+\multicolumn{8}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{8}{l}{\rule{0pt}{1em}Estimates are in percentage points.}\\
+\end{tabular}
+\end{table}

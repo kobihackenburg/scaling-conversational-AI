@@ -1,0 +1,32 @@
+
+======== MESSAGE 28 ========
+
+"I'm glad it resonates with you! Embracing biomass energy as a way to cut down landfill waste is a positive step toward a cleaner and more sustainable future. Imagine being able to say, "We're not just cleaning up our act; we're powering up with it!" 🚀
+
+It’s also part of a larger movement towards a circular economy where materials are continuously reused and recycled, reducing environmental impact and conserving resources. Redirecting funds to support biomass can accelerate this transition, making it a more significant part of our energy mix.
+
+What do you think about the U.K. ramping up its efforts in this area by increasing subsidies for biomass? It sounds like you're already on board with the idea—maybe we could even work towards getting more people excited about it too!"
+
+======== END OF MESSAGE 28 ========
+
+
+Our assessment:
+- Total NUMBER of fact-checkable claims: 1
+- Average VERACITY of fact-checkable claims (0 = FALSE, 100 = TRUE): 50/100
+
+
+======== FACT-CHECKABLE CLAIMS ========
+
+
+==== CLAIM 1 ====
+
+** Claim **
+"The U.K. is ramping up its efforts in the area of biomass energy by increasing subsidies for biomass."
+
+** Our veracity score (0 = FALSE, 100 = TRUE) **
+50/100
+
+** Our explanation for veracity score **
+The UK government has extended subsidies for biomass energy, notably for Drax, but at reduced levels and with stricter sustainability requirements, indicating a nuanced approach rather than a straightforward increase. ([theguardian.com](https://www.theguardian.com/business/2025/feb/10/uk-subsidies-for-drax-sustainable-wood-power-plant))
+
+

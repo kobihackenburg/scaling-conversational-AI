@@ -1,0 +1,230 @@
+\begin{table}[H]
+
+\caption{Proportion post-treatment missingness (NA). Study 2. Model conditions.}
+\centering
+\begin{tabular}[t]{lrr}
+\toprule
+Condition & Proportion NA & Total N\\
+\midrule
+\cellcolor{gray!6}{Control} & \cellcolor{gray!6}{0.015} & \cellcolor{gray!6}{1436}\\
+GPT-3.5 & 0.030 & 1390\\
+\cellcolor{gray!6}{GPT-4.5} & \cellcolor{gray!6}{0.049} & \cellcolor{gray!6}{1428}\\
+GPT-4o (8/24) & 0.025 & 1380\\
+\cellcolor{gray!6}{Llama3.1-405b} & \cellcolor{gray!6}{0.025} & \cellcolor{gray!6}{16125}\\
+\addlinespace
+Llama3.1-8b & 0.030 & 6612\\
+\bottomrule
+\multicolumn{3}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{3}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{F-test on post-treatment missingness. Study 2. Model conditions.}
+\centering
+\begin{tabular}[t]{lrrrrl}
+\toprule
+term & df & sumsq & meansq & statistic & p.value\\
+\midrule
+\cellcolor{gray!6}{Condition} & \cellcolor{gray!6}{5} & \cellcolor{gray!6}{1.07} & \cellcolor{gray!6}{0.21} & \cellcolor{gray!6}{8.12} & \cellcolor{gray!6}{<.001}\\
+Residuals & 28365 & 744.25 & 0.03 & NA & NA\\
+\bottomrule
+\multicolumn{6}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{6}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Proportion post-treatment missingness (NA). Study 2. Personalizaton (open- and closed-source models).}
+\centering
+\begin{tabular}[t]{lrr}
+\toprule
+Condition & Proportion NA & Total N\\
+\midrule
+\cellcolor{gray!6}{Generic} & \cellcolor{gray!6}{0.028} & \cellcolor{gray!6}{13506}\\
+Personalized & 0.027 & 13429\\
+\bottomrule
+\multicolumn{3}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{3}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{F-test on post-treatment missingness. Study 2. Personalizaton (open- and closed-source models).}
+\centering
+\begin{tabular}[t]{lrrrrl}
+\toprule
+term & df & sumsq & meansq & statistic & p.value\\
+\midrule
+\cellcolor{gray!6}{Condition} & \cellcolor{gray!6}{1} & \cellcolor{gray!6}{0.01} & \cellcolor{gray!6}{0.01} & \cellcolor{gray!6}{0.23} & \cellcolor{gray!6}{0.633}\\
+Residuals & 26933 & 724.39 & 0.03 & NA & NA\\
+\bottomrule
+\multicolumn{6}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{6}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Proportion post-treatment missingness (NA). Study 2. PPT: GPT-3.5 / 4o (8/24) / 4.5.}
+\centering
+\begin{tabular}[t]{lrr}
+\toprule
+Condition & Proportion NA & Total N\\
+\midrule
+\cellcolor{gray!6}{Base} & \cellcolor{gray!6}{0.028} & \cellcolor{gray!6}{2108}\\
+RM & 0.041 & 2090\\
+\bottomrule
+\multicolumn{3}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{3}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{F-test on post-treatment missingness. Study 2. PPT: GPT-3.5 / 4o (8/24) / 4.5.}
+\centering
+\begin{tabular}[t]{lrrrrl}
+\toprule
+term & df & sumsq & meansq & statistic & p.value\\
+\midrule
+\cellcolor{gray!6}{Condition} & \cellcolor{gray!6}{1} & \cellcolor{gray!6}{0.17} & \cellcolor{gray!6}{0.17} & \cellcolor{gray!6}{5.03} & \cellcolor{gray!6}{0.025}\\
+Residuals & 4196 & 140.75 & 0.03 & NA & NA\\
+\bottomrule
+\multicolumn{6}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{6}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Proportion post-treatment missingness (NA). Study 2. PPT: Llama-405B.}
+\centering
+\begin{tabular}[t]{lrr}
+\toprule
+Condition & Proportion NA & Total N\\
+\midrule
+\cellcolor{gray!6}{Base} & \cellcolor{gray!6}{0.025} & \cellcolor{gray!6}{3328}\\
+RM & 0.028 & 3380\\
+\cellcolor{gray!6}{SFT} & \cellcolor{gray!6}{0.023} & \cellcolor{gray!6}{3288}\\
+SFT + RM & 0.026 & 3262\\
+\bottomrule
+\multicolumn{3}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{3}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{F-test on post-treatment missingness. Study 2. PPT: Llama-405B.}
+\centering
+\begin{tabular}[t]{lrrrrl}
+\toprule
+term & df & sumsq & meansq & statistic & p.value\\
+\midrule
+\cellcolor{gray!6}{Condition} & \cellcolor{gray!6}{3} & \cellcolor{gray!6}{0.05} & \cellcolor{gray!6}{0.02} & \cellcolor{gray!6}{0.68} & \cellcolor{gray!6}{0.564}\\
+Residuals & 13254 & 326.49 & 0.02 & NA & NA\\
+\bottomrule
+\multicolumn{6}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{6}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Proportion post-treatment missingness (NA). Study 2. PPT: Llama-8B.}
+\centering
+\begin{tabular}[t]{lrr}
+\toprule
+Condition & Proportion NA & Total N\\
+\midrule
+\cellcolor{gray!6}{Base} & \cellcolor{gray!6}{0.028} & \cellcolor{gray!6}{1682}\\
+RM & 0.037 & 1654\\
+\cellcolor{gray!6}{SFT} & \cellcolor{gray!6}{0.027} & \cellcolor{gray!6}{1639}\\
+SFT + RM & 0.028 & 1637\\
+\bottomrule
+\multicolumn{3}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{3}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{F-test on post-treatment missingness. Study 2. PPT: Llama-8B.}
+\centering
+\begin{tabular}[t]{lrrrrl}
+\toprule
+term & df & sumsq & meansq & statistic & p.value\\
+\midrule
+\cellcolor{gray!6}{Condition} & \cellcolor{gray!6}{3} & \cellcolor{gray!6}{0.11} & \cellcolor{gray!6}{0.04} & \cellcolor{gray!6}{1.23} & \cellcolor{gray!6}{0.295}\\
+Residuals & 6608 & 191.96 & 0.03 & NA & NA\\
+\bottomrule
+\multicolumn{6}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{6}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{Proportion post-treatment missingness (NA). Study 2. Prompts (open- and closed-source models).}
+\centering
+\begin{tabular}[t]{lrr}
+\toprule
+Condition & Proportion NA & Total N\\
+\midrule
+\cellcolor{gray!6}{Debate} & \cellcolor{gray!6}{0.029} & \cellcolor{gray!6}{1713}\\
+Deep\_canvass & 0.029 & 1839\\
+\cellcolor{gray!6}{Information} & \cellcolor{gray!6}{0.026} & \cellcolor{gray!6}{2740}\\
+Information\_with\_deception & 0.024 & 1885\\
+\cellcolor{gray!6}{Mega} & \cellcolor{gray!6}{0.033} & \cellcolor{gray!6}{1801}\\
+\addlinespace
+Moral\_reframing & 0.035 & 1755\\
+\cellcolor{gray!6}{None} & \cellcolor{gray!6}{0.027} & \cellcolor{gray!6}{1843}\\
+Norms & 0.027 & 1769\\
+\cellcolor{gray!6}{Storytelling} & \cellcolor{gray!6}{0.032} & \cellcolor{gray!6}{1764}\\
+\bottomrule
+\multicolumn{3}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{3}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+
+\caption{F-test on post-treatment missingness. Study 2. Prompts (open- and closed-source models).}
+\centering
+\begin{tabular}[t]{lrrrrl}
+\toprule
+term & df & sumsq & meansq & statistic & p.value\\
+\midrule
+\cellcolor{gray!6}{Condition} & \cellcolor{gray!6}{8} & \cellcolor{gray!6}{0.21} & \cellcolor{gray!6}{0.03} & \cellcolor{gray!6}{0.91} & \cellcolor{gray!6}{0.504}\\
+Residuals & 17100 & 481.41 & 0.03 & NA & NA\\
+\bottomrule
+\multicolumn{6}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{6}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}

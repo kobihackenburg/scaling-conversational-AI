@@ -1,0 +1,39 @@
+\begin{table}[H]
+
+\caption{OLS estimates (base models only). Outcome: Policy attitude (main persuasion outcome).}
+\centering
+\begin{tabular}[t]{lrrrlrrrr}
+\toprule
+model & estimate & std.error & statistic & p.value & conf.low & conf.high & df & study\\
+\midrule
+\cellcolor{gray!6}{GPT-4o (8/24)} & \cellcolor{gray!6}{8.43} & \cellcolor{gray!6}{0.26} & \cellcolor{gray!6}{32.94} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{7.93} & \cellcolor{gray!6}{8.93} & \cellcolor{gray!6}{29543} & \cellcolor{gray!6}{1}\\
+Llama3.1-405b & 8.70 & 0.31 & 28.04 & <.001 & 8.09 & 9.31 & 29543 & 1\\
+\cellcolor{gray!6}{llama-3-1-70b} & \cellcolor{gray!6}{7.95} & \cellcolor{gray!6}{0.59} & \cellcolor{gray!6}{13.57} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{6.80} & \cellcolor{gray!6}{9.10} & \cellcolor{gray!6}{29543} & \cellcolor{gray!6}{1}\\
+Llama3.1-8b & 5.24 & 0.53 & 9.85 & <.001 & 4.20 & 6.29 & 29543 & 1\\
+\cellcolor{gray!6}{Qwen-1-5-0-5b} & \cellcolor{gray!6}{1.24} & \cellcolor{gray!6}{0.64} & \cellcolor{gray!6}{1.93} & \cellcolor{gray!6}{0.054} & \cellcolor{gray!6}{-0.02} & \cellcolor{gray!6}{2.51} & \cellcolor{gray!6}{29543} & \cellcolor{gray!6}{1}\\
+\addlinespace
+Qwen-1-5-1-8b & 1.68 & 0.59 & 2.85 & 0.004 & 0.52 & 2.83 & 29543 & 1\\
+\cellcolor{gray!6}{Qwen-1-5-110b-chat} & \cellcolor{gray!6}{7.73} & \cellcolor{gray!6}{0.52} & \cellcolor{gray!6}{14.85} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{6.71} & \cellcolor{gray!6}{8.75} & \cellcolor{gray!6}{29543} & \cellcolor{gray!6}{1}\\
+Qwen-1-5-14b & 4.89 & 0.51 & 9.55 & <.001 & 3.88 & 5.89 & 29543 & 1\\
+\cellcolor{gray!6}{Qwen-1-5-32b} & \cellcolor{gray!6}{7.35} & \cellcolor{gray!6}{0.55} & \cellcolor{gray!6}{13.47} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{6.28} & \cellcolor{gray!6}{8.42} & \cellcolor{gray!6}{29543} & \cellcolor{gray!6}{1}\\
+Qwen-1-5-4b & 3.07 & 0.62 & 4.97 & <.001 & 1.86 & 4.28 & 29543 & 1\\
+\addlinespace
+\cellcolor{gray!6}{Qwen-1-5-72b} & \cellcolor{gray!6}{6.26} & \cellcolor{gray!6}{0.58} & \cellcolor{gray!6}{10.87} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{5.13} & \cellcolor{gray!6}{7.38} & \cellcolor{gray!6}{29543} & \cellcolor{gray!6}{1}\\
+Qwen-1-5-72b-chat & 8.68 & 0.56 & 15.44 & <.001 & 7.57 & 9.78 & 29543 & 1\\
+\cellcolor{gray!6}{Qwen-1-5-7b} & \cellcolor{gray!6}{5.44} & \cellcolor{gray!6}{0.50} & \cellcolor{gray!6}{10.82} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{4.45} & \cellcolor{gray!6}{6.42} & \cellcolor{gray!6}{29543} & \cellcolor{gray!6}{1}\\
+GPT-3.5 & 8.45 & 0.62 & 13.60 & <.001 & 7.24 & 9.67 & 11138 & 2\\
+\cellcolor{gray!6}{GPT-4.5} & \cellcolor{gray!6}{11.42} & \cellcolor{gray!6}{0.69} & \cellcolor{gray!6}{16.65} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{10.07} & \cellcolor{gray!6}{12.76} & \cellcolor{gray!6}{11138} & \cellcolor{gray!6}{2}\\
+\addlinespace
+GPT-4o (8/24) & 8.45 & 0.63 & 13.31 & <.001 & 7.20 & 9.69 & 11138 & 2\\
+\cellcolor{gray!6}{Llama3.1-405b} & \cellcolor{gray!6}{8.10} & \cellcolor{gray!6}{0.32} & \cellcolor{gray!6}{25.68} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{7.48} & \cellcolor{gray!6}{8.71} & \cellcolor{gray!6}{11138} & \cellcolor{gray!6}{2}\\
+Llama3.1-8b & 5.92 & 0.44 & 13.52 & <.001 & 5.06 & 6.78 & 11138 & 2\\
+\cellcolor{gray!6}{GPT-4o (3/25)} & \cellcolor{gray!6}{11.80} & \cellcolor{gray!6}{0.43} & \cellcolor{gray!6}{27.74} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{10.96} & \cellcolor{gray!6}{12.63} & \cellcolor{gray!6}{10867} & \cellcolor{gray!6}{3}\\
+GPT-4.5 & 10.50 & 0.43 & 24.48 & <.001 & 9.66 & 11.35 & 10867 & 3\\
+\addlinespace
+\cellcolor{gray!6}{GPT-4o (8/24)} & \cellcolor{gray!6}{8.62} & \cellcolor{gray!6}{0.41} & \cellcolor{gray!6}{20.80} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{7.81} & \cellcolor{gray!6}{9.43} & \cellcolor{gray!6}{10867} & \cellcolor{gray!6}{3}\\
+Grok-3 & 9.05 & 0.58 & 15.52 & <.001 & 7.90 & 10.19 & 10867 & 3\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}Estimates are in percentage points.}\\
+\end{tabular}
+\end{table}
