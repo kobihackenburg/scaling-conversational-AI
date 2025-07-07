@@ -3,6 +3,28 @@
 # library(fixest)
 # library(tidymodels)
 
+fun_my_kable <- function(df, my_caption, my_file, my_footnote) {
+  df %>% 
+    kable(
+      "latex", 
+      booktabs = TRUE, 
+      caption = my_caption
+    ) %>%
+    kable_styling(latex_options = c("HOLD_position", "striped")) %>% 
+    footnote(general = my_footnote) %>% 
+    cat(file = my_file)
+}
+
+fun_round_fix_p <- function(table) {
+  
+  table %>% 
+    mutate(`p.value` = ifelse(`p.value` <.001, "<.001", as.character(round(`p.value`, 3)))) %>% 
+    mutate(across(where(is.numeric), ~round(.x, 2)))
+  
+}
+
+fp <- "output/supplement/results_tables/"
+
 #### Load responses & fact-checking data from all studies
 study1 <- readRDS("study_1/output/data_prepared.rds") %>% mutate(study = 1)
 study2 <- readRDS("study_2/output/data_prepared.rds") %>% mutate(study = 2)
@@ -115,10 +137,6 @@ upr = summary(lm(delta ~ pre_average + study + n_facts_hat + delta_hat, d))$r.sq
 (x-lwr) / (upr-lwr)
 
 
-
-
-
-
 #### Analysis: Impact of 500 persusion-optimized conversations (vs average conversations)
 
 d_all = bind_rows(
@@ -159,4 +177,24 @@ d_top500 %>% feols(n_facts ~ 1, .)
 # Proportion with accuracy < 50%
 d_all %>% feols(n_bad_facts/n_facts ~ 1, .)
 d_top500 %>% feols(n_bad_facts/n_facts ~ 1, .)
+
+## Analysis: persuasion vs inaccurate facts, conditioning on n_facts
+out <-
+  df %>%
+  group_by(study, model, post_train, prompt_rhetoric_id, personalize) %>%
+  summarize(across(c(delta, n_facts, n_bad_facts), mean)) %>%
+  group_by(study) %>%
+  group_modify(~broom::tidy(lm(delta ~ n_facts + n_bad_facts, .), conf.int=T)) %>%
+  filter(term != "(Intercept)")
+
+# Save table
+out %>% 
+  mutate(term = ifelse(term=="n_facts", "N claims", "N inaccurate claims")) %>% 
+  fun_round_fix_p() %>% 
+  fun_my_kable(
+    my_caption = "Association between N inaccurate claims and persuasion adjusting for total N claims.",
+    my_file = paste0(fp, "9_random_forest_regressions/n_inaccurate_claims_on_persuasion.txt"),
+    my_footnote = "Estimates are in percentage points."
+  )
+
 

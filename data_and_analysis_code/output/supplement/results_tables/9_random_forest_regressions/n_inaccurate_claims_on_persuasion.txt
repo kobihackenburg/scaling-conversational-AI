@@ -1,0 +1,22 @@
+\begin{table}[H]
+
+\caption{Association between N inaccurate claims and persuasion adjusting for total N claims.}
+\centering
+\begin{tabular}[t]{llrrrlrr}
+\toprule
+study & term & estimate & std.error & statistic & p.value & conf.low & conf.high\\
+\midrule
+\cellcolor{gray!6}{1A} & \cellcolor{gray!6}{N claims} & \cellcolor{gray!6}{1.21} & \cellcolor{gray!6}{0.11} & \cellcolor{gray!6}{10.89} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{1.43}\\
+1A & N inaccurate claims & -3.45 & 0.30 & -11.48 & <.001 & -4.05 & -2.86\\
+\cellcolor{gray!6}{1B} & \cellcolor{gray!6}{N claims} & \cellcolor{gray!6}{0.43} & \cellcolor{gray!6}{0.20} & \cellcolor{gray!6}{2.15} & \cellcolor{gray!6}{0.051} & \cellcolor{gray!6}{0.00} & \cellcolor{gray!6}{0.87}\\
+1B & N inaccurate claims & -0.20 & 1.79 & -0.11 & 0.91 & -4.07 & 3.66\\
+\cellcolor{gray!6}{2} & \cellcolor{gray!6}{N claims} & \cellcolor{gray!6}{0.49} & \cellcolor{gray!6}{0.12} & \cellcolor{gray!6}{4.26} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{0.27} & \cellcolor{gray!6}{0.72}\\
+\addlinespace
+2 & N inaccurate claims & -0.35 & 0.27 & -1.30 & 0.197 & -0.89 & 0.18\\
+\cellcolor{gray!6}{3} & \cellcolor{gray!6}{N claims} & \cellcolor{gray!6}{0.31} & \cellcolor{gray!6}{0.05} & \cellcolor{gray!6}{6.15} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{0.21} & \cellcolor{gray!6}{0.41}\\
+3 & N inaccurate claims & -0.30 & 0.11 & -2.76 & 0.007 & -0.51 & -0.08\\
+\bottomrule
+\multicolumn{8}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{8}{l}{\rule{0pt}{1em}Estimates are in percentage points.}\\
+\end{tabular}
+\end{table}

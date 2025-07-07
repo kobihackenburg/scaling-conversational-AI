@@ -7,7 +7,7 @@
 model & elpd\_diff & se\_diff & elpd\_loo & se\_elpd\_loo & p\_loo & se\_p\_loo & looic & se\_looic\\
 \midrule
 \cellcolor{gray!6}{Linear} & \cellcolor{gray!6}{0.00} & \cellcolor{gray!6}{0.00} & \cellcolor{gray!6}{-80.27} & \cellcolor{gray!6}{4.56} & \cellcolor{gray!6}{6.40} & \cellcolor{gray!6}{2.70} & \cellcolor{gray!6}{160.55} & \cellcolor{gray!6}{9.12}\\
-GAM & -0.89 & 6.00 & -81.17 & 6.58 & 14.07 & 5.83 & 162.34 & 13.15\\
+GAM & -1.24 & 6.27 & -81.52 & 6.79 & 14.42 & 6.05 & 163.04 & 13.59\\
 \bottomrule
 \multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
 \multicolumn{9}{l}{\rule{0pt}{1em}ELPD = expected log pointwise predictive density. LOO = leave-one-out.}\\

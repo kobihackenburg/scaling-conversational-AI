@@ -6,8 +6,8 @@
 \toprule
 model & elpd\_diff & se\_diff & elpd\_loo & se\_elpd\_loo & p\_loo & se\_p\_loo & looic & se\_looic\\
 \midrule
-\cellcolor{gray!6}{Linear} & \cellcolor{gray!6}{0.00} & \cellcolor{gray!6}{0.00} & \cellcolor{gray!6}{-36.60} & \cellcolor{gray!6}{2.86} & \cellcolor{gray!6}{6.38} & \cellcolor{gray!6}{2.63} & \cellcolor{gray!6}{73.20} & \cellcolor{gray!6}{5.71}\\
-GAM & -4.51 & 5.04 & -41.10 & 6.00 & 10.64 & 5.36 & 82.21 & 11.99\\
+\cellcolor{gray!6}{Linear} & \cellcolor{gray!6}{0.00} & \cellcolor{gray!6}{0.00} & \cellcolor{gray!6}{-36.50} & \cellcolor{gray!6}{2.85} & \cellcolor{gray!6}{6.28} & \cellcolor{gray!6}{2.57} & \cellcolor{gray!6}{73.00} & \cellcolor{gray!6}{5.69}\\
+GAM & -4.73 & 5.05 & -41.23 & 6.02 & 10.77 & 5.40 & 82.46 & 12.04\\
 \bottomrule
 \multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
 \multicolumn{9}{l}{\rule{0pt}{1em}ELPD = expected log pointwise predictive density. LOO = leave-one-out.}\\
