@@ -193,7 +193,7 @@ out %>%
   fun_round_fix_p() %>% 
   fun_my_kable(
     my_caption = "Association between N inaccurate claims and persuasion adjusting for total N claims.",
-    my_file = paste0(fp, "9_random_forest_regressions/n_inaccurate_claims_on_persuasion.txt"),
+    my_file = paste0(fp, "9_inaccurate_claims_vs_persuasion/n_inaccurate_claims_on_persuasion.txt"),
     my_footnote = "Estimates are in percentage points."
   )
 
