@@ -1,14 +1,14 @@
 \begin{table}[H]
-
+\centering
 \caption{Meta-regression output. Models: Developer-tuned models. Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
 \centering
 \begin{tabular}[t]{llllllll}
 \toprule
 Term & Estimate & Est.Error & l-95\% CI & u-95\% CI & Rhat & Bulk\_ESS & Tail\_ESS\\
 \midrule
-\cellcolor{gray!6}{Intercept} & \cellcolor{gray!6}{6.79} & \cellcolor{gray!6}{3.23} & \cellcolor{gray!6}{0.29} & \cellcolor{gray!6}{13.36} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{10063.70} & \cellcolor{gray!6}{7429.09}\\
+\cellcolor{gray!10}{Intercept} & \cellcolor{gray!10}{6.79} & \cellcolor{gray!10}{3.23} & \cellcolor{gray!10}{0.29} & \cellcolor{gray!10}{13.36} & \cellcolor{gray!10}{1.00} & \cellcolor{gray!10}{10063.70} & \cellcolor{gray!10}{7429.09}\\
 log10(flops) & 0.29 & 0.74 & -1.21 & 1.77 & 1.00 & 9269.66 & 7143.91\\
-\cellcolor{gray!6}{study2} & \cellcolor{gray!6}{0.88} & \cellcolor{gray!6}{1.66} & \cellcolor{gray!6}{-2.46} & \cellcolor{gray!6}{4.18} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{8901.39} & \cellcolor{gray!6}{7239.43}\\
+\cellcolor{gray!10}{study2} & \cellcolor{gray!10}{0.88} & \cellcolor{gray!10}{1.66} & \cellcolor{gray!10}{-2.46} & \cellcolor{gray!10}{4.18} & \cellcolor{gray!10}{1.00} & \cellcolor{gray!10}{8901.39} & \cellcolor{gray!10}{7239.43}\\
 study3 & 1.48 & 1.48 & -1.56 & 4.47 & 1.00 & 7689.69 & 6377.73\\
 \bottomrule
 \multicolumn{8}{l}{\rule{0pt}{1em}\textit{Note: }}\\

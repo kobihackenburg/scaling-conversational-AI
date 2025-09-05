@@ -1,0 +1,32 @@
+\begin{table}[H]
+\centering
+\caption{Sample sizes (n) per condition. Study 2. .}
+\centering
+\begin{tabular}[t]{lllr}
+\toprule
+condition & model & post train & n\\
+\midrule
+\cellcolor{gray!10}{control} & \cellcolor{gray!10}{GPT-4o (8/24)} & \cellcolor{gray!10}{NA} & \cellcolor{gray!10}{1415}\\
+treatment-1 & Llama3.1-405b & base & 3246\\
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{Llama3.1-405b} & \cellcolor{gray!10}{rm} & \cellcolor{gray!10}{3286}\\
+treatment-1 & Llama3.1-405b & sft & 3214\\
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{Llama3.1-405b} & \cellcolor{gray!10}{sft\_and\_rm} & \cellcolor{gray!10}{3177}\\
+\addlinespace
+treatment-1 & Llama3.1-8b & base & 1635\\
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{Llama3.1-8b} & \cellcolor{gray!10}{rm} & \cellcolor{gray!10}{1593}\\
+treatment-1 & Llama3.1-8b & sft & 1595\\
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{Llama3.1-8b} & \cellcolor{gray!10}{sft\_and\_rm} & \cellcolor{gray!10}{1591}\\
+treatment-2 & GPT-3.5 & base & 668\\
+\addlinespace
+\cellcolor{gray!10}{treatment-2} & \cellcolor{gray!10}{GPT-3.5} & \cellcolor{gray!10}{rm} & \cellcolor{gray!10}{680}\\
+treatment-2 & GPT-4.5 & base & 689\\
+\cellcolor{gray!10}{treatment-2} & \cellcolor{gray!10}{GPT-4.5} & \cellcolor{gray!10}{rm} & \cellcolor{gray!10}{669}\\
+treatment-2 & GPT-4o (8/24) & base & 691\\
+\cellcolor{gray!10}{treatment-2} & \cellcolor{gray!10}{GPT-4o (8/24)} & \cellcolor{gray!10}{rm} & \cellcolor{gray!10}{655}\\
+\addlinespace
+treatment-3 & Llama3.1-405b & NA & 2801\\
+\bottomrule
+\multicolumn{4}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{4}{l}{\rule{0pt}{1em}NA denotes missingness. It means the randomized factor was not assigned.}\\
+\end{tabular}
+\end{table}

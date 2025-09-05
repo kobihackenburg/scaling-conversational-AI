@@ -1,20 +1,27 @@
 
-# library(tidyverse)
-# library(metafor)
-# library(broom)
-# library(estimatr)
-# library(ggrepel)
-# library(cowplot)
-# library(tidybayes)
-# library(brms)
-# library(mgcv)
-# library(modelr)
-# library(ggdist)
-# library(patchwork)
+library(tidyverse)
+library(metafor)
+library(broom)
+library(estimatr)
+library(ggrepel)
+library(cowplot)
+library(tidybayes)
+library(brms)
+library(mgcv)
+library(modelr)
+library(ggdist)
+library(patchwork)
 set.seed(42)
 
 source("analysis_code/function_scaling_curve.R")
 source("analysis_code/function_interaction_tuning_type.R")
+
+# Read in weights ----
+df_weights <- 
+  readRDS("output/census_weights/census_weights_age_gender_edu.rds") %>% 
+  rename(age_category = Age,
+         edu_cat = Education) %>% 
+  rename_with(~str_to_lower(.x))
 
 # Read in data ----
 study1 <- readRDS("study_1/output/data_prepared.rds") %>% mutate(study = 1)
@@ -38,6 +45,52 @@ study1 <-
                 "d1.pre_average",
                 "d1.models_vs_control"))
 
+# Add weights to data ----
+age_cats <- df_weights$age_category %>% unique
+
+list_the_data <-
+  map(list(study1, study2, study3),
+      function(.x) {
+        
+        .x %>% 
+          mutate(
+            sex = case_when(gender == 1 ~ "Male",
+                            gender == 2 ~ "Female"),
+            age_category = case_when(
+              age >= 16 & age <= 24 ~ age_cats[1],
+              age >= 25 & age <= 34 ~ age_cats[2],
+              age >= 35 & age <= 49 ~ age_cats[3],
+              age >= 50 & age <= 64 ~ age_cats[4],
+              age >= 65 ~ age_cats[5]
+              # age <= 4 ~ age_cats[1],
+              # age >= 5 & age <= 9 ~ age_cats[2],
+              # age >= 10 & age <= 15 ~ age_cats[3],
+              # age >= 16 & age <= 19 ~ age_cats[4],
+              # age >= 20 & age <= 24 ~ age_cats[5],
+              # age >= 25 & age <= 34 ~ age_cats[6],
+              # age >= 35 & age <= 49 ~ age_cats[7],
+              # age >= 50 & age <= 64 ~ age_cats[8],
+              # age >= 65 & age <= 74 ~ age_cats[9],
+              # age >= 75 & age <= 84 ~ age_cats[10],
+              # age >= 85 ~ age_cats[11]
+            ),
+            edu_cat = case_when(
+              education >= 4 ~ "degree",
+              education < 4 ~ "no_degree"
+            )
+            ) %>% 
+          left_join(
+            df_weights %>% 
+              select(-n) %>% 
+              rename(weight = prop), 
+            by = c("sex", "age_category", "edu_cat")
+          )
+        
+      })
+
+study1 <- list_the_data[[1]]
+study2 <- list_the_data[[2]]
+study3 <- list_the_data[[3]]
 
 # Define model sizes ----
 model_sizes <-
@@ -101,8 +154,12 @@ specifications <-
   expand_grid(
     outcome = list_outcomes,
     size_metric = list_size_metrics,
-    data_specs
-  )
+    data_specs,
+    weighted = c(T, F)
+  ) #%>% 
+  # filter(
+  #   !(weighted == T & data_label != "full")
+  # )
 
 specifications %>% print(n=100)
 
@@ -123,7 +180,8 @@ for (i in 1:nrow(specifications)) {
       gran_factor = 5, 
       oom_factor = 2, 
       model_sizes = model_sizes,
-      k_value = specifications[[i,"k_value"]]
+      k_value = specifications[[i,"k_value"]],
+      weighted = specifications[[i,"weighted"]]
     )
 
   print(paste0("Metaregs fitted for spec ", i, "/", nrow(specifications), "."))

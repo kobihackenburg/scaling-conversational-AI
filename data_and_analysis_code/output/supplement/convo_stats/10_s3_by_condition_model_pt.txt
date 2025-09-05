@@ -1,0 +1,25 @@
+\begin{table}[H]
+\centering
+\caption{Conversation statistics by condition. Study 3. .}
+\centering
+\fontsize{7}{9}\selectfont
+\begin{tabular}[t]{lllrrrrrrr}
+\toprule
+condition & model & post train & total convos & total AI msgs & M AI msgs & SD AI msgs & total user msgs & M user msgs & SD user msgs\\
+\midrule
+\cellcolor{gray!10}{control} & \cellcolor{gray!10}{GPT-4o (8/24)} & \cellcolor{gray!10}{base} & \cellcolor{gray!10}{1052} & \cellcolor{gray!10}{6378} & \cellcolor{gray!10}{6.06} & \cellcolor{gray!10}{2.30} & \cellcolor{gray!10}{5281} & \cellcolor{gray!10}{5.02} & \cellcolor{gray!10}{2.30}\\
+treatment-1 & GPT-4.5 & base & 2625 & 18038 & 6.89 & 2.93 & 15288 & 5.84 & 2.90\\
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{GPT-4.5} & \cellcolor{gray!10}{rm} & \cellcolor{gray!10}{2622} & \cellcolor{gray!10}{17605} & \cellcolor{gray!10}{6.77} & \cellcolor{gray!10}{2.81} & \cellcolor{gray!10}{14910} & \cellcolor{gray!10}{5.73} & \cellcolor{gray!10}{2.79}\\
+treatment-1 & GPT-4o (3/25) & base & 2686 & 19058 & 7.10 & 2.86 & 16292 & 6.07 & 2.83\\
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{GPT-4o (3/25)} & \cellcolor{gray!10}{rm} & \cellcolor{gray!10}{2662} & \cellcolor{gray!10}{18546} & \cellcolor{gray!10}{6.97} & \cellcolor{gray!10}{2.82} & \cellcolor{gray!10}{15753} & \cellcolor{gray!10}{5.92} & \cellcolor{gray!10}{2.79}\\
+\addlinespace
+treatment-1 & GPT-4o (8/24) & base & 2611 & 17515 & 6.71 & 2.70 & 14821 & 5.68 & 2.69\\
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{GPT-4o (8/24)} & \cellcolor{gray!10}{rm} & \cellcolor{gray!10}{2660} & \cellcolor{gray!10}{17496} & \cellcolor{gray!10}{6.58} & \cellcolor{gray!10}{2.69} & \cellcolor{gray!10}{14733} & \cellcolor{gray!10}{5.54} & \cellcolor{gray!10}{2.68}\\
+treatment-2 & Grok-3 & base & 974 & 6438 & 6.64 & 2.88 & 5425 & 5.59 & 2.87\\
+\cellcolor{gray!10}{treatment-2} & \cellcolor{gray!10}{Grok-3} & \cellcolor{gray!10}{rm} & \cellcolor{gray!10}{994} & \cellcolor{gray!10}{6287} & \cellcolor{gray!10}{6.36} & \cellcolor{gray!10}{2.81} & \cellcolor{gray!10}{5246} & \cellcolor{gray!10}{5.30} & \cellcolor{gray!10}{2.75}\\
+treatment-3 & GPT-4.5 & base & 926 & 942 & 1.02 & 0.14 & 0 & 0.00 & 0.00\\
+\bottomrule
+\multicolumn{10}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{10}{l}{\rule{0pt}{1em}M = Mean; SD = standard deviation.}\\
+\end{tabular}
+\end{table}

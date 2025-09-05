@@ -1,16 +1,16 @@
 \begin{table}[H]
-
+\centering
 \caption{Estimating the interaction between the listed model (vs. GPT-4o 8/24) and information prompt (vs. other prompt). Model: GPT-4.5. Outcome: Information density (N claims).}
 \centering
 \begin{tabular}[t]{lrrrlrrrr}
 \toprule
 term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & study\\
 \midrule
-\cellcolor{gray!6}{Info prompt} & \cellcolor{gray!6}{8.82} & \cellcolor{gray!6}{0.53} & \cellcolor{gray!6}{16.53} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{7.77} & \cellcolor{gray!6}{9.87} & \cellcolor{gray!6}{2692} & \cellcolor{gray!6}{2}\\
+\cellcolor{gray!10}{Info prompt} & \cellcolor{gray!10}{8.82} & \cellcolor{gray!10}{0.53} & \cellcolor{gray!10}{16.53} & \cellcolor{gray!10}{<.001} & \cellcolor{gray!10}{7.77} & \cellcolor{gray!10}{9.87} & \cellcolor{gray!10}{2692} & \cellcolor{gray!10}{2}\\
 GPT-4.5 & 5.16 & 0.27 & 18.94 & <.001 & 4.62 & 5.69 & 2692 & 2\\
-\cellcolor{gray!6}{Info prompt x GPT-4.5} & \cellcolor{gray!6}{4.41} & \cellcolor{gray!6}{1.03} & \cellcolor{gray!6}{4.27} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{2.39} & \cellcolor{gray!6}{6.44} & \cellcolor{gray!6}{2692} & \cellcolor{gray!6}{2}\\
+\cellcolor{gray!10}{Info prompt x GPT-4.5} & \cellcolor{gray!10}{4.41} & \cellcolor{gray!10}{1.03} & \cellcolor{gray!10}{4.27} & \cellcolor{gray!10}{<.001} & \cellcolor{gray!10}{2.39} & \cellcolor{gray!10}{6.44} & \cellcolor{gray!10}{2692} & \cellcolor{gray!10}{2}\\
 Info prompt & 7.93 & 0.26 & 30.13 & <.001 & 7.42 & 8.45 & 10543 & 3\\
-\cellcolor{gray!6}{GPT-4.5} & \cellcolor{gray!6}{5.34} & \cellcolor{gray!6}{0.14} & \cellcolor{gray!6}{37.37} & \cellcolor{gray!6}{<.001} & \cellcolor{gray!6}{5.06} & \cellcolor{gray!6}{5.62} & \cellcolor{gray!6}{10543} & \cellcolor{gray!6}{3}\\
+\cellcolor{gray!10}{GPT-4.5} & \cellcolor{gray!10}{5.34} & \cellcolor{gray!10}{0.14} & \cellcolor{gray!10}{37.37} & \cellcolor{gray!10}{<.001} & \cellcolor{gray!10}{5.06} & \cellcolor{gray!10}{5.62} & \cellcolor{gray!10}{10543} & \cellcolor{gray!10}{3}\\
 \addlinespace
 Info prompt x GPT-4.5 & 6.06 & 0.51 & 11.79 & <.001 & 5.06 & 7.07 & 10543 & 3\\
 \bottomrule

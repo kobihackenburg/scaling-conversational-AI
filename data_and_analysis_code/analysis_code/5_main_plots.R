@@ -98,277 +98,290 @@ for (i in list_outcomes) {
   # FIGURE 1 ──────────────────────────────────────────────────────────────────
   ## 1 ── Data prep ----------------------------------------------------------
   
-  specifications <- df_list$df_estimates_scaling_curve %>%
-    filter(outcome == outcome_variable)
-  
-  df_static <- df_list$df_estimates_static %>%
-    filter(outcome_id == outcome_variable)
-  
-  # 1·1 Conditional means ----------------------------------------------------
-  temp_cond_means <- specifications %>%
-    select(-contains("metareg"), -list_data) %>%
-    unnest(linear_cond_means)
-  
-  # 1·2 OLS dialogue estimates ----------------------------------------------
-  temp_ols_dialogue <- specifications %>%
-    select(-contains("metareg"), -list_data, -outcome) %>%
-    filter(data_label %in% c("dev_pt", "chat_pt")) %>%
-    unnest(ols_dialogue) %>%
-    mutate(
-      model = str_replace_all(model, model_names),
-      model = str_replace_all(model, c(
-        "-1-5"             = "1.5",
-        "-3-1"             = "3.1",
-        "0-5b"             = "0.5b",
-        "qwen1.5-1-8b"     = "qwen1.5-1.8b"
-      )),
-      ## --- Single-letter label  ---------------------------------------
-      label_short = str_replace_all(model, c(
-        "qwen1\\.5"  = "Q",
-        "llama3\\.1" = "L"
-      ))
-    )
-  
-  # 1·3 Trim conditional means to dialogue range ----------------------------
-  max_flops_all  <- max(temp_ols_dialogue$flops_1e21_epoch) + 0.5
-  max_flops_chat <- max(
-    temp_ols_dialogue %>%
-      filter(data_label == "chat_pt") %>%
-      pull(flops_1e21_epoch)
-  ) + 0.5
-  
-  temp_cond_means <- bind_rows(
-    temp_cond_means %>%
-      filter(data_label == "dev_pt",  flops_1e21_epoch <= max_flops_all),
-    temp_cond_means %>%
-      filter(data_label == "chat_pt", flops_1e21_epoch <= max_flops_chat),
-    temp_cond_means %>% filter(data_label == "full")
-  )
-  
-  # 1·4 OLS static estimate --------------------------------------------------
-  temp_ols_static <- specifications %>%
-    select(-outcome) %>%
-    filter(data_label == "dev_pt") %>%
-    unnest(ols_static)
-  
-  gpt4.5_static <- temp_ols_static %>%
-    filter(study == 3) %>%
-    pull(estimate)
-  
-  ## 2 ── Main scaling-curve plot -------------------------------------------
-  
-  pt_cols <- c(dev_pt = "#6a994e", chat_pt = "#9D57D6")
-  
-  g <- temp_cond_means %>%
-    filter(data_label == "full", flops_1e21_epoch <= max_flops_all) %>%
-    ggplot(aes(flops_1e21_epoch, estimate)) +
-    theme_bw(base_family = "CMU Serif") +
+  for (weighted_type in c(T, F)) {
     
-    # Static reference -------------------------------------------------------
-  geom_hline(yintercept = gpt4.5_static, linetype = "dashed", alpha = 0.5, linewidth = .65) +
-    annotate(
-      "text",
-      x     = min(temp_ols_dialogue$flops_1e21_epoch),
-      y     = gpt4.5_static + 0.0,
-      label = paste0(
-        "Static message\n(",
-        round(gpt4.5_static, 2), "pp, GPT-4.5, Study 3)"
-      ),
-      hjust = 0, size = 6, colour = "grey20"
-    ) +
+    #weighted_type <- T
     
-    # Full curve -------------------------------------------------------------
-  geom_line(linewidth = 1, colour = "black", linetype = "solid", alpha = 0.5) +
-    scale_x_log10() +
-    
-    # Dialogue points --------------------------------------------------------
-  geom_errorbar(
-    data  = temp_ols_dialogue,
-    aes(ymin = conf.low, ymax = conf.high, colour = data_label),
-    width = 0, alpha = 0.35
-  ) +
-    geom_point(
-      data  = temp_ols_dialogue,
-      aes(colour = data_label, shape = factor(study)),
-      size  = 7
-    ) +
-    
-    # Developer PT -----------------------------------------------------------
-  geom_line(
-    data      = temp_cond_means %>% filter(data_label == "dev_pt"),
-    colour    = pt_cols["dev_pt"],
-    linewidth = 1, linetype = "solid", alpha = 0.45
-  ) +
-    geom_ribbon(
-      data   = temp_cond_means %>% filter(data_label == "dev_pt"),
-      aes(ymin = .lower, ymax = .upper),
-      fill   = pt_cols["dev_pt"],
-      alpha  = 0.08, colour = NA
-    ) +
-    
-    # Chat PT ----------------------------------------------------------------
-  geom_line(
-    data      = temp_cond_means %>% filter(data_label == "chat_pt"),
-    colour    = pt_cols["chat_pt"],
-    linewidth = 1, linetype = "solid", alpha = 0.45
-  ) +
-    geom_ribbon(
-      data   = temp_cond_means %>% filter(data_label == "chat_pt"),
-      aes(ymin = .lower, ymax = .upper),
-      fill   = pt_cols["chat_pt"],
-      alpha  = 0.08, colour = NA
-    ) +
-    
-    # Scales & labels --------------------------------------------------------
-  scale_color_manual(values = pt_cols,
-                     labels  = c(dev_pt = "Developer", chat_pt = "Chat")) +
-    labs(
-      x      = "Effective compute (FLOPs 1e21)",
-      y      = "Estimated persuasive effect (pp, 95% CI)",
-      shape  = "Study:",
-      colour = "Post-training:",
-      fill   = "Post-training:"
-    ) +
-    guides(
-      shape = guide_legend(override.aes = list(colour = "grey40", fill = "grey40"))
-    ) +
-    
-    # Theme tweaks -----------------------------------------------------------
-  theme(
-    plot.margin           = margin(5.5, 5.5, 10.5, 25.5),
-    panel.grid.minor      = element_blank(),
-    panel.grid.major      = element_blank(),
-    legend.position       = c(0.8, 0.20),
-    legend.direction      = "horizontal",
-    legend.box.background = element_blank(),
-    legend.title = element_text(family = "CMU Serif", size = 16),
-    legend.text           = element_text(family = "CMU Serif", size = 16),
-    plot.title            = element_text(hjust = 0.5, face = "bold"),
-    panel.border          = element_blank(),
-    axis.line             = element_line(linewidth = 0.3),
-    axis.title.x          = element_text(vjust = -2, margin = margin(t = 5),  size = 18, face = "bold"),
-    axis.title.y          = element_text(
-      vjust = 0.5, hjust = 0.5, #to place on top: angle =0, vjust = 1.1, margin (r = -66)
-      margin = margin(r = 10), size = 18, face = "bold"
-    ),
-    axis.text.x           = element_text(size = 16, colour = "black"),
-    axis.text.y           = element_text(size = 16, colour = "black")
-  ) +
-    geom_hline(yintercept = 0, linetype = "dashed", alpha = 0.5) +
-    
-    # Point labels -----------------------------------------------------------
-  ggrepel::geom_text_repel(
-    data        = temp_ols_dialogue,
-    aes(label = ifelse(!is.na(label_short), label_short, model), 
-        colour = data_label),
-    fontface    = "bold",
-    size        = 5,
-    show.legend = FALSE
-  )
-  
-  
-  model_key <- tibble(
-    flops_1e21_epoch = c(-Inf, -Inf),     # keeps points off-panel
-    estimate         = c(-Inf, -Inf),
-    model_lab        = factor(
-      c("Q = qwen1.5", "L = llama3.1"),
-      levels = c("Q = qwen1.5", "L = llama3.1")
-    )
-  )
-  
-  g <- g +
-    ggnewscale::new_scale("shape") +      # generic call for a new shape scale
-    geom_point(
-      data  = model_key,
-      aes(flops_1e21_epoch, estimate, shape = model_lab),
-      size  = 0,
-      alpha = 0
-    ) +
-    scale_shape_manual(
-      name   = "Model:",
-      values = c(15, 15),
-      guide  = guide_legend(
-        order = 3,
-        override.aes = list(size = 5, colour = "grey20")
+    specifications <- df_list$df_estimates_scaling_curve %>%
+      filter(
+        outcome == outcome_variable,
+        weighted == weighted_type
       )
+    
+    # df_static <- df_list$df_estimates_static %>%
+    #   filter(outcome_id == outcome_variable)
+    
+    # 1·1 Conditional means ----------------------------------------------------
+    temp_cond_means <- specifications %>%
+      select(-contains("metareg"), -list_data) %>%
+      unnest(linear_cond_means)
+    
+    # 1·2 OLS dialogue estimates ----------------------------------------------
+    temp_ols_dialogue <- specifications %>%
+      select(-contains("metareg"), -list_data, -outcome) %>%
+      filter(data_label %in% c("dev_pt", "chat_pt")) %>%
+      unnest(ols_dialogue) %>%
+      mutate(
+        model = str_replace_all(model, model_names),
+        model = str_replace_all(model, c(
+          "-1-5"             = "1.5",
+          "-3-1"             = "3.1",
+          "0-5b"             = "0.5b",
+          "qwen1.5-1-8b"     = "qwen1.5-1.8b"
+        )),
+        ## --- Single-letter label  ---------------------------------------
+        label_short = str_replace_all(model, c(
+          "qwen1\\.5"  = "Q",
+          "llama3\\.1" = "L"
+        ))
+      )
+    
+    # 1·3 Trim conditional means to dialogue range ----------------------------
+    max_flops_all  <- max(temp_ols_dialogue$flops_1e21_epoch) + 0.5
+    max_flops_chat <- max(
+      temp_ols_dialogue %>%
+        filter(data_label == "chat_pt") %>%
+        pull(flops_1e21_epoch)
+    ) + 0.5
+    
+    temp_cond_means <- bind_rows(
+      temp_cond_means %>%
+        filter(data_label == "dev_pt",  flops_1e21_epoch <= max_flops_all),
+      temp_cond_means %>%
+        filter(data_label == "chat_pt", flops_1e21_epoch <= max_flops_chat),
+      temp_cond_means %>% filter(data_label == "full")
     )
-  
-  g  # display
-  
-  ## 3 ── Extrapolation inset -------------------------------------------------
-  
-  current_frontier_est <- temp_cond_means %>%
-    filter(data_label == "full", flops_1e21_epoch <= max_flops_all) %>%
-    pull(estimate) %>%
-    max()
-  
-  g_inset <- specifications %>%
-    filter(data_label == "full") %>%
-    select(linear_oom_compare) %>%
-    unnest(linear_oom_compare) %>%
-    mutate(
-      name = factor(c("+1 OOM", "+2 OOM"), levels = c("+1 OOM", "+2 OOM"))
-    ) %>%
-    ggplot(aes(name, value)) +
-    geom_point(size = 2) +
+    
+    # 1·4 OLS static estimate --------------------------------------------------
+    temp_ols_static <- specifications %>%
+      select(-outcome) %>%
+      filter(data_label == "dev_pt") %>%
+      unnest(ols_static)
+    
+    gpt4.5_static <- temp_ols_static %>%
+      filter(study == 3) %>%
+      pull(estimate)
+    
+    ## 2 ── Main scaling-curve plot -------------------------------------------
+    
+    pt_cols <- c(dev_pt = "#6a994e", chat_pt = "#9D57D6")
+    
+    g <- temp_cond_means %>%
+      filter(data_label == "full", flops_1e21_epoch <= max_flops_all) %>%
+      ggplot(aes(flops_1e21_epoch, estimate)) +
+      theme_bw(base_family = "CMU Serif") +
+      
+      # Static reference -------------------------------------------------------
+    geom_hline(yintercept = gpt4.5_static, linetype = "dashed", alpha = 0.5, linewidth = .65) +
+      annotate(
+        "text",
+        x     = min(temp_ols_dialogue$flops_1e21_epoch),
+        y     = gpt4.5_static + 0.0,
+        label = paste0(
+          "Static message\n(",
+          round(gpt4.5_static, 2), "pp, GPT-4.5, Study 3)"
+        ),
+        hjust = 0, size = 6, colour = "grey20"
+      ) +
+      
+      # Full curve -------------------------------------------------------------
+    geom_line(linewidth = 1, colour = "black", linetype = "solid", alpha = 0.5) +
+      scale_x_log10() +
+      
+      # Dialogue points --------------------------------------------------------
     geom_errorbar(
-      aes(ymin = .lower, ymax = .upper),
-      width = 0, linewidth = 0.5, alpha = 0.5
+      data  = temp_ols_dialogue,
+      aes(ymin = conf.low, ymax = conf.high, colour = data_label),
+      width = 0, alpha = 0.35
     ) +
-    annotate(
-      "text",
-      x     = 0.17, y = 0, hjust = 0.5, size = 3,
-      label = paste0(
-        "Current frontier\npersuasion\n(",
-        round(current_frontier_est, 2), " pp)"
-      )
+      geom_point(
+        data  = temp_ols_dialogue,
+        aes(colour = data_label, shape = factor(study)),
+        size  = 7
+      ) +
+      
+      # Developer PT -----------------------------------------------------------
+    geom_line(
+      data      = temp_cond_means %>% filter(data_label == "dev_pt"),
+      colour    = pt_cols["dev_pt"],
+      linewidth = 1, linetype = "solid", alpha = 0.45
     ) +
-    coord_cartesian(xlim = c(0.25, 2), ylim = c(-2, 5), clip = "off") +
-    labs(
-      title = "Extrapolating the curve\n+2 orders of magnitude (OOM)",
-      x = NULL, y = NULL
+      geom_ribbon(
+        data   = temp_cond_means %>% filter(data_label == "dev_pt"),
+        aes(ymin = .lower, ymax = .upper),
+        fill   = pt_cols["dev_pt"],
+        alpha  = 0.08, colour = NA
+      ) +
+      
+      # Chat PT ----------------------------------------------------------------
+    geom_line(
+      data      = temp_cond_means %>% filter(data_label == "chat_pt"),
+      colour    = pt_cols["chat_pt"],
+      linewidth = 1, linetype = "solid", alpha = 0.45
     ) +
-    theme_bw(base_family = "CMU Serif") +
+      geom_ribbon(
+        data   = temp_cond_means %>% filter(data_label == "chat_pt"),
+        aes(ymin = .lower, ymax = .upper),
+        fill   = pt_cols["chat_pt"],
+        alpha  = 0.08, colour = NA
+      ) +
+      
+      # Scales & labels --------------------------------------------------------
+    scale_color_manual(values = pt_cols,
+                       labels  = c(dev_pt = "Developer", chat_pt = "Chat")) +
+      labs(
+        x      = "Effective compute (FLOPs 1e21)",
+        y      = "Estimated persuasive effect (pp, 95% CI)",
+        shape  = "Study:",
+        colour = "Post-training:",
+        fill   = "Post-training:"
+      ) +
+      guides(
+        shape = guide_legend(override.aes = list(colour = "grey40", fill = "grey40"))
+      ) +
+      
+      # Theme tweaks -----------------------------------------------------------
     theme(
-      panel.grid      = element_blank(),
-      axis.title      = element_blank(),
-      axis.ticks.x    = element_blank(),
-      axis.line.x     = element_blank(),
-      axis.ticks.y    = element_blank(),
-      axis.text.y     = element_blank(),
-      plot.title      = element_text(hjust = 0.5, size = 12),
-      axis.text.x     = element_text(vjust = 12, margin = margin(t = -8), face = "bold", size = 11),
-      panel.border    = element_rect(colour = "grey20", fill = NA, linewidth = 0.3)
+      plot.margin           = margin(5.5, 5.5, 10.5, 25.5),
+      panel.grid.minor      = element_blank(),
+      panel.grid.major      = element_blank(),
+      legend.position       = c(0.8, 0.20),
+      legend.direction      = "horizontal",
+      legend.box.background = element_blank(),
+      legend.title = element_text(family = "CMU Serif", size = 16),
+      legend.text           = element_text(family = "CMU Serif", size = 16),
+      plot.title            = element_text(hjust = 0.5, face = "bold"),
+      panel.border          = element_blank(),
+      axis.line             = element_line(linewidth = 0.3),
+      axis.title.x          = element_text(vjust = -2, margin = margin(t = 5),  size = 18, face = "bold"),
+      axis.title.y          = element_text(
+        vjust = 0.5, hjust = 0.5, #to place on top: angle =0, vjust = 1.1, margin (r = -66)
+        margin = margin(r = 10), size = 18, face = "bold"
+      ),
+      axis.text.x           = element_text(size = 16, colour = "black"),
+      axis.text.y           = element_text(size = 16, colour = "black")
     ) +
-    # Draw x-axis baseline
-    geom_segment(
-      inherit.aes = FALSE,
-      x = 0.75, xend = 2.25,
-      y = 0,    yend = 0,
-      linewidth = 0.45, linetype = "dashed", alpha = 0.25
-    ) +
-    geom_text(
-      aes(label = paste0("+", round(value, 2))),
-      nudge_x = 0.3, nudge_y = 0.05
+      geom_hline(yintercept = 0, linetype = "dashed", alpha = 0.5) +
+      
+      # Point labels -----------------------------------------------------------
+    ggrepel::geom_text_repel(
+      data        = temp_ols_dialogue,
+      aes(label = ifelse(!is.na(label_short), label_short, model), 
+          colour = data_label),
+      fontface    = "bold",
+      size        = 5,
+      show.legend = FALSE,
+      alpha = 0.7
     )
+    
+    
+    model_key <- tibble(
+      flops_1e21_epoch = c(-Inf, -Inf),     # keeps points off-panel
+      estimate         = c(-Inf, -Inf),
+      model_lab        = factor(
+        c("Q = qwen1.5", "L = llama3.1"),
+        levels = c("Q = qwen1.5", "L = llama3.1")
+      )
+    )
+    
+    g <- g +
+      ggnewscale::new_scale("shape") +      # generic call for a new shape scale
+      geom_point(
+        data  = model_key,
+        aes(flops_1e21_epoch, estimate, shape = model_lab),
+        size  = 0,
+        alpha = 0
+      ) +
+      scale_shape_manual(
+        name   = "Model:",
+        values = c(15, 15),
+        guide  = guide_legend(
+          order = 3,
+          override.aes = list(size = 5, colour = "grey20")
+        )
+      )
+    
+    g  # display
+    
+    ## 3 ── Extrapolation inset -------------------------------------------------
+    
+    current_frontier_est <- temp_cond_means %>%
+      filter(data_label == "full", flops_1e21_epoch <= max_flops_all) %>%
+      pull(estimate) %>%
+      max()
+    
+    g_inset <- specifications %>%
+      filter(data_label == "full") %>%
+      select(linear_oom_compare) %>%
+      unnest(linear_oom_compare) %>%
+      mutate(
+        name = factor(c("+1 OOM", "+2 OOM"), levels = c("+1 OOM", "+2 OOM"))
+      ) %>%
+      ggplot(aes(name, value)) +
+      geom_point(size = 2) +
+      geom_errorbar(
+        aes(ymin = .lower, ymax = .upper),
+        width = 0, linewidth = 0.5, alpha = 0.5
+      ) +
+      annotate(
+        "text",
+        x     = 0.17, y = 0, hjust = 0.5, size = 3,
+        label = paste0(
+          "Current frontier\npersuasion\n(",
+          round(current_frontier_est, 2), " pp)"
+        )
+      ) +
+      coord_cartesian(xlim = c(0.25, 2), ylim = c(-2, 5), clip = "off") +
+      labs(
+        title = "Extrapolating the curve\n+2 orders of magnitude (OOM)",
+        x = NULL, y = NULL
+      ) +
+      theme_bw(base_family = "CMU Serif") +
+      theme(
+        panel.grid      = element_blank(),
+        axis.title      = element_blank(),
+        axis.ticks.x    = element_blank(),
+        axis.line.x     = element_blank(),
+        axis.ticks.y    = element_blank(),
+        axis.text.y     = element_blank(),
+        plot.title      = element_text(hjust = 0.5, size = 12),
+        axis.text.x     = element_text(vjust = 12, margin = margin(t = -8), size = 11),
+        panel.border    = element_rect(colour = "grey20", fill = NA, linewidth = 0.3)
+      ) +
+      # Draw x-axis baseline
+      geom_segment(
+        inherit.aes = FALSE,
+        x = 0.75, xend = 2.25,
+        y = 0,    yend = 0,
+        linewidth = 0.45, linetype = "dashed", alpha = 0.25
+      ) +
+      geom_text(
+        aes(label = paste0("+", round(value, 2))),
+        nudge_x = 0.3, nudge_y = 0.05
+      )
+    
+    ## 4 ── Combine main plot & inset ------------------------------------------
+    
+    # g_out <- ggdraw() +
+    #   draw_plot(g) +
+    #   draw_plot(g_inset, x = 0.695, y = 0.125, width = 0.25, height = 0.35)
+    
+    g_out <- g  # uncomment to save without the inset
+    
+    ## 5 ── Save ---------------------------------------------------------------
+    
+    ggsave(
+      plot     = g_out,
+      filename = paste0("output/figures/fig1_", outcome_variable, "_weighted", weighted_type, ".pdf"),
+      height   = 8, width = 12
+    )
+    
+  }
   
-  ## 4 ── Combine main plot & inset ------------------------------------------
   
-  # g_out <- ggdraw() +
-  #   draw_plot(g) +
-  #   draw_plot(g_inset, x = 0.695, y = 0.125, width = 0.25, height = 0.35)
   
-  g_out <- g  # uncomment to save without the inset
-  
-  ## 5 ── Save ---------------------------------------------------------------
-  
-  ggsave(
-    plot     = g_out,
-    filename = paste0("output/figures/fig1_", outcome_variable, ".pdf"),
-    height   = 8, width = 12
-  )
-  
-  # ── FIGURE 2 ────────────────────────────────────────────────────────────
+  # FIGURE 2: PPT ----
+  # FIGURE 2 ────────────────────────────────────────────────────────────
   # Libraries -------------------------------------------------------------
   theme_set(theme_get() + theme(text = element_text(family = "CMU Serif")))
   
@@ -735,12 +748,15 @@ for (i in list_outcomes) {
   
   # --- Figure 4 · Panel A (Prompt–vs-none meta-analysis) ------------------------
   
-  g1 <- df_list$df_estimates_prompt_vs_none_meta %>% 
-    filter(outcome == outcome_variable) %>% 
+  g1 <- 
+    df_list$df_estimates_prompt_vs_control_raw_and_meta %>% 
+    #df_list$df_estimates_prompt_vs_none_meta %>% 
+    filter(outcome_id == outcome_variable,
+           meta_analytic == "yes") %>% 
     ggplot(
       aes(
-        y = forcats::fct_reorder(term, tidy_out_estimate),   # order by effect size
-        x = tidy_out_estimate
+        y = forcats::fct_reorder(prompt, estimate),   # order by effect size
+        x = estimate
       )
     ) +
     
@@ -748,8 +764,8 @@ for (i in list_outcomes) {
     geom_point(size = 4, shape = 21, fill = "black") +
     geom_errorbarh(
       aes(
-        xmin = tidy_out_estimate - 1.96 * tidy_out_std.error,
-        xmax = tidy_out_estimate + 1.96 * tidy_out_std.error
+        xmin = conf.low,
+        xmax = conf.high
       ),
       height    = 0,
       linewidth = .4
@@ -757,12 +773,13 @@ for (i in list_outcomes) {
     
     ## ── Study-level points ────────────────────────────────────────────────────
     geom_point(
-      data = df_list$df_estimates_prompt_vs_none_raw %>% 
-        filter(outcome == outcome_variable) %>% 
-        rename(tidy_out_estimate = estimate),
+      data = df_list$df_estimates_prompt_vs_control_raw_and_meta %>% 
+        filter(outcome_id == outcome_variable,
+               is.na(meta_analytic)), #%>% 
+        #rename(tidy_out_estimate = estimate),
       aes(
-        y      = term,
-        x      = tidy_out_estimate,
+        y      = prompt,
+        x      = estimate,
         colour = dataset,
         shape  = dataset,
       ),
@@ -776,7 +793,7 @@ for (i in list_outcomes) {
     
     ## ── Numeric labels ───────────────────────────────────────────────────────
     geom_label(
-      aes(label = sprintf("%.2f", tidy_out_estimate)),
+      aes(label = sprintf("%.2f", estimate)),
       nudge_y      = .3,                
       size         = 5,               
       family       = "CMU Serif",
@@ -791,7 +808,7 @@ for (i in list_outcomes) {
     scale_colour_manual(values = c("S1, chat 1" = "#6A994E", "S1, chat 2" = "#9D57D6", "S2" = "#142556", "S3" = "#669DC4")) +
     labs(
       y = "Prompt",
-      x = "Persuasive effect vs.\nbasic prompt (pp, 95% CI)"
+      x = "Persuasive effect (pp, 95% CI)"
     ) + scale_y_discrete(
       labels = function(x) {
         x |>
@@ -816,7 +833,7 @@ for (i in list_outcomes) {
         colour = "black",  
         size   = 12
       ),
-      legend.position       = c(.85, .2),
+      legend.position       = c(.3, .8),
       legend.direction      = "vertical",
       legend.box.background = element_blank(),
       legend.title          = element_blank(),
@@ -845,22 +862,31 @@ for (i in list_outcomes) {
   )
   
   
-  g2 <- df_list$df_prompt_means %>% 
+  g2 <- 
+    df_list$df_prompt_means %>% 
     filter(
       outcome_id == outcome_variable,
       x_variable == "mean_n_facts"          # information density
     ) %>% 
+    left_join(
+      df_list$df_estimates_prompt_vs_control_raw_and_meta %>% 
+        filter(outcome_id == outcome_variable,
+               is.na(meta_analytic)) %>% 
+        rename_with(~ paste0("y_", .x), c(estimate, conf.low, conf.high)) %>% 
+        rename(prompt_id = prompt),
+      by = c("prompt_id", "dataset")
+    ) %>% 
     mutate(
       prompt_id = if_else(prompt_id %in% "information", prompt_id, NA_character_)
     ) %>% 
-    ggplot(aes(x = x_value, y = estimate, colour = dataset)) +
+    ggplot(aes(x = x_value, y = y_estimate, colour = dataset)) +
     
     ## ── Points, CIs, and regression line ─────────────────────────────────────
-    geom_point(size = 4) +
-    geom_errorbar(aes(ymin = conf.low, ymax = conf.high),
-                  width = 0, linewidth = .4) +
+    geom_point(size = 4, alpha = 0.8) +
+    geom_errorbar(aes(ymin = y_conf.low, ymax = y_conf.high),
+                  width = 0, linewidth = .4, alpha = 0.3) +
     geom_errorbarh(aes(xmin = lwr, xmax = upr),
-                   height = 0, linewidth = .4) +
+                   height = 0, linewidth = .4, alpha = 0.3) +
     geom_smooth(method = "lm", se = FALSE, linewidth = .8, linetype = "dashed") +
     
     ## ── Highlight information prompt ─────────────────────────────────────────
@@ -877,7 +903,7 @@ for (i in list_outcomes) {
     annotate(
       "text",
       #x        = 13, y = 67,               # adjust if needed
-      x        = 8, y = 63,               # adjust if needed
+      x        = 8, y = 6,               # adjust if needed
       hjust     = 0, vjust = 1,
       size      = 5,
       family    = "CMU Serif",
@@ -888,7 +914,8 @@ for (i in list_outcomes) {
     scale_colour_manual(values = c("S1, chat 1" = "#6A994E", "S1, chat 2" = "#9D57D6", "S2" = "#142556", "S3" = "#669DC4")) +
     labs(
       x = "Information density (N claims)",
-      y = "Policy support (0–100)"
+      #y = "Policy support (0–100)"
+      y = "Persuasive effect (pp)"
     ) +
     
     ## ── Theme adjustments for consistency ────────────────────────────────────
@@ -1224,8 +1251,8 @@ for (i in list_outcomes) {
             panel.border        = element_blank(),
             axis.line.x         = element_line(colour = "black", linewidth = 0.3),
             axis.line.y         = element_line(colour = "black", linewidth = 0.3),
-            axis.title.x        = element_text(vjust = 0,  size = 18, face = "bold",
-                                               margin = margin(10.5, 5.5, 5.5, 5.5)),
+            axis.title.x        = element_text(vjust = 0,  size = 18,
+                                               margin = margin(10.5, 5.5, 5.5, 5.5), face = "bold"),
             axis.title.y        = element_text(vjust = 0.5, hjust = 0.5,
                                                margin = margin(r = 10),
                                                size = 18, face = "bold"),
@@ -1288,7 +1315,8 @@ for (i in list_outcomes) {
             show.legend = FALSE,
             family      = "CMU Serif",
             fontface    = "bold",
-            size        = 5
+            size        = 5,
+            alpha = 0.7
           ) +
           
           labs(

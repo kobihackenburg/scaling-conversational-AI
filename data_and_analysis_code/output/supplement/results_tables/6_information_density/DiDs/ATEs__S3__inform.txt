@@ -1,0 +1,22 @@
+\begin{table}[H]
+\centering
+\caption{Model estimates under information prompt or other prompt. Study: S3. Outcome: Perceived informativeness of the conversation (0-100 scale).}
+\centering
+\begin{tabular}[t]{lrrrlrrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & info prompt?\\
+\midrule
+\cellcolor{gray!10}{GPT-4o (3/25)} & \cellcolor{gray!10}{70.82} & \cellcolor{gray!10}{0.34} & \cellcolor{gray!10}{209.77} & \cellcolor{gray!10}{<.001} & \cellcolor{gray!10}{70.16} & \cellcolor{gray!10}{71.49} & \cellcolor{gray!10}{15564} & \cellcolor{gray!10}{0}\\
+GPT-4.5 & 67.43 & 0.37 & 183.50 & <.001 & 66.71 & 68.15 & 15564 & 0\\
+\cellcolor{gray!10}{GPT-4o (8/24)} & \cellcolor{gray!10}{65.64} & \cellcolor{gray!10}{0.37} & \cellcolor{gray!10}{179.57} & \cellcolor{gray!10}{<.001} & \cellcolor{gray!10}{64.93} & \cellcolor{gray!10}{66.36} & \cellcolor{gray!10}{15564} & \cellcolor{gray!10}{0}\\
+Grok-3 & 66.04 & 0.61 & 108.65 & <.001 & 64.85 & 67.23 & 15564 & 0\\
+\cellcolor{gray!10}{GPT-4o (3/25)} & \cellcolor{gray!10}{80.25} & \cellcolor{gray!10}{0.76} & \cellcolor{gray!10}{105.76} & \cellcolor{gray!10}{<.001} & \cellcolor{gray!10}{78.76} & \cellcolor{gray!10}{81.74} & \cellcolor{gray!10}{2218} & \cellcolor{gray!10}{1}\\
+\addlinespace
+GPT-4.5 & 78.62 & 0.75 & 104.33 & <.001 & 77.14 & 80.09 & 2218 & 1\\
+\cellcolor{gray!10}{GPT-4o (8/24)} & \cellcolor{gray!10}{72.49} & \cellcolor{gray!10}{0.87} & \cellcolor{gray!10}{83.51} & \cellcolor{gray!10}{<.001} & \cellcolor{gray!10}{70.79} & \cellcolor{gray!10}{74.19} & \cellcolor{gray!10}{2218} & \cellcolor{gray!10}{1}\\
+Grok-3 & 74.79 & 1.36 & 55.00 & <.001 & 72.13 & 77.46 & 2218 & 1\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}1 = information prompt; 0 = any other prompt.}\\
+\end{tabular}
+\end{table}

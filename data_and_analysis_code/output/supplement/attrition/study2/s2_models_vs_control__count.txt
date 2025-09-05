@@ -1,16 +1,16 @@
 \begin{table}[H]
-
+\centering
 \caption{Proportion post-treatment missingness (NA). Study 2. Model conditions.}
 \centering
 \begin{tabular}[t]{lrr}
 \toprule
 Condition & Proportion NA & Total N\\
 \midrule
-\cellcolor{gray!6}{Control} & \cellcolor{gray!6}{0.015} & \cellcolor{gray!6}{1436}\\
+\cellcolor{gray!10}{Control} & \cellcolor{gray!10}{0.015} & \cellcolor{gray!10}{1436}\\
 GPT-3.5 & 0.030 & 1390\\
-\cellcolor{gray!6}{GPT-4.5} & \cellcolor{gray!6}{0.049} & \cellcolor{gray!6}{1428}\\
+\cellcolor{gray!10}{GPT-4.5} & \cellcolor{gray!10}{0.049} & \cellcolor{gray!10}{1428}\\
 GPT-4o (8/24) & 0.025 & 1380\\
-\cellcolor{gray!6}{Llama3.1-405b} & \cellcolor{gray!6}{0.025} & \cellcolor{gray!6}{16125}\\
+\cellcolor{gray!10}{Llama3.1-405b} & \cellcolor{gray!10}{0.025} & \cellcolor{gray!10}{16125}\\
 \addlinespace
 Llama3.1-8b & 0.030 & 6612\\
 \bottomrule

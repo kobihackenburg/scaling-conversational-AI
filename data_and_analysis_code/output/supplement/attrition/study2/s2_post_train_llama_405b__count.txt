@@ -1,14 +1,14 @@
 \begin{table}[H]
-
+\centering
 \caption{Proportion post-treatment missingness (NA). Study 2. PPT: Llama-405B.}
 \centering
 \begin{tabular}[t]{lrr}
 \toprule
 Condition & Proportion NA & Total N\\
 \midrule
-\cellcolor{gray!6}{Base} & \cellcolor{gray!6}{0.025} & \cellcolor{gray!6}{3328}\\
+\cellcolor{gray!10}{Base} & \cellcolor{gray!10}{0.025} & \cellcolor{gray!10}{3328}\\
 RM & 0.028 & 3380\\
-\cellcolor{gray!6}{SFT} & \cellcolor{gray!6}{0.023} & \cellcolor{gray!6}{3288}\\
+\cellcolor{gray!10}{SFT} & \cellcolor{gray!10}{0.023} & \cellcolor{gray!10}{3288}\\
 SFT + RM & 0.026 & 3262\\
 \bottomrule
 \multicolumn{3}{l}{\rule{0pt}{1em}\textit{Note: }}\\

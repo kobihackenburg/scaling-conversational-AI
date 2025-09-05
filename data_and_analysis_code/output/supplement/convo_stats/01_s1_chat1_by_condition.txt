@@ -1,0 +1,16 @@
+\begin{table}[H]
+\centering
+\caption{Conversation statistics by condition. Study 1. Chat 1.}
+\centering
+\fontsize{7}{9}\selectfont
+\begin{tabular}[t]{lrrrrrrr}
+\toprule
+condition & total convos & total AI msgs & M AI msgs & SD AI msgs & total user msgs & M user msgs & SD user msgs\\
+\midrule
+\cellcolor{gray!10}{control-dialogue} & \cellcolor{gray!10}{4782} & \cellcolor{gray!10}{38152} & \cellcolor{gray!10}{7.99} & \cellcolor{gray!10}{3.52} & \cellcolor{gray!10}{32632} & \cellcolor{gray!10}{6.83} & \cellcolor{gray!10}{2.48}\\
+treat-dialogue & 22149 & 180269 & 8.16 & 4.05 & 152870 & 6.92 & 2.53\\
+\bottomrule
+\multicolumn{8}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{8}{l}{\rule{0pt}{1em}M = Mean; SD = standard deviation.}\\
+\end{tabular}
+\end{table}

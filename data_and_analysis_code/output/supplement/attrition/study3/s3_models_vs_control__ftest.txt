@@ -1,12 +1,12 @@
 \begin{table}[H]
-
+\centering
 \caption{F-test on post-treatment missingness. Study 3. Model conditions.}
 \centering
 \begin{tabular}[t]{lrrrrl}
 \toprule
 term & df & sumsq & meansq & statistic & p.value\\
 \midrule
-\cellcolor{gray!6}{Condition} & \cellcolor{gray!6}{5} & \cellcolor{gray!6}{0.91} & \cellcolor{gray!6}{0.18} & \cellcolor{gray!6}{5.86} & \cellcolor{gray!6}{<.001}\\
+\cellcolor{gray!10}{Condition} & \cellcolor{gray!10}{5} & \cellcolor{gray!10}{0.91} & \cellcolor{gray!10}{0.18} & \cellcolor{gray!10}{5.86} & \cellcolor{gray!10}{<.001}\\
 Residuals & 20463 & 635.00 & 0.03 & NA & NA\\
 \bottomrule
 \multicolumn{6}{l}{\rule{0pt}{1em}\textit{Note: }}\\

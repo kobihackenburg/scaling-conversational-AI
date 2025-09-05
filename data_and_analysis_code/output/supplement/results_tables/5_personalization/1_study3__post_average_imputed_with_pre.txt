@@ -1,12 +1,12 @@
 \begin{table}[H]
-
+\centering
 \caption{Effect of personalization (vs. generic). Study: 3. Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
 \centering
 \begin{tabular}[t]{rrrlrrrll}
 \toprule
 estimate & std.error & statistic & p.value & conf.low & conf.high & df & model type & PPT\\
 \midrule
-\cellcolor{gray!6}{0.70} & \cellcolor{gray!6}{0.33} & \cellcolor{gray!6}{2.14} & \cellcolor{gray!6}{0.033} & \cellcolor{gray!6}{0.06} & \cellcolor{gray!6}{1.34} & \cellcolor{gray!6}{9175} & \cellcolor{gray!6}{developer} & \cellcolor{gray!6}{Base}\\
+\cellcolor{gray!10}{0.70} & \cellcolor{gray!10}{0.33} & \cellcolor{gray!10}{2.14} & \cellcolor{gray!10}{0.033} & \cellcolor{gray!10}{0.06} & \cellcolor{gray!10}{1.34} & \cellcolor{gray!10}{9175} & \cellcolor{gray!10}{developer} & \cellcolor{gray!10}{Base}\\
 0.23 & 0.33 & 0.70 & 0.483 & -0.42 & 0.88 & 9257 & developer & RM-only\\
 \bottomrule
 \multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\

@@ -1,0 +1,103 @@
+\begin{table}[H]
+\centering
+\caption{Sample sizes (n) per condition. Study 2. .}
+\centering
+\begin{tabular}[t]{lllr}
+\toprule
+condition & model & post train & n\\
+\midrule
+\cellcolor{gray!10}{control} & \cellcolor{gray!10}{GPT-4o (8/24)} & \cellcolor{gray!10}{NA} & \cellcolor{gray!10}{1415}\\
+treatment-1 & Llama3.1-405b & base & 3246\\
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{Llama3.1-405b} & \cellcolor{gray!10}{rm} & \cellcolor{gray!10}{3286}\\
+treatment-1 & Llama3.1-405b & sft & 3214\\
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{Llama3.1-405b} & \cellcolor{gray!10}{sft\_and\_rm} & \cellcolor{gray!10}{3177}\\
+\addlinespace
+treatment-1 & Llama3.1-8b & base & 1635\\
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{Llama3.1-8b} & \cellcolor{gray!10}{rm} & \cellcolor{gray!10}{1593}\\
+treatment-1 & Llama3.1-8b & sft & 1595\\
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{Llama3.1-8b} & \cellcolor{gray!10}{sft\_and\_rm} & \cellcolor{gray!10}{1591}\\
+treatment-2 & GPT-3.5 & base & 668\\
+\addlinespace
+\cellcolor{gray!10}{treatment-2} & \cellcolor{gray!10}{GPT-3.5} & \cellcolor{gray!10}{rm} & \cellcolor{gray!10}{680}\\
+treatment-2 & GPT-4.5 & base & 689\\
+\cellcolor{gray!10}{treatment-2} & \cellcolor{gray!10}{GPT-4.5} & \cellcolor{gray!10}{rm} & \cellcolor{gray!10}{669}\\
+treatment-2 & GPT-4o (8/24) & base & 691\\
+\cellcolor{gray!10}{treatment-2} & \cellcolor{gray!10}{GPT-4o (8/24)} & \cellcolor{gray!10}{rm} & \cellcolor{gray!10}{655}\\
+\addlinespace
+treatment-3 & Llama3.1-405b & NA & 2801\\
+\bottomrule
+\multicolumn{4}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{4}{l}{\rule{0pt}{1em}NA denotes missingness. It means the randomized factor was not assigned.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+\centering
+\caption{Sample sizes (n) per condition. Study 2. .}
+\centering
+\begin{tabular}[t]{lllr}
+\toprule
+condition & prompt rhetoric id & personalize & n\\
+\midrule
+\cellcolor{gray!10}{control} & \cellcolor{gray!10}{android} & \cellcolor{gray!10}{NA} & \cellcolor{gray!10}{178}\\
+control & cats & NA & 193\\
+\cellcolor{gray!10}{control} & \cellcolor{gray!10}{digitalbook} & \cellcolor{gray!10}{NA} & \cellcolor{gray!10}{184}\\
+control & dogs & NA & 172\\
+\cellcolor{gray!10}{control} & \cellcolor{gray!10}{homework} & \cellcolor{gray!10}{NA} & \cellcolor{gray!10}{181}\\
+\addlinespace
+control & iphone & NA & 176\\
+\cellcolor{gray!10}{control} & \cellcolor{gray!10}{officework} & \cellcolor{gray!10}{NA} & \cellcolor{gray!10}{155}\\
+control & physicalbook & NA & 176\\
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{debate} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{583}\\
+treatment-1 & debate & personalized & 582\\
+\addlinespace
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{deep\_canvass} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{625}\\
+treatment-1 & deep\_canvass & personalized & 641\\
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{information} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{600}\\
+treatment-1 & information & personalized & 591\\
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{mega} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{627}\\
+\addlinespace
+treatment-1 & mega & personalized & 592\\
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{moral\_reframing} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{640}\\
+treatment-1 & moral\_reframing & personalized & 577\\
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{none} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{626}\\
+treatment-1 & none & personalized & 641\\
+\addlinespace
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{norms} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{586}\\
+treatment-1 & norms & personalized & 624\\
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{storytelling} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{633}\\
+treatment-1 & storytelling & personalized & 592\\
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{NA} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{4796}\\
+\addlinespace
+treatment-1 & NA & personalized & 4781\\
+\cellcolor{gray!10}{treatment-2} & \cellcolor{gray!10}{debate} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{256}\\
+treatment-2 & debate & personalized & 242\\
+\cellcolor{gray!10}{treatment-2} & \cellcolor{gray!10}{deep\_canvass} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{270}\\
+treatment-2 & deep\_canvass & personalized & 249\\
+\addlinespace
+\cellcolor{gray!10}{treatment-2} & \cellcolor{gray!10}{information} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{260}\\
+treatment-2 & information & personalized & 257\\
+\cellcolor{gray!10}{treatment-2} & \cellcolor{gray!10}{mega} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{257}\\
+treatment-2 & mega & personalized & 265\\
+\cellcolor{gray!10}{treatment-2} & \cellcolor{gray!10}{moral\_reframing} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{232}\\
+\addlinespace
+treatment-2 & moral\_reframing & personalized & 244\\
+\cellcolor{gray!10}{treatment-2} & \cellcolor{gray!10}{none} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{263}\\
+treatment-2 & none & personalized & 263\\
+\cellcolor{gray!10}{treatment-2} & \cellcolor{gray!10}{norms} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{235}\\
+treatment-2 & norms & personalized & 276\\
+\addlinespace
+\cellcolor{gray!10}{treatment-2} & \cellcolor{gray!10}{storytelling} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{254}\\
+treatment-2 & storytelling & personalized & 229\\
+\cellcolor{gray!10}{treatment-3} & \cellcolor{gray!10}{information} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{462}\\
+treatment-3 & information & personalized & 499\\
+\cellcolor{gray!10}{treatment-3} & \cellcolor{gray!10}{information\_with\_deception} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{921}\\
+\addlinespace
+treatment-3 & information\_with\_deception & personalized & 919\\
+\bottomrule
+\multicolumn{4}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{4}{l}{\rule{0pt}{1em}NA denotes missingness. It means the randomized factor was not assigned.}\\
+\end{tabular}
+\end{table}

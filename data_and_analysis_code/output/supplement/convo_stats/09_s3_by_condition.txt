@@ -1,0 +1,18 @@
+\begin{table}[H]
+\centering
+\caption{Conversation statistics by condition. Study 3. .}
+\centering
+\fontsize{7}{9}\selectfont
+\begin{tabular}[t]{lrrrrrrr}
+\toprule
+condition & total convos & total AI msgs & M AI msgs & SD AI msgs & total user msgs & M user msgs & SD user msgs\\
+\midrule
+\cellcolor{gray!10}{control} & \cellcolor{gray!10}{1052} & \cellcolor{gray!10}{6378} & \cellcolor{gray!10}{6.06} & \cellcolor{gray!10}{2.30} & \cellcolor{gray!10}{5281} & \cellcolor{gray!10}{5.02} & \cellcolor{gray!10}{2.30}\\
+treatment-1 & 15866 & 108258 & 6.84 & 2.81 & 91797 & 5.80 & 2.79\\
+\cellcolor{gray!10}{treatment-2} & \cellcolor{gray!10}{1968} & \cellcolor{gray!10}{12725} & \cellcolor{gray!10}{6.50} & \cellcolor{gray!10}{2.85} & \cellcolor{gray!10}{10671} & \cellcolor{gray!10}{5.45} & \cellcolor{gray!10}{2.81}\\
+treatment-3 & 926 & 942 & 1.02 & 0.14 & 0 & 0.00 & 0.00\\
+\bottomrule
+\multicolumn{8}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{8}{l}{\rule{0pt}{1em}M = Mean; SD = standard deviation.}\\
+\end{tabular}
+\end{table}

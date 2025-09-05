@@ -1,0 +1,17 @@
+\begin{table}[H]
+\centering
+\caption{PPT main effects (i.e., vs. Base model). Outcome: Perceived informativeness of the conversation (0-100 scale).}
+\centering
+\begin{tabular}[t]{lrrrlrrrrl}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & study & model type\\
+\midrule
+\cellcolor{gray!10}{RM} & \cellcolor{gray!10}{3.28} & \cellcolor{gray!10}{0.37} & \cellcolor{gray!10}{8.86} & \cellcolor{gray!10}{<.001} & \cellcolor{gray!10}{2.55} & \cellcolor{gray!10}{4.00} & \cellcolor{gray!10}{19278} & \cellcolor{gray!10}{2} & \cellcolor{gray!10}{chat-tuned}\\
+SFT & 1.24 & 0.37 & 3.34 & <.001 & 0.51 & 1.96 & 19278 & 2 & chat-tuned\\
+\cellcolor{gray!10}{RM} & \cellcolor{gray!10}{0.24} & \cellcolor{gray!10}{0.78} & \cellcolor{gray!10}{0.31} & \cellcolor{gray!10}{0.756} & \cellcolor{gray!10}{-1.28} & \cellcolor{gray!10}{1.77} & \cellcolor{gray!10}{4033} & \cellcolor{gray!10}{2} & \cellcolor{gray!10}{developer}\\
+RM & 0.80 & 0.36 & 2.21 & 0.027 & 0.09 & 1.51 & 17788 & 3 & developer\\
+\bottomrule
+\multicolumn{10}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{10}{l}{\rule{0pt}{1em}RM = reward modeling; SFT = supervised fine-tuning.}\\
+\end{tabular}
+\end{table}

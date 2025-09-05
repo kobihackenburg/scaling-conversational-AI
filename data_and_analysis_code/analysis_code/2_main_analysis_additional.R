@@ -172,58 +172,93 @@ study3 %>%
 
 # Prompt-level treatments effects ----
 
+list_outcomes <- c("post_average", "post_average_imputed_with_pre")
+
 df_prompt_ates_meta <-
-  bind_rows(
+  map(list_outcomes,
+      function(.x) {
+        
+        #.x <- "post_average"
+        
+        bind_rows(
+          
+          study1 %>% 
+            filter(d1.condition != "treat_static") %>% 
+            mutate(prompt_vs_control = case_when(str_detect(d1.condition, "control") ~ "aa_control", T ~ d1.prompt_rhetoric_id)) %>% 
+            lm_robust(reformulate(c("prompt_vs_control", "d1.pre_average"), 
+                                  response = paste0("d1.", .x)), .) %>% 
+            #lm_robust(d1.post_average ~ prompt_vs_control + d1.pre_average, .) %>% 
+            tidy() %>% 
+            mutate(dataset = "S1, chat 1"),
+          
+          study1 %>% 
+            mutate(prompt_vs_control = case_when(str_detect(d2.condition, "control") ~ "aa_control", T ~ d2.prompt_rhetoric_id)) %>% 
+            lm_robust(reformulate(c("prompt_vs_control", "d2.pre_average"), 
+                                  response = paste0("d2.", .x)), .) %>% 
+            #lm_robust(d2.post_average ~ prompt_vs_control + d2.pre_average, .) %>% 
+            tidy() %>% 
+            mutate(dataset = "S1, chat 2"),
+          
+          study2 %>% 
+            filter(condition != "treatment-3",
+                   post_train %in% c(NA, "base", "rm")) %>% 
+            mutate(prompt_vs_control = case_when(str_detect(condition, "control") ~ "aa_control", T ~ prompt_rhetoric_id)) %>% 
+            lm_robust(reformulate(c("prompt_vs_control", "pre_average"), response = .x), .) %>% 
+            #lm_robust(post_average ~ prompt_vs_control + pre_average, .) %>% 
+            tidy() %>% 
+            mutate(dataset = "S2"),
+          
+          study3 %>% 
+            filter(condition != "treatment-3",
+                   post_train %in% c(NA, "base", "rm")) %>% 
+            mutate(prompt_vs_control = case_when(str_detect(condition, "control") ~ "aa_control", T ~ prompt_rhetoric_id)) %>% 
+            lm_robust(reformulate(c("prompt_vs_control", "pre_average"), response = .x), .) %>% 
+            #lm_robust(post_average ~ prompt_vs_control + pre_average, .) %>% 
+            tidy() %>% 
+            mutate(dataset = "S3")
+          
+        ) %>% 
+          filter(term != "(Intercept)", str_detect(term, "pre_average", negate = T)) %>% 
+          group_by(term) %>% 
+          nest() %>%
+          mutate(
+            model = map(data, ~ rma(yi = estimate, sei = std.error, method = "FE", data = .x) %>% tidy(conf.int=T)),
+          ) %>%
+          ungroup() %>% 
+          rename(prompt = term) %>% 
+          unnest(model) %>% 
+          mutate(outcome_id = .x)
+        
+      }) %>% 
+  bind_rows()
   
-  study1 %>% 
-    filter(d1.condition != "treat_static") %>% 
-    mutate(prompt_vs_control = case_when(str_detect(d1.condition, "control") ~ "aa_control", T ~ d1.prompt_rhetoric_id)) %>% 
-    lm_robust(d1.post_average ~ prompt_vs_control + d1.pre_average, .) %>% 
-    tidy() %>% 
-    mutate(study = 1, dialogue = 1),
-  
-  study1 %>% 
-    mutate(prompt_vs_control = case_when(str_detect(d2.condition, "control") ~ "aa_control", T ~ d2.prompt_rhetoric_id)) %>% 
-    lm_robust(d2.post_average ~ prompt_vs_control + d2.pre_average, .) %>% 
-    tidy() %>% 
-    mutate(study = 1, dialogue = 2),
-  
-  study2 %>% 
-    filter(condition != "treatment-3",
-           post_train %in% c(NA, "base", "rm")) %>% 
-    mutate(prompt_vs_control = case_when(str_detect(condition, "control") ~ "aa_control", T ~ prompt_rhetoric_id)) %>% 
-    lm_robust(post_average ~ prompt_vs_control + pre_average, .) %>% 
-    tidy() %>% 
-    mutate(study = 2),
-  
-  study3 %>% 
-    filter(condition != "treatment-3",
-           post_train %in% c(NA, "base", "rm")) %>% 
-    mutate(prompt_vs_control = case_when(str_detect(condition, "control") ~ "aa_control", T ~ prompt_rhetoric_id)) %>% 
-    lm_robust(post_average ~ prompt_vs_control + pre_average, .) %>% 
-    tidy() %>% 
-    mutate(study = 3)
-  
-) %>% 
-  filter(term != "(Intercept)", str_detect(term, "pre_average", negate = T)) %>% 
-  group_by(term) %>% 
-  nest() %>%
-  mutate(
-    model = map(data, ~ rma(yi = estimate, sei = std.error, method = "FE", data = .x) %>% tidy(conf.int=T)),
-  ) %>%
-  ungroup() %>% 
-  rename(prompt = term) %>% 
-  unnest(model)
 
-df_prompt_ates_meta %>% filter(str_detect(prompt, "info")) %>% pull(estimate) /
-df_prompt_ates_meta %>% filter(str_detect(prompt, "none")) %>% pull(estimate)
-
+# Save study-level and meta-analytic estimates to file for plotting
 df_prompt_ates_meta %>% 
-  rma(yi = estimate,
-      sei = std.error,
-      mods = ~ fct_relevel(prompt, "prompt_vs_controlinformation", after = 0),
-      data = .,
-      method = "FE")
+  select(prompt, data, outcome_id) %>% 
+  unnest(data) %>% 
+  select(prompt, estimate, conf.low, conf.high, dataset, outcome_id) %>% 
+  bind_rows(
+    df_prompt_ates_meta %>% 
+      select(prompt, estimate, conf.low, conf.high, outcome_id) %>% 
+      mutate(meta_analytic = "yes")
+  ) %>% 
+  mutate(prompt = str_remove_all(prompt, "prompt_vs_control")) %>% 
+  saveRDS("output/processed_data/df_estimates_prompt_vs_control_raw_and_meta.rds")
+
+# Relative adv. of info over baseline prompt
+# df_prompt_ates_meta %>% filter(str_detect(prompt, "info")) %>% pull(estimate) /
+# df_prompt_ates_meta %>% filter(str_detect(prompt, "none")) %>% pull(estimate)
+# 
+# df_prompt_ates_meta %>% 
+#   rma(yi = estimate,
+#       sei = std.error,
+#       mods = ~ fct_relevel(prompt, "prompt_vs_controlinformation", after = 0),
+#       data = .,
+#       method = "FE")
+
+
+
 
 
 # RM and SFT main effects (collapsed across model) on persuasion / info density / veracity ----
@@ -300,6 +335,22 @@ s2_gpt_prop_veracity      <- f_prop_veracity(study2 %>% filter(condition == "tre
 s3_gpt_grok_prop_veracity <- f_prop_veracity(study3 %>% filter(condition %in% c("treatment-1" ,"treatment-2")))
 
 
+# > Perceived informed ----
+f_inform <- function(data) {
+  data %>% 
+    mutate(rm = ifelse(str_detect(post_train, "rm"), 1, 0),
+           sft = ifelse(str_detect(post_train, "sft"), 1, 0),
+           #inform = (evaluate_2 + evaluate_3)/2
+           inform = evaluate_2
+           ) %>% 
+    lm_robust(inform ~ rm + sft, .) %>% 
+    tidy()
+}
+
+s2_llama_inform    <- f_inform(study2 %>% filter(condition == "treatment-1"))
+s2_gpt_inform      <- f_inform(study2 %>% filter(condition == "treatment-2"))
+s3_gpt_grok_inform <- f_inform(study3 %>% filter(condition %in% c("treatment-1" ,"treatment-2")))
+
 bind_rows(
   s2_llama_persuade %>% mutate(study = 2, type = "chat-tuned"),
   s2_gpt_persuade %>% mutate(study = 2, type = "developer"),
@@ -312,7 +363,10 @@ bind_rows(
   s3_gpt_grok_veracity %>% mutate(study = 3, type = "developer"),
   s2_llama_prop_veracity %>% mutate(study = 2, type = "chat-tuned"),
   s2_gpt_prop_veracity %>% mutate(study = 2, type = "developer"),
-  s3_gpt_grok_prop_veracity %>% mutate(study = 3, type = "developer")
+  s3_gpt_grok_prop_veracity %>% mutate(study = 3, type = "developer"),
+  s2_llama_inform %>% mutate(study = 2, type = "chat-tuned"),
+  s2_gpt_inform %>% mutate(study = 2, type = "developer"),
+  s3_gpt_grok_inform %>% mutate(study = 3, type = "developer")
 ) %>% 
   filter(term %in% c("rm", "sft")) %>% 
   drop_na() %>% 
@@ -659,7 +713,10 @@ f <- function(data, outcome, s_prefix) {
   eval_3              <- sym(paste0(s_prefix, "evaluate_3"))
   
   data %>%
-    mutate(inform = (!!eval_2 + !!eval_3)/2) %>% 
+    mutate(
+      #inform = (!!eval_2 + !!eval_3)/2
+      inform = !!eval_2
+      ) %>% 
     group_by(!!prompt_rhetoric_id) %>%
     summarise(
       mean_n_facts = mean(!!convo_n_facts_total, na.rm = TRUE),
@@ -750,10 +807,31 @@ df_prompt_means <-
 # Save to file
 df_prompt_means %>% saveRDS("output/processed_data/df_prompt_means.rds")
 
+# Meta-analyze for perceived informedness:
+df_prompt_means %>%
+  filter(x_variable == "mean_inform",
+         outcome_id == "post_average") %>%
+  group_by(prompt_id) %>% 
+  group_map(~ {
+    
+    model <- rma(
+      yi = x_value,
+      sei = se_x,
+      mods = ~ 1,
+      data = .x,
+      method = "FE")
+    
+    broom::tidy(model) %>%
+      mutate(prompt_id = .y$prompt_id)
+    
+  }) %>%
+  bind_rows() %>% 
+  # Save to file
+  saveRDS("output/processed_data/df_prompt_means_meta_inform.rds")
 
-# df_prompt_means %>% 
+# df_prompt_means %>%
 #   filter(x_variable == "mean_n_facts",
-#          outcome_id == "post_average") %>% 
+#          outcome_id == "post_average") %>%
 #   rma(
 #     yi = estimate,
 #     sei = std.error,
@@ -793,6 +871,8 @@ fun_fit_slope <- function(data, x_var, out_var) {
 }
 
 # >> Fit slopes ----
+
+# >>> N claims ----
 out_slope_fits <-
   map(list_outcomes, 
       ~fun_fit_slope(data = df_prompt_means, 
@@ -829,11 +909,51 @@ imap(out_slope_fits,
   bind_rows() %>% 
   saveRDS("output/processed_data/df_estimates_brm_slope_diagnostics.rds")
 
+# >>> Perceived informed ----
+out_slope_fits_inform <-
+  map(list_outcomes, 
+      ~fun_fit_slope(data = df_prompt_means, 
+                     x_var = "mean_inform", 
+                     out_var = .x))
+
+names(out_slope_fits_inform) <- list_outcomes
+
+# Write to file
+imap(out_slope_fits_inform,
+     function(.x, .y) {
+       
+       as_draws_df(.x) %>% 
+         select(bsp_mex_valuese_x) %>% 
+         mean_qi() %>% 
+         mutate(outcome = .y,
+                param = "slope")
+       
+     }) %>% 
+  bind_rows() %>% 
+  saveRDS("output/processed_data/df_estimates_brm_slope_inform.rds")
+
+imap(out_slope_fits_inform,
+     function(.x, .y) {
+       
+       temp <- summary(.x)
+       temp$fixed %>% 
+         rownames_to_column(var = "Term") %>% 
+         tibble() %>% 
+         mutate(outcome = .y,
+                param = "slope")
+       
+     }) %>% 
+  bind_rows() %>% 
+  saveRDS("output/processed_data/df_estimates_brm_slope_diagnostics_inform.rds")
 
 # > Analyze correlations ----
 
 # >> Function to fit correlations ----
 fun_fit_corr <- function(data, x_var, out_var) {
+  
+  # data = df_prompt_means 
+  # x_var = "mean_n_facts" 
+  # out_var = "post_average"
   
   data_long <-
     data %>%
@@ -868,6 +988,8 @@ fun_fit_corr <- function(data, x_var, out_var) {
 }
 
 # >> Fit corrs ----
+
+# >>> N claims ----
 out_corr_fits <-
   map(list_outcomes, 
       ~fun_fit_corr(data = df_prompt_means, 
@@ -912,6 +1034,53 @@ imap(out_corr_fits,
   bind_rows() %>% 
   saveRDS("output/processed_data/df_estimates_brm_corr_diagnostics.rds")
 
+# >>> Perceived informed ----
+out_corr_fits_inform <-
+  map(list_outcomes, 
+      ~fun_fit_corr(data = df_prompt_means, 
+                    x_var = "mean_inform", 
+                    out_var = .x))
+
+names(out_corr_fits_inform) <- list_outcomes
+
+# Write to file
+imap(out_corr_fits_inform,
+     function(.x, .y) {
+       
+       as_draws_df(.x) %>% 
+         select(contains("cor")) %>% 
+         mean_qi() %>% 
+         mutate(outcome = .y,
+                param = "corr")
+       
+     }) %>% 
+  bind_rows() %>% 
+  saveRDS("output/processed_data/df_estimates_brm_corr_inform.rds")
+
+imap(out_corr_fits_inform,
+     function(.x, .y) {
+       
+       temp <- summary(.x)
+       bind_rows(
+         temp$fixed %>% 
+           rownames_to_column(var = "Term") %>% 
+           tibble() %>% 
+           mutate(outcome = .y,
+                  param = "corr"),
+         temp$random$prompt_id %>% 
+           rownames_to_column(var = "Term") %>% 
+           tibble() %>% 
+           mutate(outcome = .y,
+                  param = "corr")
+         
+       )
+       
+     }) %>% 
+  bind_rows() %>% 
+  saveRDS("output/processed_data/df_estimates_brm_corr_diagnostics_inform.rds")
+
+
+
 # 3... Persuasion / N facts / informed / veracity (avg. and threshold)  ~ info*model DiDs ----
 
 f <- function(data, outcome_var) {
@@ -919,7 +1088,10 @@ f <- function(data, outcome_var) {
   data <-
     data %>% 
     mutate(info = ifelse(prompt_rhetoric_id %in% c("information"), 1, 0)) %>% 
-    mutate(inform = (evaluate_2 + evaluate_3)/2)
+    mutate(
+      #inform = (evaluate_2 + evaluate_3)/2
+      inform = evaluate_2
+    )
   
   map(unique(data$info),
       function(.x) {
@@ -958,7 +1130,8 @@ f <- function(data, outcome_var) {
 
 list_outcomes <- c(
   "post_average", "post_average_imputed_with_pre", 
-  "convo_n_facts_total", "convo_mean_veracity", "convo_prop_facts_above_veracity_threshold"
+  "convo_n_facts_total", "convo_mean_veracity", "convo_prop_facts_above_veracity_threshold",
+  "inform"
 )
 
 # > Estimate ATEs ----
@@ -996,7 +1169,10 @@ f <- function(data, outcome_var) {
   
   data %>% 
     mutate(info = ifelse(prompt_rhetoric_id %in% c("information"), 1, 0)) %>% 
-    mutate(inform = (evaluate_2 + evaluate_3)/2) %>% 
+    mutate(
+      #inform = (evaluate_2 + evaluate_3)/2
+      inform = evaluate_2
+           ) %>% 
     lm_robust(reformulate(c('info*fct_relevel(model, "gpt-4o")', 
                             if(str_detect(outcome_var, "post_average")) { "pre_average" } else NULL), 
                           response = outcome_var), .) %>% 

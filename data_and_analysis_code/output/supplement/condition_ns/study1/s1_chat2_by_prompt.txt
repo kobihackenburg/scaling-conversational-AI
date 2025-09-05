@@ -1,0 +1,41 @@
+\begin{table}[H]
+\centering
+\caption{Sample sizes (n) per condition. Study 1. Chat 2.}
+\centering
+\begin{tabular}[t]{lllr}
+\toprule
+condition & prompt rhetoric id & prompt personalize & n\\
+\midrule
+\cellcolor{gray!10}{control} & \cellcolor{gray!10}{android} & \cellcolor{gray!10}{NA} & \cellcolor{gray!10}{349}\\
+control & cats & NA & 374\\
+\cellcolor{gray!10}{control} & \cellcolor{gray!10}{digitalbook} & \cellcolor{gray!10}{NA} & \cellcolor{gray!10}{376}\\
+control & dogs & NA & 383\\
+\cellcolor{gray!10}{control} & \cellcolor{gray!10}{homework} & \cellcolor{gray!10}{NA} & \cellcolor{gray!10}{366}\\
+\addlinespace
+control & iphone & NA & 339\\
+\cellcolor{gray!10}{control} & \cellcolor{gray!10}{officework} & \cellcolor{gray!10}{NA} & \cellcolor{gray!10}{363}\\
+control & physicalbook & NA & 349\\
+\cellcolor{gray!10}{treatment} & \cellcolor{gray!10}{debate} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{1633}\\
+treatment & debate & personalized & 1621\\
+\addlinespace
+\cellcolor{gray!10}{treatment} & \cellcolor{gray!10}{deep\_canvass} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{1648}\\
+treatment & deep\_canvass & personalized & 1645\\
+\cellcolor{gray!10}{treatment} & \cellcolor{gray!10}{information} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{1630}\\
+treatment & information & personalized & 1636\\
+\cellcolor{gray!10}{treatment} & \cellcolor{gray!10}{mega} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{1594}\\
+\addlinespace
+treatment & mega & personalized & 1601\\
+\cellcolor{gray!10}{treatment} & \cellcolor{gray!10}{moral\_reframing} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{1589}\\
+treatment & moral\_reframing & personalized & 1534\\
+\cellcolor{gray!10}{treatment} & \cellcolor{gray!10}{none} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{1607}\\
+treatment & none & personalized & 1632\\
+\addlinespace
+\cellcolor{gray!10}{treatment} & \cellcolor{gray!10}{norms} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{1559}\\
+treatment & norms & personalized & 1633\\
+\cellcolor{gray!10}{treatment} & \cellcolor{gray!10}{storytelling} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{1570}\\
+treatment & storytelling & personalized & 1518\\
+\bottomrule
+\multicolumn{4}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{4}{l}{\rule{0pt}{1em}NA denotes missingness. It means the randomized factor was not assigned.}\\
+\end{tabular}
+\end{table}

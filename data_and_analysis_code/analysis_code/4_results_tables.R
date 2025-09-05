@@ -1,14 +1,14 @@
 
-# library(tidyverse)
-# library(broom)
-# library(estimatr)
-# library(brms)
-# library(metafor)
-# library(patchwork)
-# library(tidybayes)
-# library(ggrepel)
-# library(cowplot)
-# library(kableExtra)
+library(tidyverse)
+library(broom)
+library(estimatr)
+library(brms)
+library(metafor)
+library(patchwork)
+library(tidybayes)
+library(ggrepel)
+library(cowplot)
+library(kableExtra)
 
 df_list <- map(
   list.files("output/processed_data"),
@@ -64,7 +64,8 @@ outcome_names <-
     "post_average" = "Policy attitude (main persuasion outcome)",
     "convo_n_facts_total" = "Information density (N claims)",
     "convo_mean_veracity" = "Accuracy (0-100 scale)",
-    "convo_prop_facts_above_veracity_threshold" = "Accuracy (>50/100 on the scale)"
+    "convo_prop_facts_above_veracity_threshold" = "Accuracy (>50/100 on the scale)",
+    "inform" = "Perceived informativeness of the conversation (0-100 scale)"
   )
 
 tuning_names <-
@@ -176,7 +177,9 @@ map2(
     
     df_temp <- 
       df_list$df_estimates_scaling_curve %>% 
-      filter(data_label==.x, outcome==.y)
+      filter(data_label==.x, 
+             outcome==.y,
+             weighted==F)
     
     # OLS estimates
     if(.x == "full") {
@@ -651,6 +654,54 @@ map(combinations$outcome_id %>% unique,
       
     })
 
+
+# > Prompts: persuasion vs. perceived informativeness, associations ----
+df_list$df_estimates_brm_corr_diagnostics_inform
+df_list$df_estimates_brm_slope_diagnostics_inform
+
+map(combinations$outcome_id %>% unique, 
+    function(.x) {
+      
+      df_list$df_estimates_brm_corr_diagnostics_inform %>% 
+        filter(outcome == .x) %>% 
+        mutate(Term = str_replace_all(Term, c("variable" = "", 
+                                              "dataset" = "", 
+                                              ":" = " x ", 
+                                              "estimate" = "attitude",
+                                              "x_value" = "informed"))) %>% 
+        mutate(Parameter = ifelse(str_detect(Term, "sd|cor"), "random", "fixed")) %>% 
+        select(-c(outcome, param)) %>% 
+        mutate(across(where(is.numeric), ~format(round(.x, 2), nsmall = 2))) %>% 
+        fun_my_kable(
+          my_caption = paste0(
+            "Bayesian model output: Estimating the disattenuated correlation between perceived informativeness and attitudes (across prompts)", 
+            ". Outcome: ", str_replace_all(.x, outcome_names), "."),
+          my_file = paste0(fp, "6_information_density/prompts/4_persuasion_vs_density_disattenuated_correlation_inform__", .x, ".txt"),
+          my_footnote = "ESS = effective sample size of the posterior distribution."
+        )
+      # write_csv(
+      #   paste0(fp, "6_information_density/prompts/persuasion_vs_density_disattenuated_correlation__", .x, ".csv")
+      # )
+      
+      df_list$df_estimates_brm_slope_diagnostics_inform %>% 
+        filter(outcome == .x) %>% 
+        mutate(Term = str_replace_all(Term, c("dataset" = "", 
+                                              "mex_valuese_x" = "informed"))) %>% 
+        select(-c(outcome, param)) %>% 
+        mutate(across(where(is.numeric), ~format(round(.x, 2), nsmall = 2))) %>% 
+        fun_my_kable(
+          my_caption = paste0(
+            "Bayesian model output: Estimating the disattenuated slope of perceived informativeness on attitudes (across prompts)", 
+            ". Outcome: ", str_replace_all(.x, outcome_names), "."),
+          my_file = paste0(fp, "6_information_density/prompts/4_persuasion_vs_density_disattenuated_slope_inform__", .x, ".txt"),
+          my_footnote = "ESS = effective sample size of the posterior distribution."
+        )
+      # write_csv(
+      #   paste0(fp, "6_information_density/prompts/persuasion_vs_density_disattenuated_slope__", .x, ".csv")
+      # )
+      
+    })
+
 map(
   list.files(paste0(fp, "6_information_density/prompts/")) %>% discard(~ str_detect(.x, "joint")),
   ~paste(readLines(paste0(fp, "6_information_density/prompts/", .x)), collapse = "\n")
@@ -658,7 +709,7 @@ map(
   paste0(collapse = "\n\n\\vspace{3em}\n\n") %>% 
   cat(file = paste0(fp, "6_information_density/prompts/joint/JOINT_FILE.txt"))
 
-# > DiDs: persuasion, density, accuracy ----
+# > DiDs: persuasion, density, informativeness, accuracy ----
 df_list$df_estimates_DiD_ates
 df_list$df_estimates_DiD_interactions
 
@@ -873,3 +924,4 @@ map(
 ) %>% 
   paste0(collapse = "\n\n\\vspace{3em}\n\n") %>% 
   cat(file = paste0(fp, "8_deceptive_prompt/joint/JOINT_FILE.txt"))
+

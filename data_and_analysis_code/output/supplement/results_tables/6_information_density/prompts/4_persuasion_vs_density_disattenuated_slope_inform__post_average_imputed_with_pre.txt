@@ -1,0 +1,18 @@
+\begin{table}[H]
+\centering
+\caption{Bayesian model output: Estimating the disattenuated slope of perceived informativeness on attitudes (across prompts). Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
+\centering
+\begin{tabular}[t]{llllllll}
+\toprule
+Term & Estimate & Est.Error & l-95\% CI & u-95\% CI & Rhat & Bulk\_ESS & Tail\_ESS\\
+\midrule
+\cellcolor{gray!10}{Intercept} & \cellcolor{gray!10}{38.44} & \cellcolor{gray!10}{1.79} & \cellcolor{gray!10}{34.95} & \cellcolor{gray!10}{41.96} & \cellcolor{gray!10}{1.00} & \cellcolor{gray!10}{1337.70} & \cellcolor{gray!10}{1927.33}\\
+S1chat2 & 3.75 & 0.25 & 3.23 & 4.23 & 1.00 & 1598.75 & 2505.97\\
+\cellcolor{gray!10}{S2} & \cellcolor{gray!10}{5.00} & \cellcolor{gray!10}{0.24} & \cellcolor{gray!10}{4.54} & \cellcolor{gray!10}{5.47} & \cellcolor{gray!10}{1.00} & \cellcolor{gray!10}{2097.08} & \cellcolor{gray!10}{2841.98}\\
+S3 & 6.07 & 0.24 & 5.58 & 6.55 & 1.00 & 1813.41 & 2454.66\\
+\cellcolor{gray!10}{informed} & \cellcolor{gray!10}{0.39} & \cellcolor{gray!10}{0.03} & \cellcolor{gray!10}{0.33} & \cellcolor{gray!10}{0.44} & \cellcolor{gray!10}{1.00} & \cellcolor{gray!10}{1302.76} & \cellcolor{gray!10}{1900.73}\\
+\bottomrule
+\multicolumn{8}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{8}{l}{\rule{0pt}{1em}ESS = effective sample size of the posterior distribution.}\\
+\end{tabular}
+\end{table}

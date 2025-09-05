@@ -1,0 +1,45 @@
+\begin{table}[H]
+\centering
+\caption{Conversation statistics by condition. Study 1. Chat 1.}
+\centering
+\fontsize{7}{9}\selectfont
+\begin{tabular}[t]{llrrrrrrr}
+\toprule
+condition & model & total convos & total AI msgs & M AI msgs & SD AI msgs & total user msgs & M user msgs & SD user msgs\\
+\midrule
+\cellcolor{gray!10}{control-dialogue} & \cellcolor{gray!10}{GPT-4o (8/24)} & \cellcolor{gray!10}{1397} & \cellcolor{gray!10}{11897} & \cellcolor{gray!10}{8.53} & \cellcolor{gray!10}{4.86} & \cellcolor{gray!10}{10094} & \cellcolor{gray!10}{7.24} & \cellcolor{gray!10}{2.38}\\
+control-dialogue & Llama3.1-405b & 961 & 7813 & 8.13 & 2.69 & 6762 & 7.04 & 2.40\\
+\cellcolor{gray!10}{control-dialogue} & \cellcolor{gray!10}{Llama3.1-8b} & \cellcolor{gray!10}{207} & \cellcolor{gray!10}{1545} & \cellcolor{gray!10}{7.46} & \cellcolor{gray!10}{2.90} & \cellcolor{gray!10}{1314} & \cellcolor{gray!10}{6.35} & \cellcolor{gray!10}{2.75}\\
+control-dialogue & Qwen-1-5-0-5b & 168 & 1314 & 7.92 & 2.64 & 1123 & 6.77 & 2.61\\
+\cellcolor{gray!10}{control-dialogue} & \cellcolor{gray!10}{Qwen-1-5-1-8b} & \cellcolor{gray!10}{176} & \cellcolor{gray!10}{1373} & \cellcolor{gray!10}{7.80} & \cellcolor{gray!10}{2.81} & \cellcolor{gray!10}{1169} & \cellcolor{gray!10}{6.64} & \cellcolor{gray!10}{2.68}\\
+\addlinespace
+control-dialogue & Qwen-1-5-110b-chat & 236 & 1661 & 7.07 & 2.82 & 1396 & 5.94 & 2.25\\
+\cellcolor{gray!10}{control-dialogue} & \cellcolor{gray!10}{Qwen-1-5-14b} & \cellcolor{gray!10}{232} & \cellcolor{gray!10}{1915} & \cellcolor{gray!10}{8.25} & \cellcolor{gray!10}{2.50} & \cellcolor{gray!10}{1677} & \cellcolor{gray!10}{7.23} & \cellcolor{gray!10}{2.48}\\
+control-dialogue & Qwen-1-5-32b & 233 & 1822 & 7.82 & 2.30 & 1581 & 6.79 & 2.29\\
+\cellcolor{gray!10}{control-dialogue} & \cellcolor{gray!10}{Qwen-1-5-4b} & \cellcolor{gray!10}{166} & \cellcolor{gray!10}{1205} & \cellcolor{gray!10}{7.30} & \cellcolor{gray!10}{2.72} & \cellcolor{gray!10}{1024} & \cellcolor{gray!10}{6.21} & \cellcolor{gray!10}{2.64}\\
+control-dialogue & Qwen-1-5-72b & 240 & 1923 & 8.01 & 3.42 & 1634 & 6.81 & 2.49\\
+\addlinespace
+\cellcolor{gray!10}{control-dialogue} & \cellcolor{gray!10}{Qwen-1-5-72b-chat} & \cellcolor{gray!10}{243} & \cellcolor{gray!10}{1782} & \cellcolor{gray!10}{7.33} & \cellcolor{gray!10}{2.37} & \cellcolor{gray!10}{1518} & \cellcolor{gray!10}{6.25} & \cellcolor{gray!10}{2.15}\\
+control-dialogue & Qwen-1-5-7b & 274 & 2099 & 7.66 & 2.91 & 1790 & 6.53 & 2.56\\
+\cellcolor{gray!10}{control-dialogue} & \cellcolor{gray!10}{llama-3-1-70b} & \cellcolor{gray!10}{249} & \cellcolor{gray!10}{1803} & \cellcolor{gray!10}{7.24} & \cellcolor{gray!10}{2.62} & \cellcolor{gray!10}{1550} & \cellcolor{gray!10}{6.22} & \cellcolor{gray!10}{2.62}\\
+treat-dialogue & GPT-4o (8/24) & 6686 & 60114 & 9.02 & 5.79 & 50230 & 7.54 & 2.44\\
+\cellcolor{gray!10}{treat-dialogue} & \cellcolor{gray!10}{Llama3.1-405b} & \cellcolor{gray!10}{4382} & \cellcolor{gray!10}{33967} & \cellcolor{gray!10}{7.75} & \cellcolor{gray!10}{2.64} & \cellcolor{gray!10}{29182} & \cellcolor{gray!10}{6.66} & \cellcolor{gray!10}{2.49}\\
+\addlinespace
+treat-dialogue & Llama3.1-8b & 1107 & 8536 & 7.73 & 2.81 & 7271 & 6.59 & 2.62\\
+\cellcolor{gray!10}{treat-dialogue} & \cellcolor{gray!10}{Qwen-1-5-0-5b} & \cellcolor{gray!10}{663} & \cellcolor{gray!10}{5057} & \cellcolor{gray!10}{7.76} & \cellcolor{gray!10}{3.39} & \cellcolor{gray!10}{4267} & \cellcolor{gray!10}{6.54} & \cellcolor{gray!10}{2.66}\\
+treat-dialogue & Qwen-1-5-1-8b & 692 & 5609 & 8.14 & 3.27 & 4798 & 6.96 & 2.72\\
+\cellcolor{gray!10}{treat-dialogue} & \cellcolor{gray!10}{Qwen-1-5-110b-chat} & \cellcolor{gray!10}{1173} & \cellcolor{gray!10}{9854} & \cellcolor{gray!10}{8.41} & \cellcolor{gray!10}{3.81} & \cellcolor{gray!10}{8253} & \cellcolor{gray!10}{7.04} & \cellcolor{gray!10}{2.35}\\
+treat-dialogue & Qwen-1-5-14b & 1138 & 9373 & 8.24 & 2.78 & 8115 & 7.13 & 2.40\\
+\addlinespace
+\cellcolor{gray!10}{treat-dialogue} & \cellcolor{gray!10}{Qwen-1-5-32b} & \cellcolor{gray!10}{1149} & \cellcolor{gray!10}{8798} & \cellcolor{gray!10}{7.66} & \cellcolor{gray!10}{2.55} & \cellcolor{gray!10}{7568} & \cellcolor{gray!10}{6.59} & \cellcolor{gray!10}{2.49}\\
+treat-dialogue & Qwen-1-5-4b & 756 & 6102 & 8.14 & 3.10 & 5228 & 6.97 & 2.63\\
+\cellcolor{gray!10}{treat-dialogue} & \cellcolor{gray!10}{Qwen-1-5-72b} & \cellcolor{gray!10}{1104} & \cellcolor{gray!10}{8267} & \cellcolor{gray!10}{7.50} & \cellcolor{gray!10}{2.80} & \cellcolor{gray!10}{7060} & \cellcolor{gray!10}{6.40} & \cellcolor{gray!10}{2.46}\\
+treat-dialogue & Qwen-1-5-72b-chat & 1071 & 8250 & 7.70 & 3.24 & 6926 & 6.47 & 2.39\\
+\cellcolor{gray!10}{treat-dialogue} & \cellcolor{gray!10}{Qwen-1-5-7b} & \cellcolor{gray!10}{1138} & \cellcolor{gray!10}{8443} & \cellcolor{gray!10}{7.43} & \cellcolor{gray!10}{2.58} & \cellcolor{gray!10}{7235} & \cellcolor{gray!10}{6.36} & \cellcolor{gray!10}{2.52}\\
+\addlinespace
+treat-dialogue & llama-3-1-70b & 1090 & 7899 & 7.25 & 2.63 & 6737 & 6.19 & 2.52\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}M = Mean; SD = standard deviation.}\\
+\end{tabular}
+\end{table}

@@ -10,7 +10,8 @@ fun_scaling_curve <-
     gran_factor = 1, # How granular do you want the conditional means? (1 = granularity of underlying data)
     oom_factor = 0, # How many orders of magnitude beyond data to forecast? (0 = no forecast)
     model_sizes, # df of language model sizes
-    k_value # GAM flexibility
+    k_value, # GAM flexibility
+    weighted # Should estimates be weighted?
   ) {
     
     # For debugging:
@@ -20,15 +21,16 @@ fun_scaling_curve <-
     # n_cores      <- 4
     # gran_factor  <- 5
     # oom_factor   <- 2
-    # k_value      <- 5
+    # k_value      <- 10
+    # weighted     <- T
     # 
+    # list_data <- list_the_data
+    
     # list_data <-
     #   list(
     # 
     #     # Full
-    #     study1,
-    #     study2,
-    #     study3
+    #     
     # 
     #     # Dev PT
     #     # study1 %>% filter(str_detect(models_vs_control, "chat|gpt|control|static")),
@@ -42,18 +44,6 @@ fun_scaling_curve <-
     # )
 
     
-    # > 0. Tidy study 1 variables ----
-    
-    # stopifnot(unique(list_data[[1]]$study) == 1)
-    # 
-    # list_data[[1]] <-
-    #   list_data[[1]] %>% 
-    #   rename_with(~ str_remove_all(.x, "d1."),
-    #               c(paste0("d1.", outcome),
-    #                 "d1.pre_average",
-    #                 "d1.models_vs_control"))
-    
-    
     # > 1. Fit OLS regressions ----
     
     ols_formula <- paste0(outcome, " ~ factor(models_vs_control) + pre_average")
@@ -63,7 +53,11 @@ fun_scaling_curve <-
           function(.x) { 
             
             # Fit
-            lm_fit <- lm_robust(formula = as.formula(ols_formula), data = .x)
+            if(weighted) {
+              lm_fit <- lm_robust(formula = as.formula(ols_formula), data = .x, weights = weight)
+            } else {
+              lm_fit <- lm_robust(formula = as.formula(ols_formula), data = .x)
+            }
             
             # Get vcov matrixes
             vcov_mat <- lm_fit$vcov

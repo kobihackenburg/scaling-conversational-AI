@@ -1,19 +1,19 @@
 \begin{table}[H]
-
+\centering
 \caption{Prompt means. Study: S2. Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
 \centering
 \begin{tabular}[t]{lrrrr}
 \toprule
 Prompt & Mean policy attitude & SE policy attitude & Mean N claims & SE N claims\\
 \midrule
-\cellcolor{gray!6}{debate} & \cellcolor{gray!6}{68.95} & \cellcolor{gray!6}{0.39} & \cellcolor{gray!6}{6.62} & \cellcolor{gray!6}{0.15}\\
+\cellcolor{gray!10}{debate} & \cellcolor{gray!10}{68.95} & \cellcolor{gray!10}{0.39} & \cellcolor{gray!10}{6.62} & \cellcolor{gray!10}{0.15}\\
 deep\_canvass & 67.61 & 0.33 & 2.48 & 0.09\\
-\cellcolor{gray!6}{information} & \cellcolor{gray!6}{70.21} & \cellcolor{gray!6}{0.37} & \cellcolor{gray!6}{9.12} & \cellcolor{gray!6}{0.18}\\
+\cellcolor{gray!10}{information} & \cellcolor{gray!10}{70.21} & \cellcolor{gray!10}{0.37} & \cellcolor{gray!10}{9.12} & \cellcolor{gray!10}{0.18}\\
 mega & 69.85 & 0.36 & 6.50 & 0.15\\
-\cellcolor{gray!6}{moral\_reframing} & \cellcolor{gray!6}{67.50} & \cellcolor{gray!6}{0.37} & \cellcolor{gray!6}{2.24} & \cellcolor{gray!6}{0.10}\\
+\cellcolor{gray!10}{moral\_reframing} & \cellcolor{gray!10}{67.50} & \cellcolor{gray!10}{0.37} & \cellcolor{gray!10}{2.24} & \cellcolor{gray!10}{0.10}\\
 \addlinespace
 none & 68.27 & 0.36 & 3.41 & 0.12\\
-\cellcolor{gray!6}{norms} & \cellcolor{gray!6}{68.66} & \cellcolor{gray!6}{0.36} & \cellcolor{gray!6}{6.06} & \cellcolor{gray!6}{0.13}\\
+\cellcolor{gray!10}{norms} & \cellcolor{gray!10}{68.66} & \cellcolor{gray!10}{0.36} & \cellcolor{gray!10}{6.06} & \cellcolor{gray!10}{0.13}\\
 storytelling & 68.49 & 0.35 & 3.54 & 0.11\\
 \bottomrule
 \multicolumn{5}{l}{\rule{0pt}{1em}\textit{Note: }}\\

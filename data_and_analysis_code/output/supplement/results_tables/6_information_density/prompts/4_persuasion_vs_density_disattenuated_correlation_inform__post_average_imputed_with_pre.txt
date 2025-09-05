@@ -1,0 +1,26 @@
+\begin{table}[H]
+\centering
+\caption{Bayesian model output: Estimating the disattenuated correlation between perceived informativeness and attitudes (across prompts). Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
+\centering
+\begin{tabular}[t]{lllllllll}
+\toprule
+Term & Estimate & Est.Error & l-95\% CI & u-95\% CI & Rhat & Bulk\_ESS & Tail\_ESS & Parameter\\
+\midrule
+\cellcolor{gray!10}{attitude} & \cellcolor{gray!10}{64.06} & \cellcolor{gray!10}{0.50} & \cellcolor{gray!10}{63.06} & \cellcolor{gray!10}{65.05} & \cellcolor{gray!10}{1.00} & \cellcolor{gray!10}{1870.83} & \cellcolor{gray!10}{2461.86} & \cellcolor{gray!10}{fixed}\\
+informed & 65.90 & 1.07 & 63.74 & 67.93 & 1.00 & 1761.96 & 1976.20 & fixed\\
+\cellcolor{gray!10}{S1chat2} & \cellcolor{gray!10}{5.47} & \cellcolor{gray!10}{0.47} & \cellcolor{gray!10}{4.54} & \cellcolor{gray!10}{6.39} & \cellcolor{gray!10}{1.00} & \cellcolor{gray!10}{3126.76} & \cellcolor{gray!10}{3161.92} & \cellcolor{gray!10}{fixed}\\
+S2 & 4.57 & 0.48 & 3.60 & 5.51 & 1.00 & 3179.43 & 3022.81 & fixed\\
+\cellcolor{gray!10}{S3} & \cellcolor{gray!10}{7.06} & \cellcolor{gray!10}{0.47} & \cellcolor{gray!10}{6.15} & \cellcolor{gray!10}{8.00} & \cellcolor{gray!10}{1.00} & \cellcolor{gray!10}{3329.72} & \cellcolor{gray!10}{3158.71} & \cellcolor{gray!10}{fixed}\\
+\addlinespace
+informed x S1chat2 & -0.65 & 0.69 & -2.00 & 0.71 & 1.00 & 3311.91 & 2804.02 & fixed\\
+\cellcolor{gray!10}{informed x S2} & \cellcolor{gray!10}{-5.32} & \cellcolor{gray!10}{0.70} & \cellcolor{gray!10}{-6.73} & \cellcolor{gray!10}{-3.95} & \cellcolor{gray!10}{1.00} & \cellcolor{gray!10}{3297.23} & \cellcolor{gray!10}{2902.91} & \cellcolor{gray!10}{fixed}\\
+informed x S3 & -4.04 & 0.70 & -5.40 & -2.68 & 1.00 & 3204.94 & 2638.93 & fixed\\
+\cellcolor{gray!10}{sd(attitude)} & \cellcolor{gray!10}{1.02} & \cellcolor{gray!10}{0.28} & \cellcolor{gray!10}{0.58} & \cellcolor{gray!10}{1.68} & \cellcolor{gray!10}{1.00} & \cellcolor{gray!10}{2265.45} & \cellcolor{gray!10}{2729.34} & \cellcolor{gray!10}{random}\\
+sd(informed) & 2.74 & 0.63 & 1.77 & 4.24 & 1.00 & 1997.92 & 2287.96 & random\\
+\addlinespace
+\cellcolor{gray!10}{cor(attitude,informed)} & \cellcolor{gray!10}{0.89} & \cellcolor{gray!10}{0.13} & \cellcolor{gray!10}{0.52} & \cellcolor{gray!10}{1.00} & \cellcolor{gray!10}{1.00} & \cellcolor{gray!10}{2432.69} & \cellcolor{gray!10}{2644.28} & \cellcolor{gray!10}{random}\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}ESS = effective sample size of the posterior distribution.}\\
+\end{tabular}
+\end{table}

@@ -2,6 +2,7 @@
 # library(tidyverse)
 # library(fixest)
 # library(tidymodels)
+# library(ranger)
 
 fun_my_kable <- function(df, my_caption, my_file, my_footnote) {
   df %>% 

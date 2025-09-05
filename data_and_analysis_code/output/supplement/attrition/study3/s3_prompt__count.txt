@@ -1,19 +1,19 @@
 \begin{table}[H]
-
+\centering
 \caption{Proportion post-treatment missingness (NA). Study 3. Prompts.}
 \centering
 \begin{tabular}[t]{lrr}
 \toprule
 Condition & Proportion NA & Total N\\
 \midrule
-\cellcolor{gray!6}{Debate} & \cellcolor{gray!6}{0.040} & \cellcolor{gray!6}{2310}\\
+\cellcolor{gray!10}{Debate} & \cellcolor{gray!10}{0.040} & \cellcolor{gray!10}{2310}\\
 Deep\_canvass & 0.029 & 2248\\
-\cellcolor{gray!6}{Information} & \cellcolor{gray!6}{0.032} & \cellcolor{gray!6}{2300}\\
+\cellcolor{gray!10}{Information} & \cellcolor{gray!10}{0.032} & \cellcolor{gray!10}{2300}\\
 Mega & 0.032 & 2325\\
-\cellcolor{gray!6}{Moral\_reframing} & \cellcolor{gray!6}{0.033} & \cellcolor{gray!6}{2299}\\
+\cellcolor{gray!10}{Moral\_reframing} & \cellcolor{gray!10}{0.033} & \cellcolor{gray!10}{2299}\\
 \addlinespace
 None & 0.032 & 2289\\
-\cellcolor{gray!6}{Norms} & \cellcolor{gray!6}{0.036} & \cellcolor{gray!6}{2353}\\
+\cellcolor{gray!10}{Norms} & \cellcolor{gray!10}{0.036} & \cellcolor{gray!10}{2353}\\
 Storytelling & 0.027 & 2314\\
 \bottomrule
 \multicolumn{3}{l}{\rule{0pt}{1em}\textit{Note: }}\\

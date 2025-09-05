@@ -1,13 +1,13 @@
 \begin{table}[H]
-
+\centering
 \caption{Leave-one-out cross-validation comparing linear and nonlinear (GAM) meta-regressions. Models: Developer-tuned models. Outcome: Policy attitude (with post-treatment missing values imputed with pre-treatment values).}
 \centering
 \begin{tabular}[t]{lllllllll}
 \toprule
 model & elpd\_diff & se\_diff & elpd\_loo & se\_elpd\_loo & p\_loo & se\_p\_loo & looic & se\_looic\\
 \midrule
-\cellcolor{gray!6}{Linear} & \cellcolor{gray!6}{0.00} & \cellcolor{gray!6}{0.00} & \cellcolor{gray!6}{-22.95} & \cellcolor{gray!6}{3.61} & \cellcolor{gray!6}{4.46} & \cellcolor{gray!6}{1.82} & \cellcolor{gray!6}{45.89} & \cellcolor{gray!6}{7.22}\\
-GAM & -1.10 & 0.42 & -24.05 & 3.93 & 5.61 & 2.32 & 48.10 & 7.85\\
+\cellcolor{gray!10}{Linear} & \cellcolor{gray!10}{0.00} & \cellcolor{gray!10}{0.00} & \cellcolor{gray!10}{-22.96} & \cellcolor{gray!10}{3.61} & \cellcolor{gray!10}{4.47} & \cellcolor{gray!10}{1.82} & \cellcolor{gray!10}{45.91} & \cellcolor{gray!10}{7.22}\\
+GAM & -1.18 & 0.54 & -24.13 & 4.08 & 5.45 & 2.42 & 48.27 & 8.17\\
 \bottomrule
 \multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
 \multicolumn{9}{l}{\rule{0pt}{1em}ELPD = expected log pointwise predictive density. LOO = leave-one-out.}\\

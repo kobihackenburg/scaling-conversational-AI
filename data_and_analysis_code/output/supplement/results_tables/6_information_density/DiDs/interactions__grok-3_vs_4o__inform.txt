@@ -1,0 +1,16 @@
+\begin{table}[H]
+\centering
+\caption{Estimating the interaction between the listed model (vs. GPT-4o 8/24) and information prompt (vs. other prompt). Model: Grok-3. Outcome: Perceived informativeness of the conversation (0-100 scale).}
+\centering
+\begin{tabular}[t]{lrrrlrrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & study\\
+\midrule
+\cellcolor{gray!10}{Info prompt} & \cellcolor{gray!10}{6.85} & \cellcolor{gray!10}{0.94} & \cellcolor{gray!10}{7.27} & \cellcolor{gray!10}{<.001} & \cellcolor{gray!10}{5.00} & \cellcolor{gray!10}{8.69} & \cellcolor{gray!10}{7219} & \cellcolor{gray!10}{3}\\
+Grok-3 & 0.39 & 0.71 & 0.55 & 0.58 & -1.00 & 1.78 & 7219 & 3\\
+\cellcolor{gray!10}{Info prompt x Grok-3} & \cellcolor{gray!10}{1.91} & \cellcolor{gray!10}{1.76} & \cellcolor{gray!10}{1.08} & \cellcolor{gray!10}{0.278} & \cellcolor{gray!10}{-1.54} & \cellcolor{gray!10}{5.37} & \cellcolor{gray!10}{7219} & \cellcolor{gray!10}{3}\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}

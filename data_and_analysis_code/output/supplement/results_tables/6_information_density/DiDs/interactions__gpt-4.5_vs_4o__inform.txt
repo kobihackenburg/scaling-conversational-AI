@@ -1,0 +1,20 @@
+\begin{table}[H]
+\centering
+\caption{Estimating the interaction between the listed model (vs. GPT-4o 8/24) and information prompt (vs. other prompt). Model: GPT-4.5. Outcome: Perceived informativeness of the conversation (0-100 scale).}
+\centering
+\begin{tabular}[t]{lrrrlrrrr}
+\toprule
+term & estimate & std.error & statistic & p.value & conf.low & conf.high & df & study\\
+\midrule
+\cellcolor{gray!10}{Info prompt} & \cellcolor{gray!10}{6.66} & \cellcolor{gray!10}{1.75} & \cellcolor{gray!10}{3.82} & \cellcolor{gray!10}{<.001} & \cellcolor{gray!10}{3.24} & \cellcolor{gray!10}{10.09} & \cellcolor{gray!10}{2690} & \cellcolor{gray!10}{2}\\
+GPT-4.5 & 0.85 & 1.01 & 0.84 & 0.403 & -1.14 & 2.83 & 2690 & 2\\
+\cellcolor{gray!10}{Info prompt x GPT-4.5} & \cellcolor{gray!10}{2.78} & \cellcolor{gray!10}{2.62} & \cellcolor{gray!10}{1.06} & \cellcolor{gray!10}{0.29} & \cellcolor{gray!10}{-2.37} & \cellcolor{gray!10}{7.92} & \cellcolor{gray!10}{2690} & \cellcolor{gray!10}{2}\\
+Info prompt & 6.85 & 0.94 & 7.27 & <.001 & 5.00 & 8.69 & 10486 & 3\\
+\cellcolor{gray!10}{GPT-4.5} & \cellcolor{gray!10}{1.79} & \cellcolor{gray!10}{0.52} & \cellcolor{gray!10}{3.45} & \cellcolor{gray!10}{<.001} & \cellcolor{gray!10}{0.77} & \cellcolor{gray!10}{2.80} & \cellcolor{gray!10}{10486} & \cellcolor{gray!10}{3}\\
+\addlinespace
+Info prompt x GPT-4.5 & 4.34 & 1.26 & 3.44 & <.001 & 1.87 & 6.81 & 10486 & 3\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}}\\
+\end{tabular}
+\end{table}

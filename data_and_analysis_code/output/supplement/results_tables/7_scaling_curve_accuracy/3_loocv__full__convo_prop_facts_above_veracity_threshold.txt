@@ -1,13 +1,13 @@
 \begin{table}[H]
-
+\centering
 \caption{Leave-one-out cross-validation comparing linear and nonlinear (GAM) meta-regressions. Models: All models. Outcome: Accuracy (>50/100 on the scale).}
 \centering
 \begin{tabular}[t]{lllllllll}
 \toprule
 model & elpd\_diff & se\_diff & elpd\_loo & se\_elpd\_loo & p\_loo & se\_p\_loo & looic & se\_looic\\
 \midrule
-\cellcolor{gray!6}{Linear} & \cellcolor{gray!6}{0.00} & \cellcolor{gray!6}{0.00} & \cellcolor{gray!6}{19.59} & \cellcolor{gray!6}{3.88} & \cellcolor{gray!6}{5.80} & \cellcolor{gray!6}{2.09} & \cellcolor{gray!6}{-39.18} & \cellcolor{gray!6}{7.76}\\
-GAM & -4.12 & 6.05 & 15.47 & 6.87 & 16.19 & 6.42 & -30.93 & 13.73\\
+\cellcolor{gray!10}{Linear} & \cellcolor{gray!10}{0.00} & \cellcolor{gray!10}{0.00} & \cellcolor{gray!10}{19.59} & \cellcolor{gray!10}{3.88} & \cellcolor{gray!10}{5.80} & \cellcolor{gray!10}{2.09} & \cellcolor{gray!10}{-39.18} & \cellcolor{gray!10}{7.76}\\
+GAM & -2.70 & 6.44 & 16.89 & 6.56 & 14.81 & 6.05 & -33.78 & 13.13\\
 \bottomrule
 \multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
 \multicolumn{9}{l}{\rule{0pt}{1em}ELPD = expected log pointwise predictive density. LOO = leave-one-out.}\\

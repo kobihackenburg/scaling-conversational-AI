@@ -1,0 +1,418 @@
+\begin{table}[H]
+\centering
+\caption{Conversation statistics by condition. Study 1. Chat 1.}
+\centering
+\fontsize{7}{9}\selectfont
+\begin{tabular}[t]{lrrrrrrr}
+\toprule
+condition & total convos & total AI msgs & M AI msgs & SD AI msgs & total user msgs & M user msgs & SD user msgs\\
+\midrule
+\cellcolor{gray!10}{control-dialogue} & \cellcolor{gray!10}{4782} & \cellcolor{gray!10}{38152} & \cellcolor{gray!10}{7.99} & \cellcolor{gray!10}{3.52} & \cellcolor{gray!10}{32632} & \cellcolor{gray!10}{6.83} & \cellcolor{gray!10}{2.48}\\
+treat-dialogue & 22149 & 180269 & 8.16 & 4.05 & 152870 & 6.92 & 2.53\\
+\bottomrule
+\multicolumn{8}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{8}{l}{\rule{0pt}{1em}M = Mean; SD = standard deviation.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+\centering
+\caption{Conversation statistics by condition. Study 1. Chat 2.}
+\centering
+\fontsize{7}{9}\selectfont
+\begin{tabular}[t]{lrrrrrrr}
+\toprule
+condition & total convos & total AI msgs & M AI msgs & SD AI msgs & total user msgs & M user msgs & SD user msgs\\
+\midrule
+\cellcolor{gray!10}{control} & \cellcolor{gray!10}{2899} & \cellcolor{gray!10}{22020} & \cellcolor{gray!10}{7.60} & \cellcolor{gray!10}{4.14} & \cellcolor{gray!10}{18266} & \cellcolor{gray!10}{6.30} & \cellcolor{gray!10}{2.54}\\
+treatment & 25650 & 205709 & 8.02 & 4.62 & 172369 & 6.72 & 2.61\\
+\bottomrule
+\multicolumn{8}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{8}{l}{\rule{0pt}{1em}M = Mean; SD = standard deviation.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+\centering
+\caption{Conversation statistics by condition. Study 1. Chat 1.}
+\centering
+\fontsize{7}{9}\selectfont
+\begin{tabular}[t]{llrrrrrrr}
+\toprule
+condition & model & total convos & total AI msgs & M AI msgs & SD AI msgs & total user msgs & M user msgs & SD user msgs\\
+\midrule
+\cellcolor{gray!10}{control-dialogue} & \cellcolor{gray!10}{GPT-4o (8/24)} & \cellcolor{gray!10}{1397} & \cellcolor{gray!10}{11897} & \cellcolor{gray!10}{8.53} & \cellcolor{gray!10}{4.86} & \cellcolor{gray!10}{10094} & \cellcolor{gray!10}{7.24} & \cellcolor{gray!10}{2.38}\\
+control-dialogue & Llama3.1-405b & 961 & 7813 & 8.13 & 2.69 & 6762 & 7.04 & 2.40\\
+\cellcolor{gray!10}{control-dialogue} & \cellcolor{gray!10}{Llama3.1-8b} & \cellcolor{gray!10}{207} & \cellcolor{gray!10}{1545} & \cellcolor{gray!10}{7.46} & \cellcolor{gray!10}{2.90} & \cellcolor{gray!10}{1314} & \cellcolor{gray!10}{6.35} & \cellcolor{gray!10}{2.75}\\
+control-dialogue & Qwen-1-5-0-5b & 168 & 1314 & 7.92 & 2.64 & 1123 & 6.77 & 2.61\\
+\cellcolor{gray!10}{control-dialogue} & \cellcolor{gray!10}{Qwen-1-5-1-8b} & \cellcolor{gray!10}{176} & \cellcolor{gray!10}{1373} & \cellcolor{gray!10}{7.80} & \cellcolor{gray!10}{2.81} & \cellcolor{gray!10}{1169} & \cellcolor{gray!10}{6.64} & \cellcolor{gray!10}{2.68}\\
+\addlinespace
+control-dialogue & Qwen-1-5-110b-chat & 236 & 1661 & 7.07 & 2.82 & 1396 & 5.94 & 2.25\\
+\cellcolor{gray!10}{control-dialogue} & \cellcolor{gray!10}{Qwen-1-5-14b} & \cellcolor{gray!10}{232} & \cellcolor{gray!10}{1915} & \cellcolor{gray!10}{8.25} & \cellcolor{gray!10}{2.50} & \cellcolor{gray!10}{1677} & \cellcolor{gray!10}{7.23} & \cellcolor{gray!10}{2.48}\\
+control-dialogue & Qwen-1-5-32b & 233 & 1822 & 7.82 & 2.30 & 1581 & 6.79 & 2.29\\
+\cellcolor{gray!10}{control-dialogue} & \cellcolor{gray!10}{Qwen-1-5-4b} & \cellcolor{gray!10}{166} & \cellcolor{gray!10}{1205} & \cellcolor{gray!10}{7.30} & \cellcolor{gray!10}{2.72} & \cellcolor{gray!10}{1024} & \cellcolor{gray!10}{6.21} & \cellcolor{gray!10}{2.64}\\
+control-dialogue & Qwen-1-5-72b & 240 & 1923 & 8.01 & 3.42 & 1634 & 6.81 & 2.49\\
+\addlinespace
+\cellcolor{gray!10}{control-dialogue} & \cellcolor{gray!10}{Qwen-1-5-72b-chat} & \cellcolor{gray!10}{243} & \cellcolor{gray!10}{1782} & \cellcolor{gray!10}{7.33} & \cellcolor{gray!10}{2.37} & \cellcolor{gray!10}{1518} & \cellcolor{gray!10}{6.25} & \cellcolor{gray!10}{2.15}\\
+control-dialogue & Qwen-1-5-7b & 274 & 2099 & 7.66 & 2.91 & 1790 & 6.53 & 2.56\\
+\cellcolor{gray!10}{control-dialogue} & \cellcolor{gray!10}{llama-3-1-70b} & \cellcolor{gray!10}{249} & \cellcolor{gray!10}{1803} & \cellcolor{gray!10}{7.24} & \cellcolor{gray!10}{2.62} & \cellcolor{gray!10}{1550} & \cellcolor{gray!10}{6.22} & \cellcolor{gray!10}{2.62}\\
+treat-dialogue & GPT-4o (8/24) & 6686 & 60114 & 9.02 & 5.79 & 50230 & 7.54 & 2.44\\
+\cellcolor{gray!10}{treat-dialogue} & \cellcolor{gray!10}{Llama3.1-405b} & \cellcolor{gray!10}{4382} & \cellcolor{gray!10}{33967} & \cellcolor{gray!10}{7.75} & \cellcolor{gray!10}{2.64} & \cellcolor{gray!10}{29182} & \cellcolor{gray!10}{6.66} & \cellcolor{gray!10}{2.49}\\
+\addlinespace
+treat-dialogue & Llama3.1-8b & 1107 & 8536 & 7.73 & 2.81 & 7271 & 6.59 & 2.62\\
+\cellcolor{gray!10}{treat-dialogue} & \cellcolor{gray!10}{Qwen-1-5-0-5b} & \cellcolor{gray!10}{663} & \cellcolor{gray!10}{5057} & \cellcolor{gray!10}{7.76} & \cellcolor{gray!10}{3.39} & \cellcolor{gray!10}{4267} & \cellcolor{gray!10}{6.54} & \cellcolor{gray!10}{2.66}\\
+treat-dialogue & Qwen-1-5-1-8b & 692 & 5609 & 8.14 & 3.27 & 4798 & 6.96 & 2.72\\
+\cellcolor{gray!10}{treat-dialogue} & \cellcolor{gray!10}{Qwen-1-5-110b-chat} & \cellcolor{gray!10}{1173} & \cellcolor{gray!10}{9854} & \cellcolor{gray!10}{8.41} & \cellcolor{gray!10}{3.81} & \cellcolor{gray!10}{8253} & \cellcolor{gray!10}{7.04} & \cellcolor{gray!10}{2.35}\\
+treat-dialogue & Qwen-1-5-14b & 1138 & 9373 & 8.24 & 2.78 & 8115 & 7.13 & 2.40\\
+\addlinespace
+\cellcolor{gray!10}{treat-dialogue} & \cellcolor{gray!10}{Qwen-1-5-32b} & \cellcolor{gray!10}{1149} & \cellcolor{gray!10}{8798} & \cellcolor{gray!10}{7.66} & \cellcolor{gray!10}{2.55} & \cellcolor{gray!10}{7568} & \cellcolor{gray!10}{6.59} & \cellcolor{gray!10}{2.49}\\
+treat-dialogue & Qwen-1-5-4b & 756 & 6102 & 8.14 & 3.10 & 5228 & 6.97 & 2.63\\
+\cellcolor{gray!10}{treat-dialogue} & \cellcolor{gray!10}{Qwen-1-5-72b} & \cellcolor{gray!10}{1104} & \cellcolor{gray!10}{8267} & \cellcolor{gray!10}{7.50} & \cellcolor{gray!10}{2.80} & \cellcolor{gray!10}{7060} & \cellcolor{gray!10}{6.40} & \cellcolor{gray!10}{2.46}\\
+treat-dialogue & Qwen-1-5-72b-chat & 1071 & 8250 & 7.70 & 3.24 & 6926 & 6.47 & 2.39\\
+\cellcolor{gray!10}{treat-dialogue} & \cellcolor{gray!10}{Qwen-1-5-7b} & \cellcolor{gray!10}{1138} & \cellcolor{gray!10}{8443} & \cellcolor{gray!10}{7.43} & \cellcolor{gray!10}{2.58} & \cellcolor{gray!10}{7235} & \cellcolor{gray!10}{6.36} & \cellcolor{gray!10}{2.52}\\
+\addlinespace
+treat-dialogue & llama-3-1-70b & 1090 & 7899 & 7.25 & 2.63 & 6737 & 6.19 & 2.52\\
+\bottomrule
+\multicolumn{9}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{9}{l}{\rule{0pt}{1em}M = Mean; SD = standard deviation.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+\centering
+\caption{Conversation statistics by condition. Study 1. Chat 1.}
+\centering
+\fontsize{7}{9}\selectfont
+\begin{tabular}[t]{lllrrrrrrr}
+\toprule
+condition & prompt rhetoric id & prompt personalize & total convos & total AI msgs & M AI msgs & SD AI msgs & total user msgs & M user msgs & SD user msgs\\
+\midrule
+\cellcolor{gray!10}{control-dialogue} & \cellcolor{gray!10}{dogs} & \cellcolor{gray!10}{NA} & \cellcolor{gray!10}{587} & \cellcolor{gray!10}{4600} & \cellcolor{gray!10}{7.86} & \cellcolor{gray!10}{2.69} & \cellcolor{gray!10}{3965} & \cellcolor{gray!10}{6.78} & \cellcolor{gray!10}{2.55}\\
+control-dialogue & cats & NA & 570 & 4645 & 8.15 & 3.08 & 3977 & 6.98 & 2.45\\
+\cellcolor{gray!10}{control-dialogue} & \cellcolor{gray!10}{homework} & \cellcolor{gray!10}{NA} & \cellcolor{gray!10}{561} & \cellcolor{gray!10}{4472} & \cellcolor{gray!10}{7.99} & \cellcolor{gray!10}{3.01} & \cellcolor{gray!10}{3832} & \cellcolor{gray!10}{6.84} & \cellcolor{gray!10}{2.35}\\
+control-dialogue & digitalbook & NA & 639 & 5135 & 8.04 & 2.90 & 4404 & 6.89 & 2.49\\
+\cellcolor{gray!10}{control-dialogue} & \cellcolor{gray!10}{officework} & \cellcolor{gray!10}{NA} & \cellcolor{gray!10}{590} & \cellcolor{gray!10}{4691} & \cellcolor{gray!10}{7.95} & \cellcolor{gray!10}{2.76} & \cellcolor{gray!10}{4043} & \cellcolor{gray!10}{6.85} & \cellcolor{gray!10}{2.51}\\
+\addlinespace
+control-dialogue & android & NA & 629 & 4755 & 7.61 & 2.67 & 4081 & 6.53 & 2.48\\
+\cellcolor{gray!10}{control-dialogue} & \cellcolor{gray!10}{iphone} & \cellcolor{gray!10}{NA} & \cellcolor{gray!10}{587} & \cellcolor{gray!10}{4648} & \cellcolor{gray!10}{7.92} & \cellcolor{gray!10}{3.76} & \cellcolor{gray!10}{3961} & \cellcolor{gray!10}{6.75} & \cellcolor{gray!10}{2.49}\\
+control-dialogue & physicalbook & NA & 619 & 5206 & 8.41 & 5.90 & 4369 & 7.06 & 2.45\\
+\cellcolor{gray!10}{treat-dialogue} & \cellcolor{gray!10}{information} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{1288} & \cellcolor{gray!10}{10343} & \cellcolor{gray!10}{8.06} & \cellcolor{gray!10}{4.95} & \cellcolor{gray!10}{8733} & \cellcolor{gray!10}{6.80} & \cellcolor{gray!10}{2.53}\\
+treat-dialogue & information & personalized & 1412 & 10963 & 7.82 & 4.31 & 9204 & 6.56 & 2.54\\
+\addlinespace
+\cellcolor{gray!10}{treat-dialogue} & \cellcolor{gray!10}{mega} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{1367} & \cellcolor{gray!10}{11522} & \cellcolor{gray!10}{8.44} & \cellcolor{gray!10}{3.52} & \cellcolor{gray!10}{9910} & \cellcolor{gray!10}{7.26} & \cellcolor{gray!10}{2.42}\\
+treat-dialogue & mega & personalized & 1375 & 10889 & 7.95 & 2.62 & 9407 & 6.87 & 2.53\\
+\cellcolor{gray!10}{treat-dialogue} & \cellcolor{gray!10}{debate} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{1429} & \cellcolor{gray!10}{10867} & \cellcolor{gray!10}{7.63} & \cellcolor{gray!10}{3.74} & \cellcolor{gray!10}{9079} & \cellcolor{gray!10}{6.37} & \cellcolor{gray!10}{2.52}\\
+treat-dialogue & debate & personalized & 1397 & 10157 & 7.32 & 3.85 & 8382 & 6.04 & 2.48\\
+\cellcolor{gray!10}{treat-dialogue} & \cellcolor{gray!10}{norms} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{1421} & \cellcolor{gray!10}{11570} & \cellcolor{gray!10}{8.14} & \cellcolor{gray!10}{4.02} & \cellcolor{gray!10}{9777} & \cellcolor{gray!10}{6.88} & \cellcolor{gray!10}{2.48}\\
+\addlinespace
+treat-dialogue & norms & personalized & 1386 & 10736 & 7.76 & 4.92 & 9071 & 6.56 & 2.49\\
+\cellcolor{gray!10}{treat-dialogue} & \cellcolor{gray!10}{none} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{1386} & \cellcolor{gray!10}{11611} & \cellcolor{gray!10}{8.38} & \cellcolor{gray!10}{2.99} & \cellcolor{gray!10}{9981} & \cellcolor{gray!10}{7.21} & \cellcolor{gray!10}{2.49}\\
+treat-dialogue & none & personalized & 1386 & 11033 & 7.98 & 3.19 & 9460 & 6.85 & 2.55\\
+\cellcolor{gray!10}{treat-dialogue} & \cellcolor{gray!10}{storytelling} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{1324} & \cellcolor{gray!10}{10662} & \cellcolor{gray!10}{8.05} & \cellcolor{gray!10}{3.07} & \cellcolor{gray!10}{9101} & \cellcolor{gray!10}{6.87} & \cellcolor{gray!10}{2.49}\\
+treat-dialogue & storytelling & personalized & 1362 & 10936 & 8.03 & 4.00 & 9131 & 6.70 & 2.56\\
+\addlinespace
+\cellcolor{gray!10}{treat-dialogue} & \cellcolor{gray!10}{moral\_reframing} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{1390} & \cellcolor{gray!10}{12075} & \cellcolor{gray!10}{8.69} & \cellcolor{gray!10}{4.18} & \cellcolor{gray!10}{10298} & \cellcolor{gray!10}{7.41} & \cellcolor{gray!10}{2.51}\\
+treat-dialogue & moral\_reframing & personalized & 1409 & 11578 & 8.23 & 5.19 & 9701 & 6.90 & 2.51\\
+\cellcolor{gray!10}{treat-dialogue} & \cellcolor{gray!10}{deep\_canvass} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{1422} & \cellcolor{gray!10}{13151} & \cellcolor{gray!10}{9.25} & \cellcolor{gray!10}{4.95} & \cellcolor{gray!10}{11241} & \cellcolor{gray!10}{7.91} & \cellcolor{gray!10}{2.28}\\
+treat-dialogue & deep\_canvass & personalized & 1395 & 12176 & 8.75 & 3.68 & 10394 & 7.47 & 2.43\\
+\bottomrule
+\multicolumn{10}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{10}{l}{\rule{0pt}{1em}M = Mean; SD = standard deviation.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+\centering
+\caption{Conversation statistics by condition. Study 1. Chat 2.}
+\centering
+\fontsize{7}{9}\selectfont
+\begin{tabular}[t]{lllrrrrrrr}
+\toprule
+condition & prompt rhetoric id & prompt personalize & total convos & total AI msgs & M AI msgs & SD AI msgs & total user msgs & M user msgs & SD user msgs\\
+\midrule
+\cellcolor{gray!10}{control} & \cellcolor{gray!10}{android} & \cellcolor{gray!10}{NA} & \cellcolor{gray!10}{349} & \cellcolor{gray!10}{2485} & \cellcolor{gray!10}{7.12} & \cellcolor{gray!10}{4.17} & \cellcolor{gray!10}{2035} & \cellcolor{gray!10}{5.83} & \cellcolor{gray!10}{2.56}\\
+control & cats & NA & 374 & 3046 & 8.14 & 5.68 & 2495 & 6.67 & 2.60\\
+\cellcolor{gray!10}{control} & \cellcolor{gray!10}{digitalbook} & \cellcolor{gray!10}{NA} & \cellcolor{gray!10}{376} & \cellcolor{gray!10}{2746} & \cellcolor{gray!10}{7.30} & \cellcolor{gray!10}{2.92} & \cellcolor{gray!10}{2336} & \cellcolor{gray!10}{6.21} & \cellcolor{gray!10}{2.49}\\
+control & dogs & NA & 383 & 2918 & 7.62 & 4.36 & 2375 & 6.20 & 2.64\\
+\cellcolor{gray!10}{control} & \cellcolor{gray!10}{homework} & \cellcolor{gray!10}{NA} & \cellcolor{gray!10}{366} & \cellcolor{gray!10}{2800} & \cellcolor{gray!10}{7.65} & \cellcolor{gray!10}{2.99} & \cellcolor{gray!10}{2344} & \cellcolor{gray!10}{6.40} & \cellcolor{gray!10}{2.43}\\
+\addlinespace
+control & iphone & NA & 339 & 2386 & 7.04 & 3.60 & 1950 & 5.75 & 2.48\\
+\cellcolor{gray!10}{control} & \cellcolor{gray!10}{officework} & \cellcolor{gray!10}{NA} & \cellcolor{gray!10}{363} & \cellcolor{gray!10}{2866} & \cellcolor{gray!10}{7.90} & \cellcolor{gray!10}{5.29} & \cellcolor{gray!10}{2357} & \cellcolor{gray!10}{6.49} & \cellcolor{gray!10}{2.48}\\
+control & physicalbook & NA & 349 & 2773 & 7.95 & 2.91 & 2374 & 6.80 & 2.45\\
+\cellcolor{gray!10}{treatment} & \cellcolor{gray!10}{debate} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{1633} & \cellcolor{gray!10}{12513} & \cellcolor{gray!10}{7.66} & \cellcolor{gray!10}{4.12} & \cellcolor{gray!10}{10464} & \cellcolor{gray!10}{6.41} & \cellcolor{gray!10}{2.63}\\
+treatment & debate & personalized & 1621 & 11815 & 7.30 & 3.44 & 9975 & 6.16 & 2.66\\
+\addlinespace
+\cellcolor{gray!10}{treatment} & \cellcolor{gray!10}{deep\_canvass} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{1648} & \cellcolor{gray!10}{15210} & \cellcolor{gray!10}{9.23} & \cellcolor{gray!10}{6.43} & \cellcolor{gray!10}{12526} & \cellcolor{gray!10}{7.61} & \cellcolor{gray!10}{2.46}\\
+treatment & deep\_canvass & personalized & 1645 & 14102 & 8.58 & 4.37 & 12051 & 7.33 & 2.54\\
+\cellcolor{gray!10}{treatment} & \cellcolor{gray!10}{information} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{1630} & \cellcolor{gray!10}{12794} & \cellcolor{gray!10}{7.85} & \cellcolor{gray!10}{4.90} & \cellcolor{gray!10}{10586} & \cellcolor{gray!10}{6.49} & \cellcolor{gray!10}{2.58}\\
+treatment & information & personalized & 1636 & 12528 & 7.66 & 4.42 & 10423 & 6.37 & 2.62\\
+\cellcolor{gray!10}{treatment} & \cellcolor{gray!10}{mega} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{1594} & \cellcolor{gray!10}{13644} & \cellcolor{gray!10}{8.56} & \cellcolor{gray!10}{5.00} & \cellcolor{gray!10}{11414} & \cellcolor{gray!10}{7.16} & \cellcolor{gray!10}{2.46}\\
+\addlinespace
+treatment & mega & personalized & 1601 & 12737 & 7.97 & 4.68 & 10621 & 6.64 & 2.52\\
+\cellcolor{gray!10}{treatment} & \cellcolor{gray!10}{moral\_reframing} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{1589} & \cellcolor{gray!10}{13310} & \cellcolor{gray!10}{8.38} & \cellcolor{gray!10}{5.17} & \cellcolor{gray!10}{11256} & \cellcolor{gray!10}{7.08} & \cellcolor{gray!10}{2.50}\\
+treatment & moral\_reframing & personalized & 1534 & 12269 & 8.00 & 4.61 & 10228 & 6.67 & 2.63\\
+\cellcolor{gray!10}{treatment} & \cellcolor{gray!10}{none} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{1607} & \cellcolor{gray!10}{12877} & \cellcolor{gray!10}{8.01} & \cellcolor{gray!10}{4.38} & \cellcolor{gray!10}{10776} & \cellcolor{gray!10}{6.71} & \cellcolor{gray!10}{2.62}\\
+treatment & none & personalized & 1632 & 12495 & 7.66 & 3.96 & 10604 & 6.50 & 2.66\\
+\addlinespace
+\cellcolor{gray!10}{treatment} & \cellcolor{gray!10}{norms} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{1559} & \cellcolor{gray!10}{12218} & \cellcolor{gray!10}{7.84} & \cellcolor{gray!10}{4.04} & \cellcolor{gray!10}{10352} & \cellcolor{gray!10}{6.64} & \cellcolor{gray!10}{2.59}\\
+treatment & norms & personalized & 1633 & 12463 & 7.64 & 4.47 & 10376 & 6.36 & 2.63\\
+\cellcolor{gray!10}{treatment} & \cellcolor{gray!10}{storytelling} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{1570} & \cellcolor{gray!10}{12582} & \cellcolor{gray!10}{8.01} & \cellcolor{gray!10}{3.89} & \cellcolor{gray!10}{10603} & \cellcolor{gray!10}{6.75} & \cellcolor{gray!10}{2.58}\\
+treatment & storytelling & personalized & 1518 & 12152 & 8.01 & 4.85 & 10114 & 6.66 & 2.57\\
+\bottomrule
+\multicolumn{10}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{10}{l}{\rule{0pt}{1em}M = Mean; SD = standard deviation.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+\centering
+\caption{Conversation statistics by condition. Study 2. .}
+\centering
+\fontsize{7}{9}\selectfont
+\begin{tabular}[t]{lrrrrrrr}
+\toprule
+condition & total convos & total AI msgs & M AI msgs & SD AI msgs & total user msgs & M user msgs & SD user msgs\\
+\midrule
+\cellcolor{gray!10}{control} & \cellcolor{gray!10}{1415} & \cellcolor{gray!10}{8908} & \cellcolor{gray!10}{6.30} & \cellcolor{gray!10}{2.51} & \cellcolor{gray!10}{7462} & \cellcolor{gray!10}{5.27} & \cellcolor{gray!10}{2.51}\\
+treatment-1 & 19337 & 115663 & 5.98 & 3.87 & 95214 & 4.93 & 2.48\\
+\cellcolor{gray!10}{treatment-2} & \cellcolor{gray!10}{4052} & \cellcolor{gray!10}{25676} & \cellcolor{gray!10}{6.37} & \cellcolor{gray!10}{2.77} & \cellcolor{gray!10}{21497} & \cellcolor{gray!10}{5.33} & \cellcolor{gray!10}{2.76}\\
+treatment-3 & 2801 & 18530 & 6.62 & 2.53 & 15618 & 5.58 & 2.53\\
+\bottomrule
+\multicolumn{8}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{8}{l}{\rule{0pt}{1em}M = Mean; SD = standard deviation.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+\centering
+\caption{Conversation statistics by condition. Study 2. .}
+\centering
+\fontsize{7}{9}\selectfont
+\begin{tabular}[t]{lllrrrrrrr}
+\toprule
+condition & model & post train & total convos & total AI msgs & M AI msgs & SD AI msgs & total user msgs & M user msgs & SD user msgs\\
+\midrule
+\cellcolor{gray!10}{control} & \cellcolor{gray!10}{GPT-4o (8/24)} & \cellcolor{gray!10}{NA} & \cellcolor{gray!10}{1415} & \cellcolor{gray!10}{8908} & \cellcolor{gray!10}{6.30} & \cellcolor{gray!10}{2.51} & \cellcolor{gray!10}{7462} & \cellcolor{gray!10}{5.27} & \cellcolor{gray!10}{2.51}\\
+treatment-1 & Llama3.1-405b & base & 3246 & 20754 & 6.40 & 2.56 & 17399 & 5.36 & 2.55\\
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{Llama3.1-405b} & \cellcolor{gray!10}{rm} & \cellcolor{gray!10}{3286} & \cellcolor{gray!10}{20082} & \cellcolor{gray!10}{6.12} & \cellcolor{gray!10}{2.41} & \cellcolor{gray!10}{16686} & \cellcolor{gray!10}{5.08} & \cellcolor{gray!10}{2.41}\\
+treatment-1 & Llama3.1-405b & sft & 3214 & 19367 & 6.03 & 2.52 & 16050 & 5.00 & 2.51\\
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{Llama3.1-405b} & \cellcolor{gray!10}{sft\_and\_rm} & \cellcolor{gray!10}{3177} & \cellcolor{gray!10}{18119} & \cellcolor{gray!10}{5.71} & \cellcolor{gray!10}{2.35} & \cellcolor{gray!10}{14830} & \cellcolor{gray!10}{4.67} & \cellcolor{gray!10}{2.34}\\
+\addlinespace
+treatment-1 & Llama3.1-8b & base & 1635 & 10534 & 6.44 & 2.72 & 8816 & 5.39 & 2.70\\
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{Llama3.1-8b} & \cellcolor{gray!10}{rm} & \cellcolor{gray!10}{1593} & \cellcolor{gray!10}{9337} & \cellcolor{gray!10}{5.86} & \cellcolor{gray!10}{2.48} & \cellcolor{gray!10}{7668} & \cellcolor{gray!10}{4.82} & \cellcolor{gray!10}{2.46}\\
+treatment-1 & Llama3.1-8b & sft & 1595 & 9137 & 5.73 & 10.58 & 7081 & 4.44 & 2.37\\
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{Llama3.1-8b} & \cellcolor{gray!10}{sft\_and\_rm} & \cellcolor{gray!10}{1591} & \cellcolor{gray!10}{8333} & \cellcolor{gray!10}{5.24} & \cellcolor{gray!10}{2.31} & \cellcolor{gray!10}{6684} & \cellcolor{gray!10}{4.20} & \cellcolor{gray!10}{2.29}\\
+treatment-2 & GPT-3.5 & base & 668 & 3675 & 5.50 & 2.29 & 2980 & 4.46 & 2.28\\
+\addlinespace
+\cellcolor{gray!10}{treatment-2} & \cellcolor{gray!10}{GPT-3.5} & \cellcolor{gray!10}{rm} & \cellcolor{gray!10}{680} & \cellcolor{gray!10}{3520} & \cellcolor{gray!10}{5.18} & \cellcolor{gray!10}{2.23} & \cellcolor{gray!10}{2817} & \cellcolor{gray!10}{4.15} & \cellcolor{gray!10}{2.22}\\
+treatment-2 & GPT-4.5 & base & 689 & 4764 & 6.99 & 2.95 & 4054 & 5.94 & 2.92\\
+\cellcolor{gray!10}{treatment-2} & \cellcolor{gray!10}{GPT-4.5} & \cellcolor{gray!10}{rm} & \cellcolor{gray!10}{669} & \cellcolor{gray!10}{4365} & \cellcolor{gray!10}{6.64} & \cellcolor{gray!10}{2.90} & \cellcolor{gray!10}{3677} & \cellcolor{gray!10}{5.60} & \cellcolor{gray!10}{2.87}\\
+treatment-2 & GPT-4o (8/24) & base & 691 & 4773 & 6.91 & 2.82 & 4065 & 5.88 & 2.80\\
+\cellcolor{gray!10}{treatment-2} & \cellcolor{gray!10}{GPT-4o (8/24)} & \cellcolor{gray!10}{rm} & \cellcolor{gray!10}{655} & \cellcolor{gray!10}{4579} & \cellcolor{gray!10}{7.00} & \cellcolor{gray!10}{2.76} & \cellcolor{gray!10}{3904} & \cellcolor{gray!10}{5.97} & \cellcolor{gray!10}{2.76}\\
+\addlinespace
+treatment-3 & Llama3.1-405b & NA & 2801 & 18530 & 6.62 & 2.53 & 15618 & 5.58 & 2.53\\
+\bottomrule
+\multicolumn{10}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{10}{l}{\rule{0pt}{1em}M = Mean; SD = standard deviation.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+\centering
+\caption{Conversation statistics by condition. Study 2. .}
+\centering
+\fontsize{7}{9}\selectfont
+\begin{tabular}[t]{lllrrrrrrr}
+\toprule
+condition & prompt rhetoric id & personalize & total convos & total AI msgs & M AI msgs & SD AI msgs & total user msgs & M user msgs & SD user msgs\\
+\midrule
+\cellcolor{gray!10}{control} & \cellcolor{gray!10}{android} & \cellcolor{gray!10}{NA} & \cellcolor{gray!10}{178} & \cellcolor{gray!10}{1064} & \cellcolor{gray!10}{5.98} & \cellcolor{gray!10}{2.48} & \cellcolor{gray!10}{879} & \cellcolor{gray!10}{4.94} & \cellcolor{gray!10}{2.47}\\
+control & cats & NA & 193 & 1249 & 6.47 & 2.63 & 1058 & 5.48 & 2.63\\
+\cellcolor{gray!10}{control} & \cellcolor{gray!10}{digitalbook} & \cellcolor{gray!10}{NA} & \cellcolor{gray!10}{184} & \cellcolor{gray!10}{1158} & \cellcolor{gray!10}{6.29} & \cellcolor{gray!10}{2.65} & \cellcolor{gray!10}{965} & \cellcolor{gray!10}{5.24} & \cellcolor{gray!10}{2.63}\\
+control & dogs & NA & 172 & 1093 & 6.35 & 2.47 & 919 & 5.34 & 2.50\\
+\cellcolor{gray!10}{control} & \cellcolor{gray!10}{homework} & \cellcolor{gray!10}{NA} & \cellcolor{gray!10}{181} & \cellcolor{gray!10}{1168} & \cellcolor{gray!10}{6.45} & \cellcolor{gray!10}{2.34} & \cellcolor{gray!10}{983} & \cellcolor{gray!10}{5.43} & \cellcolor{gray!10}{2.34}\\
+\addlinespace
+control & iphone & NA & 176 & 1047 & 5.95 & 2.47 & 869 & 4.94 & 2.47\\
+\cellcolor{gray!10}{control} & \cellcolor{gray!10}{officework} & \cellcolor{gray!10}{NA} & \cellcolor{gray!10}{155} & \cellcolor{gray!10}{944} & \cellcolor{gray!10}{6.09} & \cellcolor{gray!10}{2.47} & \cellcolor{gray!10}{787} & \cellcolor{gray!10}{5.08} & \cellcolor{gray!10}{2.45}\\
+control & physicalbook & NA & 176 & 1185 & 6.73 & 2.50 & 1002 & 5.69 & 2.49\\
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{debate} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{583} & \cellcolor{gray!10}{3425} & \cellcolor{gray!10}{5.87} & \cellcolor{gray!10}{2.43} & \cellcolor{gray!10}{2815} & \cellcolor{gray!10}{4.83} & \cellcolor{gray!10}{2.42}\\
+treatment-1 & debate & personalized & 582 & 3187 & 5.48 & 2.31 & 2575 & 4.42 & 2.26\\
+\addlinespace
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{deep\_canvass} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{625} & \cellcolor{gray!10}{4479} & \cellcolor{gray!10}{7.17} & \cellcolor{gray!10}{2.75} & \cellcolor{gray!10}{3826} & \cellcolor{gray!10}{6.12} & \cellcolor{gray!10}{2.75}\\
+treatment-1 & deep\_canvass & personalized & 641 & 4207 & 6.57 & 2.55 & 3546 & 5.54 & 2.56\\
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{information} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{600} & \cellcolor{gray!10}{3573} & \cellcolor{gray!10}{5.96} & \cellcolor{gray!10}{2.48} & \cellcolor{gray!10}{2959} & \cellcolor{gray!10}{4.93} & \cellcolor{gray!10}{2.48}\\
+treatment-1 & information & personalized & 591 & 3355 & 5.68 & 2.47 & 2737 & 4.63 & 2.41\\
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{mega} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{627} & \cellcolor{gray!10}{3974} & \cellcolor{gray!10}{6.35} & \cellcolor{gray!10}{2.55} & \cellcolor{gray!10}{3323} & \cellcolor{gray!10}{5.31} & \cellcolor{gray!10}{2.53}\\
+\addlinespace
+treatment-1 & mega & personalized & 592 & 3616 & 6.12 & 2.44 & 3000 & 5.08 & 2.44\\
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{moral\_reframing} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{640} & \cellcolor{gray!10}{4213} & \cellcolor{gray!10}{6.58} & \cellcolor{gray!10}{2.61} & \cellcolor{gray!10}{3546} & \cellcolor{gray!10}{5.54} & \cellcolor{gray!10}{2.60}\\
+treatment-1 & moral\_reframing & personalized & 577 & 3527 & 6.11 & 2.51 & 2941 & 5.10 & 2.52\\
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{none} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{626} & \cellcolor{gray!10}{4208} & \cellcolor{gray!10}{6.74} & \cellcolor{gray!10}{2.55} & \cellcolor{gray!10}{3566} & \cellcolor{gray!10}{5.71} & \cellcolor{gray!10}{2.54}\\
+treatment-1 & none & personalized & 641 & 3934 & 6.14 & 2.49 & 3269 & 5.10 & 2.49\\
+\addlinespace
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{norms} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{586} & \cellcolor{gray!10}{3855} & \cellcolor{gray!10}{6.58} & \cellcolor{gray!10}{2.57} & \cellcolor{gray!10}{3241} & \cellcolor{gray!10}{5.53} & \cellcolor{gray!10}{2.54}\\
+treatment-1 & norms & personalized & 624 & 3740 & 5.99 & 2.48 & 3081 & 4.94 & 2.45\\
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{storytelling} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{633} & \cellcolor{gray!10}{3945} & \cellcolor{gray!10}{6.24} & \cellcolor{gray!10}{2.49} & \cellcolor{gray!10}{3290} & \cellcolor{gray!10}{5.21} & \cellcolor{gray!10}{2.49}\\
+treatment-1 & storytelling & personalized & 592 & 3469 & 5.86 & 2.27 & 2854 & 4.82 & 2.26\\
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{NA} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{4796} & \cellcolor{gray!10}{28925} & \cellcolor{gray!10}{6.04} & \cellcolor{gray!10}{6.43} & \cellcolor{gray!10}{23561} & \cellcolor{gray!10}{4.92} & \cellcolor{gray!10}{2.46}\\
+\addlinespace
+treatment-1 & NA & personalized & 4781 & 26031 & 5.44 & 2.34 & 21084 & 4.41 & 2.33\\
+\cellcolor{gray!10}{treatment-2} & \cellcolor{gray!10}{debate} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{256} & \cellcolor{gray!10}{1433} & \cellcolor{gray!10}{5.64} & \cellcolor{gray!10}{2.42} & \cellcolor{gray!10}{1172} & \cellcolor{gray!10}{4.61} & \cellcolor{gray!10}{2.40}\\
+treatment-2 & debate & personalized & 242 & 1303 & 5.43 & 2.61 & 1060 & 4.42 & 2.60\\
+\cellcolor{gray!10}{treatment-2} & \cellcolor{gray!10}{deep\_canvass} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{270} & \cellcolor{gray!10}{2170} & \cellcolor{gray!10}{8.07} & \cellcolor{gray!10}{2.70} & \cellcolor{gray!10}{1886} & \cellcolor{gray!10}{7.01} & \cellcolor{gray!10}{2.69}\\
+treatment-2 & deep\_canvass & personalized & 249 & 1747 & 7.02 & 2.87 & 1490 & 5.98 & 2.88\\
+\addlinespace
+\cellcolor{gray!10}{treatment-2} & \cellcolor{gray!10}{information} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{260} & \cellcolor{gray!10}{1560} & \cellcolor{gray!10}{6.07} & \cellcolor{gray!10}{2.52} & \cellcolor{gray!10}{1290} & \cellcolor{gray!10}{5.02} & \cellcolor{gray!10}{2.50}\\
+treatment-2 & information & personalized & 257 & 1514 & 5.96 & 2.49 & 1252 & 4.93 & 2.49\\
+\cellcolor{gray!10}{treatment-2} & \cellcolor{gray!10}{mega} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{257} & \cellcolor{gray!10}{1706} & \cellcolor{gray!10}{6.69} & \cellcolor{gray!10}{2.61} & \cellcolor{gray!10}{1437} & \cellcolor{gray!10}{5.64} & \cellcolor{gray!10}{2.60}\\
+treatment-2 & mega & personalized & 265 & 1623 & 6.12 & 2.82 & 1338 & 5.05 & 2.76\\
+\cellcolor{gray!10}{treatment-2} & \cellcolor{gray!10}{moral\_reframing} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{232} & \cellcolor{gray!10}{1589} & \cellcolor{gray!10}{6.88} & \cellcolor{gray!10}{2.67} & \cellcolor{gray!10}{1351} & \cellcolor{gray!10}{5.85} & \cellcolor{gray!10}{2.67}\\
+\addlinespace
+treatment-2 & moral\_reframing & personalized & 244 & 1537 & 6.30 & 3.02 & 1275 & 5.23 & 2.94\\
+\cellcolor{gray!10}{treatment-2} & \cellcolor{gray!10}{none} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{263} & \cellcolor{gray!10}{1705} & \cellcolor{gray!10}{6.53} & \cellcolor{gray!10}{2.78} & \cellcolor{gray!10}{1442} & \cellcolor{gray!10}{5.52} & \cellcolor{gray!10}{2.77}\\
+treatment-2 & none & personalized & 263 & 1627 & 6.21 & 2.93 & 1363 & 5.20 & 2.92\\
+\cellcolor{gray!10}{treatment-2} & \cellcolor{gray!10}{norms} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{235} & \cellcolor{gray!10}{1558} & \cellcolor{gray!10}{6.66} & \cellcolor{gray!10}{2.76} & \cellcolor{gray!10}{1318} & \cellcolor{gray!10}{5.63} & \cellcolor{gray!10}{2.75}\\
+treatment-2 & norms & personalized & 276 & 1633 & 5.92 & 2.69 & 1350 & 4.89 & 2.70\\
+\addlinespace
+\cellcolor{gray!10}{treatment-2} & \cellcolor{gray!10}{storytelling} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{254} & \cellcolor{gray!10}{1514} & \cellcolor{gray!10}{6.01} & \cellcolor{gray!10}{2.76} & \cellcolor{gray!10}{1252} & \cellcolor{gray!10}{4.97} & \cellcolor{gray!10}{2.75}\\
+treatment-2 & storytelling & personalized & 229 & 1457 & 6.39 & 2.66 & 1221 & 5.36 & 2.64\\
+\cellcolor{gray!10}{treatment-3} & \cellcolor{gray!10}{information} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{462} & \cellcolor{gray!10}{3036} & \cellcolor{gray!10}{6.57} & \cellcolor{gray!10}{2.52} & \cellcolor{gray!10}{2550} & \cellcolor{gray!10}{5.52} & \cellcolor{gray!10}{2.48}\\
+treatment-3 & information & personalized & 499 & 3155 & 6.32 & 2.46 & 2642 & 5.29 & 2.48\\
+\cellcolor{gray!10}{treatment-3} & \cellcolor{gray!10}{information\_with\_deception} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{921} & \cellcolor{gray!10}{6186} & \cellcolor{gray!10}{6.72} & \cellcolor{gray!10}{2.58} & \cellcolor{gray!10}{5232} & \cellcolor{gray!10}{5.68} & \cellcolor{gray!10}{2.57}\\
+\addlinespace
+treatment-3 & information\_with\_deception & personalized & 919 & 6153 & 6.70 & 2.52 & 5194 & 5.65 & 2.51\\
+\bottomrule
+\multicolumn{10}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{10}{l}{\rule{0pt}{1em}M = Mean; SD = standard deviation.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+\centering
+\caption{Conversation statistics by condition. Study 3. .}
+\centering
+\fontsize{7}{9}\selectfont
+\begin{tabular}[t]{lrrrrrrr}
+\toprule
+condition & total convos & total AI msgs & M AI msgs & SD AI msgs & total user msgs & M user msgs & SD user msgs\\
+\midrule
+\cellcolor{gray!10}{control} & \cellcolor{gray!10}{1052} & \cellcolor{gray!10}{6378} & \cellcolor{gray!10}{6.06} & \cellcolor{gray!10}{2.30} & \cellcolor{gray!10}{5281} & \cellcolor{gray!10}{5.02} & \cellcolor{gray!10}{2.30}\\
+treatment-1 & 15866 & 108258 & 6.84 & 2.81 & 91797 & 5.80 & 2.79\\
+\cellcolor{gray!10}{treatment-2} & \cellcolor{gray!10}{1968} & \cellcolor{gray!10}{12725} & \cellcolor{gray!10}{6.50} & \cellcolor{gray!10}{2.85} & \cellcolor{gray!10}{10671} & \cellcolor{gray!10}{5.45} & \cellcolor{gray!10}{2.81}\\
+treatment-3 & 926 & 942 & 1.02 & 0.14 & 0 & 0.00 & 0.00\\
+\bottomrule
+\multicolumn{8}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{8}{l}{\rule{0pt}{1em}M = Mean; SD = standard deviation.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+\centering
+\caption{Conversation statistics by condition. Study 3. .}
+\centering
+\fontsize{7}{9}\selectfont
+\begin{tabular}[t]{lllrrrrrrr}
+\toprule
+condition & model & post train & total convos & total AI msgs & M AI msgs & SD AI msgs & total user msgs & M user msgs & SD user msgs\\
+\midrule
+\cellcolor{gray!10}{control} & \cellcolor{gray!10}{GPT-4o (8/24)} & \cellcolor{gray!10}{base} & \cellcolor{gray!10}{1052} & \cellcolor{gray!10}{6378} & \cellcolor{gray!10}{6.06} & \cellcolor{gray!10}{2.30} & \cellcolor{gray!10}{5281} & \cellcolor{gray!10}{5.02} & \cellcolor{gray!10}{2.30}\\
+treatment-1 & GPT-4.5 & base & 2625 & 18038 & 6.89 & 2.93 & 15288 & 5.84 & 2.90\\
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{GPT-4.5} & \cellcolor{gray!10}{rm} & \cellcolor{gray!10}{2622} & \cellcolor{gray!10}{17605} & \cellcolor{gray!10}{6.77} & \cellcolor{gray!10}{2.81} & \cellcolor{gray!10}{14910} & \cellcolor{gray!10}{5.73} & \cellcolor{gray!10}{2.79}\\
+treatment-1 & GPT-4o (3/25) & base & 2686 & 19058 & 7.10 & 2.86 & 16292 & 6.07 & 2.83\\
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{GPT-4o (3/25)} & \cellcolor{gray!10}{rm} & \cellcolor{gray!10}{2662} & \cellcolor{gray!10}{18546} & \cellcolor{gray!10}{6.97} & \cellcolor{gray!10}{2.82} & \cellcolor{gray!10}{15753} & \cellcolor{gray!10}{5.92} & \cellcolor{gray!10}{2.79}\\
+\addlinespace
+treatment-1 & GPT-4o (8/24) & base & 2611 & 17515 & 6.71 & 2.70 & 14821 & 5.68 & 2.69\\
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{GPT-4o (8/24)} & \cellcolor{gray!10}{rm} & \cellcolor{gray!10}{2660} & \cellcolor{gray!10}{17496} & \cellcolor{gray!10}{6.58} & \cellcolor{gray!10}{2.69} & \cellcolor{gray!10}{14733} & \cellcolor{gray!10}{5.54} & \cellcolor{gray!10}{2.68}\\
+treatment-2 & Grok-3 & base & 974 & 6438 & 6.64 & 2.88 & 5425 & 5.59 & 2.87\\
+\cellcolor{gray!10}{treatment-2} & \cellcolor{gray!10}{Grok-3} & \cellcolor{gray!10}{rm} & \cellcolor{gray!10}{994} & \cellcolor{gray!10}{6287} & \cellcolor{gray!10}{6.36} & \cellcolor{gray!10}{2.81} & \cellcolor{gray!10}{5246} & \cellcolor{gray!10}{5.30} & \cellcolor{gray!10}{2.75}\\
+treatment-3 & GPT-4.5 & base & 926 & 942 & 1.02 & 0.14 & 0 & 0.00 & 0.00\\
+\bottomrule
+\multicolumn{10}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{10}{l}{\rule{0pt}{1em}M = Mean; SD = standard deviation.}\\
+\end{tabular}
+\end{table}
+
+\vspace{3em}
+
+\begin{table}[H]
+\centering
+\caption{Conversation statistics by condition. Study 3. .}
+\centering
+\fontsize{7}{9}\selectfont
+\begin{tabular}[t]{lllrrrrrrr}
+\toprule
+condition & prompt rhetoric id & personalize & total convos & total AI msgs & M AI msgs & SD AI msgs & total user msgs & M user msgs & SD user msgs\\
+\midrule
+\cellcolor{gray!10}{control} & \cellcolor{gray!10}{android} & \cellcolor{gray!10}{NA} & \cellcolor{gray!10}{116} & \cellcolor{gray!10}{694} & \cellcolor{gray!10}{5.98} & \cellcolor{gray!10}{2.22} & \cellcolor{gray!10}{571} & \cellcolor{gray!10}{4.92} & \cellcolor{gray!10}{2.23}\\
+control & cats & NA & 135 & 817 & 6.05 & 2.21 & 677 & 5.01 & 2.21\\
+\cellcolor{gray!10}{control} & \cellcolor{gray!10}{digitalbook} & \cellcolor{gray!10}{NA} & \cellcolor{gray!10}{123} & \cellcolor{gray!10}{753} & \cellcolor{gray!10}{6.12} & \cellcolor{gray!10}{2.36} & \cellcolor{gray!10}{616} & \cellcolor{gray!10}{5.01} & \cellcolor{gray!10}{2.33}\\
+control & dogs & NA & 131 & 789 & 6.02 & 2.16 & 654 & 4.99 & 2.16\\
+\cellcolor{gray!10}{control} & \cellcolor{gray!10}{homework} & \cellcolor{gray!10}{NA} & \cellcolor{gray!10}{129} & \cellcolor{gray!10}{787} & \cellcolor{gray!10}{6.10} & \cellcolor{gray!10}{2.42} & \cellcolor{gray!10}{653} & \cellcolor{gray!10}{5.06} & \cellcolor{gray!10}{2.38}\\
+\addlinespace
+control & iphone & NA & 113 & 626 & 5.54 & 2.16 & 513 & 4.54 & 2.16\\
+\cellcolor{gray!10}{control} & \cellcolor{gray!10}{officework} & \cellcolor{gray!10}{NA} & \cellcolor{gray!10}{148} & \cellcolor{gray!10}{868} & \cellcolor{gray!10}{5.86} & \cellcolor{gray!10}{2.11} & \cellcolor{gray!10}{714} & \cellcolor{gray!10}{4.82} & \cellcolor{gray!10}{2.12}\\
+control & physicalbook & NA & 157 & 1044 & 6.65 & 2.58 & 883 & 5.62 & 2.59\\
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{debate} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{1010} & \cellcolor{gray!10}{6112} & \cellcolor{gray!10}{6.07} & \cellcolor{gray!10}{2.54} & \cellcolor{gray!10}{5074} & \cellcolor{gray!10}{5.04} & \cellcolor{gray!10}{2.54}\\
+treatment-1 & debate & personalized & 960 & 5745 & 5.98 & 2.57 & 4756 & 4.95 & 2.57\\
+\addlinespace
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{deep\_canvass} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{1006} & \cellcolor{gray!10}{7997} & \cellcolor{gray!10}{7.97} & \cellcolor{gray!10}{2.94} & \cellcolor{gray!10}{6925} & \cellcolor{gray!10}{6.90} & \cellcolor{gray!10}{2.89}\\
+treatment-1 & deep\_canvass & personalized & 948 & 7078 & 7.51 & 2.93 & 6104 & 6.47 & 2.91\\
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{information} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{976} & \cellcolor{gray!10}{6543} & \cellcolor{gray!10}{6.72} & \cellcolor{gray!10}{2.71} & \cellcolor{gray!10}{5537} & \cellcolor{gray!10}{5.68} & \cellcolor{gray!10}{2.69}\\
+treatment-1 & information & personalized & 1016 & 6397 & 6.32 & 2.68 & 5348 & 5.28 & 2.67\\
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{mega} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{1040} & \cellcolor{gray!10}{7697} & \cellcolor{gray!10}{7.42} & \cellcolor{gray!10}{2.82} & \cellcolor{gray!10}{6618} & \cellcolor{gray!10}{6.38} & \cellcolor{gray!10}{2.77}\\
+\addlinespace
+treatment-1 & mega & personalized & 977 & 6679 & 6.84 & 2.77 & 5666 & 5.81 & 2.75\\
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{moral\_reframing} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{956} & \cellcolor{gray!10}{6970} & \cellcolor{gray!10}{7.30} & \cellcolor{gray!10}{2.74} & \cellcolor{gray!10}{5975} & \cellcolor{gray!10}{6.26} & \cellcolor{gray!10}{2.73}\\
+treatment-1 & moral\_reframing & personalized & 1011 & 6740 & 6.67 & 2.80 & 5698 & 5.64 & 2.79\\
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{none} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{1021} & \cellcolor{gray!10}{7071} & \cellcolor{gray!10}{6.93} & \cellcolor{gray!10}{2.71} & \cellcolor{gray!10}{5990} & \cellcolor{gray!10}{5.87} & \cellcolor{gray!10}{2.69}\\
+treatment-1 & none & personalized & 945 & 6442 & 6.82 & 2.87 & 5455 & 5.77 & 2.80\\
+\addlinespace
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{norms} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{1002} & \cellcolor{gray!10}{6968} & \cellcolor{gray!10}{6.97} & \cellcolor{gray!10}{2.72} & \cellcolor{gray!10}{5934} & \cellcolor{gray!10}{5.94} & \cellcolor{gray!10}{2.71}\\
+treatment-1 & norms & personalized & 996 & 6494 & 6.52 & 2.77 & 5461 & 5.48 & 2.76\\
+\cellcolor{gray!10}{treatment-1} & \cellcolor{gray!10}{storytelling} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{1042} & \cellcolor{gray!10}{7016} & \cellcolor{gray!10}{6.75} & \cellcolor{gray!10}{2.84} & \cellcolor{gray!10}{5940} & \cellcolor{gray!10}{5.72} & \cellcolor{gray!10}{2.82}\\
+treatment-1 & storytelling & personalized & 960 & 6309 & 6.58 & 2.77 & 5316 & 5.54 & 2.75\\
+\cellcolor{gray!10}{treatment-2} & \cellcolor{gray!10}{debate} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{127} & \cellcolor{gray!10}{740} & \cellcolor{gray!10}{5.83} & \cellcolor{gray!10}{2.59} & \cellcolor{gray!10}{609} & \cellcolor{gray!10}{4.80} & \cellcolor{gray!10}{2.56}\\
+\addlinespace
+treatment-2 & debate & personalized & 120 & 632 & 5.27 & 2.65 & 510 & 4.25 & 2.62\\
+\cellcolor{gray!10}{treatment-2} & \cellcolor{gray!10}{deep\_canvass} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{116} & \cellcolor{gray!10}{873} & \cellcolor{gray!10}{7.53} & \cellcolor{gray!10}{2.99} & \cellcolor{gray!10}{738} & \cellcolor{gray!10}{6.36} & \cellcolor{gray!10}{2.62}\\
+treatment-2 & deep\_canvass & personalized & 112 & 856 & 7.64 & 2.79 & 740 & 6.61 & 2.75\\
+\cellcolor{gray!10}{treatment-2} & \cellcolor{gray!10}{information} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{115} & \cellcolor{gray!10}{659} & \cellcolor{gray!10}{5.78} & \cellcolor{gray!10}{2.51} & \cellcolor{gray!10}{541} & \cellcolor{gray!10}{4.75} & \cellcolor{gray!10}{2.48}\\
+treatment-2 & information & personalized & 119 & 639 & 5.37 & 2.47 & 515 & 4.33 & 2.49\\
+\addlinespace
+\cellcolor{gray!10}{treatment-2} & \cellcolor{gray!10}{mega} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{126} & \cellcolor{gray!10}{762} & \cellcolor{gray!10}{6.15} & \cellcolor{gray!10}{2.65} & \cellcolor{gray!10}{635} & \cellcolor{gray!10}{5.12} & \cellcolor{gray!10}{2.65}\\
+treatment-2 & mega & personalized & 107 & 641 & 6.16 & 2.66 & 529 & 5.09 & 2.62\\
+\cellcolor{gray!10}{treatment-2} & \cellcolor{gray!10}{moral\_reframing} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{129} & \cellcolor{gray!10}{907} & \cellcolor{gray!10}{7.09} & \cellcolor{gray!10}{2.82} & \cellcolor{gray!10}{772} & \cellcolor{gray!10}{6.03} & \cellcolor{gray!10}{2.81}\\
+treatment-2 & moral\_reframing & personalized & 127 & 911 & 7.23 & 2.85 & 784 & 6.22 & 2.81\\
+\cellcolor{gray!10}{treatment-2} & \cellcolor{gray!10}{none} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{124} & \cellcolor{gray!10}{860} & \cellcolor{gray!10}{6.94} & \cellcolor{gray!10}{2.89} & \cellcolor{gray!10}{733} & \cellcolor{gray!10}{5.91} & \cellcolor{gray!10}{2.93}\\
+\addlinespace
+treatment-2 & none & personalized & 125 & 864 & 6.91 & 2.95 & 732 & 5.86 & 2.93\\
+\cellcolor{gray!10}{treatment-2} & \cellcolor{gray!10}{norms} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{129} & \cellcolor{gray!10}{909} & \cellcolor{gray!10}{7.05} & \cellcolor{gray!10}{2.88} & \cellcolor{gray!10}{772} & \cellcolor{gray!10}{5.98} & \cellcolor{gray!10}{2.89}\\
+treatment-2 & norms & personalized & 142 & 929 & 6.59 & 2.82 & 781 & 5.54 & 2.78\\
+\cellcolor{gray!10}{treatment-2} & \cellcolor{gray!10}{storytelling} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{121} & \cellcolor{gray!10}{798} & \cellcolor{gray!10}{6.60} & \cellcolor{gray!10}{2.83} & \cellcolor{gray!10}{671} & \cellcolor{gray!10}{5.55} & \cellcolor{gray!10}{2.84}\\
+treatment-2 & storytelling & personalized & 129 & 745 & 5.78 & 2.87 & 609 & 4.72 & 2.83\\
+\addlinespace
+\cellcolor{gray!10}{treatment-3} & \cellcolor{gray!10}{NA} & \cellcolor{gray!10}{generic} & \cellcolor{gray!10}{473} & \cellcolor{gray!10}{484} & \cellcolor{gray!10}{1.02} & \cellcolor{gray!10}{0.15} & \cellcolor{gray!10}{0} & \cellcolor{gray!10}{0.00} & \cellcolor{gray!10}{0.00}\\
+treatment-3 & NA & personalized & 453 & 458 & 1.02 & 0.13 & 0 & 0.00 & 0.00\\
+\bottomrule
+\multicolumn{10}{l}{\rule{0pt}{1em}\textit{Note: }}\\
+\multicolumn{10}{l}{\rule{0pt}{1em}M = Mean; SD = standard deviation.}\\
+\end{tabular}
+\end{table}

@@ -1,14 +1,14 @@
 \begin{table}[H]
-
+\centering
 \caption{Meta-regression output. Models: All models. Outcome: Accuracy (0-100 scale).}
 \centering
 \begin{tabular}[t]{llllllll}
 \toprule
 Term & Estimate & Est.Error & l-95\% CI & u-95\% CI & Rhat & Bulk\_ESS & Tail\_ESS\\
 \midrule
-\cellcolor{gray!6}{Intercept} & \cellcolor{gray!6}{61.17} & \cellcolor{gray!6}{5.43} & \cellcolor{gray!6}{50.58} & \cellcolor{gray!6}{72.23} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{5192.94} & \cellcolor{gray!6}{5718.13}\\
+\cellcolor{gray!10}{Intercept} & \cellcolor{gray!10}{61.17} & \cellcolor{gray!10}{5.43} & \cellcolor{gray!10}{50.58} & \cellcolor{gray!10}{72.23} & \cellcolor{gray!10}{1.00} & \cellcolor{gray!10}{5192.94} & \cellcolor{gray!10}{5718.13}\\
 log10(flops) & 3.43 & 1.39 & 0.62 & 6.12 & 1.00 & 4952.82 & 5879.18\\
-\cellcolor{gray!6}{study2} & \cellcolor{gray!6}{-2.81} & \cellcolor{gray!6}{2.86} & \cellcolor{gray!6}{-8.35} & \cellcolor{gray!6}{2.87} & \cellcolor{gray!6}{1.00} & \cellcolor{gray!6}{6306.57} & \cellcolor{gray!6}{6988.51}\\
+\cellcolor{gray!10}{study2} & \cellcolor{gray!10}{-2.81} & \cellcolor{gray!10}{2.86} & \cellcolor{gray!10}{-8.35} & \cellcolor{gray!10}{2.87} & \cellcolor{gray!10}{1.00} & \cellcolor{gray!10}{6306.57} & \cellcolor{gray!10}{6988.51}\\
 study3 & -3.03 & 3.03 & -8.98 & 2.98 & 1.00 & 5422.97 & 6336.53\\
 \bottomrule
 \multicolumn{8}{l}{\rule{0pt}{1em}\textit{Note: }}\\
