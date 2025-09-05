@@ -12,8 +12,6 @@
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2507.13919}, 
 }
-
+```
 ## Data access
-All aggregated data and analysis code used in the analysis are available in this project repository. The raw human-AI conversation logs are not currently publicly available; we hope to work toward the responsible release of some data in the future.
-
-Please contact kobi.hackenburg@oii.ox.ac.uk and/or b.tappin@lse.ac.uk with any data access queries.
+Raw human–AI conversation logs contain sensitive personally identifiable information and are not currently publicly available. Please direct questions to kobi.hackenburg@oii.ox.ac.uk and/or b.tappin@lse.ac.uk.
